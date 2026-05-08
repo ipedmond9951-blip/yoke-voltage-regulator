@@ -9,10 +9,10 @@ interface Product {
   pricePerPiece: number
   nameKey: string
   specs: {
-    size: string
-    standard: string
-    material: string
-    finish: string
+    capacity: string
+    inputVoltage: string
+    outputVoltage: string
+    frequency: string
   }
   features: string[]
   applications: string[]

@@ -10,10 +10,10 @@ interface Product {
   pricePerPiece: number
   nameKey: string
   specs: {
-    size: string
-    standard: string
-    material: string
-    finish: string
+    capacity: string
+    inputVoltage: string
+    outputVoltage: string
+    frequency: string
   }
   features: string[]
   applications: string[]
@@ -27,30 +27,27 @@ interface ProductSearchSectionProps {
 
 const categories = [
   { key: 'All', label: 'All Products' },
-  { key: 'screws', label: 'Screws' },
-  { key: 'bolts', label: 'Bolts & Nuts' },
-  { key: 'nails', label: 'Nails' },
-  { key: 'anchors', label: 'Anchors' },
-  { key: 'washers', label: 'Washers' },
+  { key: 'home', label: 'Home Use (3KVA)' },
+  { key: 'commercial', label: 'Commercial (10KVA)' },
+  { key: 'industrial', label: 'Industrial (30-60KVA)' },
+  { key: 'precision', label: 'High Precision (TND)' },
 ]
 
 // Map products to categories
 function getProductCategories(slug: string): string[] {
   const categories: string[] = []
-  if (slug.includes('drywall') || slug.includes('self-drilling') || slug.includes('coach')) {
-    categories.push('screws')
+  if (slug.includes('svc-3000va') || slug.includes('tnd-svc-3000va')) {
+    categories.push('home')
+    categories.push('precision')
   }
-  if (slug.includes('bolt') || slug.includes('threaded')) {
-    categories.push('bolts')
+  if (slug.includes('svc-10kva')) {
+    categories.push('commercial')
   }
-  if (slug.includes('ibr') || slug.includes('nail')) {
-    categories.push('nails')
+  if (slug.includes('svc-30kva') || slug.includes('svc-50kva') || slug.includes('svc-60kva')) {
+    categories.push('industrial')
   }
-  if (slug.includes('anchor')) {
-    categories.push('anchors')
-  }
-  if (slug.includes('washer')) {
-    categories.push('washers')
+  if (slug.includes('tnd')) {
+    categories.push('precision')
   }
   return categories
 }
@@ -65,10 +62,10 @@ function searchScore(product: Product, query: string, texts: Record<string, stri
   const searchableText = [
     product.slug,
     product.nameKey,
-    product.specs.size,
-    product.specs.standard,
-    product.specs.material,
-    product.specs.finish,
+    product.specs.capacity,
+    product.specs.inputVoltage,
+    product.specs.outputVoltage,
+    product.specs.frequency,
     ...product.features,
     ...product.applications,
     texts[product.nameKey] || '',
@@ -96,11 +93,10 @@ export default function ProductSearchSection({ products, locale, texts }: Produc
     // Category filter
     if (selectedCategory !== 'All') {
       const categoryMap: Record<string, string[]> = {
-        'screws': ['drywall', 'self-drilling', 'coach'],
-        'bolts': ['bolt', 'threaded'],
-        'nails': ['ibr', 'nail'],
-        'anchors': ['anchor'],
-        'washers': ['washer'],
+        'home': ['svc-3000va'],
+        'commercial': ['svc-10kva'],
+        'industrial': ['svc-30kva', 'svc-50kva', 'svc-60kva'],
+        'precision': ['tnd-svc-3000va'],
       }
       const keywords = categoryMap[selectedCategory] || []
       result = result.filter(p => 
@@ -122,11 +118,10 @@ export default function ProductSearchSection({ products, locale, texts }: Produc
 
   const categoryLabels: Record<string, string> = {
     'All Products': locale === 'zh' ? '全部产品' : 'All Products',
-    'Screws': locale === 'zh' ? '螺丝' : 'Screws',
-    'Bolts & Nuts': locale === 'zh' ? '螺栓螺母' : 'Bolts & Nuts',
-    'Nails': locale === 'zh' ? '钉子' : 'Nails',
-    'Anchors': locale === 'zh' ? '锚栓' : 'Anchors',
-    'Washers': locale === 'zh' ? '垫圈' : 'Washers',
+    'Home Use (3KVA)': locale === 'zh' ? '家用 (3KVA)' : 'Home Use (3KVA)',
+    'Commercial (10KVA)': locale === 'zh' ? '商用 (10KVA)' : 'Commercial (10KVA)',
+    'Industrial (30-60KVA)': locale === 'zh' ? '工业用 (30-60KVA)' : 'Industrial (30-60KVA)',
+    'High Precision (TND)': locale === 'zh' ? '高精度 (TND系列)' : 'High Precision (TND)',
   }
 
   return (

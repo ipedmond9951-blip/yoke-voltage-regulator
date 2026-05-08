@@ -18,74 +18,74 @@ const translations: Record<string, {
 }> = {
   en: {
     title: 'Our Manufacturing Process',
-    subtitle: 'From raw material to finished fastener - precision at every stage',
+    subtitle: 'From components to finished voltage regulator - quality at every stage',
     processes: [
       {
-        title: 'Cold Forging',
-        description: 'Precision cold heading creates the perfect screw head shape with minimal material waste. Our 12-station automatic cold headers produce up to 200 pieces per minute with dimensional tolerances within ±0.01mm.',
-        icon: '🔨'
+        title: 'Component Testing',
+        description: 'All electronic components undergo rigorous testing before assembly. Capacitors, transformers, and circuit boards are tested for specifications and reliability. Our IQC station rejects any component not meeting exact tolerances.',
+        icon: '🔌'
       },
       {
-        title: 'Thread Rolling',
-        description: 'High-precision thread rolling machines form threads without cutting, preserving grain structure for stronger, more durable threads. Compatible with DIN, ANSI, and custom specifications.',
-        icon: '⚙️'
+        title: 'PCB Assembly',
+        description: 'Precision PCB assembly using automated SMT lines. Solder paste inspection, reflow soldering, and visual inspection ensure consistent quality. Our AOI systems detect any defects at 0.1mm resolution.',
+        icon: '⚡'
       },
       {
-        title: 'Heat Treatment',
-        description: 'Computer-controlled hardening and tempering lines ensure consistent hardness (HRC 32-45) and strength. We meet ISO 898 and ASTM specifications for various grades.',
-        icon: '🔥'
+        title: 'Transformer Winding',
+        description: 'Custom copper windings for transformers and inductors. Automated winding machines ensure precise turns ratio and insulation. Each transformer undergoes hi-pot testing and insulation resistance measurement.',
+        icon: '🧲'
       },
       {
-        title: 'Surface Treatment',
-        description: 'Multiple coating options: zinc plating (5-15μm), hot-dip galvanizing (45-85μm), Dacromet, and more. Our 8 surface treatment lines provide corrosion resistance from 72 to 1000+ hours in salt spray tests.',
-        icon: '🎨'
+        title: 'Assembly & Wiring',
+        description: 'Skilled technicians assemble voltage regulators with precision. All wiring follows IEC standards. Color-coded cables and secure connections ensure safety and reliability. Double-check inspection at every assembly stage.',
+        icon: '🔧'
       },
       {
-        title: 'Quality Inspection',
-        description: 'Every batch undergoes rigorous testing: dimensional verification, torque testing, hardness testing, and salt spray tests. ISO 9001:2015 certified lab with SGS, BV inspection capabilities.',
-        icon: '🔬'
+        title: 'Calibration & Testing',
+        description: 'Each unit is calibrated for output voltage accuracy. Load testing from 0-100% capacity verifies performance. Tests include input voltage tolerance, response time, efficiency, and harmonic distortion.',
+        icon: '📊'
       },
       {
-        title: 'Packaging & Shipping',
-        description: 'Custom packaging available: bulk bags, color boxes, or palletized shipments. We specialize in sea freight to African ports including Durban (25-30 days), Lagos (30-35 days), and Mombasa (28-32 days), plus global air freight and express delivery.',
-        icon: '📦'
+        title: 'Quality Certification',
+        description: 'CE, CB certification and ISO 9001:2015 compliant testing. Every unit undergoes 48-hour burn-in test. Sampling inspection per batch. Full test reports available for each shipment.',
+        icon: '✅'
       }
     ],
     cta: 'Request Factory Tour'
   },
   zh: {
     title: '我们的制造工艺',
-    subtitle: '从原材料到成品紧固件 - 每一步都精益求精',
+    subtitle: '从零部件到成品稳压器 - 每一步都追求品质',
     processes: [
       {
-        title: '冷镦成型',
-        description: '精密冷镦技术打造完美螺丝头形状，材料浪费最小化。12工位自动冷镦机每分钟可生产200件产品，尺寸公差控制在±0.01mm以内。',
-        icon: '🔨'
+        title: '来料检验',
+        description: '所有电子零部件在装配前都经过严格测试。电容、变压器、电路板均需检测规格和可靠性。IQC工序拒绝任何不符合公差的部件。',
+        icon: '🔌'
       },
       {
-        title: '滚牙加工',
-        description: '高精度滚牙机无需切割即可形成螺纹，保持晶粒结构，螺纹更坚固耐用。兼容DIN、ANSI及定制规格。',
-        icon: '⚙️'
+        title: 'PCB装配',
+        description: '精密PCB装配采用自动化SMT生产线。锡膏检查、回流焊接、视觉检测确保品质一致性。AOI系统以0.1mm分辨率检测任何缺陷。',
+        icon: '⚡'
       },
       {
-        title: '热处理',
-        description: '电脑控制的淬火和回火生产线确保一致的硬度（HRC 32-45）和强度。我们符合ISO 898和ASTM各等级规格要求。',
-        icon: '🔥'
+        title: '变压器绕制',
+        description: '变压器和电感采用定制铜绕组。自动化绕线机确保精确匝数比和绝缘性。每个变压器都经过耐压测试和绝缘电阻测量。',
+        icon: '🧲'
       },
       {
-        title: '表面处理',
-        description: '多种涂层选择：镀锌（5-15μm）、热镀锌（45-85μm）、达克罗等。8条表面处理生产线提供72至1000+小时盐雾测试防腐能力。',
-        icon: '🎨'
+        title: '组装布线',
+        description: '熟练技师精密组装稳压器。所有布线符合IEC标准。颜色编码电缆和可靠连接确保安全和可靠性。每个组装阶段都进行双重检查。',
+        icon: '🔧'
       },
       {
-        title: '质量检测',
-        description: '每批产品均经过严格测试：尺寸检验、扭矩测试、硬度测试和盐雾测试。ISO 9001:2015认证实验室，具备SGS、BV检测能力。',
-        icon: '🔬'
+        title: '校准测试',
+        description: '每台设备都经过输出电压精度校准。0-100%负载测试验证性能。测试包括输入电压耐受、响应时间、效率和谐波失真。',
+        icon: '📊'
       },
       {
-        title: '包装运输',
-        description: '可定制包装：吨袋、彩盒或托盘装运。我们专注海运至非洲港口，包括德班（25-30天）、拉各斯（30-35天）、蒙巴萨（28-32天），另提供全球空运和快递服务。',
-        icon: '📦'
+        title: '质量认证',
+        description: 'CE、CB认证和ISO 9001:2015合规测试。每台设备经过48小时老化测试。每批抽样检验。可提供完整测试报告。',
+        icon: '✅'
       }
     ],
     cta: '预约工厂参观'
@@ -93,14 +93,14 @@ const translations: Record<string, {
 }
 
 const otherLocales: Record<string, typeof translations.en> = {
-  es: { title: 'Nuestro Proceso de Fabricación', subtitle: 'De materia prima a sujetador terminado - precisión en cada etapa', processes: translations.en.processes, cta: translations.en.cta },
-  fr: { title: 'Notre Processus de Fabrication', subtitle: 'De la matière première au fixateur fini - précision à chaque étape', processes: translations.en.processes, cta: 'Demander une visite' },
-  ar: { title: 'عملية التصنيع الخاصة بنا', subtitle: 'من المادة الخام إلى المثبت النهائي - الدقة في كل مرحلة', processes: translations.en.processes, cta: 'طلب جولة المصنع' },
-  pt: { title: 'Nosso Processo de Fabricação', subtitle: 'Da matéria-prima ao fixador acabado - precisão em cada etapa', processes: translations.en.processes, cta: 'Solicitar Visita' },
-  ru: { title: 'Наш Производственный Процесс', subtitle: 'От сырья до готового крепежа - точность на каждом этапе', processes: translations.en.processes, cta: 'Запросить экскурсию' },
-  ja: { title: '私たちの製造プロセス', subtitle: '原材料から完成品まで - すべての段階で精密さを追求', processes: translations.en.processes, cta: '工場見学会 запросать' },
-  de: { title: 'Unser Fertigungsprozess', subtitle: 'Vom Rohmaterial zum fertigen Befestiger - Präzision in jeder Phase', processes: translations.en.processes, cta: 'Werksbesichtigung anfragen' },
-  hi: { title: 'हमारी विनिर्माण प्रक्रिया', subtitle: 'कच्चे माल से तैयार फास्टनर तक - हर चरण में सटीकता', processes: translations.en.processes, cta: 'फैक्ट्री टूर का अनुरोध करें' },
+  es: { title: 'Nuestro Proceso de Fabricación', subtitle: 'De componentes a regulador terminado - calidad en cada etapa', processes: translations.en.processes, cta: 'Solicitar Visita' },
+  fr: { title: 'Notre Processus de Fabrication', subtitle: 'Des composants au régulateur fini - qualité à chaque étape', processes: translations.en.processes, cta: 'Demander une visite' },
+  ar: { title: 'عملية التصنيع الخاصة بنا', subtitle: 'من المكونات إلى منظم الجهد النهائي - الجودة في كل مرحلة', processes: translations.en.processes, cta: 'طلب جولة المصنع' },
+  pt: { title: 'Nosso Processo de Fabricação', subtitle: 'De componentes para regulador terminado - qualidade em cada etapa', processes: translations.en.processes, cta: 'Solicitar Visita' },
+  ru: { title: 'Наш Производственный Процесс', subtitle: 'От компонентов до готового регулятора - качество на каждом этапе', processes: translations.en.processes, cta: 'Запросить экскурсию' },
+  ja: { title: '私たちの製造プロセス', subtitle: '部品から完成までの品質 - すべての段階で', processes: translations.en.processes, cta: '工場見学会 запросать' },
+  de: { title: 'Unser Fertigungsprozess', subtitle: 'Vom Bauteil zum fertigen Regler - Qualität in jeder Phase', processes: translations.en.processes, cta: 'Werksbesichtigung anfragen' },
+  hi: { title: 'हमारी विनिर्माण प्रक्रिया', subtitle: 'घटकों से तैयार वोल्टेज रेगुलेटर तक - हर चरण में गुणवत्ता', processes: translations.en.processes, cta: 'फैक्ट्री टूर का अनुरोध करें' },
 }
 
 export default function ManufacturingProcess({ locale }: ManufacturingProcessProps) {

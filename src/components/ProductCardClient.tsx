@@ -13,10 +13,10 @@ interface ProductCardClientProps {
     pricePerPiece: number
     nameKey: string
     specs: {
-      size: string
-      standard: string
-      material: string
-      finish: string
+      capacity: string
+      inputVoltage: string
+      outputVoltage: string
+      frequency: string
     }
     features: string[]
     applications: string[]
@@ -29,16 +29,16 @@ export default function ProductCardClient({ product, locale, name }: ProductCard
   const { formatPrice } = useCurrency()
 
   const specLabels: Record<string, Record<string, string>> = {
-    en: { size: 'Size', standard: 'Standard', material: 'Material', finish: 'Finish' },
-    zh: { size: '规格', standard: '标准', material: '材质', finish: '表面处理' },
-    es: { size: 'Tamaño', standard: 'Estándar', material: 'Material', finish: 'Acabado' },
-    ar: { size: 'الحجم', standard: 'المعيار', material: 'المادة', finish: 'المعالجة' },
-    fr: { size: 'Taille', standard: 'Standard', material: 'Matériau', finish: 'Finition' },
-    pt: { size: 'Tamanho', standard: 'Padrão', material: 'Material', finish: 'Acabamento' },
-    ru: { size: 'Размер', standard: 'Стандарт', material: 'Материал', finish: 'Покрытие' },
-    ja: { size: 'サイズ', standard: '規格', material: '材質', finish: '表面処理' },
-    de: { size: 'Größe', standard: 'Standard', material: 'Material', finish: 'Oberfläche' },
-    hi: { size: 'आकार', standard: 'मानक', material: 'सामग्री', finish: 'परिशोधन' },
+    en: { capacity: 'Capacity', inputVoltage: 'Input', outputVoltage: 'Output', frequency: 'Frequency' },
+    zh: { capacity: '容量', inputVoltage: '输入电压', outputVoltage: '输出电压', frequency: '频率' },
+    es: { capacity: 'Capacidad', inputVoltage: 'Entrada', outputVoltage: 'Salida', frequency: 'Frecuencia' },
+    ar: { capacity: 'السعة', inputVoltage: 'الإدخال', outputVoltage: 'الإخراج', frequency: 'التردد' },
+    fr: { capacity: 'Capacité', inputVoltage: 'Entrée', outputVoltage: 'Sortie', frequency: 'Fréquence' },
+    pt: { capacity: 'Capacidade', inputVoltage: 'Entrada', outputVoltage: 'Saída', frequency: 'Frequência' },
+    ru: { capacity: 'Мощность', inputVoltage: 'Вход', outputVoltage: 'Выход', frequency: 'Частота' },
+    ja: { capacity: '容量', inputVoltage: '入力', outputVoltage: '出力', frequency: '周波数' },
+    de: { capacity: 'Kapazität', inputVoltage: 'Eingang', outputVoltage: 'Ausgang', frequency: 'Frequenz' },
+    hi: { capacity: 'क्षमता', inputVoltage: 'इनपुट', outputVoltage: 'आउटपुट', frequency: 'आवृत्ति' },
   }
 
   const labels = specLabels[locale] || specLabels.en
@@ -49,7 +49,7 @@ export default function ProductCardClient({ product, locale, name }: ProductCard
       <div className="relative h-44 md:h-52 bg-gray-100 overflow-hidden">
         <Image 
           src={product.image} 
-          alt={`${name} - ${product.specs.size} - TradeGo Fasteners Manufacturer`} 
+          alt={`${name} - ${product.specs.capacity} - YOKE Electric AVR Manufacturer`} 
           fill 
           className="object-cover group-hover:scale-105 transition-transform duration-500" 
           sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 25vw" 
@@ -59,7 +59,7 @@ export default function ProductCardClient({ product, locale, name }: ProductCard
           variant="premium" 
           className="absolute top-3 right-3"
         >
-          ${product.pricePerPiece.toFixed(3)}/pc
+          ${product.pricePerPiece.toFixed(2)}/unit
         </Badge>
       </div>
 

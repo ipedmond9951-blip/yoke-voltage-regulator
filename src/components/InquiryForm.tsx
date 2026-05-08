@@ -90,14 +90,13 @@ export default function InquiryForm({ locale = 'en' }: InquiryFormProps) {
             <label className="block text-xs md:text-sm font-semibold text-gray-700 mb-1">{t(locale, 'inquiry.products')}</label>
             <select name="products" className="w-full border border-gray-300 rounded-lg px-3 md:px-4 py-2.5 text-sm focus:ring-2 focus:ring-primary-500 focus:border-transparent">
               <option value="">{t(locale, 'inquiry.selectProduct')}</option>
-              <option value="drywall">Drywall Screws</option>
-              <option value="self-drilling">Self-Drilling Screws (TEK)</option>
-              <option value="bolts">Bolts & Nuts</option>
-              <option value="ibr">IBR Nails (SABS 1195)</option>
-              <option value="anchor">Anchor Bolts</option>
-              <option value="washers">Washers</option>
-              <option value="coach">Coach Screws</option>
-              <option value="threaded">Threaded Rods</option>
+              <option value="svc-3000va">SVC-3000VA (3KVA)</option>
+              <option value="tnd-svc-3000va">TND-SVC-3000VA (3KVA High Precision)</option>
+              <option value="svc-10kva">SVC-10KVA (10KVA)</option>
+              <option value="svc-30kva">SVC-30KVA (30KVA)</option>
+              <option value="svc-50kva">SVC-50KVA (50KVA)</option>
+              <option value="svc-60kva">SVC-60KVA (60KVA)</option>
+              <option value="three-phase">Three Phase Models</option>
               <option value="other">Other</option>
             </select>
           </div>

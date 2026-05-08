@@ -8,10 +8,10 @@ interface Product {
   pricePerPiece: number
   nameKey: string
   specs: {
-    size: string
-    standard: string
-    material: string
-    finish: string
+    capacity: string
+    inputVoltage: string
+    outputVoltage: string
+    frequency: string
   }
   features: string[]
   applications: string[]
@@ -24,47 +24,39 @@ interface ProductSchemaProps {
 
 const productNames: Record<string, Record<string, string>> = {
   en: {
-    'drywall-screws': 'Drywall Screws',
-    'self-drilling-screws': 'Self-Drilling Screws',
-    'bolts-nuts': 'Bolts & Nuts',
-    'ibr-nails': 'IBR Nails',
-    'anchor-bolts': 'Anchor Bolts',
-    'washers': 'Washers',
-    'coach-screws': 'Coach Screws',
-    'threaded-rods': 'Threaded Rods',
+    'svc-3000va': 'SVC-3000VA Automatic Voltage Regulator',
+    'tnd-svc-3000va': 'TND-SVC-3000VA High Precision Voltage Regulator',
+    'svc-10kva': 'SVC-10KVA Automatic Voltage Regulator',
+    'svc-30kva': 'SVC-30KVA Industrial Voltage Regulator',
+    'svc-50kva': 'SVC-50KVA Heavy Duty Voltage Regulator',
+    'svc-60kva': 'SVC-60KVA Industrial Automatic Voltage Regulator',
   },
   zh: {
-    'drywall-screws': 'Drywall Screws',
-    'self-drilling-screws': 'Self-Drilling Screws',
-    'bolts-nuts': 'Bolts & Nuts',
-    'ibr-nails': 'IBR Nails',
-    'anchor-bolts': 'Anchor Bolts',
-    'washers': 'Washers',
-    'coach-screws': 'Coach Screws',
-    'threaded-rods': 'Threaded Rods',
+    'svc-3000va': 'SVC-3000VA 自动稳压器',
+    'tnd-svc-3000va': 'TND-SVC-3000VA 高精度稳压器',
+    'svc-10kva': 'SVC-10KVA 自动稳压器',
+    'svc-30kva': 'SVC-30KVA 工业稳压器',
+    'svc-50kva': 'SVC-50KVA 重型稳压器',
+    'svc-60kva': 'SVC-60KVA 工业自动稳压器',
   },
 }
 
 const productDescriptions: Record<string, Record<string, string>> = {
   en: {
-    'drywall-screws': 'High-quality drywall screws for construction and interior decoration. SABS & ISO 9001 certified manufacturer with 12+ years of Africa-focused experience. Sharp point, bugle head, fine thread options. Popular for African construction projects.',
-    'self-drilling-screws': 'Premium self-drilling TEK screws for metal-to-metal fastening. Drill point design for easy installation. Available in zinc plated and Ruspert finish.',
-    'bolts-nuts': 'Industrial grade hex bolts and nuts Grade 4.8 to 12.9. Full and partial thread options. Suitable for construction, machinery, and automotive applications.',
-    'ibr-nails': 'Umbrella head roofing nails for IBR and corrugated roofing. SABS 1195 compliant. Smooth and ring shank options for secure fastening.',
-    'anchor-bolts': 'Heavy-duty anchor bolts for foundation and structural connections. ASTM F1554 certified with hot-dip galvanized finish. Suitable for construction, solar panel mounting, and heavy machinery.',
-    'washers': 'Flat washers and spring washers for machinery, automotive, and construction. DIN 125 / ISO 7089 standard. Available in zinc plated and HDG finish.',
-    'coach-screws': 'Hex head coach screws for wood-to-wood and deck fastening. Hot-dip galvanized for outdoor use. Suitable for decking, fencing, and landscaping.',
-    'threaded-rods': 'Fully threaded rods for structural and machinery applications. Available in M6-M24 sizes, 1m-3m lengths. Cut to custom sizes available.',
+    'svc-3000va': 'SVC-3000VA automatic voltage regulator for home appliances. Compact design, fast response, reliable voltage protection. Ideal for refrigerators, air conditioners, TVs, and computers. CE certified.',
+    'tnd-svc-3000va': 'TND-SVC-3000VA high precision voltage regulator with digital display. Servo motor control for ±2% accuracy. Perfect for sensitive electronics, medical equipment, and precision instruments.',
+    'svc-10kva': 'SVC-10KVA automatic voltage regulator for commercial use. Copper transformer, relay type with overload protection. Suitable for air conditioners, motors, pumps, and commercial equipment.',
+    'svc-30kva': 'SVC-30KVA industrial grade voltage regulator with servo motor control. Fast regulation for CNC machines, welding equipment, and production lines. CE certified.',
+    'svc-50kva': 'SVC-50KVA heavy duty voltage stabilizer with triple protection. Copper transformer for factories, workshops, and large HVAC systems. CE certified.',
+    'svc-60kva': 'SVC-60KVA industrial automatic voltage regulator with digital display. Auto cut-off protection for large motors, compressors, and heavy industrial equipment.',
   },
   zh: {
-    'drywall-screws': 'High-quality drywall screws for construction and interior decoration. SABS & ISO 9001 certified manufacturer with 12+ years of Africa-focused experience.',
-    'self-drilling-screws': 'Premium self-drilling TEK screws for metal-to-metal fastening. Drill point design for easy installation.',
-    'bolts-nuts': 'Industrial grade hex bolts and nuts Grade 4.8 to 12.9. Full and partial thread options.',
-    'ibr-nails': 'Umbrella head roofing nails for IBR and corrugated roofing. SABS 1195 compliant.',
-    'anchor-bolts': 'Heavy-duty anchor bolts for foundation and structural connections. ASTM F1554 certified.',
-    'washers': 'Flat washers and spring washers for machinery, automotive, and construction.',
-    'coach-screws': 'Hex head coach screws for wood-to-wood and deck fastening.',
-    'threaded-rods': 'Fully threaded rods for structural and machinery applications.',
+    'svc-3000va': 'SVC-3000VA自动稳压器，家用电器专用。体积小，响应快，可靠的电压保护。适用于冰箱、空调、电视、电脑。CE认证。',
+    'tnd-svc-3000va': 'TND-SVC-3000VA高精度数字显示稳压器。伺服电机控制，精度±2%。适用于敏感电子设备、医疗设备、精密仪器。',
+    'svc-10kva': 'SVC-10KVA商用自动稳压器。铜芯变压器，继电器型带过载保护。适用于空调、电机、水泵和商用设备。',
+    'svc-30kva': 'SVC-30KVA工业级稳压器，伺服电机控制，快速调节。适用于数控机床、焊接设备、生产线。CE认证。',
+    'svc-50kva': 'SVC-50KVA重型稳压器，三重保护。铜芯变压器，适用于工厂、车间和大型暖通空调系统。CE认证。',
+    'svc-60kva': 'SVC-60KVA工业自动稳压器，数字显示，自动切断保护。适用于大型电机、压缩机、重型工业设备。',
   },
 }
 
@@ -81,16 +73,16 @@ export default function ProductSchema({ products, locale }: ProductSchemaProps) 
           '@context': 'https://schema.org',
           '@type': 'Product',
           name: names[product.slug] || product.nameKey,
-          description: descriptions[product.slug] || `High-quality ${product.nameKey} for industrial and construction use.`,
-          image: `https://www.tradego-fasteners.com${product.image}`,
+          description: descriptions[product.slug] || `YOKE ${product.nameKey} automatic voltage regulator for industrial and commercial use.`,
+          image: `https://www.yoke-electric.com${product.image}`,
           brand: {
             '@type': 'Brand',
-            name: 'TradeGo',
+            name: 'YOKE',
           },
-          sku: `TRADEGO-${product.slug.toUpperCase()}`,
+          sku: `YOKE-${product.slug.toUpperCase()}`,
           mpn: product.slug.toUpperCase(),
-          color: 'Silver/Gray',
-          material: product.specs.material,
+          color: 'Black/Gray',
+          material: 'Copper/Steel',
           offers: {
             '@type': 'Offer',
             priceCurrency: 'USD',
@@ -98,34 +90,7 @@ export default function ProductSchema({ products, locale }: ProductSchemaProps) 
             availability: 'https://schema.org/InStock',
             seller: {
               '@type': 'Organization',
-              name: 'TradeGo Fasteners',
-            },
-            shippingDetails: {
-              '@type': 'OfferShippingDetails',
-              shippingDestination: [
-                { '@type': 'Country', name: 'ZA' },
-                { '@type': 'Country', name: 'ZW' },
-                { '@type': 'Country', name: 'ZM' },
-                { '@type': 'Country', name: 'MZ' },
-                { '@type': 'Country', name: 'BW' },
-                { '@type': 'Country', name: 'MW' },
-                { '@type': 'Country', name: 'NA' },
-              ],
-              deliveryTime: {
-                '@type': 'ShippingDeliveryTime',
-                handlingTime: {
-                  '@type': 'QuantitativeValue',
-                  minValue: '7',
-                  maxValue: '14',
-                  unitCode: 'DAY',
-                },
-                transitTime: {
-                  '@type': 'QuantitativeValue',
-                  minValue: '15',
-                  maxValue: '35',
-                  unitCode: 'DAY',
-                },
-              },
+              name: 'YOKE Electric',
             },
           },
           aggregateRating: {
@@ -136,10 +101,10 @@ export default function ProductSchema({ products, locale }: ProductSchemaProps) 
             worstRating: '1',
           },
           additionalProperty: [
-            { '@type': 'PropertyValue', name: 'Size', value: product.specs.size },
-            { '@type': 'PropertyValue', name: 'Standard', value: product.specs.standard },
-            { '@type': 'PropertyValue', name: 'Material', value: product.specs.material },
-            { '@type': 'PropertyValue', name: 'Finish', value: product.specs.finish },
+            { '@type': 'PropertyValue', name: 'Capacity', value: product.specs.capacity },
+            { '@type': 'PropertyValue', name: 'Input Voltage', value: product.specs.inputVoltage },
+            { '@type': 'PropertyValue', name: 'Output Voltage', value: product.specs.outputVoltage },
+            { '@type': 'PropertyValue', name: 'Frequency', value: product.specs.frequency },
           ],
           countryOfOrigin: {
             '@type': 'Country',
@@ -147,8 +112,8 @@ export default function ProductSchema({ products, locale }: ProductSchemaProps) 
           },
           manufacturer: {
             '@type': 'Organization',
-            '@id': 'https://www.tradego-fasteners.com/#organization',
-            name: 'TradeGo Fasteners',
+            '@id': 'https://www.yoke-electric.com/#organization',
+            name: 'YOKE Electric',
           },
         }
 
