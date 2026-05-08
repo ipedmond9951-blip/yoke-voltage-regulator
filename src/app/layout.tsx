@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'TradeGo Fasteners | Africa Fastener Distributor | SABS, ISO 9001 Certified',
-  description: 'TradeGo Fasteners is a SABS & ISO 9001 certified fastener distributor specializing in drywall screws, self-drilling screws, bolts, nuts, and IBR nails for African construction. Factory prices, sea freight to Durban, Lagos, Mombasa.',
+  title: 'YOKE Voltage Regulator | Automatic Voltage Stabilizer Manufacturer',
+  description: 'YOKE Electric - Professional automatic voltage regulator (AVR) manufacturer. SVC series stabilizers for home and industrial use. Global shipping. Quality products at factory prices.',
   verification: {
     google: 'B8o4b_2zfT64y2bbOMBlBLBpyMsc01wKJKcB8HlUYTg',
   },

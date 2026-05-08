@@ -31,21 +31,21 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params
   const loc = (locale as Locale) || 'en'
-  const siteUrl = 'https://www.tradego-fasteners.com'
+  const siteUrl = 'https://www.kk-electric.com'
   
   const titles: Record<string, string> = {
-    zh: 'TradeGo紧固件 - 中国对非出口厂家 | ISO 9001, SABS认证',
-    en: 'TradeGo Fasteners - China Manufacturer for Zimbabwe & Southern Africa | ISO 9001, SABS',
+    zh: 'YOKE稳压器 - 中国电压调节器厂家 | ISO 9001认证',
+    en: 'YOKE Voltage Regulator - Automatic Voltage Stabilizer Manufacturer | ISO 9001',
   }
   const descriptions: Record<string, string> = {
-    zh: 'ISO 9001 & SABS认证中国紧固件制造商。15+年供应津巴布韦、南非、赞比亚、莫桑比克。干壁钉、六角螺栓、IBR钉、自攻钉。发货至德班、贝拉、哈拉雷。',
-    en: 'ISO 9001 & SABS certified China fastener manufacturer. 15+ years supplying Zimbabwe, South Africa, Zambia, Mozambique with drywall screws, hex bolts, IBR nails at factory prices. Shipping to Durban, Beira, Harare.',
+    zh: 'YOKE Electric - 专业电压调节器（稳压器）制造商。SVC系列稳压器家用的工业用。全球发货。工厂价格，品质保证。',
+    en: 'YOKE Electric - Professional automatic voltage regulator (AVR) manufacturer. SVC series stabilizers for home and industrial use. Global shipping. Factory prices, quality guaranteed.',
   }
   
   return {
     title: {
       default: titles[loc] || titles.en,
-      template: '%s | TradeGo Fasteners',
+      template: '%s | YOKE',
     },
     description: descriptions[loc] || descriptions.en,
     // Meta keywords removed per modern SEO best practice
@@ -54,10 +54,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       type: 'website',
       locale: loc === 'zh' ? 'zh_CN' : 'en_US',
       url: `${siteUrl}/${loc}`,
-      siteName: 'TradeGo Fasteners',
+      siteName: 'YOKE Voltage Regulator',
       title: titles[loc] || titles.en,
       description: descriptions[loc] || descriptions.en,
-      images: [{ url: `${siteUrl}/images/og-image.webp`, width: 1200, height: 630, alt: 'TradeGo Fasteners' }],
+      images: [{ url: `${siteUrl}/images/og-image.webp`, width: 1200, height: 630, alt: 'YOKE Voltage Regulator' }],
     },
     twitter: {
       card: 'summary_large_image',
@@ -97,32 +97,19 @@ export default async function LocaleLayout({
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="apple-mobile-web-app-title" content="TradeGo" />
+        <meta name="apple-mobile-web-app-title" content="YOKE" />
         <meta name="theme-color" content="#0A3D62" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Organization",
-          "name": "TradeGo Fasteners",
-          "url": "https://www.tradego-fasteners.com",
-          "logo": "https://www.tradego-fasteners.com/images/logo.png",
-          "description": "ISO 9001 & SABS certified China fastener manufacturer. 15+ years exporting to Zimbabwe, South Africa, Zambia, Mozambique, Botswana. Drywall screws, hex bolts, IBR nails, self-drilling screws at factory prices. Shipping to Durban, Beira, Harare.",
+          "name": "YOKE Electric",
+          "url": "https://www.kk-electric.com",
+          "logo": "https://www.kk-electric.com/images/logo.png",
+          "description": "YOKE Electric - Professional automatic voltage regulator (AVR) manufacturer. SVC series stabilizers for home and industrial use. Global shipping. Factory prices, quality guaranteed.",
           "foundingDate": "2004",
           "address": { "@type": "PostalAddress", "addressCountry": "CN", "addressLocality": "Hebei" },
-          "areaServed": [
-            { "@type": "Country", "name": "Zimbabwe" },
-            { "@type": "Country", "name": "South Africa" },
-            { "@type": "Country", "name": "Zambia" },
-            { "@type": "Country", "name": "Mozambique" },
-            { "@type": "Country", "name": "Botswana" },
-            { "@type": "Country", "name": "Malawi" },
-            { "@type": "Country", "name": "Namibia" }
-          ],
-          "contactPoint": { "@type": "ContactPoint", "telephone": "+86-159-6340-9951", "whatsApp": "+86-159-6340-9951", "contactType": "sales", "availableLanguage": ["English", "Chinese"] },
-          "sameAs": [
-          "https://www.facebook.com/tradegofasteners",
-          "https://twitter.com/tradegofasteners",
-          "https://www.youtube.com/@tradegofasteners"
-        ]
+          "areaServed": "Worldwide",
+          "contactPoint": { "@type": "ContactPoint", "telephone": "+86-159-6340-9951", "whatsApp": "+86-159-6340-9951", "contactType": "sales", "availableLanguage": ["English", "Chinese"] }
         }) }} />
         <FAQSchema locale={loc} />
         <VideoSchema locale={loc} />
