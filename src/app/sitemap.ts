@@ -1,14 +1,10 @@
 import { locales } from '@/i18n'
-import { getAllSlugs } from '@/lib/articles'
 
 export default function sitemap() {
-  const baseUrl = 'https://www.tradego-fasteners.com'
+  const baseUrl = 'https://www.yoke-electric.com'
   
-  const staticPages = ['', '/products', '/industry', '/product-upload', '/analytics', '/steel-prices', '/zimbabwe-fasteners-wholesale', '/privacy-policy', '/terms']
+  const staticPages = ['', '/products', '/about', '/contact', '/privacy-policy', '/terms']
   
-  // 动态获取所有文章slug
-  const articleSlugs = getAllSlugs()
-
   const entries = []
   
   for (const locale of locales) {
@@ -18,17 +14,6 @@ export default function sitemap() {
         lastModified: new Date().toISOString(),
         changeFrequency: page === '' ? 'weekly' : 'monthly',
         priority: page === '' ? 1 : page === '/products' ? 1.0 : 0.7,
-      })
-    }
-    
-    for (const slug of articleSlugs) {
-      // URL-encode slugs that contain non-ASCII characters (e.g. Chinese chars)
-      const encodedSlug = encodeURIComponent(slug)
-      entries.push({
-        url: `${baseUrl}/${locale}/industry/${encodedSlug}`,
-        lastModified: new Date().toISOString(),
-        changeFrequency: 'monthly',
-        priority: 0.8,
       })
     }
   }

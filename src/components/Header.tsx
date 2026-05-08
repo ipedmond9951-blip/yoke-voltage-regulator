@@ -11,27 +11,28 @@ export default function Header({ locale = 'en' }: HeaderProps) {
   const [menuOpen, setMenuOpen] = useState(false)
   const [dropdown, setDropdown] = useState<string | null>(null)
 
+  const productModels = [
+    { label: 'SVC-3000VA', href: `/${locale}#products` },
+    { label: 'SVC-10KVA', href: `/${locale}#products` },
+    { label: 'SVC-30KVA', href: `/${locale}#products` },
+    { label: 'SVC-50KVA', href: `/${locale}#products` },
+    { label: 'SVC-60KVA', href: `/${locale}#products` },
+    { label: 'TND-SVC-3000VA', href: `/${locale}#products` },
+  ]
+
   const navItems: Array<{ href?: string; label: string; children?: Array<{ href: string; label: string; anchor?: string; icon?: string }> }> = [
     { href: `/${locale}`, label: t(locale, 'nav.home') },
     {
-      href: `/${locale}/products`,
+      href: `/${locale}#products`,
       label: t(locale, 'nav.products'),
       children: [
-        { href: `/${locale}/products`, label: t(locale, 'products.allProducts') },
-        { href: `/${locale}/product-upload`, label: t(locale, 'nav.uploadProduct'), icon: '📤' },
-      ],
-    },
-    {
-      label: t(locale, 'nav.industry'),
-      children: [
-        { href: `/${locale}/industry`, label: t(locale, 'nav.articles') },
-        { href: `/${locale}/industry`, label: t(locale, 'nav.market'), anchor: 'market' },
-        { href: `/${locale}/industry`, label: t(locale, 'nav.geoOptim'), anchor: 'geo' },
+        { href: `/${locale}#products`, label: t(locale, 'products.allProducts') },
+        ...productModels.map(m => ({ href: m.href, label: m.label })),
       ],
     },
     { href: `/${locale}#faq`, label: t(locale, 'nav.faq') },
-    { href: `/${locale}#steelmarket`, label: t(locale, 'nav.steelMarket') },
     { href: `/${locale}#about`, label: t(locale, 'nav.about') },
+    { href: `/${locale}#inquiry`, label: t(locale, 'nav.contact') },
   ]
 
   return (
@@ -39,8 +40,8 @@ export default function Header({ locale = 'en' }: HeaderProps) {
       <nav className="container mx-auto px-4">
         <div className="flex justify-between items-center h-14 md:h-16">
           <a href={`/${locale}`} className="flex items-center flex-shrink-0">
-            <span className="text-xl md:text-2xl font-bold text-primary-700">TradeGo</span>
-            <span className="ml-1 md:ml-2 text-sm md:text-lg text-gray-600 hidden sm:inline">Fasteners</span>
+            <span className="text-xl md:text-2xl font-bold text-primary-700">YOKE</span>
+            <span className="ml-1 md:ml-2 text-sm md:text-lg text-gray-600 hidden sm:inline">Voltage</span>
           </a>
 
           {/* Desktop Nav with Dropdowns */}
@@ -65,7 +66,6 @@ export default function Header({ locale = 'en' }: HeaderProps) {
                           href={child.href + (child.anchor ? `#${child.anchor}` : '')}
                           className="flex items-center gap-2.5 px-4 py-3 min-h-[44px] text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-700 transition-colors"
                         >
-                          {(child as any).icon && <span>{(child as any).icon}</span>}
                           {child.label}
                         </a>
                       ))}
@@ -104,23 +104,19 @@ export default function Header({ locale = 'en' }: HeaderProps) {
               'children' in item ? (
                 <div key={item.label}>
                   {item.href ? (
-                    // Item with href + children: render parent as clickable link, then children
                     <>
                       <a href={item.href} onClick={() => setMenuOpen(false)} className="block px-4 py-3 min-h-[44px] text-gray-700 hover:text-primary-700 font-medium border-b border-gray-100">{item.label}</a>
                       {item.children && item.children.map((child) => (
                         <a key={child.href} href={child.href + (child.anchor ? `#${child.anchor}` : '')} onClick={() => setMenuOpen(false)} className="block pl-8 pr-4 py-3 min-h-[44px] text-gray-700 hover:text-primary-700 text-sm">
-                          {(child as any).icon && <span className="mr-2">{(child as any).icon}</span>}
                           {child.label}
                         </a>
                       ))}
                     </>
                   ) : (
-                    // Item with children only: render parent as label, then children
                     <>
                       <p className="px-4 py-2 text-xs font-semibold text-gray-400 uppercase tracking-wider">{item.label}</p>
                       {item.children && item.children.map((child) => (
                         <a key={child.href} href={child.href + (child.anchor ? `#${child.anchor}` : '')} onClick={() => setMenuOpen(false)} className="block pl-8 pr-4 py-3 min-h-[44px] text-gray-700 hover:text-primary-700 text-sm">
-                          {(child as any).icon && <span className="mr-2">{(child as any).icon}</span>}
                           {child.label}
                         </a>
                       ))}

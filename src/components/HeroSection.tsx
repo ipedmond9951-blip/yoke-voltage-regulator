@@ -4,12 +4,12 @@ import { type Locale, t } from '@/i18n'
 interface HeroSectionProps { locale?: Locale }
 
 const heroProducts = [
-  { key: 'product1', src: '/images/products/drywall-screws-1.webp', nameKey: 'drywall' },
-  { key: 'product2', src: '/images/products/self-drilling-screws-1.webp', nameKey: 'selfdrilling' },
-  { key: 'product3', src: '/images/products/bolts-nuts-1.webp', nameKey: 'bolts' },
-  { key: 'product4', src: '/images/products/ibr-nails-1.webp', nameKey: 'ibr' },
-  { key: 'product5', src: '/images/products/anchor-bolts.webp', nameKey: 'anchor' },
-  { key: 'product6', src: '/images/products/coach-screws.webp', nameKey: 'coach' },
+  { key: 'product1', src: '/images/products/svc-3000va.jpg', nameKey: 'product1' },
+  { key: 'product2', src: '/images/products/svc-10kva.jpg', nameKey: 'product2' },
+  { key: 'product3', src: '/images/products/svc-30kva.jpg', nameKey: 'product3' },
+  { key: 'product4', src: '/images/products/svc-50kva.jpg', nameKey: 'product4' },
+  { key: 'product5', src: '/images/products/svc-60kva.jpg', nameKey: 'product5' },
+  { key: 'product6', src: '/images/products/tnd-svc-3000va.jpg', nameKey: 'product6' },
 ]
 
 export default function HeroSection({ locale = 'en' }: HeroSectionProps) {
@@ -19,7 +19,7 @@ export default function HeroSection({ locale = 'en' }: HeroSectionProps) {
       <div className="absolute inset-0 z-0">
         <Image
           src="/images/hero-construction.webp"
-          alt="Construction site with fastener application"
+          alt="Industrial power equipment"
           fill
           priority
           className="object-cover"
@@ -33,13 +33,13 @@ export default function HeroSection({ locale = 'en' }: HeroSectionProps) {
           {/* Left: Text */}
           <div className="flex-1 w-full max-w-xl">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[52px] font-bold mb-4 md:mb-5 leading-[1.1] tracking-tight">
-              Wholesale <span className="text-yellow-400">Fasteners</span> Manufacturer
+              Professional <span className="text-yellow-400">Voltage Regulators</span> Manufacturer
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-primary-100/95 mb-4 md:mb-5">
-              Drywall Screws, Bolts, Nuts & Industrial Hardware
+              SVC & TND Series AVR - Stable Power Solutions
             </p>
             <p className="text-sm md:text-base lg:text-lg text-primary-100/90 mb-5 md:mb-7 leading-relaxed">
-              12+ years Africa focus, SABS & ISO 9001 certified, sea freight to Africa
+              CE/CB certified, 10+ years experience. Exporting to 50+ countries worldwide.
             </p>
             <div className="flex flex-wrap gap-x-4 gap-y-2 mb-6 md:mb-8">
               {[t(locale, 'hero.iso'), t(locale, 'hero.global'), t(locale, 'hero.experience')].map((label, i) => (

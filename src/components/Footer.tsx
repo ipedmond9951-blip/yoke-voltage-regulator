@@ -13,7 +13,7 @@ export default function Footer({ locale = 'en' }: FooterProps) {
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 mb-8">
           {/* Company */}
           <div className="col-span-2 lg:col-span-1">
-            <h3 className="text-lg md:text-xl font-bold mb-3">TradeGo Fasteners</h3>
+            <h3 className="text-lg md:text-xl font-bold mb-3">YOKE Electric</h3>
             <p className="text-gray-400 text-xs md:text-sm mb-0">{t(locale, 'footer.companyDesc')}</p>
           </div>
           
@@ -23,9 +23,22 @@ export default function Footer({ locale = 'en' }: FooterProps) {
             <div className="space-y-1.5 text-xs md:text-sm">
               <Link href={`/${locale}`} className="block text-gray-400 hover:text-white">{t(locale, 'nav.home')}</Link>
               <Link href={`/${locale}#products`} className="block text-gray-400 hover:text-white">{t(locale, 'nav.products')}</Link>
-              <Link href={`/${locale}/industry`} className="block text-gray-400 hover:text-white">Industry Guides</Link>
               <Link href={`/${locale}#about`} className="block text-gray-400 hover:text-white">{t(locale, 'nav.about')}</Link>
+              <Link href={`/${locale}#faq`} className="block text-gray-400 hover:text-white">{t(locale, 'nav.faq')}</Link>
               <Link href={`/${locale}#inquiry`} className="block text-gray-400 hover:text-white">{t(locale, 'nav.contact')}</Link>
+            </div>
+          </div>
+
+          {/* Products */}
+          <div>
+            <h4 className="font-semibold mb-3 text-sm">{t(locale, 'nav.products')}</h4>
+            <div className="space-y-1.5 text-xs md:text-sm">
+              <Link href={`/${locale}#products`} className="block text-gray-400 hover:text-white">SVC-3000VA</Link>
+              <Link href={`/${locale}#products`} className="block text-gray-400 hover:text-white">SVC-10KVA</Link>
+              <Link href={`/${locale}#products`} className="block text-gray-400 hover:text-white">SVC-30KVA</Link>
+              <Link href={`/${locale}#products`} className="block text-gray-400 hover:text-white">SVC-50KVA</Link>
+              <Link href={`/${locale}#products`} className="block text-gray-400 hover:text-white">SVC-60KVA</Link>
+              <Link href={`/${locale}#products`} className="block text-gray-400 hover:text-white">TND-SVC-3000VA</Link>
             </div>
           </div>
 
@@ -37,23 +50,10 @@ export default function Footer({ locale = 'en' }: FooterProps) {
               <p>📧 {t(locale, 'footer.email')}</p>
               <p>📱 WhatsApp: +86 159 6340 9951</p>
               <div className="mt-2 pt-2 border-t border-gray-700">
-                <p className="text-gray-500 text-xs">🚢 Sea Freight to Africa</p>
-                <p className="text-gray-500 text-xs">Durban 25-30 days</p>
-                <p className="text-gray-500 text-xs">Beira 20-25 days</p>
-                <p className="text-gray-500 text-xs">Mombasa 28-32 days</p>
+                <p className="text-gray-500 text-xs">⚡ Voltage Regulators</p>
+                <p className="text-gray-500 text-xs">CE/CB Certified</p>
+                <p className="text-gray-500 text-xs">Global Shipping</p>
               </div>
-            </div>
-          </div>
-
-          {/* Certifications & Standards */}
-          <div>
-            <h4 className="font-semibold mb-3 text-sm">{t(locale, 'footer.certifications') || 'Certifications'}</h4>
-            <div className="space-y-1.5 text-xs md:text-sm">
-              <a href="https://www.iso.org/standard/62085.html" target="_blank" rel="noopener noreferrer" className="block text-gray-400 hover:text-white">ISO 9001:2015</a>
-              <a href="https://www.din.de" target="_blank" rel="noopener noreferrer" className="block text-gray-400 hover:text-white">DIN Standards</a>
-              <a href="https://www.iso.org/standard/76502.html" target="_blank" rel="noopener noreferrer" className="block text-gray-400 hover:text-white">ISO 4014 / 4017</a>
-              <a href="https://www.sabs.co.za" target="_blank" rel="noopener noreferrer" className="block text-gray-400 hover:text-white">SABS (South Africa)</a>
-              <a href="https://www.astm.org" target="_blank" rel="noopener noreferrer" className="block text-gray-400 hover:text-white">ASTM Standards</a>
             </div>
           </div>
         </div>
@@ -63,7 +63,7 @@ export default function Footer({ locale = 'en' }: FooterProps) {
             <Link href={`/${locale}/privacy-policy`} className="hover:text-white mx-2">Privacy Policy</Link>
             <Link href={`/${locale}/terms`} className="hover:text-white mx-2">Terms of Service</Link>
           </div>
-          © {CURRENT_YEAR} TradeGo Fasteners. {t(locale, 'footer.rights')}
+          © {CURRENT_YEAR} YOKE Electric. {t(locale, 'footer.rights')}
         </div>
       </div>
     </footer>

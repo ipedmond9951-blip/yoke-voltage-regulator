@@ -1,17 +1,13 @@
 import Script from 'next/script'
-import { locales, type Locale, getMessages, t } from '@/i18n'
+import { locales, type Locale, getMessages } from '@/i18n'
 import HeroSection from '@/components/HeroSection'
 import AboutSection from '@/components/AboutSection'
 import WhyChooseUs from '@/components/WhyChooseUs'
 import ProductGrid from '@/components/ProductGrid'
 import CertificationsSection from '@/components/CertificationsSection'
 import FAQSection from '@/components/FAQSection'
-import TestimonialsSection from '@/components/TestimonialsSection'
 import InquiryForm from '@/components/InquiryForm'
-import { GeoPromotion } from '@/components/GeoContent'
 import ShareButtons from '@/components/ShareButtons'
-import ManufacturingProcess from '@/components/ManufacturingProcess'
-import VideoSection from '@/components/VideoSection'
 import StatisticsSection from '@/components/StatisticsSection'
 
 export function generateStaticParams() {
@@ -22,7 +18,7 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
   const { locale: localeParam } = await params
   const locale = (localeParam as Locale) || 'en'
   const msgs = getMessages(locale)
-  const BASE_URL = 'https://www.tradego-fasteners.com'
+  const BASE_URL = 'https://www.yoke-electric.com'
 
   return (
     <>
@@ -33,22 +29,22 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Organization',
-            name: 'TradeGo Fasteners',
+            name: 'YOKE Electric',
             url: BASE_URL,
             logo: `${BASE_URL}/logo.png`,
-            description: msgs.hero.subtitle,
-            foundingDate: '2004',
+            description: msgs.hero?.subtitle || 'Professional automatic voltage regulator manufacturer.',
+            foundingDate: '2014',
             address: {
               '@type': 'PostalAddress',
-              addressLocality: 'Weifang',
+              addressLocality: 'China',
               addressCountry: 'CN',
             },
             contactPoint: {
               '@type': 'ContactPoint',
               telephone: '+86-159-6340-9951',
               contactType: 'sales',
-              email: 'info@tradegofasteners.com',
-              availableLanguage: ['English', 'Chinese', 'Spanish', 'Arabic', 'French', 'Portuguese', 'Russian'],
+              email: 'info@yoke-electric.com',
+              availableLanguage: ['English', 'Chinese', 'Spanish', 'Arabic', 'French', 'Portuguese', 'Russian', 'Japanese', 'German', 'Hindi'],
             },
             sameAs: [
               'https://wa.me/8615963409951'
@@ -64,16 +60,14 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'ItemList',
-            name: 'TradeGo Fastener Products',
+            name: 'YOKE AVR Products',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, item: { '@type': 'Product', name: 'Drywall Screws', description: 'Premium bugle head screws for drywall installation, coarse/fine thread options', brand: { '@type': 'Brand', name: 'TradeGo' }, offers: { '@type': 'Offer', priceCurrency: 'USD', price: '0.02', availability: 'https://schema.org/InStock' } } },
-              { '@type': 'ListItem', position: 2, item: { '@type': 'Product', name: 'Self-Drilling Screws', description: 'High-performance TEK screws for metal-to-metal fastening, drill point design', brand: { '@type': 'Brand', name: 'TradeGo' }, offers: { '@type': 'Offer', priceCurrency: 'USD', price: '0.03', availability: 'https://schema.org/InStock' } } },
-              { '@type': 'ListItem', position: 3, item: { '@type': 'Product', name: 'Bolts & Nuts', description: 'Industrial grade hex bolts and nuts, Grade 4.8 to 12.9', brand: { '@type': 'Brand', name: 'TradeGo' }, offers: { '@type': 'Offer', priceCurrency: 'USD', price: '0.05', availability: 'https://schema.org/InStock' } } },
-              { '@type': 'ListItem', position: 4, item: { '@type': 'Product', name: 'IBR Nails', description: 'Umbrella head roofing nails for IBR/corrugated roofing, SABS 1195 compliant', brand: { '@type': 'Brand', name: 'TradeGo' }, offers: { '@type': 'Offer', priceCurrency: 'USD', price: '0.01', availability: 'https://schema.org/InStock' } } },
-              { '@type': 'ListItem', position: 5, item: { '@type': 'Product', name: 'Anchor Bolts', description: 'Foundation anchor bolts M10-M30, ASTM F1554 compliant', brand: { '@type': 'Brand', name: 'TradeGo' }, offers: { '@type': 'Offer', priceCurrency: 'USD', price: '0.80', availability: 'https://schema.org/InStock' } } },
-              { '@type': 'ListItem', position: 6, item: { '@type': 'Product', name: 'Washers', description: 'Flat washers and spring washers M6-M36, DIN 125/127 standards', brand: { '@type': 'Brand', name: 'TradeGo' }, offers: { '@type': 'Offer', priceCurrency: 'USD', price: '0.01', availability: 'https://schema.org/InStock' } } },
-              { '@type': 'ListItem', position: 7, item: { '@type': 'Product', name: 'Coach Screws', description: 'Hex head timber screws for wood-to-wood fastening, M6-M12', brand: { '@type': 'Brand', name: 'TradeGo' }, offers: { '@type': 'Offer', priceCurrency: 'USD', price: '0.04', availability: 'https://schema.org/InStock' } } },
-              { '@type': 'ListItem', position: 8, item: { '@type': 'Product', name: 'Threaded Rods', description: 'Full thread rods M6-M24, DIN 975, 1m-3m lengths', brand: { '@type': 'Brand', name: 'TradeGo' }, offers: { '@type': 'Offer', priceCurrency: 'USD', price: '0.50', availability: 'https://schema.org/InStock' } } },
+              { '@type': 'ListItem', position: 1, item: { '@type': 'Product', name: 'SVC-3000VA', description: 'Automatic voltage regulator for home appliances, 3KVA capacity', brand: { '@type': 'Brand', name: 'YOKE' }, offers: { '@type': 'Offer', priceCurrency: 'USD', price: '50', availability: 'https://schema.org/InStock' } } },
+              { '@type': 'ListItem', position: 2, item: { '@type': 'Product', name: 'SVC-10KVA', description: 'Industrial grade AVR, 10KVA capacity', brand: { '@type': 'Brand', name: 'YOKE' }, offers: { '@type': 'Offer', priceCurrency: 'USD', price: '150', availability: 'https://schema.org/InStock' } } },
+              { '@type': 'ListItem', position: 3, item: { '@type': 'Product', name: 'SVC-30KVA', description: 'Heavy duty voltage stabilizer, 30KVA capacity', brand: { '@type': 'Brand', name: 'YOKE' }, offers: { '@type': 'Offer', priceCurrency: 'USD', price: '350', availability: 'https://schema.org/InStock' } } },
+              { '@type': 'ListItem', position: 4, item: { '@type': 'Product', name: 'SVC-50KVA', description: 'Industrial AVR for production lines, 50KVA capacity', brand: { '@type': 'Brand', name: 'YOKE' }, offers: { '@type': 'Offer', priceCurrency: 'USD', price: '500', availability: 'https://schema.org/InStock' } } },
+              { '@type': 'ListItem', position: 5, item: { '@type': 'Product', name: 'SVC-60KVA', description: 'High capacity voltage regulator, 60KVA capacity', brand: { '@type': 'Brand', name: 'YOKE' }, offers: { '@type': 'Offer', priceCurrency: 'USD', price: '600', availability: 'https://schema.org/InStock' } } },
+              { '@type': 'ListItem', position: 6, item: { '@type': 'Product', name: 'TND-SVC-3000VA', description: 'TND series AVR with digital display, 3KVA', brand: { '@type': 'Brand', name: 'YOKE' }, offers: { '@type': 'Offer', priceCurrency: 'USD', price: '65', availability: 'https://schema.org/InStock' } } },
             ],
           }),
         }}
@@ -88,22 +82,21 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
             mainEntity: [
-              { '@type': 'Question', name: 'What types of fasteners do you manufacture?', acceptedAnswer: { '@type': 'Answer', text: 'We manufacture drywall screws, self-drilling screws (TEK), hex bolts and nuts, IBR nails, anchor bolts, washers, coach screws, and threaded rods. 12+ years specializing in Africa construction market. ISO 9001:2015 certified facility. SABS 1195 compliant products available.' } },
-              { '@type': 'Question', name: 'What material should I choose for my fastener application?', acceptedAnswer: { '@type': 'Answer', text: 'Carbon Steel for indoor/general use. Stainless Steel 304/316 for outdoor, marine, coastal environments. 316 recommended for chloride-rich areas.' } },
-              { '@type': 'Question', name: 'What surface finish should I choose?', acceptedAnswer: { '@type': 'Answer', text: 'Zinc Plated for basic indoor corrosion resistance. Hot-Dip Galvanized (HDG) for outdoor/marine/structural applications with 45-85 micron coating. Dacromet for demanding industrial environments.' } },
-              { '@type': 'Question', name: 'What is the difference between zinc plated and hot-dip galvanized fasteners?', acceptedAnswer: { '@type': 'Answer', text: 'Zinc Plating: thin electroplated coating (5-15 microns), basic protection. Hot-Dip Galvanizing: thick immersion coating (45-85 microns), 5-7x more protection, ideal for outdoor and coastal areas.' } },
-              { '@type': 'Question', name: 'What is your minimum order quantity (MOQ)?', acceptedAnswer: { '@type': 'Answer', text: 'Standard MOQ is 1 metric ton per product item. Trial orders available from 500kg for new customers. Free samples provided (buyer pays shipping).' } },
-              { '@type': 'Question', name: 'What are your payment terms and shipping options?', acceptedAnswer: { '@type': 'Answer', text: 'Payment: T/T, L/C, PayPal for samples. Terms: 30% deposit, 70% balance before shipment. Shipping: FOB, CIF, DDP available. Sea freight for bulk orders (15-30 days transit).' } },
-              { '@type': 'Question', name: 'Do your products meet SABS standards for South Africa?', acceptedAnswer: { '@type': 'Answer', text: 'Yes, IBR nails comply with SABS 1195 requirements. Products also meet DIN, ANSI, ISO standards. Mill certificates and SABS-compliant test reports available upon request.' } },
-              { '@type': 'Question', name: 'What payment methods do you accept for African customers?', acceptedAnswer: { '@type': 'Answer', text: 'T/T, L/C, Alipay, WeChat Pay accepted. Bulk order discounts up to 15% for African market customers.' } },
-              { '@type': 'Question', name: 'How long does sea freight shipping take to African ports?', acceptedAnswer: { '@type': 'Answer', text: 'Durban (South Africa): 25-30 days, Beira (Mozambique/Zimbabwe): 20-25 days, Maputo (Mozambique): 20-25 days, Lagos (Nigeria): 30-35 days, Mombasa (Kenya): 28-32 days, Dar es Salaam (Tanzania): 28-33 days, Tema (Ghana): 30-35 days. We deliver to Harare, Bulawayo, Lusaka, and other major cities.' } },
-              { '@type': 'Question', name: 'What certifications and standards do your products meet?', acceptedAnswer: { '@type': 'Answer', text: 'ISO 9001:2015 certified. Products comply with DIN, ANSI/ASME, JIS, GB standards. CE certification available for EU. Mill certificates and SGS/BV inspection certificates available.' } },
+              { '@type': 'Question', name: 'What is the input voltage range for YOKE AVR products?', acceptedAnswer: { '@type': 'Answer', text: 'YOKE AVR products typically support input voltage ranges of 140-260V for single-phase models and 280-430V for three-phase models. Please check specific product specifications for exact ranges.' } },
+              { '@type': 'Question', name: 'What is the output voltage accuracy?', acceptedAnswer: { '@type': 'Answer', text: 'YOKE voltage regulators deliver output voltage with ±2% to ±3% accuracy, ensuring stable power supply for sensitive equipment. TND series digital models offer even tighter regulation.' } },
+              { '@type': 'Question', name: 'Do YOKE AVR products have overload protection?', acceptedAnswer: { '@type': 'Answer', text: 'Yes, all YOKE AVR products feature built-in overload protection. When the load exceeds rated capacity, the AVR will automatically cut off output to prevent damage. Most models resume automatically after the overload is removed.' } },
+              { '@type': 'Question', name: 'What is the response time of YOKE voltage regulators?', acceptedAnswer: { '@type': 'Answer', text: 'YOKE SVC series AVRs have a response time of less than 1 second for voltage corrections. TND series digital models offer faster response times of approximately 500ms.' } },
+              { '@type': 'Question', name: 'Can I use YOKE AVRs for the full range of appliances?', acceptedAnswer: { '@type': 'Answer', text: 'YOKE AVRs are suitable for most household and industrial appliances including air conditioners, refrigerators, computers, medical equipment, and production machinery. Not recommended for inductive loads with motors larger than the AVR capacity.' } },
+              { '@type': 'Question', name: 'What is the warranty period for YOKE products?', acceptedAnswer: { '@type': 'Answer', text: 'All YOKE voltage regulators come with a 12-month warranty period from the date of purchase. The warranty covers manufacturing defects and component failures under normal use conditions.' } },
+              { '@type': 'Question', name: 'What payment methods do you accept?', acceptedAnswer: { '@type': 'Answer', text: 'We accept T/T, L/C, PayPal for samples, Western Union, and Alibaba Trade Assurance. For first-time buyers, we typically require 30% deposit and 70% balance before shipment.' } },
+              { '@type': 'Question', name: 'What are your shipping options and delivery times?', acceptedAnswer: { '@type': 'Answer', text: 'We offer sea freight (15-35 days transit) and air freight (5-10 days) to worldwide destinations. Express shipping available for sample orders. FOB, CIF, and DDP incoterms available.' } },
+              { '@type': 'Question', name: 'Are your products CE and CB certified?', acceptedAnswer: { '@type': 'Answer', text: 'Yes, all YOKE AVR products are CE and CB certified, meeting international safety and quality standards. Certificates are available upon request with your order.' } },
+              { '@type': 'Question', name: 'What is the minimum order quantity?', acceptedAnswer: { '@type': 'Answer', text: 'Standard MOQ is 1 unit for most models. Sample orders welcome. For bulk orders (10+ units), we offer significant quantity discounts. Contact us for specific pricing.' } },
             ],
           }),
         }}
       />
 
-      {/* BreadcrumbList Structured Data */}
       <Script
         id="breadcrumb-schema"
         type="application/ld+json"
@@ -112,8 +105,8 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.tradego-fasteners.com' },
-              { '@type': 'ListItem', position: 2, name: 'Products', item: 'https://www.tradego-fasteners.com/products' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.yoke-electric.com' },
+              { '@type': 'ListItem', position: 2, name: 'Products', item: 'https://www.yoke-electric.com/products' },
             ],
           }),
         }}
@@ -122,14 +115,12 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
       <HeroSection locale={locale} />
 
       <div className="container mx-auto px-4">
-        <GeoPromotion />
-        
         {/* Social Share Buttons */}
         <div className="max-w-3xl mx-auto py-4">
           <ShareButtons 
-            url={`https://www.tradego-fasteners.com/${locale}`}
-            title={locale === 'zh' ? 'TradeGo紧固件 - 专业制造商' : 'TradeGo Fasteners - Professional Manufacturer'}
-            description={locale === 'zh' ? 'ISO 9001认证紧固件批发商，专业生产干墙螺丝、自钻螺丝、螺栓螺母等' : 'ISO 9001 certified wholesale fastener manufacturer'}
+            url={`https://www.yoke-electric.com/${locale}`}
+            title={locale === 'zh' ? 'YOKE稳压器 - 专业电压稳定解决方案' : 'YOKE Voltage Regulators - Professional AVR Manufacturer'}
+            description={locale === 'zh' ? '10年以上稳压器制造经验，CE/CB认证，全球发货' : '10+ years AVR manufacturing experience. CE/CB certified products with global shipping.'}
           />
         </div>
       </div>
@@ -141,176 +132,142 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
       {/* Application Scenarios - content depth for SEO */}
       <section className="py-12 md:py-16 bg-gray-50">
         <div className="container mx-auto px-4 sm:px-6">
-          <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">Fastener Applications & Industries</h2>
-          <p className="text-gray-600 text-center max-w-3xl mx-auto mb-10 text-sm md:text-base">Our fasteners serve African construction and industrial projects. From residential buildings to commercial developments, TradeGo delivers SABS & ISO 9001 certified quality at factory prices with sea freight to Africa.</p>
+          <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">Voltage Regulator Applications</h2>
+          <p className="text-gray-600 text-center max-w-3xl mx-auto mb-10 text-sm md:text-base">YOKE voltage regulators are widely used across residential, commercial, and industrial applications worldwide. From protecting home appliances to powering production lines, our CE/CB certified AVRs deliver reliable voltage stabilization.</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-white rounded-xl p-6 shadow-sm">
-              <h3 className="font-bold text-primary-900 mb-2">🏗️ Construction & Building</h3>
-              <p className="text-gray-600 text-sm">Drywall screws for interior framing, IBR nails for roofing installations, and structural bolts for steel connections. Meeting DIN, ANSI, and SABS standards for African construction projects.</p>
-              <a href={`/${locale}/industry/timber-construction-fasteners-africa`} className="text-primary-600 hover:underline text-sm mt-2 inline-block">→ Learn more: Timber Construction Fasteners</a>
+              <h3 className="font-bold text-primary-900 mb-2">🏠 Residential Use</h3>
+              <p className="text-gray-600 text-sm">Protect air conditioners, refrigerators, TVs, and computers from voltage fluctuations. SVC-3000VA and TND-SVC-3000VA are ideal for home use.</p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm">
-              <h3 className="font-bold text-primary-900 mb-2">⚙️ Manufacturing & Assembly</h3>
-              <p className="text-gray-600 text-sm">Self-drilling screws for metal-to-metal fastening, hex bolts and nuts for machinery assembly. Available in carbon steel, stainless steel, and zinc-plated finishes with custom specifications.</p>
-              <a href={`/${locale}/industry/high-tensile-structural-bolts-guide`} className="text-primary-600 hover:underline text-sm mt-2 inline-block">→ Learn more: High-Tensile Bolts</a>
+              <h3 className="font-bold text-primary-900 mb-2">🏢 Commercial Buildings</h3>
+              <p className="text-gray-600 text-sm">Stable power for offices, shops, and restaurants. SVC-10KVA and SVC-15KVA models handle multiple appliances simultaneously.</p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm">
-              <h3 className="font-bold text-primary-900 mb-2">🏠 Roofing & Cladding</h3>
-              <p className="text-gray-600 text-sm">IBR nails with umbrella heads for corrugated roofing, self-drilling screws with EPDM washers for waterproof metal roof installations. SABS 1195 compliant for African market requirements.</p>
-              <a href={`/${locale}/industry/ibr-roofing-nails-installation-guide`} className="text-primary-600 hover:underline text-sm mt-2 inline-block">→ Learn more: IBR Roofing Installation</a>
+              <h3 className="font-bold text-primary-900 mb-2">🏭 Industrial & Manufacturing</h3>
+              <p className="text-gray-600 text-sm">Power production lines, CNC machines, and heavy equipment. SVC-30KVA to SVC-60KVA models for industrial voltage stabilization needs.</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Technical Product Guide - comprehensive content for SEO */}
+      {/* Technical Overview - SEO content */}
       <section className="py-12 md:py-16">
         <div className="container mx-auto px-4 sm:px-6 max-w-5xl">
-          <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">Complete Fastener Technical Guide</h2>
-          <p className="text-gray-600 text-center mb-12 text-sm md:text-base">Expert reference for selecting the right fasteners for your application. Understand specifications, standards, and best practices from our 12+ years of Africa-focused manufacturing experience.</p>
+          <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">Understanding Automatic Voltage Regulators</h2>
+          <p className="text-gray-600 text-center mb-12 text-sm md:text-base">Learn how YOKE AVRs protect your equipment from voltage instability and power fluctuations.</p>
 
-          {/* Drywall Screws Guide */}
+          {/* SVC Series Overview */}
           <div className="mb-10">
-            <h3 className="text-xl md:text-2xl font-bold text-primary-900 mb-4">Drywall Screws: Complete Technical Specifications</h3>
+            <h3 className="text-xl md:text-2xl font-bold text-primary-900 mb-4">SVC Series - Servo Motor Voltage Stabilizers</h3>
             <p className="text-gray-700 mb-4 text-sm md:text-base leading-relaxed">
-              Drywall screws are essential fasteners for interior construction, specifically designed for attaching gypsum board to wood or metal studs. At TradeGo Fasteners, we manufacture two primary thread types: coarse thread (W-type) for wood studs and fine thread (S-type) for metal studs. Our drywall screws feature bugle head design that prevents damage to the gypsum paper surface while providing excellent holding power. <a href={`/${locale}/industry/drywall-screws-complete-guide`} className="text-primary-600 hover:underline">Read our complete drywall screws guide</a> for more detailed technical specifications.
+              SVC (Servo Voltage Control) series regulators use a servo motor mechanism to adjust voltage. When input voltage fluctuates, the servo motor automatically moves the carbon brush along the autotransformer winding to maintain stable output voltage. YOKE SVC regulators offer excellent voltage regulation accuracy (±2-3%) and fast response times. Available in capacities from 3KVA to 60KVA, these units are suitable for both residential and light industrial applications where reliable voltage stabilization is critical.
             </p>
             <div className="bg-primary-50 rounded-lg p-4 md:p-6 mb-4">
-              <h4 className="font-semibold text-primary-900 mb-3">Standard Specifications</h4>
+              <h4 className="font-semibold text-primary-900 mb-3">SVC Series Key Features</h4>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
-                <div><strong>Sizes:</strong> 3.5mm, 3.9mm, 4.2mm, 4.8mm diameters; 25mm to 100mm lengths</div>
-                <div><strong>Standards:</strong> DIN 7505, GB/T 15856, ANSI/ASME B18.6.1</div>
-                <div><strong>Materials:</strong> Carbon steel (C1022), Stainless steel 304/410</div>
-                <div><strong>Finishes:</strong> Zinc plated, black phosphate, galvanized</div>
-                <div><strong>Head Type:</strong> Bugle head (countersunk)</div>
-                <div><strong>Drive Type:</strong> Phillips #2, Square drive available</div>
+                <div><strong>Voltage Range:</strong> 140-260V (single-phase), 280-430V (three-phase)</div>
+                <div><strong>Output Accuracy:</strong> ±2% to ±3%</div>
+                <div><strong>Response Time:</strong> Less than 1 second</div>
+                <div><strong>Efficiency:</strong> ≥ 95%</div>
+                <div><strong>Frequency:</strong> 50/60Hz</div>
+                <div><strong>Protection:</strong> Overload, over-voltage, under-voltage</div>
               </div>
             </div>
-            <p className="text-gray-700 text-sm md:text-base leading-relaxed">
-              For optimal performance, select screw length that penetrates at least 19mm (3/4") into the stud. Common applications include residential interior walls, commercial office partitions, and ceiling installations. Our black phosphate finish provides superior holding power in wood studs, while zinc plating offers corrosion resistance for metal stud applications. <a href={`/${locale}#inquiry`} className="text-primary-600 hover:underline">Contact our team</a> for custom thread patterns and specialized coatings for humid environments.
-            </p>
           </div>
 
-          {/* Self-Drilling Screws Guide */}
+          {/* TND Series Overview */}
           <div className="mb-10">
-            <h3 className="text-xl md:text-2xl font-bold text-primary-900 mb-4">Self-Drilling Screws (TEK Screws): Metal-to-Metal Solutions</h3>
+            <h3 className="text-xl md:text-2xl font-bold text-primary-900 mb-4">TND Series - Digital Display Voltage Stabilizers</h3>
             <p className="text-gray-700 mb-4 text-sm md:text-base leading-relaxed">
-              Self-drilling screws, commonly known as TEK screws, eliminate the need for pre-drilling in metal-to-metal applications. The integrated drill point (TEK point) creates the pilot hole and threads in a single operation, significantly reducing installation time and labor costs. TradeGo manufactures self-drilling screws with drill points rated for different metal thicknesses, from TEK 2 (up to 0.8mm steel) to TEK 5 (up to 12.5mm steel). <a href={`/${locale}/industry/roofing-screws-epdm-washer-guide`} className="text-primary-600 hover:underline">Learn more about EPDM washers for roofing applications</a>.
+              TND series voltage regulators feature digital LED or LCD displays showing input and output voltage in real-time. These models use advanced electronic control circuitry for faster response times and more precise voltage regulation compared to traditional SVC models. The digital display allows users to monitor voltage conditions at a glance, making TND series ideal for environments where visibility and monitoring are important. Available in various capacities with compact designs suitable for desktop or wall mounting.
             </p>
             <div className="bg-primary-50 rounded-lg p-4 md:p-6 mb-4">
-              <h4 className="font-semibold text-primary-900 mb-3">Drill Point Selection Guide</h4>
-              <div className="overflow-x-auto">
-                <table className="w-full text-sm">
-                  <thead className="bg-primary-100">
-                    <tr><th className="p-2 text-left">Point Type</th><th className="p-2 text-left">Metal Thickness</th><th className="p-2 text-left">Application</th></tr>
-                  </thead>
-                  <tbody className="bg-white">
-                    <tr><td className="p-2 border">TEK 2</td><td className="p-2 border">Up to 0.8mm</td><td className="p-2 border">Light gauge steel, HVAC ductwork</td></tr>
-                    <tr><td className="p-2 border">TEK 3</td><td className="p-2 border">0.8mm - 2.5mm</td><td className="p-2 border">Metal roofing, wall cladding</td></tr>
-                    <tr><td className="p-2 border">TEK 4</td><td className="p-2 border">2.5mm - 5.0mm</td><td className="p-2 border">Structural steel, heavy framing</td></tr>
-                    <tr><td className="p-2 border">TEK 5</td><td className="p-2 border">5.0mm - 12.5mm</td><td className="p-2 border">Heavy steel sections, bridge work</td></tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-            <p className="text-gray-700 text-sm md:text-base leading-relaxed">
-              For roofing applications, we recommend self-drilling screws with EPDM washers for superior waterproofing. The washer compresses against the metal surface to create a watertight seal. Available in hex washer head (most common for power tool driving) and pan head (for applications requiring flush or low-profile finish). All our self-drilling screws comply with DIN 7504 and are tested for drill point hardness (HRC 50-55) to ensure consistent drilling performance. Request <a href={`/${locale}#inquiry`} className="text-primary-600 hover:underline">custom drill point specifications</a> for your specific material thickness.
-            </p>
-          </div>
-
-          {/* Bolts & Nuts Guide */}
-          <div className="mb-10">
-            <h3 className="text-xl md:text-2xl font-bold text-primary-900 mb-4">Industrial Bolts & Nuts: Grade Selection & Applications</h3>
-            <p className="text-gray-700 mb-4 text-sm md:text-base leading-relaxed">
-              Hex bolts and nuts form the backbone of structural and mechanical connections across industries. Understanding strength grades is essential for selecting the right fastener. TradeGo manufactures and stocks bolts from Grade 4.8 (general purpose) through Grade 12.9 (high-strength structural applications). Each grade indicates the bolt's tensile strength and yield point ratio, critical for safety-critical applications. <a href={`/${locale}/industry/high-tensile-structural-bolts-guide`} className="text-primary-600 hover:underline">Read our guide on high-tensile structural bolts</a> for applications requiring superior strength.
-            </p>
-            <div className="bg-primary-50 rounded-lg p-4 md:p-6 mb-4">
-              <h4 className="font-semibold text-primary-900 mb-3">Bolt Grade Comparison Chart</h4>
-              <div className="overflow-x-auto">
-                <table className="w-full text-sm">
-                  <thead className="bg-primary-100">
-                    <tr><th className="p-2 text-left">Grade</th><th className="p-2 text-left">Tensile Strength</th><th className="p-2 text-left">Yield Strength</th><th className="p-2 text-left">Typical Applications</th></tr>
-                  </thead>
-                  <tbody className="bg-white">
-                    <tr><td className="p-2 border">4.8</td><td className="p-2 border">400 MPa</td><td className="p-2 border">320 MPa</td><td className="p-2 border">Light machinery, furniture, general construction</td></tr>
-                    <tr><td className="p-2 border">8.8</td><td className="p-2 border">800 MPa</td><td className="p-2 border">640 MPa</td><td className="p-2 border">Automotive, heavy equipment, structural steel</td></tr>
-                    <tr><td className="p-2 border">10.9</td><td className="p-2 border">1000 MPa</td><td className="p-2 border">900 MPa</td><td className="p-2 border">Bridge construction, cranes, high-stress applications</td></tr>
-                    <tr><td className="p-2 border">12.9</td><td className="p-2 border">1200 MPa</td><td className="p-2 border">1080 MPa</td><td className="p-2 border">Racing components, aerospace, extreme loads</td></tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-            <p className="text-gray-700 text-sm md:text-base leading-relaxed">
-              All TradeGo bolts are manufactured to international standards: DIN 933 (full thread hex bolts), DIN 931 (partial thread hex bolts), ISO 4014/4017 (metric hex bolts), and ANSI/ASME B18.2.1 (imperial hex bolts). Matching nuts are available in DIN 934 (standard hex nuts) and DIN 6915 (structural nuts for high-strength applications). We offer hot-dip galvanized finish for outdoor and marine environments, with zinc thickness of 45-85 microns per ISO 1461. <a href={`/${locale}#inquiry`} className="text-primary-600 hover:underline">Request mill certificates</a> and test reports with your order.
-            </p>
-          </div>
-
-          {/* IBR Nails Guide */}
-          <div className="mb-10">
-            <h3 className="text-xl md:text-2xl font-bold text-primary-900 mb-4">IBR Nails: Roofing Fasteners for Corrugated Steel</h3>
-            <p className="text-gray-700 mb-4 text-sm md:text-base leading-relaxed">
-              IBR (Inverted Box Rib) nails are specialized roofing fasteners designed for securing corrugated steel roofing sheets to wooden or steel purlins. The distinctive umbrella head (also called dome head or button head) provides large bearing surface that prevents the nail from pulling through the roofing sheet. TradeGo's IBR nails are SABS 1195 compliant, meeting South African Bureau of Standards requirements essential for the African construction market. <a href={`/${locale}/industry/ibr-roofing-nails-installation-guide`} className="text-primary-600 hover:underline">See our detailed IBR roofing installation guide</a> for best practices.
-            </p>
-            <div className="bg-primary-50 rounded-lg p-4 md:p-6 mb-4">
-              <h4 className="font-semibold text-primary-900 mb-3">IBR Nail Specifications</h4>
+              <h4 className="font-semibold text-primary-900 mb-3">TND Series Key Features</h4>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
-                <div><strong>Diameter:</strong> 2.5mm, 3.1mm, 3.5mm, 4.0mm</div>
-                <div><strong>Length:</strong> 30mm to 100mm</div>
-                <div><strong>Head Diameter:</strong> 10mm to 14mm (umbrella/dome)</div>
-                <div><strong>Shank Types:</strong> Smooth, ring shank, screw shank</div>
-                <div><strong>Standard:</strong> SABS 1195, ISO 1052</div>
-                <div><strong>Finish:</strong> Hot-dip galvanized (HDG), sherardized</div>
+                <div><strong>Display:</strong> Digital LED/LCD showing input and output voltage</div>
+                <div><strong>Response Time:</strong> Approximately 500ms</div>
+                <div><strong>Voltage Range:</strong> 140-260V (single-phase)</div>
+                <div><strong>Output Accuracy:</strong> ±2%</div>
+                <div><strong>Delay Protection:</strong> 3-6 seconds startup delay</div>
+                <div><strong>Noise Level:</strong> Ultra-low noise operation</div>
               </div>
             </div>
-            <p className="text-gray-700 text-sm md:text-base leading-relaxed">
-              For maximum pull-out resistance, we recommend ring shank IBR nails. The annular rings create a mechanical lock with the wood fibers, providing up to 40% greater withdrawal resistance compared to smooth shank nails. Hot-dip galvanized finish ensures corrosion protection for 20+ years in most environments. For coastal or industrial areas with high salt/chemical exposure, consider sherardized finish (zinc flake coating) for enhanced corrosion resistance. <a href={`/${locale}#inquiry`} className="text-primary-600 hover:underline">Get a quote for your roofing project</a> with quantity discounts for bulk orders.
-            </p>
           </div>
 
-          {/* Material Selection Guide */}
+          {/* Why Voltage Stabilization Matters */}
           <div className="mb-6">
-            <h3 className="text-xl md:text-2xl font-bold text-primary-900 mb-4">Material Selection Guide: Choosing the Right Steel</h3>
+            <h3 className="text-xl md:text-2xl font-bold text-primary-900 mb-4">Why Voltage Stabilization Matters</h3>
             <p className="text-gray-700 mb-4 text-sm md:text-base leading-relaxed">
-              Selecting the appropriate material for your fasteners is critical for performance and longevity. TradeGo offers fasteners in multiple steel grades, each suited to specific environmental conditions and load requirements. Carbon steel fasteners offer excellent strength-to-cost ratio for indoor applications. For outdoor use, zinc plating or hot-dip galvanizing provides necessary corrosion protection. Stainless steel fasteners (304 and 316 grades) are recommended for food processing, chemical plants, and marine applications where corrosion resistance is paramount. <a href={`/${locale}/industry/fastener-corrosion-resistance-guide`} className="text-primary-600 hover:underline">Learn more about fastener corrosion resistance</a>.
+              Voltage fluctuations and power surges are common problems in many electrical grids worldwide. Unstable voltage can cause serious damage to electrical equipment, leading to costly repairs or premature equipment failure. A quality voltage regulator like YOKE AVRs ensures that your appliances and equipment receive consistent, safe voltage levels regardless of input fluctuations. This extends equipment lifespan, reduces downtime, and saves money on repairs and replacements.
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="bg-white border rounded-lg p-4">
-                <h4 className="font-semibold mb-2">Carbon Steel</h4>
-                <p className="text-sm text-gray-600">Cost-effective for indoor use. Requires surface treatment (zinc, black oxide) for corrosion resistance. Available in all strength grades.</p>
+                <h4 className="font-semibold mb-2">🔌 Over-Voltage Protection</h4>
+                <p className="text-sm text-gray-600">Voltage spikes can instantly destroy sensitive electronics. YOKE AVRs detect and correct over-voltage conditions within milliseconds.</p>
               </div>
               <div className="bg-white border rounded-lg p-4">
-                <h4 className="font-semibold mb-2">Stainless Steel 304</h4>
-                <p className="text-sm text-gray-600">Excellent corrosion resistance for most environments. Food-safe. Lower strength than carbon steel (typically A2-70/A2-80 grade).</p>
-              </div>
-              <div className="bg-white border rounded-lg p-4">
-                <h4 className="font-semibold mb-2">Stainless Steel 316</h4>
-                <p className="text-sm text-gray-600">Marine grade. Superior resistance to salt water and chloride environments. Essential for coastal and offshore applications.</p>
+                <h4 className="font-semibold mb-2">⚡ Under-Voltage Protection</h4>
+                <p className="text-sm text-gray-600">Low voltage causes equipment to overheat and fail prematurely. YOKE AVRs boost under-voltage to safe operating levels.</p>
               </div>
             </div>
+          </div>
 
-            {/* Related Resources Section - Internal Links */}
-            <div className="mt-10 pt-8 border-t border-gray-200">
-              <h3 className="text-xl md:text-2xl font-bold text-primary-900 mb-6">📚 Related Resources</h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                <a href={`/${locale}/industry/construction-fastener-standards-comparison`} className="block bg-white border rounded-lg p-4 hover:border-primary-500 hover:shadow-md transition-all">
-                  <h4 className="font-semibold text-primary-900 mb-1">Construction Standards Comparison</h4>
-                  <p className="text-sm text-gray-600">Compare DIN, ANSI, and SABS fastener standards for construction projects.</p>
-                </a>
-                <a href={`/${locale}/industry/anchor-bolts-selection-guide`} className="block bg-white border rounded-lg p-4 hover:border-primary-500 hover:shadow-md transition-all">
-                  <h4 className="font-semibold text-primary-900 mb-1">Anchor Bolts Selection Guide</h4>
-                  <p className="text-sm text-gray-600">Choose the right anchor bolts for foundation and structural applications.</p>
-                </a>
-                <a href={`/${locale}/industry/bolt-grade-markings-guide`} className="block bg-white border rounded-lg p-4 hover:border-primary-500 hover:shadow-md transition-all">
-                  <h4 className="font-semibold text-primary-900 mb-1">Bolt Grade Markings</h4>
-                  <p className="text-sm text-gray-600">Understand bolt grade markings to ensure proper strength selection.</p>
-                </a>
-                <a href={`/${locale}/industry/stainless-steel-bolts-africa-guide`} className="block bg-white border rounded-lg p-4 hover:border-primary-500 hover:shadow-md transition-all">
-                  <h4 className="font-semibold text-primary-900 mb-1">Stainless Steel for Africa</h4>
-                  <p className="text-sm text-gray-600">Guide to stainless steel fasteners for African environments.</p>
-                </a>
+          {/* Capacity Selection Guide */}
+          <div className="mb-6">
+            <h3 className="text-xl md:text-2xl font-bold text-primary-900 mb-4">AVR Capacity Selection Guide</h3>
+            <p className="text-gray-700 mb-4 text-sm md:text-base leading-relaxed">
+              Selecting the right capacity is crucial for effective voltage regulation. The AVR capacity should exceed your total load by 20-30% to account for startup currents and future expansion. For inductive loads (motors, compressors), allow 3-5x the running wattage for startup.
+            </p>
+            <div className="bg-primary-50 rounded-lg p-4 md:p-6 mb-4">
+              <div className="overflow-x-auto">
+                <table className="w-full text-sm">
+                  <thead className="bg-primary-100">
+                    <tr>
+                      <th className="p-2 text-left">AVR Model</th>
+                      <th className="p-2 text-left">Capacity</th>
+                      <th className="p-2 text-left">Recommended Use</th>
+                      <th className="p-2 text-left">Max Current</th>
+                    </tr>
+                  </thead>
+                  <tbody className="bg-white">
+                    <tr>
+                      <td className="p-2 border">SVC-3000VA</td>
+                      <td className="p-2 border">3KVA / 2400W</td>
+                      <td className="p-2 border">Home appliances, computer, TV</td>
+                      <td className="p-2 border">13A</td>
+                    </tr>
+                    <tr>
+                      <td className="p-2 border">SVC-10KVA</td>
+                      <td className="p-2 border">10KVA / 8KW</td>
+                      <td className="p-2 border">Small office, shop, multiple rooms</td>
+                      <td className="p-2 border">40A</td>
+                    </tr>
+                    <tr>
+                      <td className="p-2 border">SVC-30KVA</td>
+                      <td className="p-2 border">30KVA / 24KW</td>
+                      <td className="p-2 border">Large office, light industrial</td>
+                      <td className="p-2 border">120A</td>
+                    </tr>
+                    <tr>
+                      <td className="p-2 border">SVC-50KVA</td>
+                      <td className="p-2 border">50KVA / 40KW</td>
+                      <td className="p-2 border">Production lines, workshop</td>
+                      <td className="p-2 border">200A</td>
+                    </tr>
+                    <tr>
+                      <td className="p-2 border">SVC-60KVA</td>
+                      <td className="p-2 border">60KVA / 48KW</td>
+                      <td className="p-2 border">Heavy industrial, large machinery</td>
+                      <td className="p-2 border">240A</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
-
+            <p className="text-gray-700 text-sm md:text-base">
+              Not sure which capacity you need? <a href={`/${locale}#inquiry`} className="text-primary-600 hover:underline">Contact our team</a> with your load details and we'll help you select the right model.
+            </p>
           </div>
         </div>
       </section>
@@ -318,11 +275,7 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
       {/* Statistics Section - trust numbers */}
       <StatisticsSection locale={locale} />
 
-      {/* Video Content Section - factory tour, product showcase, testimonials */}
-      <VideoSection locale={locale} />
-
       <FAQSection locale={locale} />
-      <TestimonialsSection locale={locale} />
       <CertificationsSection locale={locale} />
       <InquiryForm locale={locale} />
     </>
