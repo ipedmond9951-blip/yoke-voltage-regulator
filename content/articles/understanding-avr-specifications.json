@@ -55,5 +55,40 @@
       "heading": { "en": "Efficiency and Power Consumption", "zh": "效率和功耗", "es": "Eficiencia y consumo de energía", "fr": "Efficacité et consommation d'énergie", "ar": "الكفاءة واستهلاك الطاقة", "pt": "Eficiência e consumo de energia", "ru": "КПД и энергопотребление", "ja": "効率と消費電力", "de": "Wirkungsgrad und Stromverbrauch", "hi": "दक्षता और बिजली की खपत" },
       "body": { "en": "AVR efficiency indicates how much power is lost in the regulation process. YOKE efficiency ratings: SVC Series: 94-96% efficiency (4-6% power loss). TND Series: 96-98% efficiency (2-4% power loss). What efficiency means: A 10KVA unit at 96% efficiency loses 400W to heat. At 80% load, losses are lower than at 100% load. Higher efficiency = lower electricity costs over time. Additional losses: No-load power consumption when AVR is on but unloaded. Cooling fan power in larger units. Consider efficiency when: Calculating total cost of ownership. Planning cooling requirements for installation. Operating near full capacity continuously.", "zh": "AVR效率表示在调节过程中损失了多少功率。YOKE效率等级：SVC系列：94-96%效率（4-6%功率损耗）。TND系列：96-98%效率（2-4%功率损耗）。效率意味着什么：在94%效率下，一个10KVA单元会损失400W热量。在80%负载下，损耗低于100%负载时。更高效率 = 随时间推移更低的电力成本。其他损耗：当AVR开启但空载时的空载功耗。较大单元的冷却风扇功率。在以下情况下考虑效率：计算总拥有成本。规划安装的冷却要求。持续接近满容量运行。", "es": "La eficiencia del AVR indica cuánta energía se pierde en el proceso de regulación. Clasificaciones de eficiencia YOKE: Serie SVC: 94-96% de eficiencia. Serie TND: 96-98% de eficiencia.", "fr": "L'efficacité de l'AVR indique la quantité d'énergie perdue dans le processus de régulation. Notes d'efficacité YOKE: Série SVC: 94-96% d'efficacité.", "ar": "تشير كفاءة AVR إلى مقدار الطاقة المفقودة في عملية التنظيم. تقييمات كفاءة YOKE: سلسلة SVC: 94-96% كفاءة. سلسلة TND: 96-98% كفاءة.", "pt": "A eficiência do AVR indica quanta energia é perdida no processo de regulação. Classificações de eficiência YOKE: Série SVC: 94-96% de eficiência.", "ru": "КПД AVR показывает, сколько мощности теряется в процессе регулирования. Характеристики эффективности YOKE: Серия SVC: 94-96% КПД.", "ja": "AVR効率は、調整プロセスでどの程度の電力が失われるかを示します。YOKE効率定格：SVCシリーズ：94-96%効率。TNDシリーズ：96-98%効率。", "de": "Der AVR-Wirkungsgrad gibt an, wie viel Leistung im Regulierungsprozess verloren geht. YOKE-Wirkungsgrade: SVC-Serie: 94-96% Wirkungsgrad.", "hi": "AVR दक्षता इंगित करती है कि विनियमन प्रक्रिया में कितनी शक्ति खो जाती है। YOKE दक्षता रेटिंग: SVC सीरीज: 94-96% दक्षता। TND सीरीज: 96-98% दक्षता।" }
     }
-  ]
+  ],
+  "faqItems": [
+    {
+      "q": { "en": "What does input voltage range mean?", "zh": "输入电压范围是什么意思？" },
+      "a": { "en": "Input voltage range indicates the minimum and maximum input voltage the AVR can handle while still producing stable output.", "zh": "输入电压范围表示AVR在仍能产生稳定输出的情况下可以处理的最小和最大输入电压。" }
+    }
+  ],
+  "relatedProducts": [],
+  "relatedArticles": ["choosing-right-avr-capacity", "svc-vs-tnd-series-comparison"],
+  "cta": {
+    "text": {
+      "en": "Understand AVR specifications before buying. YOKE provides detailed datasheets and expert consultation.",
+      "zh": "购买前了解AVR规格。YOKE提供详细的数据表和专家咨询。",
+      "es": "Comprenda las especificaciones del AVR antes de comprar. YOKE proporciona hojas de datos detalladas y consulta experta.",
+      "fr": "Comprenez les spécifications AVR avant d'acheter. YOKE fournit des fiches techniques détaillées et une consultation d'experts.",
+      "ar": "فهم مواصفات AVR قبل الشراء. تقدم YOKE أوراق بيانات مفصلة واستشارة الخبراء.",
+      "pt": "Entenda as especificações do AVR antes de comprar. A YOKE fornece fichas técnicas detalhadas e consulta especializada.",
+      "ru": "Поймите характеристики AVR перед покупкой. YOKE предоставляет подробные спецификации и консультации экспертов.",
+      "ja": "購入前にAVRの仕様を理解してください。YOKEは詳細なデータシートと専門家のコンサルティングを提供します。",
+      "de": "Verstehen Sie die AVR-Spezifikationen vor dem Kauf. YOKE bietet detaillierte Datenblätter und Expertenberatung.",
+      "hi": "खरीदने से पहले AVR विशिष्टताओं को समझें। YOKE विस्तृत डेटाशीट और विशेषज्ञ परामर्श प्रदान करता है।"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价",
+      "es": "Obtener Cotización",
+      "fr": "Obtenir un Devis",
+      "ar": "احصل على عرض سعر",
+      "pt": "Obter Cotação",
+      "ru": "Получить Котировку",
+      "ja": "見積もりを依頼",
+      "de": "Angebot Erhalten",
+      "hi": "कोटेशन प्राप्त करें"
+    },
+    "link": "/#inquiry"
+  }
 }

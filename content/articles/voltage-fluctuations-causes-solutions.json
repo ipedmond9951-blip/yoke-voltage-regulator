@@ -50,5 +50,40 @@
       "heading": { "en": "AVR: The Complete Solution", "zh": "AVR：完整的解决方案", "es": "AVR: La solución completa", "fr": "AVR: La solution complète", "ar": "AVR: الحل الكامل", "pt": "AVR: A solução completa", "ru": "AVR: Полное решение", "ja": "AVR：完全なソリューション", "de": "AVR: Die komplette Lösung", "hi": "AVR: पूर्ण समाधान" },
       "body": { "en": "An AVR provides comprehensive protection against all types of voltage fluctuations: For voltage sags, the AVR instantly boosts voltage to the correct level. For voltage swells, it buckes the excess voltage down. For transient surges (like lightning), built-in surge protection (MOV varistors and TVSS) clamp the spike before it reaches your equipment. Modern AVRs like YOKE's SVC and TND series provide response times under 1 second, ensuring your equipment never sees the raw voltage fluctuation. Features like input voltage range of 140V-260V, output voltage regulation of ±2-4%, and overload protection make AVRs the most cost-effective power quality solution.", "zh": "AVR针对所有类型的电压波动提供全面保护：对于电压暂降，AVR立即将电压提升至正确水平。对于电压上升，它降低多余的电压。对于瞬态浪涌（如雷电），内置浪涌保护（MOV压敏电阻和TVSS）在浪涌到达您的设备之前将其抑制。现代AVR（如YOKE的SVC和TND系列）提供小于1秒的响应时间，确保您的设备永远不会看到原始电压波动。输入电压范围140V-260V、输出电压调节±2-4%、过载保护等功能，使AVR成为最具成本效益的电能质量解决方案。", "es": "Un AVR proporciona protección integral contra todo tipo de fluctuaciones de voltaje: Para caídas de voltaje, el AVR aumenta instantáneamente el voltaje al nivel correcto. Para sobretensiones, reduce el exceso. Para transitorios, la protección incorporada contra sobretensiones suprime el pico.", "fr": "Un AVR fournit une protection complète contre tous les types de fluctuations de tension: Pour les creux de tension, l'AVR augmente instantanément la tension au niveau correct. Pour les surtensions, il réduit l'excès.", "ar": "يوفر AVR حماية شاملة ضد جميع أنواع تقلبات الجهد: للهبوطات، يزيد AVR الجهد فورًا إلى المستوى الصحيح. لل swell، يخفض الفائض.", "pt": "Um AVR fornece proteção completa contra todos os tipos de flutuações de tensão: Para quedas de tensão, o AVR aumenta instantaneamente a tensão para o nível correto. Para sobretensões, ele reduz o excesso.", "ru": "AVR обеспечивает комплексную защиту от всех видов колебаний напряжения: При провалах напряжения AVR мгновенно повышает напряжение до нужного уровня. При всплесках — снижает избыток.", "ja": "AVRはあらゆるタイプの電圧変動に対して包括的な保護を提供します：电压サグに対して、AVRは即座に电压を正しいレベルに引き上げます。サージに対して、AVRは高峰を抑制します。", "de": "Ein AVR bietet umfassenden Schutz gegen alle Arten von Spannungsschwankungen: Bei Spannungseinbrüchen boostet der AVR sofort auf das richtige Niveau. Bei Überspannung senkt er überschüssige Spannung.", "hi": "एक AVR सभी प्रकार के वोल्टेज उतार-चढ़ाव के खिलाफ व्यापक सुरक्षा प्रदान करता है: वोल्टेज सैग के लिए, AVR तुरंत वोल्टेज को सही स्तर तक बढ़ाता है। वोल्टेज स्वेल के लिए, यह अतिरिक्त वोल्टेज को कम करता है।" }
     }
-  ]
+  ],
+  "faqItems": [
+    {
+      "q": { "en": "What causes voltage fluctuations?", "zh": "什么导致电压波动？" },
+      "a": { "en": "Common causes include: heavy machinery switching on/off, lightning strikes, power grid overloaded sections, and utility company load balancing.", "zh": "常见原因包括：重型机械开关、雷电袭击、电网过载部分和电力公司负载平衡。" }
+    }
+  ],
+  "relatedProducts": [],
+  "relatedArticles": ["protecting-sensitive-equipment", "industrial-applications-voltage-stabilizers"],
+  "cta": {
+    "text": {
+      "en": "Protect your equipment from voltage fluctuations with YOKE AVR stabilizers. Fast shipping worldwide.",
+      "zh": "使用YOKE AVR稳压器保护您的设备免受电压波动影响。快速全球发货。",
+      "es": "Proteja sus equipos de las fluctuaciones de voltaje con estabilizadores AVR de YOKE. Envío rápido mundial.",
+      "fr": "Protégez vos équipements des fluctuations de tension avec les stabilisateurs AVR YOKE. Expédition rapide dans le monde entier.",
+      "ar": "حماية معداتك من تقلبات الجهد مع مثبتات AVR من YOKE. شحن سريع عالمي.",
+      "pt": "Proteja seus equipamentos de flutuações de tensão com estabilizadores AVR YOKE. Envio rápido worldwide.",
+      "ru": "Защитите свое оборудование от колебаний напряжения с помощью стабилизаторов AVR YOKE. Быстрая доставка по всему миру.",
+      "ja": "YOKE AVR安定化装置で機器を電圧変動から保護。迅速な世界配送。",
+      "de": "Schützen Sie Ihre Geräte vor Spannungsschwankungen mit YOKE AVR-Stabilisatoren. Schneller Versand worldwide.",
+      "hi": "YOKE AVR स्टेबलाइज़र के साथ अपने उपकरणों को वोल्टेज उतार-चढ़ाव से बचाएं। तेज वैश्विक शिपिंग।"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价",
+      "es": "Obtener Cotización",
+      "fr": "Obtenir un Devis",
+      "ar": "احصل على عرض سعر",
+      "pt": "Obter Cotação",
+      "ru": "Получить Котировку",
+      "ja": "見積もりを依頼",
+      "de": "Angebot Erhalten",
+      "hi": "कोटेशन प्राप्त करें"
+    },
+    "link": "/#inquiry"
+  }
 }

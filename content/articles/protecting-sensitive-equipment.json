@@ -55,5 +55,32 @@
       "heading": { "en": "Return on Investment Calculation", "zh": "投资回报计算", "es": "Cálculo del retorno de la inversión", "fr": "Calcul du retour sur investissement", "ar": "حساب العائد على الاستثمار", "pt": "Cálculo de retorno do investimento", "ru": "Расчет окупаемости инвестиций", "ja": "ROI計算", "de": "ROI-Berechnung", "hi": "निवेश पर प्रतिफल गणना" },
       "body": { "en": "Calculate AVR protection ROI using this formula: Annual Protection Cost = (AVR Cost / 10 years) + (Power Loss × Electricity Rate). Annual Risk Cost = (Downtime Hours × Hourly Loss) + (Repair/Replace Costs × Failure Probability). Example: A $2,000 10KVA AVR protecting a CNC machine ($50,000 value). Without AVR: 2 failures/year × $5,000 repair = $10,000/year risk. With AVR: $200/year cost + $200 power loss = $400/year cost. Annual savings: $9,600. Protection ROI: Achieved in approximately 3 months.", "zh": "使用此公式计算AVR保护投资回报：年度保护成本 =（AVR成本/10年）+（功率损耗×电价）。年度风险成本 =（停机时间×每小时损失）+（维修/更换成本×故障概率）。示例：一台$2,000的10KVA AVR保护一台价值$50,000的CNC机床。无AVR：每年2次故障×$5,000维修 = $10,000/年风险。有AVR：$200/年成本+$200电力损耗 = $400/年成本。年度节省：$9,600。保护投资回报：大约在3个月内实现。", "es": "Calcule el ROI de protección AVR usando esta fórmula: Costo Anual de Protección = (Costo AVR / 10 años) + (Pérdida de Energía × Tarifa Eléctrica).", "fr": "Calculez le ROI de protection AVR en utilisant cette formule: Coût Annuel de Protection = (Coût AVR / 10 ans) + (Pertes × Tarif Électrique).", "ar": "احسب عائد الاستثمار لحماية AVR باستخدام هذه الصيغة: التكلفة السنوية للحماية = (تكلفة AVR / 10 سنوات) + (فقدان الطاقة × سعر الكهرباء).", "pt": "Calcule o ROI de proteção do AVR usando esta fórmula: Custo Anual de Proteção = (Custo AVR / 10 anos) + (Perda de Energia × Tarifa Elétrica).", "ru": "Рассчитайте окупаемость защиты AVR по этой формуле: Годовая стоимость защиты = (Стоимость AVR / 10 лет) + (Потери × Тариф).", "ja": "この公式を使用してAVR保護ROIを計算します：年間保護コスト =（AVRコスト/10年）+（電力損失×電気料金）。", "de": "Berechnen Sie den AVR-Schutz-ROI mit dieser Formel: Jährliche Schutzkosten = (AVR-Kosten / 10 Jahre) + (Verluste × Strompreis).", "hi": "इस फॉर्मूले का उपयोग करके AVR सुरक्षा ROI की गणना करें: वार्षिक सुरक्षा लागत = (AVR लागत / 10 साल) + (पावर लॉस × बिजली दर)।" }
     }
-  ]
+  ],
+  "cta": {
+    "text": {
+      "en": "Protect your sensitive equipment with YOKE AVR stabilizers. Ideal for medical, IT, and precision applications.",
+      "zh": "使用YOKE AVR稳压器保护您的敏感设备。非常适合医疗、IT和精密应用。",
+      "es": "Proteja sus equipos sensibles con estabilizadores AVR de YOKE. Ideal para aplicaciones médicas, TI y de precisión.",
+      "fr": "Protégez vos équipements sensibles avec les stabilisateurs AVR YOKE. Idéal pour les applications médicales, informatiques et de précision.",
+      "ar": "حماية المعدات الحساسة الخاصة بك مع مثبتات AVR من YOKE. مثالي للتطبيقات الطبية وتكنولوجيا المعلومات والدقيقة.",
+      "pt": "Proteja seus equipamentos sensíveis com estabilizadores AVR YOKE. Ideal para aplicações médicas, de TI e precisão.",
+      "ru": "Защитите чувствительное оборудование с помощью стабилизаторов AVR YOKE. Идеально для медицинских, IT и прецизионных приложений.",
+      "ja": "YOKE AVR安定化装置で敏感な機器を保護。医療、IT、精密アプリケーションに最適。",
+      "de": "Schützen Sie Ihre empfindlichen Geräte mit YOKE AVR-Stabilisatoren. Ideal für Medizin-, IT- und Präzisionsanwendungen.",
+      "hi": "YOKE AVR स्टेबलाइज़र के साथ अपने संवेदनशील उपकरणों की रक्षा करें। चिकित्सा, IT और सटीक अनुप्रयोगों के लिए आदर्श।"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价",
+      "es": "Obtener Cotización",
+      "fr": "Obtenir un Devis",
+      "ar": "احصل على عرض سعر",
+      "pt": "Obter Cotação",
+      "ru": "Получить Котировку",
+      "ja": "見積もりを依頼",
+      "de": "Angebot Erhalten",
+      "hi": "कोटेशन प्राप्त करें"
+    },
+    "link": "/#inquiry"
+  }
 }

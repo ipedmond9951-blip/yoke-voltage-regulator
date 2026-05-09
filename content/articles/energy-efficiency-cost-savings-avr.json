@@ -50,5 +50,32 @@
       "heading": { "en": "Calculating Your AVR ROI", "zh": "计算您的AVR投资回报", "es": "Cálculo de su ROI de AVR", "fr": "Calcul de votre ROI AVR", "ar": "حساب عائد الاستثمار AVR الخاص بك", "pt": "Calculando seu ROI do AVR", "ru": "Расчет окупаемости вашего AVR", "ja": "AVR ROIの計算", "de": "Berechnung Ihrer AVR-ROI", "hi": "अपने AVR ROI की गणना करना" },
       "body": { "en": "Calculate your AVR return on investment: Step 1: List protected equipment value (replacement cost if damaged). Step 2: Estimate annual downtime cost (hours × hourly loss rate). Step 3: Calculate energy waste from voltage issues (typically 5-15% of energy bill). Step 4: Add annual savings from steps 2+3. Step 5: Divide AVR cost by annual savings = payback in years. Most installations achieve payback in 6-18 months. Consider also: Reduced insurance premiums for some businesses with power quality protection. Potential utility rebates for power factor improvements. Tax benefits for capital equipment investments in some regions.", "zh": "计算您的AVR投资回报：第1步：列出受保护设备价值（如果损坏的更换成本）。第2步：估计年度停机成本（小时×小时损失率）。第3步：计算电压问题造成的能源浪费（通常为能源账单的5-15%）。第4步：将步骤2+3的年度节省相加。第5步：用AVR成本除以年度节省 = 以年为单位的回收期。大多数安装可在6-18个月内实现回收。还要考虑：某些企业因电能质量保护而降低保险费。因功率因数改善而可能获得公用事业回扣。某些地区资本设备投资的税收优惠。", "es": "Calcule su retorno de inversión AVR: Paso 1: Liste el valor del equipo protegido. Paso 2: Estime el costo anual de tiempo de inactividad. Paso 3: Calcule el desperdicio de energía.", "fr": "Calculez votre retour sur investissement AVR: Étape 1: Listez la valeur de l'équipement protégé. Étape 2: Estimez le coût annuel des temps d'arrêt.", "ar": "احسب عائد الاستثمار AVR الخاص بك: الخطوة 1: قائمة قيمة المعدات المحمية. الخطوة 2: تقدير التكلفة السنوية للتوقف.", "pt": "Calcule seu retorno de investimento do AVR: Passo 1: Liste o valor do equipamento protegido. Passo 2: Estime o custo anual de tempo de inatividade.", "ru": "Рассчитайте окупаемость вашего AVR: Шаг 1: Перечислите стоимость защищенного оборудования. Шаг 2: Оцените годовую стоимость простоя.", "ja": "AVR ROIを計算します：ステップ1：保護された機器の値をリストします。ステップ2：年間ダウンタイムコストを推定します。", "de": "Berechnen Sie Ihre AVR-Return on Investment: Schritt 1: Listen Sie den Wert der geschützten Geräte auf.", "hi": "अपने AVR ROI की गणना करें: चरण 1: संरक्षित उपकरण मूल्य की सूची बनाएं। चरण 2: वार्षिक डाउनटाइम लागत का अनुमान लगाएं।" }
     }
-  ]
+  ],
+  "cta": {
+    "text": {
+      "en": "Save energy and reduce costs with YOKE AVR stabilizers. ROI typically achieved in 6-18 months.",
+      "zh": "使用YOKE AVR稳压器节省能源并降低成本。通常在6-18个月内实现投资回报。",
+      "es": "Ahorre energía y reduzca costos con estabilizadores AVR de YOKE. ROI típicamente logrado en 6-18 meses.",
+      "fr": "Économisez de l'énergie et réduisez les coûts avec les stabilisateurs AVR YOKE. ROI généralement atteint en 6-18 mois.",
+      "ar": "وفر الطاقة وقلل التكاليف مع مثبتات AVR من YOKE. يتحقق العائد على الاستثمار عادةً خلال 6-18 شهرًا.",
+      "pt": "Economize energia e reduza custos com estabilizadores AVR YOKE. ROI tipicamente alcançado em 6-18 meses.",
+      "ru": "Экономьте энергию и снижайте затраты с помощью стабилизаторов AVR YOKE. ROI обычно достигается за 6-18 месяцев.",
+      "ja": "YOKE AVR安定化装置でエネルギー、コストを節約。通常6-18ヶ月でROIを達成。",
+      "de": "Sparen Sie Energie und reduzieren Sie Kosten mit YOKE AVR-Stabilisatoren. ROI typischerweise in 6-18 Monaten erreicht.",
+      "hi": "YOKE AVR स्टेबलाइज़र के साथ ऊर्जा बचाएं और लागत कम करें। ROI आमतौर पर 6-18 महीने में प्राप्त होती है।"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价",
+      "es": "Obtener Cotización",
+      "fr": "Obtenir un Devis",
+      "ar": "احصل على عرض سعر",
+      "pt": "Obter Cotação",
+      "ru": "Получить Котировку",
+      "ja": "見積もりを依頼",
+      "de": "Angebot Erhalten",
+      "hi": "कोटेशन प्राप्त करें"
+    },
+    "link": "/#inquiry"
+  }
 }

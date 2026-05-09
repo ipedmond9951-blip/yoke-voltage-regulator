@@ -50,5 +50,40 @@
       "heading": { "en": "Signs Your AVR Needs Replacement", "zh": "需要更换AVR的迹象", "es": "Señales de que su AVR necesita reemplazo", "fr": "Signes que votre AVR a besoin d'un remplacement", "ar": "علامات أن AVR الخاص بك يحتاج إلى استبدال", "pt": "Sinais de que seu AVR precisa de substituição", "ru": "Признаки того, что ваш AVR нуждается в замене", "ja": "AVRの交換が必要な兆候", "de": "Anzeichen dafür, dass Ihr AVR ausgetauscht werden muss", "hi": "यह संकेत कि आपके AVR की जरूरत है बदलाव" },
       "body": { "en": "Even well-maintained AVRs have a finite lifespan. Replace your AVR when: It's over 8-10 years old with heavy daily use. You notice a burning smell that persists. The voltage output is consistently outside ±10% of nominal despite adjustment attempts. The unit has suffered physical damage (drops, water exposure, lightning strike). It requires frequent repairs or adjustments. The cost of repairs approaches 50% of replacement cost. New technology offers significantly better efficiency or features. YOKE provides warranty coverage and offers replacement units for models across their product range.", "zh": "即使维护良好的AVR也有有限的使用寿命。在以下情况下更换您的AVR：使用8-10年以上且每天重负荷使用时。您注意到持续存在的燃烧气味。尽管尝试调整，电压输出始终超出标称值的±10%。设备遭受了物理损坏（跌落、浸水、雷电击中）。需要频繁维修或调整。维修费用接近更换成本的50%。新技术提供显著更好的效率或功能。YOKE提供保修范围，并为整个产品系列的型号提供更换设备。", "es": "Incluso los AVR bien mantenidos tienen una vida útil finita. Reemplace su AVR cuando: Tiene más de 8-10 años con uso diario intensivo. Nota un olor a quemado persistente.", "fr": "Même les AVR bien entretenus ont une durée de vie finie. Remplacez votre AVR quand: Il a plus de 8-10 ans avec une utilisation quotidienne intensive.", "ar": "حتى AVRs ذات الصيانة الجيدة لها عمر افتراضي محدود. استبدل AVR الخاص بك عندما: عمرها أكثر من 8-10 سنوات مع استخدام يومي مكثف.", "pt": "Mesmo os AVRs bem mantidos têm vida útil finita. Substitua seu AVR quando: Tem mais de 8-10 anos com uso diário intenso.", "ru": "Даже хорошо обслуживаемые AVR имеют ограниченный срок службы. Замените ваш AVR, когда: Ему более 8-10 лет при интенсивной ежедневной эксплуатации.", "ja": "適切にメンテナンスされたAVRでさえ有限の耐用年数があります。AVRを交換するタイミング：8-10年以上経過し、日常的にヘビーユースしている場合。", "de": "Auch gut gewartete AVRs haben eine begrenzte Lebensdauer. Ersetzen Sie Ihren AVR, wenn: Er über 8-10 Jahre alt ist bei starker täglicher Nutzung.", "hi": "अच्छी तरह से बनाए रखे गए AVRs की भी एक सीमित आयु होती है। अपने AVR को बदलें जब: यह 8-10 साल से अधिक पुराना हो और भारी दैनिक उपयोग हो।" }
     }
-  ]
+  ],
+  "faqItems": [
+    {
+      "q": { "en": "How often should I maintain my AVR?", "zh": "我应该多久维护一次AVR？" },
+      "a": { "en": "Perform visual inspections monthly, clean the unit quarterly, and have a professional service annually.", "zh": "每月进行一次目视检查，每季度清洁设备，每年进行一次专业维护。" }
+    }
+  ],
+  "relatedProducts": [],
+  "relatedArticles": ["yoke-avr-installation-guide", "protecting-sensitive-equipment"],
+  "cta": {
+    "text": {
+      "en": "Need AVR maintenance support? YOKE provides technical documentation and spare parts for all models.",
+      "zh": "需要AVR维护支持？YOKE为所有型号提供技术文档和备件。",
+      "es": "¿Necesita soporte de mantenimiento AVR? YOKE proporciona documentación técnica y piezas de repuesto para todos los modelos.",
+      "fr": "Besoin de support de maintenance AVR? YOKE fournit une documentation technique et des pièces de rechange pour tous les modèles.",
+      "ar": "هل تحتاج دعم صيانة AVR؟ تقدم YOKE وثائق تقنية وقطع غيار لجميع الموديلات.",
+      "pt": "Precisa de suporte de manutenção AVR? A YOKE fornece documentação técnica e peças de reposição para todos os modelos.",
+      "ru": "Нужна поддержка по обслуживанию AVR? YOKE предоставляет техническую документацию и запасные части для всех моделей.",
+      "ja": "AVRメンテナンスサポートが必要ですか？YOKEはすべてのモデルに技術文書と予備部品を提供します。",
+      "de": "Benötigen Sie AVR-Wartungsunterstützung? YOKE bietet technische Dokumentation und Ersatzteile für alle Modelle.",
+      "hi": "AVR रखरखाव सहायता चाहिए? YOKE सभी मॉडलों के लिए तकनीकी दस्तावेज़ीकरण और रखे गए parts प्रदान करता है।"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价",
+      "es": "Obtener Cotización",
+      "fr": "Obtenir un Devis",
+      "ar": "احصل على عرض سعر",
+      "pt": "Obter Cotação",
+      "ru": "Получить Котировку",
+      "ja": "見積もりを依頼",
+      "de": "Angebot Erhalten",
+      "hi": "कोटेशन प्राप्त करें"
+    },
+    "link": "/#inquiry"
+  }
 }

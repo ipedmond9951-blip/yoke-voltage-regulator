@@ -55,5 +55,32 @@
       "heading": { "en": "First-Time Operation", "zh": "首次操作", "es": "Operación por primera vez", "fr": "Première utilisation", "ar": "التشغيل لأول مرة", "pt": "Primeira operação", "ru": "Первый запуск", "ja": "最初の操作", "de": "Erstinbetriebnahme", "hi": "पहली बार संचालन" },
       "body": { "en": "Follow these steps for first-time startup: Verify all connections are tight and correct. Remove any tools or materials from the work area. Turn ON the main power to the AVR. Wait 10-15 seconds for the unit to initialize. Check the display (if equipped) shows normal input voltage. Observe the output voltage reading matches expected value (±5V of target). Allow the AVR to run for 30 minutes with no load to verify stable operation. Gradually add your equipment load, monitoring for any abnormalities. YOKE SVC units have LED indicators: Green = Normal, Yellow = Adjusting, Red = Fault.", "zh": "请按照以下步骤进行首次启动：验证所有连接紧固且正确。从工作区域移除任何工具或材料。打开AVR的主电源。等待10-15秒让设备初始化。检查显示器（如配备）显示正常输入电压。观察输出电压读数与预期值匹配（在目标电压的±5V以内）。让AVR在无负载情况下运行30分钟以验证稳定运行。逐渐增加您的设备负载，监控任何异常情况。YOKE SVC设备有LED指示灯：绿色=正常，黄色=调整中，红色=故障。", "es": "Siga estos pasos para el primer arranque: Verifique que todas las conexiones estén apretadas y correctas. Retire cualquier herramienta o material del área de trabajo. Encienda la energía principal al AVR.", "fr": "Suivez ces étapes pour le premier démarrage: Vérifiez que toutes les connexions sont serrées et correctes. Retirez tout outil ou matériau de la zone de travail.", "ar": "اتبع هذه الخطوات للبدء لأول مرة: تحقق من أن جميع التوصيلات محكمة وصحيحة. أزل أي أدوات أو مواد من منطقة العمل.", "pt": "Siga estes passos para a primeira partida: Verifique se todas as conexões estão apertadas e corretas. Remova quaisquer ferramentas ou materiais da área de trabalho.", "ru": "Следуйте этим шагам для первого запуска: Убедитесь, что все соединения плотные и правильные. Уберите инструменты и материалы из рабочей зоны.", "ja": "初めて起動するための次の手順に従ってください：すべての接続が緩まずに正しいことを確認してください。作業領域からツールや材料を取り除いてください。", "de": "Befolgen Sie diese Schritte für die erste Inbetriebnahme: Überprüfen Sie, ob alle Verbindungen fest und korrekt sind. Entfernen Sie alle Werkzeuge oder Materialien aus dem Arbeitsbereich.", "hi": "पहली बार स्टार्टअप के लिए इन चरणों का पालन करें: सभी कनेक्शन के सही और टाइट होने की पुष्टि करें। कार्य क्षेत्र से किसी भी उपकरण या सामग्री को हटा दें।" }
     }
-  ]
+  ],
+  "cta": {
+    "text": {
+      "en": "Professional installation support available. Contact YOKE for technical guidance and after-sales service.",
+      "zh": "提供专业安装支持。联系YOKE获取技术指导和售后服务。",
+      "es": "Soporte de instalación profesional disponible. Contacte a YOKE para orientación técnica y servicio postventa.",
+      "fr": "Support d'installation professionnel disponible. Contactez YOKE pour des conseils techniques et un service après-vente.",
+      "ar": "يتوفر دعم التثبيت الاحترافي. تواصل مع YOKE للحصول على إرشادات تقنية وخدمة ما بعد البيع.",
+      "pt": "Suporte de instalação profissional disponível. Entre em contato com a YOKE para orientação técnica e serviço pós-venda.",
+      "ru": "Доступна профессиональная поддержка по установке. Свяжитесь с YOKE для получения технических рекомендаций и послепродажного обслуживания.",
+      "ja": "プロフェッショナルなインストールサポートが利用可能。技術ガイダンスとアフターサービスについてはYOKEにお問い合わせくだい。",
+      "de": "Professionelle Installationsunterstützung verfügbar. Kontaktieren Sie YOKE für technische Anleitung und Kundendienst.",
+      "hi": "पेशेवर इंस्टॉलेशन सहायता उपलब्ध। तकनीकी मार्गदर्शन और बिक्री के बाद सेवा के लिए YOKE से संपर्क करें।"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价",
+      "es": "Obtener Cotización",
+      "fr": "Obtenir un Devis",
+      "ar": "احصل على عرض سعر",
+      "pt": "Obter Cotação",
+      "ru": "Получить Котировку",
+      "ja": "見積もりを依頼",
+      "de": "Angebot Erhalten",
+      "hi": "कोटेशन प्राप्त करें"
+    },
+    "link": "/#inquiry"
+  }
 }

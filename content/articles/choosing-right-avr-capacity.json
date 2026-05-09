@@ -55,5 +55,40 @@
       "heading": { "en": "Common Sizing Mistakes to Avoid", "zh": "应避免的常见选型错误", "es": "Errores comunes de dimensionamiento a evitar", "fr": "Erreurs de dimensionnement courantes à éviter", "ar": "أخطاء الحجم الشائعة التي يجب تجنبها", "pt": "Erros comuns de dimensionamento a evitar", "ru": "Распространенные ошибки при выборе, которых следует избегать", "ja": "避けるべき一般的なサイジングエラー", "de": "Häufige Dimensionierungsfehler vermeiden", "hi": "सामान्य साइज़िंग गलतियों से बचें" },
       "body": { "en": "1. Ignoring motor starting currents: Motors draw 3-5× normal current at startup. 2. Not accounting for future expansion: Always add 20-30% capacity margin. 3. Mixing voltage classes: Ensure input voltage range matches your local grid (110V or 220V systems). 4. Forgetting power factor: Using PF=1.0 for motor loads underestimates required KVA. 5. Overlooking efficiency curves: AVRs operate most efficiently at 60-80% load. 6. Ignoring load type: Some equipment (laser printers, MRI machines) have unique power quality needs.", "zh": "1. 忽略电机启动电流：电机在启动时消耗正常电流的3-5倍。2. 没有考虑未来扩展：始终添加20-30%的容量余量。3. 混合电压等级：确保输入电压范围与当地电网匹配（110V或220V系统）。4.忘记功率因数：对电机负载使用PF=1.0会低估所需KVA。5. 忽略效率曲线：AVR在60-80%负载时效率最高。6. 忽视负载类型：某些设备（激光打印机、MRI机器）有特殊的电能质量需求。", "es": "1. Ignorar las corrientes de arranque del motor: Los motores consumen 3-5× la corriente normal en el arranque. 2. No tener en cuenta la expansión futura: Siempre agregue un margen de capacidad del 20-30%. 3. Mezclar clases de voltaje: Asegúrese de que el rango de voltaje de entrada coincida con su red local.", "fr": "1. Ignorer les courants de démarrage des moteurs: Les moteurs consomment 3-5× le courant normal au démarrage. 2. Ne pas tenir compte de l'expansion future: Ajoutez toujours une marge de capacité de 20-30%.", "ar": "1. تجاهل تيارات بدء المحرك: تستهلك المحركات 3-5× التيار العادي عند البدء. 2. عدم مراعاة التوسع المستقبلي: أضف دائمًا هامش سعة 20-30%.", "pt": "1. Ignorar correntes de partida do motor: Motores consomem 3-5× a corrente normal na partida. 2. Não considerar expansão futura: Sempre adicione margem de capacidade de 20-30%.", "ru": "1. Игнорирование пусковых токов двигателей: Двигатели потребляют в 3-5 раз больший ток при пуске. 2. Не учет будущего расширения: Всегда добавляйте запас мощности 20-30%.", "ja": "1. モーターの始動電流を無視する：モーターは始動時に通常の電流の3-5倍を消費します。2. 将来の拡張を考慮しない：常に20-30%の容量マージンを追加してください。", "de": "1. Anlaufströme der Motoren ignorieren: Motoren ziehen beim Start 3-5× den normalen Strom. 2. Zukünftige Erweiterung nicht berücksichtigen: Fügen Sie immer 20-30% Kapazitätsreserve hinzu.", "hi": "1. मोटर स्टार्टिंग करंट को अनदेखा करना: मोटर स्टार्टअप पर सामान्य करंट का 3-5× ड्रॉ करती हैं। 2. भविष्य के विस्तार के लिए खाते नहीं: हमेशा 20-30% क्षमता मार्जिन जोड़ें।" }
     }
-  ]
+  ],
+  "faqItems": [
+    {
+      "q": { "en": "How do I calculate AVR capacity needed?", "zh": "如何计算所需的AVR容量？" },
+      "a": { "en": "Add up the total wattage of all equipment you want to protect, then multiply by 1.2 to account for startup currents. Choose an AVR with capacity at least 20% higher than this total.", "zh": "将您想要保护的所有设备的总瓦数相加，然后乘以1.2以考虑启动电流。选择容量至少比这个总数高20%的AVR。" }
+    }
+  ],
+  "relatedProducts": [],
+  "relatedArticles": ["how-automatic-voltage-regulators-work", "understanding-avr-specifications"],
+  "cta": {
+    "text": {
+      "en": "Not sure which AVR capacity you need? Contact YOKE for professional sizing guidance and competitive pricing.",
+      "zh": "不确定需要哪种AVR容量？联系YOKE获取专业选型指导和竞争性价格。",
+      "es": "¿No está seguro de qué capacidad AVR necesita? Contacte a YOKE para orientación de dimensionamiento profesional y precios competitivos.",
+      "fr": "Vous ne savez pas quelle capacité AVR vous avez besoin? Contactez YOKE pour des conseils de dimensionnement professionnels et des prix compétitifs.",
+      "ar": "هل أنت غير متأكد من سعة AVR التي تحتاجها؟ تواصل مع YOKE للحصول على إرشادات تحديد الحجم الاحترافية والأسعار التنافسية.",
+      "pt": "Não tem certeza de qual capacidade AVR você precisa? Entre em contato com a YOKE para orientação de dimensionamento profissional e preços competitivos.",
+      "ru": "Не знаете, какой емкости AVR вам нужен? Свяжитесь с YOKE для профессиональной консультации по подбору и конкурентоспособным ценам.",
+      "ja": "必要なAVR容量が不明ですか？YOKEに專業的なサイジング guidanceと競争力のある料金についてお問い合わせくだい。",
+      "de": "Nicht sicher, welche AVR-Kapazität Sie benötigen? Kontaktieren Sie YOKE für professionelle Dimensionierungsberatung und wettbewerbsfähige Preise.",
+      "hi": "क्या आपको यकीन नहीं है कि आपको कौन सी AVR क्षमता चाहिए? पेशेवर आकार मार्गदर्शन और प्रतिस्पर्धी मूल्य निर्धारण के लिए YOKE से संपर्क करें।"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价",
+      "es": "Obtener Cotización",
+      "fr": "Obtenir un Devis",
+      "ar": "احصل على عرض سعر",
+      "pt": "Obter Cotação",
+      "ru": "Получить Котировку",
+      "ja": "見積もりを依頼",
+      "de": "Angebot Erhalten",
+      "hi": "कोटेशन प्राप्त करें"
+    },
+    "link": "/#inquiry"
+  }
 }

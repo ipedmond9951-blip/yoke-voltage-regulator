@@ -55,5 +55,40 @@
       "heading": { "en": "YOKE's Recommendation", "zh": "YOKE的建议", "es": "Recomendación de YOKE", "fr": "Recommandation de YOKE", "ar": "توصية YOKE", "pt": "Recomendação da YOKE", "ru": "Рекомендация YOKE", "ja": "YOKEの推奨", "de": "YOKE's Empfehlung", "hi": "YOKE की सिफारिश" },
       "body": { "en": "For most residential and commercial applications, YOKE TND series offers the best value with faster response and higher efficiency at a lower cost. Choose TND for: home appliances, air conditioners, refrigerators, televisions, computers, office equipment, and small commercial establishments. Choose YOKE SVC series when: You need the highest precision for sensitive laboratory or medical equipment, you have heavy inductive motor loads that require smooth starting, or you need to run at near-full load continuously.", "zh": "对于大多数住宅和商业应用，YOKE TND系列以更低的成本提供更快的响应和更高的效率，是最佳选择。选择TND用于：家用电器、空调、冰箱、电视、电脑、办公设备和小型商业场所。在以下情况下选择YOKE SVC系列：当您需要对敏感实验室或医疗设备达到最高精度，您有需要平滑启动的重型感性电机负载，或者您需要接近满负载连续运行。", "es": "Para la mayoría de las aplicaciones residenciales y comerciales, la serie YOKE TND ofrece el mejor valor con mayor velocidad de respuesta y mayor eficiencia a un costo menor. Elija TND para: electrodomésticos, aires acondicionados, neveras, televisores, computadoras.", "fr": "Pour la plupart des applications résidentielles et commerciales, la série YOKE TND offre le meilleur rapport qualité-prix avec un temps de réponse plus rapide et une efficacité plus élevée à un coût inférieur. Choisissez TND pour: appareils électroménagers, climatiseurs, réfrigérateurs.", "ar": "بالنسبة لمعظم التطبيقات السكنية والتجارية، تقدم سلسلة YOKE TND أفضل قيمة مع استجابة أسرع وكفاءة أعلى بتكلفة أقل. اختر TND لـ: الأجهزة المنزلية، مكيفات الهواء، الثلاجات، التلفزيونات، أجهزة الكمبيوتر.", "pt": "Para a maioria das aplicações residenciais e comerciais, a série YOKE TND oferece o melhor valor com resposta mais rápida e maior eficiência a um custo menor. Escolha TND para: eletrodomésticos, ar condicionado, geladeiras, televisores.", "ru": "Для большинства жилых и коммерческих приложений серия YOKE TND предлагает лучшее соотношение цены и качества с более быстрым откликом и более высокой эффективностью при более низкой стоимости. Выберите TND для: бытовой техники, кондиционеров, холодильников.", "ja": "ほとんどの住宅および商業用途において、YOKE TNDシリーズは、より低いコストでより高速な応答とより高い効率を提供し、的最佳の価値を提供します。TNDを選択：家庭用电器、エアコン、冷蔵庫、テレビ、コンピュータ、OA機器。", "de": "Für die meisten Wohn- und Gewerbeanwendungen bietet die YOKE TND-Serie das beste Preis-Leistungs-Verhältnis mit schnellerer Reaktionszeit und höherem Wirkungsgrad zu niedrigeren Kosten. Wählen Sie TND für: Haushaltsgeräte, Klimaanlagen, Kühlschränke.", "hi": "अधिकांश आवासीय और व्यावसायिक अनुप्रयोगों के लिए, YOKE TND सीरीज कम लागत पर तेज़ प्रतिक्रिया और उच्च दक्षता के साथ सबसे अच्छा मूल्य प्रदान करती है। TND चुनें: घरेलू उपकरणों, एयर कंडीशनर, रेफ्रिजरेटर, टीवी, कंप्यूटर।" }
     }
-  ]
+  ],
+  "faqItems": [
+    {
+      "q": { "en": "What is the difference between SVC and TND series?", "zh": "SVC和TND系列有什么区别？" },
+      "a": { "en": "SVC (Servo Voltage Stabilizer) uses a servo motor for fine adjustment, while TND (Tungstar Numeric Display) uses digital control for faster response and better precision.", "zh": "SVC（伺服电压稳压器）使用伺服电机进行精细调整，而TND（Tungstar数字显示）使用数字控制以获得更快的响应和更好的精度。" }
+    }
+  ],
+  "relatedProducts": [],
+  "relatedArticles": ["understanding-avr-specifications", "industrial-applications-voltage-stabilizers"],
+  "cta": {
+    "text": {
+      "en": "Compare YOKE SVC and TND series AVRs to find the perfect voltage regulator for your application.",
+      "zh": "比较YOKE SVC和TND系列AVR，找到适合您应用的完美电压调节器。",
+      "es": "Compare los AVR de las series SVC y TND de YOKE para encontrar el regulador de voltaje perfecto para su aplicación.",
+      "fr": "Comparez les AVR des séries SVC et TND de YOKE pour trouver le régulateur de tension parfait pour votre application.",
+      "ar": "قارن AVRs من سلسلة SVC و TND من YOKE للعثور على منظم الجهد المثالي لتطبيقك.",
+      "pt": "Compare os AVRs das séries SVC e TND da YOKE para encontrar o regulador de tensão perfeito para sua aplicação.",
+      "ru": "Сравните AVR серий SVC и TND от YOKE, чтобы найти идеальный стабилизатор напряжения для вашего применения.",
+      "ja": "YOKEのSVCとTNDシリーズのAVRを比較して、アプリケーションに最適な電圧レ регуляторを見つけてください。",
+      "de": "Vergleichen Sie YOKE SVC- und TND-Serie AVRs, um den perfekten Spannungsregler für Ihre Anwendung zu finden.",
+      "hi": "अपने एप्लिकेशन के लिए परिपूर्ण वोल्टेज रेगुलेटर खोजने के लिए YOKE SVC और TND सीरीज AVR की तुलना करें।"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价",
+      "es": "Obtener Cotización",
+      "fr": "Obtenir un Devis",
+      "ar": "احصل على عرض سعر",
+      "pt": "Obter Cotação",
+      "ru": "Получить Котировку",
+      "ja": "見積もりを依頼",
+      "de": "Angebot Erhalten",
+      "hi": "कोटेशन प्राप्त करें"
+    },
+    "link": "/#inquiry"
+  }
 }

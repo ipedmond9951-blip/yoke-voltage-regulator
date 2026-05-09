@@ -55,5 +55,40 @@
       "heading": { "en": "Choosing AVR for Industrial Applications", "zh": "为工业应用选择AVR", "es": "Elección de AVR para aplicaciones industriales", "fr": "Choisir un AVR pour les applications industrielles", "ar": "اختيار AVR للتطبيقات الصناعية", "pt": "Escolhendo AVR para aplicações industriais", "ru": "Выбор AVR для промышленных применений", "ja": "産業用途向けのAVRの選択", "de": "AVR für industrielle Anwendungen auswählen", "hi": "औद्योगिक अनुप्रयोगों के लिए AVR चुनना" },
       "body": { "en": "Industrial AVR selection criteria: Capacity: Calculate total load plus 30% margin. Consider starting currents for motor loads. Response time: Faster is better for sensitive processes. Consider TND series for faster response. Voltage range: Match to your local grid conditions (140V-260V standard). Efficiency: Higher efficiency means lower operating costs. YOKE industrial AVRs (30KVA-60KVA) feature: Robust construction for factory environments, heat-resistant components, bypass capability for maintenance, remote monitoring and alarms, CE/CB certifications for international standards.", "zh": "工业AVR选择标准：容量：计算总负载加30%余量。考虑电机负载的启动电流。响应时间：对于敏感工艺，越快越好。考虑TND系列以获得更快响应。电压范围：与当地电网条件匹配（140V-260V标准）。效率：更高的效率意味着更低的运营成本。YOKE工业AVR（30KVA-60KVA）特点：专为工厂环境设计的坚固结构，耐热组件，维护旁路能力，远程监控和警报，符合国际标准的CE/CB认证。", "es": "Criterios de selección de AVR industrial: Capacidad: Calcule la carga total más un margen del 30%. Tiempo de respuesta: Más rápido es mejor para procesos sensibles.", "fr": "Critères de sélection AVR industriel: Capacité: Calculez la charge totale plus une marge de 30%. Temps de réponse: Plus rapide est mieux pour les processus sensibles.", "ar": "معايير اختيار AVR الصناعي: السعة: احسب الحمل الكلي زائد هامش 30%. وقت الاستجابة: الأسرع أفضل للعمليات الحساسة.", "pt": "Critérios de seleção de AVR industrial: Capacidade: Calcule a carga total mais margem de 30%. Tempo de resposta: Mais rápido é melhor para processos sensíveis.", "ru": "Критерии выбора промышленного AVR: Мощность: Рассчитайте общую нагрузку плюс 30% запас. Время отклика: Чем быстрее, тем лучше для чувствительных процессов.", "ja": "産業用AVR選択基準：容量：合計負荷に30%のマージンを計算。応答時間：敏感なプロセスのためにより高速が有利。", "de": "Kriterien für industrielle AVR-Auswahl: Kapazität: Berechnen Sie die Gesamtlast plus 30% Reserve. Reaktionszeit: Schneller ist besser für empfindliche Prozesse.", "hi": "औद्योगिक AVR चयन मानदंड: क्षमता: कुल भार और 30% मार्जिन की गणना करें। रिस्पॉन्स टाइम: संवेदनशील प्रक्रियाओं के लिए तेज़ बेहतर है।" }
     }
-  ]
+  ],
+  "faqItems": [
+    {
+      "q": { "en": "What industries benefit most from AVRs?", "zh": "哪些行业从AVR中受益最多？" },
+      "a": { "en": "Manufacturing, healthcare, IT data centers, telecommunications, and research facilities benefit most from voltage stabilization.", "zh": "制造业、医疗保健、IT数据中心、电信和研究设施从电压稳定中受益最多。" }
+    }
+  ],
+  "relatedProducts": [],
+  "relatedArticles": ["protecting-sensitive-equipment", "avr-maintenance-troubleshooting-guide"],
+  "cta": {
+    "text": {
+      "en": "Industrial grade voltage stabilizers from YOKE. Reliable protection for your manufacturing operations.",
+      "zh": "YOKE工业级电压稳压器。为您的生产运营提供可靠保护。",
+      "es": "Estabilizadores de voltaje de grado industrial de YOKE. Protección confiable para sus operaciones de fabricación.",
+      "fr": "Stabilisateurs de tension de qualité industrielle de YOKE. Protection fiable pour vos opérations de fabrication.",
+      "ar": "مثبتات جهد من الدرجة الصناعية من YOKE. حماية موثوقة لعمليات التصنيع الخاصة بك.",
+      "pt": "Estabilizadores de tensão de grau industrial da YOKE. Proteção confiável para suas operações de fabricação.",
+      "ru": "Промышленные стабилизаторы напряжения от YOKE. Надежная защита для ваших производственных операций.",
+      "ja": "YOKEの産業用電圧安定化装置。製造オペレーションのための信頼性の高い保護。",
+      "de": "Industrielle Spannungsstabilisatoren von YOKE. Zuverlässiger Schutz für Ihre Fertigungsbetriebe.",
+      "hi": "YOKE से औद्योगिक ग्रेड वोल्टेज स्टेबलाइज़र। आपके विनिर्माण संचालन के लिए विश्वसनीय सुरक्षा।"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价",
+      "es": "Obtener Cotización",
+      "fr": "Obtenir un Devis",
+      "ar": "احصل على عرض سعر",
+      "pt": "Obter Cotação",
+      "ru": "Получить Котировку",
+      "ja": "見積もりを依頼",
+      "de": "Angebot Erhalten",
+      "hi": "कोटेशन प्राप्त करें"
+    },
+    "link": "/#inquiry"
+  }
 }

@@ -60,5 +60,44 @@
       "heading": { "en": "Why Choose YOKE AVRs?", "zh": "为什么选择YOKE AVR？", "es": "¿Por qué elegir los AVR de YOKE?", "fr": "Pourquoi choisir les AVR YOKE?", "ar": "لماذا تختار AVRs من YOKE؟", "pt": "Por que escolher os AVRs da YOKE?", "ru": "Почему стоит выбрать AVR YOKE?", "ja": "なぜYOKE AVRを選ぶのですか？", "de": "Warum YOKE AVR wählen?", "hi": "YOKE AVRs को क्यों चुनें?" },
       "body": { "en": "YOKE has over 10 years of experience manufacturing high-quality AVRs with CE and CB certifications. Our SVC and TND series are exported to 50+ countries worldwide, trusted by customers for reliability, competitive pricing, and excellent technical support. Whether you need to protect a single home appliance or an entire industrial facility, YOKE has the right AVR solution for your needs.", "zh": "YOKE拥有超过10年的高品质AVR制造经验，产品获得CE和CB认证。我们的SVC和TND系列产品出口到全球50多个国家，因可靠性、有竞争力的价格和出色的技术支持而受到客户信赖。无论您需要保护单个家用电器还是整个工业设施，YOKE都能为您提供合适的AVR解决方案。", "es": "YOKE tiene más de 10 años de experiencia en la fabricación de AVR de alta calidad con certificaciones CE y CB. Nuestra serie SVC y TND se exporta a más de 50 países en todo el mundo, clientes de confianza para la fiabilidad, precios competitivos y excelente soporte técnico.", "fr": "YOKE possède plus de 10 ans d'expérience dans la fabrication d'AVR de haute qualité avec les certifications CE et CB. Nos séries SVC et TND sont exportées vers plus de 50 pays à travers le monde, approuvées par les clients pour leur fiabilité, leurs prix compétitifs et leur excellent support technique.", "ar": "تمتلك YOKE أكثر من 10 سنوات من الخبرة في تصنيع AVR عالي الجودة مع شهادات CE و CB. يتم تصدير سلسلتي SVC و TND إلى أكثر من 50 دولة حول العالم، يثق بها العملاء لموثوقيتها وأسعارها التنافسية ودعمها الفني الممتاز.", "pt": "A YOKE tem mais de 10 anos de experiência na fabricação de AVRs de alta qualidade com certificações CE e CB. Nossas séries SVC e TND são exportadas para mais de 50 países em todo o mundo, confiadas pelos clientes pela confiabilidade, preços competitivos e excelente suporte técnico.", "ru": "YOKE имеет более чем 10-летний опыт производства высококачественных AVR с сертификатами CE и CB. Наша продукция серий SVC и TND экспортируется в более чем 50 стран мира и пользуется доверием клиентов благодаря надежности, конкурентоспособным ценам и отличной технической поддержке.", "ja": "YOKEはCEおよびCB認証を取得した高品質なAVR製造において10年以上の経験を持っています。SVCおよびTNDシリーズは50以上の国に輸出されており、信頼性、競争力のある価格、優れた技術サポートで顧客から信頼されています。", "de": "YOKE verfügt über mehr als 10 Jahre Erfahrung in der Herstellung hochwertiger AVR mit CE- und CB-Zertifizierungen. Unsere SVC- und TND-Serien werden in über 50 Länder weltweit exportiert und von Kunden für Zuverlässigkeit, wettbewerbsfähige Preise und hervorragenden technischen Support geschätzt.", "hi": "YOKE के पास CE और CB प्रमाणपत्रों के साथ उच्च-गुणवत्ता AVR निर्माण में 10 से अधिक वर्षों का अनुभव है। हमारी SVC और TND सीरीज 50 से अधिक देशों में निर्यात की जाती हैं, ग्राहकों द्वारा विश्वसनीयता, प्रतिस्पर्धी मूल्य और उत्कृष्ट तकनीकी सहायता के लिए विश्वास किया जाता है।" }
     }
-  ]
+  ],
+  "faqItems": [
+    {
+      "q": { "en": "How does an AVR work?", "zh": "AVR是如何工作的？" },
+      "a": { "en": "An AVR (Automatic Voltage Regulator) works by continuously monitoring the input voltage and automatically adjusting the output voltage using a transformer and control circuitry. When the input voltage drops or rises, the AVR compensates to maintain a stable output voltage.", "zh": "AVR（自动电压调节器）通过持续监控输入电压并使用变压器和控制电路自动调整输出电压来工作。当输入电压下降或上升时，AVR会补偿以保持稳定的输出电压。" }
+    },
+    {
+      "q": { "en": "What is the response time of YOKE AVRs?", "zh": "YOKE AVR的响应时间是多少？" },
+      "a": { "en": "YOKE AVRs typically respond to voltage changes within 1-5 seconds, depending on the model and load conditions.", "zh": "YOKE AVR通常在1-5秒内响应电压变化，具体取决于型号和负载条件。" }
+    }
+  ],
+  "relatedProducts": [],
+  "relatedArticles": ["choosing-right-avr-capacity", "voltage-fluctuations-causes-solutions"],
+  "cta": {
+    "text": {
+      "en": "Looking for reliable voltage regulators? YOKE offers professional AVR solutions with CE/CB certification and global shipping.",
+      "zh": "寻找可靠的电压调节器？YOKE提供专业的AVR解决方案，获得CE/CB认证并全球发货。",
+      "es": "¿Busca reguladores de voltaje confiables? YOKE ofrece soluciones AVR profesionales con certificación CE/CB y envío global.",
+      "fr": "Vous cherchez des régulateurs de tension fiables? YOKE propose des solutions AVR professionnelles avec certification CE/CB et expédition mondiale.",
+      "ar": "تبحث عن منظمات جهد موثوقة؟ تقدم YOKE حلول AVR احترافية بشهادة CE/CB وشحن عالمي.",
+      "pt": "Procurando reguladores de tensão confiáveis? A YOKE oferece soluções AVR profissionais com certificação CE/CB e envio global.",
+      "ru": "Ищете надежные стабилизаторы напряжения? YOKE предлагает профессиональные решения AVR с сертификацией CE/CB и глобальной доставкой.",
+      "ja": "信頼性の高い電圧調整器をお探しですか？YOKEはCE/CB認証とグローバル出荷を備えた专业的なAVRソリューションを提供します。",
+      "de": "Suchen Sie zuverlässige Spannungsregler? YOKE bietet professionelle AVR-Lösungen mit CE/CB-Zertifizierung und weltweitem Versand.",
+      "hi": "विश्वसनीय वोल्टेज रेगुलेटर की तलाश में? YOKE CE/CB प्रमाणन और वैश्विक शिपिंग के साथ पेशेवर AVR समाधान प्रदान करता है।"
+    },
+    "buttonText": {
+      "en": "Get Quote",
+      "zh": "获取报价",
+      "es": "Obtener Cotización",
+      "fr": "Obtenir un Devis",
+      "ar": "احصل على عرض سعر",
+      "pt": "Obter Cotação",
+      "ru": "Получить Котировку",
+      "ja": "見積もりを依頼",
+      "de": "Angebot Erhalten",
+      "hi": "कोटेशन प्राप्त करें"
+    },
+    "link": "/#inquiry"
+  }
 }
