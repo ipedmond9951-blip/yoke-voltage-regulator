@@ -9,6 +9,7 @@ import FAQSection from '@/components/FAQSection'
 import InquiryForm from '@/components/InquiryForm'
 import ShareButtons from '@/components/ShareButtons'
 import StatisticsSection from '@/components/StatisticsSection'
+import ArticlesSection from '@/components/ArticlesSection'
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }))
@@ -128,6 +129,7 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
       <AboutSection locale={locale} />
       <WhyChooseUs locale={locale} />
       <ProductGrid locale={locale} />
+      <ArticlesSection locale={locale} />
 
       {/* Application Scenarios - content depth for SEO */}
       <section className="py-12 md:py-16 bg-gray-50">
