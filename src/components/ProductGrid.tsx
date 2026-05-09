@@ -24,7 +24,7 @@ const products = [
 const productText: Record<string, Record<string, { name: string; desc: string }>> = {
   en: {
     svc3000va: { name: 'SVC-3000VA Automatic Voltage Regulator', desc: '3KVA automatic voltage stabilizer for home appliances. Compact design, fast response, reliable voltage protection. Suitable for refrigerators, air conditioners, TVs, and computers. Input 140-260V, output 220V±3%.' },
-    tnd3000va: { name: 'TND-SVC-3000VA高精度稳压器', desc: '3KVA high precision automatic voltage regulator. Digital display, single phase. Ideal for sensitive electronics, medical equipment, and precision instruments. Input 150-250V, output 220V±2%.' },
+    tnd3000va: { name: 'TND-SVC-3000VA High Precision Voltage Regulator', desc: '3KVA high precision automatic voltage regulator. Digital display, single phase. Ideal for sensitive electronics, medical equipment, and precision instruments. Input 150-250V, output 220V±2%.' },
     svc10kva: { name: 'SVC-10KVA Automatic Voltage Regulator', desc: '10KVA automatic voltage stabilizer for commercial and industrial use. Relay type with copper transformer. Protects air conditioners, motors, pumps, and heavy equipment. Input 140-260V, output 220V±3%.' },
     svc30kva: { name: 'SVC-30KVA Automatic Voltage Regulator', desc: '30KVA industrial grade automatic voltage regulator. Servo motor control, fast regulation. For CNC machines, welding equipment, and production lines. Input 140-260V, output 220V±3%.' },
     svc50kva: { name: 'SVC-50KVA Automatic Voltage Regulator', desc: '50KVA heavy duty voltage stabilizer. Triple protection: over-voltage, under-voltage, time delay. For factories, workshops, and large HVAC systems. Input 140-260V, output 220V±3%.' },
