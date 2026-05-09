@@ -32,28 +32,138 @@
   "sections": [
     {
       "id": "pre-installation",
-      "heading": { "en": "Pre-Installation Checklist", "zh": "安装前检查清单", "es": "Lista de verificación previa a la instalación", "fr": "Liste de contrôle pré-installation", "ar": "قائمة التحقق قبل التثبيت", "pt": "Lista de verificação pré-instalação", "ru": "Контрольный список перед установкой", "ja": "設置前チェックリスト", "de": "Checkliste vor der Installation", "hi": "इंस्टॉलेशन से पहले की जांच सूची" },
-      "body": { "en": "Before installing your YOKE AVR, verify you have: Correct AVR model for your voltage system (110V or 220V input). Adequate space with proper ventilation (minimum 30cm clearance on all sides). Properly sized circuit breaker or fuse in the main panel. Required wire gauge for the current capacity (refer to local electrical codes). Basic tools: multimeter, screwdriver set, wire strippers, electrical tape. For units over 10KVA, consider hiring a licensed electrician.", "zh": "在安装YOKE AVR之前，请确认您有：正确适用于您的电压系统（110V或220V输入）的AVR型号。适当空间和适当通风（各侧最少30cm间隙）。主配电箱中适当尺寸的断路器或保险丝。电流容量所需的标准电线规格（请参阅当地电气规范）。基本工具：万用表、螺丝刀套组、电线剥皮器、电工胶带。对于超过10KVA的设备，请考虑雇用有执照的电工。", "es": "Antes de instalar su AVR YOKE, verifique que tiene: Modelo AVR correcto para su sistema de voltaje (entrada de 110V o 220V). Espacio adecuado con ventilación adecuada.", "fr": "Avant d'installer votre AVR YOKE, vérifiez que vous avez: Le modèle AVR correct pour votre système de tension (entrée 110V ou 220V). Un espace adéquat avec une ventilation appropriée.", "ar": "قبل تثبيت AVR YOKE الخاص بك، تحقق من أن لديك: طراز AVR الصحيح لنظام الجهد الخاص بك (إدخال 110V أو 220V). مساحة كافية مع تهوية مناسبة.", "pt": "Antes de instalar seu AVR YOKE, verifique se você tem: Modelo AVR correto para seu sistema de tensão (entrada 110V ou 220V). Espaço adequado com ventilação adequada.", "ru": "Перед установкой AVR YOKE убедитесь, что у вас есть: Правильная модель AVR для вашей системы напряжения (вход 110 В или 220 В). Достаточно места с надлежащей вентиляцией.", "ja": "YOKE AVRを取り付ける前に、以下を確認してください：お使いの電圧システム（110Vまたは220V入力）に対応する正しいAVRモデル。適切な換気を備えた適切なスペース。", "de": "Bevor Sie Ihren YOKE AVR installieren, verifizieren Sie: Richtiges AVR-Modell für Ihr Spannungssystem (110V oder 220V Eingang). Ausreichend Platz mit ordnungsgemäßer Belüftung.", "hi": "अपनी YOKE AVR इंस्टॉल करने से पहले, सत्यापित करें कि आपके पास है: आपके वोल्टेज सिस्टम (110V या 220V इनपुट) के लिए सही AVR मॉडल। उचित वेंटिलेशन के साथ पर्याप्त जगह।" }
+      "heading": {
+        "en": "Pre-Installation Checklist",
+        "zh": "安装前检查清单",
+        "es": "Lista de verificación previa a la instalación",
+        "fr": "Liste de contrôle pré-installation",
+        "ar": "قائمة التحقق قبل التثبيت",
+        "pt": "Lista de verificação pré-instalação",
+        "ru": "Контрольный список перед установкой",
+        "ja": "設置前チェックリスト",
+        "de": "Checkliste vor der Installation",
+        "hi": "इंस्टॉलेशन से पहले की जांच सूची"
+      },
+      "body": {
+        "en": "Before installing your YOKE AVR, verify you have: Correct AVR model for your voltage system (110V or 220V input). Adequate space with proper ventilation (minimum 30cm clearance on all sides). Properly sized circuit breaker or fuse in the main panel. Required wire gauge for the current capacity (refer to local electrical codes). Basic tools: multimeter, screwdriver set, wire strippers, electrical tape. For units over 10KVA, consider hiring a licensed electrician.",
+        "zh": "在安装YOKE AVR之前，请确认您有：正确适用于您的电压系统（110V或220V输入）的AVR型号。适当空间和适当通风（各侧最少30cm间隙）。主配电箱中适当尺寸的断路器或保险丝。电流容量所需的标准电线规格（请参阅当地电气规范）。基本工具：万用表、螺丝刀套组、电线剥皮器、电工胶带。对于超过10KVA的设备，请考虑雇用有执照的电工。",
+        "es": "Antes de instalar su AVR YOKE, verifique que tiene: Modelo AVR correcto para su sistema de voltaje (entrada de 110V o 220V). Espacio adecuado con ventilación adecuada.",
+        "fr": "Avant d'installer votre AVR YOKE, vérifiez que vous avez: Le modèle AVR correct pour votre système de tension (entrée 110V ou 220V). Un espace adéquat avec une ventilation appropriée.",
+        "ar": "قبل تثبيت AVR YOKE الخاص بك، تحقق من أن لديك: طراز AVR الصحيح لنظام الجهد الخاص بك (إدخال 110V أو 220V). مساحة كافية مع تهوية مناسبة.",
+        "pt": "Antes de instalar seu AVR YOKE, verifique se você tem: Modelo AVR correto para seu sistema de tensão (entrada 110V ou 220V). Espaço adequado com ventilação adequada.",
+        "ru": "Перед установкой AVR YOKE убедитесь, что у вас есть: Правильная модель AVR для вашей системы напряжения (вход 110 В или 220 В). Достаточно места с надлежащей вентиляцией.",
+        "ja": "YOKE AVRを取り付ける前に、以下を確認してください：お使いの電圧システム（110Vまたは220V入力）に対応する正しいAVRモデル。適切な換気を備えた適切なスペース。",
+        "de": "Bevor Sie Ihren YOKE AVR installieren, verifizieren Sie: Richtiges AVR-Modell für Ihr Spannungssystem (110V oder 220V Eingang). Ausreichend Platz mit ordnungsgemäßer Belüftung.",
+        "hi": "अपनी YOKE AVR इंस्टॉल करने से पहले, सत्यापित करें कि आपके पास है: आपके वोल्टेज सिस्टम (110V या 220V इनपुट) के लिए सही AVR मॉडल। उचित वेंटिलेशन के साथ पर्याप्त जगह।"
+      }
     },
     {
       "id": "location",
-      "heading": { "en": "Selecting Installation Location", "zh": "选择安装位置", "es": "Selección de ubicación de instalación", "fr": "Sélection de l'emplacement d'installation", "ar": "اختيار موقع التثبيت", "pt": "Selecionando local de instalação", "ru": "Выбор места установки", "ja": "設置場所の選択", "de": "Auswahl des Installationsorts", "hi": "इंस्टॉलेशन स्थान का चयन" },
-      "body": { "en": "Choose the right location for optimal AVR performance: Indoor use only in clean, dry environments. Avoid: Direct sunlight, rain, humidity above 85%, temperatures above 40°C, dusty or corrosive atmospheres. Place on a stable, level surface that can support the weight. For wall-mounted units, use appropriate wall anchors rated for the weight. Position near the equipment being protected for shorter cable runs. Ensure easy access for maintenance and monitoring.", "zh": "为获得最佳AVR性能选择正确的位置：仅在清洁、干燥的环境中进行室内使用。避免：直射阳光、雨、85%以上的湿度、40°C以上的温度、多尘或腐蚀性大气。放置在能够支撑重量的稳定、平整表面上。对于壁挂式设备，使用适合重量的适当墙壁固定件。放置在受保护设备附近，以缩短电缆长度。确保易于维护和监控。", "es": "Elija la ubicación correcta para un rendimiento óptimo del AVR: Uso en interiores solo en ambientes limpios y secos. Evite: Luz solar directa, lluvia, humedad superior al 85%.", "fr": "Choisissez le bon emplacement pour des performances optimales de l'AVR: Utilisation à l'intérieur uniquement dans des environnements propres et secs.", "ar": "اختر الموقع الصحيح للحصول على أداء AVR الأمثل: الاستخدام الداخلي فقط في بيئات نظيفة وجافة. تجنب: ضوء الشمس المباشر.", "pt": "Escolha o local certo para desempenho AVR ideal: Uso interno apenas em ambientes limpos e secos. Evite: Luz solar direta, chuva.", "ru": "Выберите правильное место для оптимальной производительности AVR: Только для использования в помещениях в чистых, сухих условиях.", "ja": "AVRパフォーマンスを最適化するための正しい場所を選択してください：清潔で乾燥した環境での屋内使用のみ。避ける：直射日光、雨。", "de": "Wählen Sie den richtigen Standort für optimale AVR-Leistung: Nur für Innenräume in sauberen, trockenen Umgebungen.", "hi": "YOKE AVR के लिए उचित इंस्टॉलेशन स्थान चुनें: साफ, सूखे वातावरण में केवल इनडोर उपयोग। इससे बचें: सीधी धूप, बारिश।" }
+      "heading": {
+        "en": "Selecting Installation Location",
+        "zh": "选择安装位置",
+        "es": "Selección de ubicación de instalación",
+        "fr": "Sélection de l'emplacement d'installation",
+        "ar": "اختيار موقع التثبيت",
+        "pt": "Selecionando local de instalação",
+        "ru": "Выбор места установки",
+        "ja": "設置場所の選択",
+        "de": "Auswahl des Installationsorts",
+        "hi": "इंस्टॉलेशन स्थान का चयन"
+      },
+      "body": {
+        "en": "Choose the right location for optimal AVR performance: Indoor use only in clean, dry environments. Avoid: Direct sunlight, rain, humidity above 85%, temperatures above 40°C, dusty or corrosive atmospheres. Place on a stable, level surface that can support the weight. For wall-mounted units, use appropriate wall anchors rated for the weight. Position near the equipment being protected for shorter cable runs. Ensure easy access for maintenance and monitoring.",
+        "zh": "为获得最佳AVR性能选择正确的位置：仅在清洁、干燥的环境中进行室内使用。避免：直射阳光、雨、85%以上的湿度、40°C以上的温度、多尘或腐蚀性大气。放置在能够支撑重量的稳定、平整表面上。对于壁挂式设备，使用适合重量的适当墙壁固定件。放置在受保护设备附近，以缩短电缆长度。确保易于维护和监控。",
+        "es": "Elija la ubicación correcta para un rendimiento óptimo del AVR: Uso en interiores solo en ambientes limpios y secos. Evite: Luz solar directa, lluvia, humedad superior al 85%.",
+        "fr": "Choisissez le bon emplacement pour des performances optimales de l'AVR: Utilisation à l'intérieur uniquement dans des environnements propres et secs.",
+        "ar": "اختر الموقع الصحيح للحصول على أداء AVR الأمثل: الاستخدام الداخلي فقط في بيئات نظيفة وجافة. تجنب: ضوء الشمس المباشر.",
+        "pt": "Escolha o local certo para desempenho AVR ideal: Uso interno apenas em ambientes limpos e secos. Evite: Luz solar direta, chuva.",
+        "ru": "Выберите правильное место для оптимальной производительности AVR: Только для использования в помещениях в чистых, сухих условиях.",
+        "ja": "AVRパフォーマンスを最適化するための正しい場所を選択してください：清潔で乾燥した環境での屋内使用のみ。避ける：直射日光、雨。",
+        "de": "Wählen Sie den richtigen Standort für optimale AVR-Leistung: Nur für Innenräume in sauberen, trockenen Umgebungen.",
+        "hi": "YOKE AVR के लिए उचित इंस्टॉलेशन स्थान चुनें: साफ, सूखे वातावरण में केवल इनडोर उपयोग। इससे बचें: सीधी धूप, बारिश।"
+      }
     },
     {
       "id": "wiring",
-      "heading": { "en": "Proper Wiring Connection", "zh": "正确的布线连接", "es": "Conexión de cableado adecuada", "fr": "Raccordement électrique approprié", "ar": "التوصيل الصحيح للأسلاك", "pt": "Conexão de fiação adequada", "ru": "Правильное подключение проводки", "ja": "適切な配線接続", "de": "Korrekte Verdrahtung", "hi": "उचित वायरिंग कनेक्शन" },
-      "body": { "en": "Follow these wiring guidelines for safe installation: Turn OFF main power before starting any wiring work. Connect the input (LINE/IN) terminals to the power source. Connect the output (LOAD/OUT) terminals to your protected equipment. Ensure correct polarity: Live/Hot to L, Neutral to N, Ground to PE/G. Use appropriately sized wire: For 10KVA units, use minimum 6mm² wire. For 30KVA+ units, use minimum 16mm² wire. All connections must be tight to prevent heating. Install a dedicated circuit breaker between the power source and AVR.", "zh": "请遵循以下布线指南以进行安全安装：在开始任何布线工作之前，关闭主电源。将输入（LINE/IN）端子连接到电源。将输出（LOAD/OUT）端子连接到受保护设备。确保正确的极性：火线/热线接L，中性线接N，接地线接PE/G。使用适当规格的电线：对于10KVA设备，使用最小6mm²电线。对于30KVA+设备，使用最小16mm²电线。所有连接必须紧固以防止发热。在电源和AVR之间安装专用断路器。", "es": "Siga estas pautas de cableado para una instalación segura: Apague la energía principal antes de comenzar cualquier trabajo de cableado. Conecte los terminales de entrada (LINE/IN) a la fuente de energía.", "fr": "Suivez ces directives de câblage pour une installation sûre: Coupez l'alimentation principale avant de commencer tout travail de câblage.", "ar": "اتبع إرشادات التوصيل التالية للتثبيت الآمن: أوقف الطاقة الرئيسية قبل البدء في أي عمل توصيل.", "pt": "Siga estas diretrizes de fiação para instalação segura: Desligue a energia principal antes de iniciar qualquer trabalho de fiação.", "ru": "Следуйте этим рекомендациям по проводке для безопасной установки: Отключите основное питание перед началом любых работ по проводке.", "ja": "安全な設置のために次の配線ガイドラインに従ってください：配線作業を開始する前に主電源をオフにしてください。", "de": "Befolgen Sie diese Verdrahtungsrichtlinien für eine sichere Installation: Schalten Sie die Hauptstromversorgung aus, bevor Sie mit Verdrahtungsarbeiten beginnen.", "hi": "सुरक्षित इंस्टॉलेशन के लिए इन वायरिंग दिशानिर्देशों का पालन करें: किसी भी वायरिंग काम को शुरू करने से पहले मेन पावर बंद करें।" }
+      "heading": {
+        "en": "Proper Wiring Connection",
+        "zh": "正确的布线连接",
+        "es": "Conexión de cableado adecuada",
+        "fr": "Raccordement électrique approprié",
+        "ar": "التوصيل الصحيح للأسلاك",
+        "pt": "Conexão de fiação adequada",
+        "ru": "Правильное подключение проводки",
+        "ja": "適切な配線接続",
+        "de": "Korrekte Verdrahtung",
+        "hi": "उचित वायरिंग कनेक्शन"
+      },
+      "body": {
+        "en": "Follow these wiring guidelines for safe installation: Turn OFF main power before starting any wiring work. Connect the input (LINE/IN) terminals to the power source. Connect the output (LOAD/OUT) terminals to your protected equipment. Ensure correct polarity: Live/Hot to L, Neutral to N, Ground to PE/G. Use appropriately sized wire: For 10KVA units, use minimum 6mm² wire. For 30KVA+ units, use minimum 16mm² wire. All connections must be tight to prevent heating. Install a dedicated circuit breaker between the power source and AVR.",
+        "zh": "请遵循以下布线指南以进行安全安装：在开始任何布线工作之前，关闭主电源。将输入（LINE/IN）端子连接到电源。将输出（LOAD/OUT）端子连接到受保护设备。确保正确的极性：火线/热线接L，中性线接N，接地线接PE/G。使用适当规格的电线：对于10KVA设备，使用最小6mm²电线。对于30KVA+设备，使用最小16mm²电线。所有连接必须紧固以防止发热。在电源和AVR之间安装专用断路器。",
+        "es": "Siga estas pautas de cableado para una instalación segura: Apague la energía principal antes de comenzar cualquier trabajo de cableado. Conecte los terminales de entrada (LINE/IN) a la fuente de energía.",
+        "fr": "Suivez ces directives de câblage pour une installation sûre: Coupez l'alimentation principale avant de commencer tout travail de câblage.",
+        "ar": "اتبع إرشادات التوصيل التالية للتثبيت الآمن: أوقف الطاقة الرئيسية قبل البدء في أي عمل توصيل.",
+        "pt": "Siga estas diretrizes de fiação para instalação segura: Desligue a energia principal antes de iniciar qualquer trabalho de fiação.",
+        "ru": "Следуйте этим рекомендациям по проводке для безопасной установки: Отключите основное питание перед началом любых работ по проводке.",
+        "ja": "安全な設置のために次の配線ガイドラインに従ってください：配線作業を開始する前に主電源をオフにしてください。",
+        "de": "Befolgen Sie diese Verdrahtungsrichtlinien für eine sichere Installation: Schalten Sie die Hauptstromversorgung aus, bevor Sie mit Verdrahtungsarbeiten beginnen.",
+        "hi": "सुरक्षित इंस्टॉलेशन के लिए इन वायरिंग दिशानिर्देशों का पालन करें: किसी भी वायरिंग काम को शुरू करने से पहले मेन पावर बंद करें।"
+      }
     },
     {
       "id": "grounding",
-      "heading": { "en": "Grounding Requirements", "zh": "接地要求", "es": "Requisitos de conexión a tierra", "fr": "Exigences de mise à la terre", "ar": "متطلبات التأريض", "pt": "Requisitos de aterramento", "ru": "Требования к заземлению", "ja": "接地要件", "de": "Erdungsanforderungen", "hi": "ग्राउंडिंग आवश्यकताएं" },
-      "body": { "en": "Proper grounding is critical for safety and performance: The grounding conductor must be the same size or larger than the hot/live conductor. Ground resistance should be 5 ohms or less. For units over 10KVA, a dedicated ground rod may be required. Test ground connection with a multimeter before connecting equipment. Never bypass the ground connection. YOKE AVRs include a dedicated grounding terminal clearly marked PE or with the ground symbol.", "zh": "适当的接地对于安全和性能至关重要：接地导体必须与火线/热线导体规格相同或更大。接地电阻应小于等于5欧姆。对于超过10KVA的设备，可能需要专用接地棒。在连接设备之前，用万用表测试接地连接。切勿绕过接地连接。YOKE AVR包括专用接地端子，清楚地标记为PE或带有接地符号。", "es": "La puesta a tierra adecuada es crítica para la seguridad y el rendimiento: El conductor de tierra debe ser del mismo tamaño o más grande que el conductor de fase.", "fr": "Une mise à la terre appropriée est essentielle pour la sécurité et les performances: Le conducteur de terre doit être de la même taille ou plus grand que le conducteur sous tension.", "ar": "التأريض الصحيح أمر بالغ الأهمية للسلامة والأداء: يجب أن يكون موصل التأريض بنفس الحجم أو أكبر من موصل الطور.", "pt": "O aterramento adequado é crítico para segurança e desempenho: O condutor de aterramento deve ser do mesmo tamanho ou maior que o condutor energizado.", "ru": "Правильное заземление критически важно для безопасности и производительности: Заземляющий проводник должен быть такого же размера или больше, чем фазный проводник.", "ja": "適切な接地は安全性とパフォーマンスにとって非常に重要です：接地导体は、ライブ导体と同じサイズまたはそれ以上で必要があります。", "de": "Ordnungsgemäße Erdung ist entscheidend für Sicherheit und Leistung: Der Erdungsleiter muss gleich groß oder größer als der spannungsführende Leiter sein.", "hi": "उचित ग्राउंडिंग सुरक्षा और प्रदर्शन के लिए महत्वपूर्ण है: ग्राउंडिंग कंडक्टर हॉट/लाइव कंडक्टर के समान या उससे बड़ा होना चाहिए।" }
+      "heading": {
+        "en": "Grounding Requirements",
+        "zh": "接地要求",
+        "es": "Requisitos de conexión a tierra",
+        "fr": "Exigences de mise à la terre",
+        "ar": "متطلبات التأريض",
+        "pt": "Requisitos de aterramento",
+        "ru": "Требования к заземлению",
+        "ja": "接地要件",
+        "de": "Erdungsanforderungen",
+        "hi": "ग्राउंडिंग आवश्यकताएं"
+      },
+      "body": {
+        "en": "Proper grounding is critical for safety and performance: The grounding conductor must be the same size or larger than the hot/live conductor. Ground resistance should be 5 ohms or less. For units over 10KVA, a dedicated ground rod may be required. Test ground connection with a multimeter before connecting equipment. Never bypass the ground connection. YOKE AVRs include a dedicated grounding terminal clearly marked PE or with the ground symbol.",
+        "zh": "适当的接地对于安全和性能至关重要：接地导体必须与火线/热线导体规格相同或更大。接地电阻应小于等于5欧姆。对于超过10KVA的设备，可能需要专用接地棒。在连接设备之前，用万用表测试接地连接。切勿绕过接地连接。YOKE AVR包括专用接地端子，清楚地标记为PE或带有接地符号。",
+        "es": "La puesta a tierra adecuada es crítica para la seguridad y el rendimiento: El conductor de tierra debe ser del mismo tamaño o más grande que el conductor de fase.",
+        "fr": "Une mise à la terre appropriée est essentielle pour la sécurité et les performances: Le conducteur de terre doit être de la même taille ou plus grand que le conducteur sous tension.",
+        "ar": "التأريض الصحيح أمر بالغ الأهمية للسلامة والأداء: يجب أن يكون موصل التأريض بنفس الحجم أو أكبر من موصل الطور.",
+        "pt": "O aterramento adequado é crítico para segurança e desempenho: O condutor de aterramento deve ser do mesmo tamanho ou maior que o condutor energizado.",
+        "ru": "Правильное заземление критически важно для безопасности и производительности: Заземляющий проводник должен быть такого же размера или больше, чем фазный проводник.",
+        "ja": "適切な接地は安全性とパフォーマンスにとって非常に重要です：接地导体は、ライブ导体と同じサイズまたはそれ以上で必要があります。",
+        "de": "Ordnungsgemäße Erdung ist entscheidend für Sicherheit und Leistung: Der Erdungsleiter muss gleich groß oder größer als der spannungsführende Leiter sein.",
+        "hi": "उचित ग्राउंडिंग सुरक्षा और प्रदर्शन के लिए महत्वपूर्ण है: ग्राउंडिंग कंडक्टर हॉट/लाइव कंडक्टर के समान या उससे बड़ा होना चाहिए।"
+      }
     },
     {
       "id": "first-operation",
-      "heading": { "en": "First-Time Operation", "zh": "首次操作", "es": "Operación por primera vez", "fr": "Première utilisation", "ar": "التشغيل لأول مرة", "pt": "Primeira operação", "ru": "Первый запуск", "ja": "最初の操作", "de": "Erstinbetriebnahme", "hi": "पहली बार संचालन" },
-      "body": { "en": "Follow these steps for first-time startup: Verify all connections are tight and correct. Remove any tools or materials from the work area. Turn ON the main power to the AVR. Wait 10-15 seconds for the unit to initialize. Check the display (if equipped) shows normal input voltage. Observe the output voltage reading matches expected value (±5V of target). Allow the AVR to run for 30 minutes with no load to verify stable operation. Gradually add your equipment load, monitoring for any abnormalities. YOKE SVC units have LED indicators: Green = Normal, Yellow = Adjusting, Red = Fault.", "zh": "请按照以下步骤进行首次启动：验证所有连接紧固且正确。从工作区域移除任何工具或材料。打开AVR的主电源。等待10-15秒让设备初始化。检查显示器（如配备）显示正常输入电压。观察输出电压读数与预期值匹配（在目标电压的±5V以内）。让AVR在无负载情况下运行30分钟以验证稳定运行。逐渐增加您的设备负载，监控任何异常情况。YOKE SVC设备有LED指示灯：绿色=正常，黄色=调整中，红色=故障。", "es": "Siga estos pasos para el primer arranque: Verifique que todas las conexiones estén apretadas y correctas. Retire cualquier herramienta o material del área de trabajo. Encienda la energía principal al AVR.", "fr": "Suivez ces étapes pour le premier démarrage: Vérifiez que toutes les connexions sont serrées et correctes. Retirez tout outil ou matériau de la zone de travail.", "ar": "اتبع هذه الخطوات للبدء لأول مرة: تحقق من أن جميع التوصيلات محكمة وصحيحة. أزل أي أدوات أو مواد من منطقة العمل.", "pt": "Siga estes passos para a primeira partida: Verifique se todas as conexões estão apertadas e corretas. Remova quaisquer ferramentas ou materiais da área de trabalho.", "ru": "Следуйте этим шагам для первого запуска: Убедитесь, что все соединения плотные и правильные. Уберите инструменты и материалы из рабочей зоны.", "ja": "初めて起動するための次の手順に従ってください：すべての接続が緩まずに正しいことを確認してください。作業領域からツールや材料を取り除いてください。", "de": "Befolgen Sie diese Schritte für die erste Inbetriebnahme: Überprüfen Sie, ob alle Verbindungen fest und korrekt sind. Entfernen Sie alle Werkzeuge oder Materialien aus dem Arbeitsbereich.", "hi": "पहली बार स्टार्टअप के लिए इन चरणों का पालन करें: सभी कनेक्शन के सही और टाइट होने की पुष्टि करें। कार्य क्षेत्र से किसी भी उपकरण या सामग्री को हटा दें।" }
+      "heading": {
+        "en": "First-Time Operation",
+        "zh": "首次操作",
+        "es": "Operación por primera vez",
+        "fr": "Première utilisation",
+        "ar": "التشغيل لأول مرة",
+        "pt": "Primeira operação",
+        "ru": "Первый запуск",
+        "ja": "最初の操作",
+        "de": "Erstinbetriebnahme",
+        "hi": "पहली बार संचालन"
+      },
+      "body": {
+        "en": "Follow these steps for first-time startup: Verify all connections are tight and correct. Remove any tools or materials from the work area. Turn ON the main power to the AVR. Wait 10-15 seconds for the unit to initialize. Check the display (if equipped) shows normal input voltage. Observe the output voltage reading matches expected value (±5V of target). Allow the AVR to run for 30 minutes with no load to verify stable operation. Gradually add your equipment load, monitoring for any abnormalities. YOKE SVC units have LED indicators: Green = Normal, Yellow = Adjusting, Red = Fault.",
+        "zh": "请按照以下步骤进行首次启动：验证所有连接紧固且正确。从工作区域移除任何工具或材料。打开AVR的主电源。等待10-15秒让设备初始化。检查显示器（如配备）显示正常输入电压。观察输出电压读数与预期值匹配（在目标电压的±5V以内）。让AVR在无负载情况下运行30分钟以验证稳定运行。逐渐增加您的设备负载，监控任何异常情况。YOKE SVC设备有LED指示灯：绿色=正常，黄色=调整中，红色=故障。",
+        "es": "Siga estos pasos para el primer arranque: Verifique que todas las conexiones estén apretadas y correctas. Retire cualquier herramienta o material del área de trabajo. Encienda la energía principal al AVR.",
+        "fr": "Suivez ces étapes pour le premier démarrage: Vérifiez que toutes les connexions sont serrées et correctes. Retirez tout outil ou matériau de la zone de travail.",
+        "ar": "اتبع هذه الخطوات للبدء لأول مرة: تحقق من أن جميع التوصيلات محكمة وصحيحة. أزل أي أدوات أو مواد من منطقة العمل.",
+        "pt": "Siga estes passos para a primeira partida: Verifique se todas as conexões estão apertadas e corretas. Remova quaisquer ferramentas ou materiais da área de trabalho.",
+        "ru": "Следуйте этим шагам для первого запуска: Убедитесь, что все соединения плотные и правильные. Уберите инструменты и материалы из рабочей зоны.",
+        "ja": "初めて起動するための次の手順に従ってください：すべての接続が緩まずに正しいことを確認してください。作業領域からツールや材料を取り除いてください。",
+        "de": "Befolgen Sie diese Schritte für die erste Inbetriebnahme: Überprüfen Sie, ob alle Verbindungen fest und korrekt sind. Entfernen Sie alle Werkzeuge oder Materialien aus dem Arbeitsbereich.",
+        "hi": "पहली बार स्टार्टअप के लिए इन चरणों का पालन करें: सभी कनेक्शन के सही और टाइट होने की पुष्टि करें। कार्य क्षेत्र से किसी भी उपकरण या सामग्री को हटा दें।"
+      }
     }
   ],
   "cta": {
@@ -82,5 +192,7 @@
       "hi": "कोटेशन प्राप्त करें"
     },
     "link": "/#inquiry"
-  }
+  },
+  "relatedArticles": [],
+  "relatedProducts": []
 }

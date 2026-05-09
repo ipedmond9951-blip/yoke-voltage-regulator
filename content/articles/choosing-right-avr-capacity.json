@@ -32,38 +32,163 @@
   "sections": [
     {
       "id": "introduction",
-      "heading": { "en": "Why AVR Sizing Matters", "zh": "为什么AVR选型重要", "es": "Por qué importa el tamaño del AVR", "fr": "Pourquoi le dimensionnement AVR est important", "ar": "لماذا يهم حجم AVR", "pt": "Por que o dimensionamento do AVR importa", "ru": "Почему важен размер AVR", "ja": "AVRサイジングが重要な理由", "de": "Warum AVR-Dimensionierung wichtig ist", "hi": "AVR साइज़िंग क्यों मायने रखती है" },
-      "body": { "en": "Choosing the correct AVR capacity is critical for effective voltage protection. An undersized AVR will overload and fail to protect your equipment, while an oversized AVR represents unnecessary cost. YOKE offers AVRs ranging from 3KVA to 60KVA to match any application requirement. This guide will help you calculate the exact capacity you need.", "zh": "选择正确的AVR容量对于有效的电压保护至关重要。容量不足的AVR会过载，无法保护您的设备，而容量过大的AVR则代表不必要的成本。YOKE提供从3KVA到60KVA的AVR，以满足任何应用需求。本指南将帮助您计算所需的确切容量。", "es": "Elegir la capacidad correcta del AVR es crítico para la protección efectiva del voltaje. Un AVR con bajo tamaño se sobrecargará y no protegerá su equipo, mientras que un AVR sobredimensionado representa un costo innecesario. YOKE ofrece AVRs desde 3KVA hasta 60KVA.", "fr": "Choisir la bonne capacité AVR est essentiel pour une protection efficace de la tension. Un AVR sous-dimensionné se surchargera et ne protégera pas votre équipement, tandis qu'un AVR surdimensionné représente un coût inutile.", "ar": "اختيار السعة الصحيحة لـ AVR أمر بالغ الأهمية للحماية الفعالة من الجهد. AVR صغير الحجم سيثقل حماية المعدات، بينما AVR كبير الحجم يمثل تكلفة غير ضرورية.", "pt": "Escolher a capacidade correta do AVR é crítico para proteção efetiva de tensão. Um AVR subdimensionado sobrecarregará e não protegerá seu equipamento, enquanto um AVR superdimensionado representa custo desnecessário.", "ru": "Выбор правильной мощности AVR критически важен для эффективной защиты напряжения. Недостаточно мощный AVR будет перегружен и не защитит ваше оборудование, а слишком мощный AVR — это лишние расходы.", "ja": "適切なAVR容量の選択は効果的な電圧保護にとって重要です。容量が不足しているAVRは過負荷になり、機器を保護できません。YOKEは3KVAから60KVAまでのAVRを提供しています。", "de": "Die Wahl der richtigen AVR-Kapazität ist entscheidend für einen effektiven Spannungsschutz. Ein unterdimensionierter AVR wird überlastet und schützt Ihre Geräte nicht, während ein überdimensionierter AVR unnötige Kosten verursacht.", "hi": "सही AVR क्षमता का चयन प्रभावी वोल्टेज सुरक्षा के लिए महत्वपूर्ण है। एक छोटा AVR ओवरलोड होगा और आपके उपकरणों की रक्षा करने में विफल होगा, जबकि एक बड़ा AVR अनावश्यक लागत का प्रतिनिधित्व करता है।" }
+      "heading": {
+        "en": "Why AVR Sizing Matters",
+        "zh": "为什么AVR选型重要",
+        "es": "Por qué importa el tamaño del AVR",
+        "fr": "Pourquoi le dimensionnement AVR est important",
+        "ar": "لماذا يهم حجم AVR",
+        "pt": "Por que o dimensionamento do AVR importa",
+        "ru": "Почему важен размер AVR",
+        "ja": "AVRサイジングが重要な理由",
+        "de": "Warum AVR-Dimensionierung wichtig ist",
+        "hi": "AVR साइज़िंग क्यों मायने रखती है"
+      },
+      "body": {
+        "en": "Choosing the correct AVR capacity is critical for effective voltage protection. An undersized AVR will overload and fail to protect your equipment, while an oversized AVR represents unnecessary cost. YOKE offers AVRs ranging from 3KVA to 60KVA to match any application requirement. This guide will help you calculate the exact capacity you need.",
+        "zh": "选择正确的AVR容量对于有效的电压保护至关重要。容量不足的AVR会过载，无法保护您的设备，而容量过大的AVR则代表不必要的成本。YOKE提供从3KVA到60KVA的AVR，以满足任何应用需求。本指南将帮助您计算所需的确切容量。",
+        "es": "Elegir la capacidad correcta del AVR es crítico para la protección efectiva del voltaje. Un AVR con bajo tamaño se sobrecargará y no protegerá su equipo, mientras que un AVR sobredimensionado representa un costo innecesario. YOKE ofrece AVRs desde 3KVA hasta 60KVA.",
+        "fr": "Choisir la bonne capacité AVR est essentiel pour une protection efficace de la tension. Un AVR sous-dimensionné se surchargera et ne protégera pas votre équipement, tandis qu'un AVR surdimensionné représente un coût inutile.",
+        "ar": "اختيار السعة الصحيحة لـ AVR أمر بالغ الأهمية للحماية الفعالة من الجهد. AVR صغير الحجم سيثقل حماية المعدات، بينما AVR كبير الحجم يمثل تكلفة غير ضرورية.",
+        "pt": "Escolher a capacidade correta do AVR é crítico para proteção efetiva de tensão. Um AVR subdimensionado sobrecarregará e não protegerá seu equipamento, enquanto um AVR superdimensionado representa custo desnecessário.",
+        "ru": "Выбор правильной мощности AVR критически важен для эффективной защиты напряжения. Недостаточно мощный AVR будет перегружен и не защитит ваше оборудование, а слишком мощный AVR — это лишние расходы.",
+        "ja": "適切なAVR容量の選択は効果的な電圧保護にとって重要です。容量が不足しているAVRは過負荷になり、機器を保護できません。YOKEは3KVAから60KVAまでのAVRを提供しています。",
+        "de": "Die Wahl der richtigen AVR-Kapazität ist entscheidend für einen effektiven Spannungsschutz. Ein unterdimensionierter AVR wird überlastet und schützt Ihre Geräte nicht, während ein überdimensionierter AVR unnötige Kosten verursacht.",
+        "hi": "सही AVR क्षमता का चयन प्रभावी वोल्टेज सुरक्षा के लिए महत्वपूर्ण है। एक छोटा AVR ओवरलोड होगा और आपके उपकरणों की रक्षा करने में विफल होगा, जबकि एक बड़ा AVR अनावश्यक लागत का प्रतिनिधित्व करता है।"
+      }
     },
     {
       "id": "understanding-kva",
-      "heading": { "en": "Understanding KVA Ratings", "zh": "了解KVA额定值", "es": "Entendiendo las clasificaciones KVA", "fr": "Comprendre les puissances nominales KVA", "ar": "فهم تصنيفات KVA", "pt": "Entendendo as classificações KVA", "ru": "Понимание номиналов KVA", "ja": "KVA定格の理解", "de": "KVA-Nennungen verstehen", "hi": "KVA रेटिंग को समझना" },
-      "body": { "en": "KVA (Kilovolt-Amperes) is the apparent power rating of an AVR. Unlike watts which measure actual power, KVA includes both actual power and reactive power. For single-phase systems: KVA = (Volts × Amps) / 1000. For three-phase systems: KVA = (Volts × Amps × 1.73) / 1000. Most home appliances are rated in watts, so you need to convert: KVA = Watts / (Power Factor × 1000). For pure resistive loads (heaters, incandescent bulbs), power factor is 1.0. For inductive loads (motors, compressors), power factor is typically 0.7-0.8.", "zh": "KVA（千伏安）是AVR的视在功率额定值。与测量实际功率的瓦特不同，KVA包括实际功率和无功功率。对于单相系统：KVA =（伏特×安培）/1000。对于三相系统：KVA =（伏特×安培×1.73）/1000。大多数家用电器以瓦特为单位额定，因此需要转换：KVA = 瓦特/（功率因数×1000）。对于纯电阻负载（加热器、白炽灯泡），功率因数为1.0。对于感性负载（电机、压缩机），功率因数通常为0.7-0.8。", "es": "KVA (Kilovolt-Amperios) es la potencia aparente de un AVR. A diferencia de los vatios que miden la potencia real, KVA incluye tanto la potencia real como la reactiva. Para sistemas monofásicos: KVA = (Voltios × Amperios) / 1000. Para sistemas trifásicos: KVA = (Voltios × Amperios × 1.73) / 1000.", "fr": "KVA (Kilovolt-Ampères) est la puissance apparente d'un AVR. Contrairement aux watts qui mesurent la puissance réelle, le KVA inclut à la fois la puissance réelle et la puissance réactive. Pour les systèmes monophasés : KVA = (Volts × Ampères) / 1000. Pour les systèmes triphasés : KVA = (Volts × Ampères × 1,73) / 1000.", "ar": "KVA (كيلوفولت-أمبير) هو تصنيف الطاقة الظاهرة لـ AVR. على عكس الوatts التي تقيس الطاقة الفعلية، يشمل KVA كلاً من الطاقة الفعلية والطاقة التفاعلية. للأنظمة أحادية الطور: KVA = (الفولت × الأمبير) / 1000.", "pt": "KVA (Quilovolt-Ampères) é a potência aparente de um AVR. Ao contrário dos watts que medem a potência real, KVA inclui tanto a potência real quanto a reativa. Para sistemas monofásicos: KVA = (Volts × Ampères) / 1000.", "ru": "KVA (киловольт-ампер) — это номинальная полная мощность AVR. В отличие от ватт, которые измеряют активную мощность, KVA включает как активную, так и реактивную мощность. Для однофазных систем: KVA = (Вольты × Амперы) / 1000.", "ja": "KVA（キロボルトアンペア）は、AVRの皮相電力定格です。実際の電力を測定するワットとは異なり、KVAは実際の電力と無効電力の両方を含みます。単相システムの場合：KVA =（ボルト×アンペア）/1000。", "de": "KVA (Kilovolt-Ampere) ist die Scheinleistung eines AVR. Im Gegensatz zu Watt, das die Wirkleistung misst, enthält KVA sowohl Wirk- als auch Blindleistung. Für einphasige Systeme: KVA = (Volt × Ampere) / 1000.", "hi": "KVA (किलोवोल्ट-एम्पीयर) एक AVR की स्पष्ट शक्ति रेटिंग है। वाट जो वास्तविक शक्ति को मापती है के विपरीत, KVA में वास्तविक शक्ति और प्रतिक्रियाशील शक्ति दोनों शामिल हैं। एकल-चरण प्रणालियों के लिए: KVA = (वोल्ट × एम्पीयर) / 1000।" }
+      "heading": {
+        "en": "Understanding KVA Ratings",
+        "zh": "了解KVA额定值",
+        "es": "Entendiendo las clasificaciones KVA",
+        "fr": "Comprendre les puissances nominales KVA",
+        "ar": "فهم تصنيفات KVA",
+        "pt": "Entendendo as classificações KVA",
+        "ru": "Понимание номиналов KVA",
+        "ja": "KVA定格の理解",
+        "de": "KVA-Nennungen verstehen",
+        "hi": "KVA रेटिंग को समझना"
+      },
+      "body": {
+        "en": "KVA (Kilovolt-Amperes) is the apparent power rating of an AVR. Unlike watts which measure actual power, KVA includes both actual power and reactive power. For single-phase systems: KVA = (Volts × Amps) / 1000. For three-phase systems: KVA = (Volts × Amps × 1.73) / 1000. Most home appliances are rated in watts, so you need to convert: KVA = Watts / (Power Factor × 1000). For pure resistive loads (heaters, incandescent bulbs), power factor is 1.0. For inductive loads (motors, compressors), power factor is typically 0.7-0.8.",
+        "zh": "KVA（千伏安）是AVR的视在功率额定值。与测量实际功率的瓦特不同，KVA包括实际功率和无功功率。对于单相系统：KVA =（伏特×安培）/1000。对于三相系统：KVA =（伏特×安培×1.73）/1000。大多数家用电器以瓦特为单位额定，因此需要转换：KVA = 瓦特/（功率因数×1000）。对于纯电阻负载（加热器、白炽灯泡），功率因数为1.0。对于感性负载（电机、压缩机），功率因数通常为0.7-0.8。",
+        "es": "KVA (Kilovolt-Amperios) es la potencia aparente de un AVR. A diferencia de los vatios que miden la potencia real, KVA incluye tanto la potencia real como la reactiva. Para sistemas monofásicos: KVA = (Voltios × Amperios) / 1000. Para sistemas trifásicos: KVA = (Voltios × Amperios × 1.73) / 1000.",
+        "fr": "KVA (Kilovolt-Ampères) est la puissance apparente d'un AVR. Contrairement aux watts qui mesurent la puissance réelle, le KVA inclut à la fois la puissance réelle et la puissance réactive. Pour les systèmes monophasés : KVA = (Volts × Ampères) / 1000. Pour les systèmes triphasés : KVA = (Volts × Ampères × 1,73) / 1000.",
+        "ar": "KVA (كيلوفولت-أمبير) هو تصنيف الطاقة الظاهرة لـ AVR. على عكس الوatts التي تقيس الطاقة الفعلية، يشمل KVA كلاً من الطاقة الفعلية والطاقة التفاعلية. للأنظمة أحادية الطور: KVA = (الفولت × الأمبير) / 1000.",
+        "pt": "KVA (Quilovolt-Ampères) é a potência aparente de um AVR. Ao contrário dos watts que medem a potência real, KVA inclui tanto a potência real quanto a reativa. Para sistemas monofásicos: KVA = (Volts × Ampères) / 1000.",
+        "ru": "KVA (киловольт-ампер) — это номинальная полная мощность AVR. В отличие от ватт, которые измеряют активную мощность, KVA включает как активную, так и реактивную мощность. Для однофазных систем: KVA = (Вольты × Амперы) / 1000.",
+        "ja": "KVA（キロボルトアンペア）は、AVRの皮相電力定格です。実際の電力を測定するワットとは異なり、KVAは実際の電力と無効電力の両方を含みます。単相システムの場合：KVA =（ボルト×アンペア）/1000。",
+        "de": "KVA (Kilovolt-Ampere) ist die Scheinleistung eines AVR. Im Gegensatz zu Watt, das die Wirkleistung misst, enthält KVA sowohl Wirk- als auch Blindleistung. Für einphasige Systeme: KVA = (Volt × Ampere) / 1000.",
+        "hi": "KVA (किलोवोल्ट-एम्पीयर) एक AVR की स्पष्ट शक्ति रेटिंग है। वाट जो वास्तविक शक्ति को मापती है के विपरीत, KVA में वास्तविक शक्ति और प्रतिक्रियाशील शक्ति दोनों शामिल हैं। एकल-चरण प्रणालियों के लिए: KVA = (वोल्ट × एम्पीयर) / 1000।"
+      }
     },
     {
       "id": "calculation-method",
-      "heading": { "en": "Step-by-Step AVR Sizing Calculation", "zh": "分步AVR选型计算", "es": "Cálculo paso a paso del tamaño del AVR", "fr": "Calcul de dimensionnement AVR étape par étape", "ar": "حساب حجم AVR خطوة بخطوة", "pt": "Cálculo de dimensionamento do AVR passo a passo", "ru": "Пошаговый расчет размера AVR", "ja": "ステップバイステップAVRサイジング計算", "de": "Schritt-für-Schritt AVR-Auslegungsberechnung", "hi": "चरण-दर-चरण AVR साइज़िंग गणना" },
-      "body": { "en": "Step 1: List all equipment to protect. Step 2: Get the wattage of each item (check nameplate or manual). Step 3: Apply the starting/peak current multiplier for motors: inductive loads need 2-3× their running watts during startup. Step 4: Sum all wattages. Step 5: Convert to KVA using power factor (typically 0.8). Step 6: Add 20-30% safety margin for future expansion and overload capacity. Example: Protecting a refrigerator (200W), air conditioner (1500W), and TV (100W) with motor loads: Total = (200+1500+100) × 2.5 (motor multiplier) = 4500W → 4500/(0.8×1000) = 5.6KVA → With 20% margin = 6.7KVA → Choose SVC-10KVA.", "zh": "第1步：列出所有要保护的设备。第2步：获取每个设备的瓦数（检查铭牌或手册）。第3步：为电机应用启动/峰值电流倍数：感性负载在启动期间需要其运行瓦数的2-3倍。第4步：汇总所有瓦数。第5步：使用功率因数（通常为0.8）转换为KVA。第6步：添加20-30%的安全余量以备将来扩展和过载容量。", "es": "Paso 1: Enumere todos los equipos a proteger. Paso 2: Obtenga el vataje de cada elemento. Paso 3: Aplique el multiplicador de corriente de arranque para motores: cargas inductivas necesitan 2-3× sus vatios de funcionamiento durante el arranque. Paso 4: Sume todos los vatajes. Paso 5: Convierta a KVA usando el factor de potencia. Paso 6: Agregue un margen de seguridad del 20-30%.", "fr": "Étape 1: Énumérez tous les équipements à protéger. Étape 2: Obtenez la puissance de chaque appareil. Étape 3: Appliquez le multiplicateur de courant de démarrage pour les moteurs. Étape 4: Additionnez toutes les puissances. Étape 5: Convertissez en KVA en utilisant le facteur de puissance. Étape 6: Ajoutez une marge de sécurité de 20-30%.", "ar": "الخطوة 1: ضع قائمة بجميع المعدات المراد حمايتها. الخطوة 2: احصل على قوة كل عنصر. الخطوة 3: طبق مضاعف تيار البدء للمحركات. الخطوة 4: اجمع كل القوى. الخطوة 5: حول إلى KVA باستخدام عامل القدرة. الخطوة 6: أضف هامش أمان 20-30%.", "pt": "Etapa 1: Liste todos os equipamentos a proteger. Etapa 2: Obtenha a potência de cada item. Etapa 3: Aplique o multiplicador de corrente de partida para motores. Etapa 4: Some todas as potências. Etapa 5: Converta para KVA usando fator de potência. Etapa 6: Adicione margem de segurança de 20-30%.", "ru": "Шаг 1: Перечислите все оборудование для защиты. Шаг 2: Получите мощность каждого элемента. Шаг 3: Примените множитель пускового тока для двигателей. Шаг 4: Суммируйте все мощности. Шаг 5: Конвертируйте в KVA, используя коэффициент мощности. Шаг 6: Добавьте запас прочности 20-30%.", "ja": "ステップ1：保護するすべての機器をリストします。ステップ2：各アイテムのワット数を取得します。ステップ3：モーターの起動電流の乗数を適用します。ステップ4：すべてのワット数を合計します。ステップ5：力率を使用してKVAに変換します。ステップ6：20-30%の安全マージンを追加します。", "de": "Schritt 1: Listen Sie alle zu schützenden Geräte auf. Schritt 2: Ermitteln Sie die Wattzahl jedes Elements. Schritt 3: Wenden Sie den Anlaufstrom-Multiplikator für Motoren an. Schritt 4: Summieren Sie alle Wattzahlen. Schritt 5: Konvertieren Sie mit dem Leistungsfaktor in KVA. Schritt 6: Fügen Sie 20-30% Sicherheitsreserve hinzu.", "hi": "चरण 1: सुरक्षित करने के लिए सभी उपकरणों की सूची बनाएं। चरण 2: प्रत्येक आइटम की वाटage प्राप्त करें। चरण 3: मोटर्स के लिए स्टार्टिंग करंट गुणक लागू करें। चरण 4: सभी वाटेज का योग करें। चरण 5: पावर फैक्टर का उपयोग करके KVA में बदलें। चरण 6: 20-30% सुरक्षा मार्जिन जोड़ें।" }
+      "heading": {
+        "en": "Step-by-Step AVR Sizing Calculation",
+        "zh": "分步AVR选型计算",
+        "es": "Cálculo paso a paso del tamaño del AVR",
+        "fr": "Calcul de dimensionnement AVR étape par étape",
+        "ar": "حساب حجم AVR خطوة بخطوة",
+        "pt": "Cálculo de dimensionamento do AVR passo a passo",
+        "ru": "Пошаговый расчет размера AVR",
+        "ja": "ステップバイステップAVRサイジング計算",
+        "de": "Schritt-für-Schritt AVR-Auslegungsberechnung",
+        "hi": "चरण-दर-चरण AVR साइज़िंग गणना"
+      },
+      "body": {
+        "en": "Step 1: List all equipment to protect. Step 2: Get the wattage of each item (check nameplate or manual). Step 3: Apply the starting/peak current multiplier for motors: inductive loads need 2-3× their running watts during startup. Step 4: Sum all wattages. Step 5: Convert to KVA using power factor (typically 0.8). Step 6: Add 20-30% safety margin for future expansion and overload capacity. Example: Protecting a refrigerator (200W), air conditioner (1500W), and TV (100W) with motor loads: Total = (200+1500+100) × 2.5 (motor multiplier) = 4500W → 4500/(0.8×1000) = 5.6KVA → With 20% margin = 6.7KVA → Choose SVC-10KVA.",
+        "zh": "第1步：列出所有要保护的设备。第2步：获取每个设备的瓦数（检查铭牌或手册）。第3步：为电机应用启动/峰值电流倍数：感性负载在启动期间需要其运行瓦数的2-3倍。第4步：汇总所有瓦数。第5步：使用功率因数（通常为0.8）转换为KVA。第6步：添加20-30%的安全余量以备将来扩展和过载容量。",
+        "es": "Paso 1: Enumere todos los equipos a proteger. Paso 2: Obtenga el vataje de cada elemento. Paso 3: Aplique el multiplicador de corriente de arranque para motores: cargas inductivas necesitan 2-3× sus vatios de funcionamiento durante el arranque. Paso 4: Sume todos los vatajes. Paso 5: Convierta a KVA usando el factor de potencia. Paso 6: Agregue un margen de seguridad del 20-30%.",
+        "fr": "Étape 1: Énumérez tous les équipements à protéger. Étape 2: Obtenez la puissance de chaque appareil. Étape 3: Appliquez le multiplicateur de courant de démarrage pour les moteurs. Étape 4: Additionnez toutes les puissances. Étape 5: Convertissez en KVA en utilisant le facteur de puissance. Étape 6: Ajoutez une marge de sécurité de 20-30%.",
+        "ar": "الخطوة 1: ضع قائمة بجميع المعدات المراد حمايتها. الخطوة 2: احصل على قوة كل عنصر. الخطوة 3: طبق مضاعف تيار البدء للمحركات. الخطوة 4: اجمع كل القوى. الخطوة 5: حول إلى KVA باستخدام عامل القدرة. الخطوة 6: أضف هامش أمان 20-30%.",
+        "pt": "Etapa 1: Liste todos os equipamentos a proteger. Etapa 2: Obtenha a potência de cada item. Etapa 3: Aplique o multiplicador de corrente de partida para motores. Etapa 4: Some todas as potências. Etapa 5: Converta para KVA usando fator de potência. Etapa 6: Adicione margem de segurança de 20-30%.",
+        "ru": "Шаг 1: Перечислите все оборудование для защиты. Шаг 2: Получите мощность каждого элемента. Шаг 3: Примените множитель пускового тока для двигателей. Шаг 4: Суммируйте все мощности. Шаг 5: Конвертируйте в KVA, используя коэффициент мощности. Шаг 6: Добавьте запас прочности 20-30%.",
+        "ja": "ステップ1：保護するすべての機器をリストします。ステップ2：各アイテムのワット数を取得します。ステップ3：モーターの起動電流の乗数を適用します。ステップ4：すべてのワット数を合計します。ステップ5：力率を使用してKVAに変換します。ステップ6：20-30%の安全マージンを追加します。",
+        "de": "Schritt 1: Listen Sie alle zu schützenden Geräte auf. Schritt 2: Ermitteln Sie die Wattzahl jedes Elements. Schritt 3: Wenden Sie den Anlaufstrom-Multiplikator für Motoren an. Schritt 4: Summieren Sie alle Wattzahlen. Schritt 5: Konvertieren Sie mit dem Leistungsfaktor in KVA. Schritt 6: Fügen Sie 20-30% Sicherheitsreserve hinzu.",
+        "hi": "चरण 1: सुरक्षित करने के लिए सभी उपकरणों की सूची बनाएं। चरण 2: प्रत्येक आइटम की वाटage प्राप्त करें। चरण 3: मोटर्स के लिए स्टार्टिंग करंट गुणक लागू करें। चरण 4: सभी वाटेज का योग करें। चरण 5: पावर फैक्टर का उपयोग करके KVA में बदलें। चरण 6: 20-30% सुरक्षा मार्जिन जोड़ें।"
+      }
     },
     {
       "id": "yoke-models",
-      "heading": { "en": "YOKE AVR Models and Applications", "zh": "YOKE AVR型号和应用", "es": "Modelos YOKE AVR y aplicaciones", "fr": "Modèles YOKE AVR et applications", "ar": "طرازات YOKE AVR والتطبيقات", "pt": "Modelos YOKE AVR e aplicações", "ru": "Модели YOKE AVR и области применения", "ja": "YOKE AVRモデルとアプリケーション", "de": "YOKE AVR-Modelle und Anwendungen", "hi": "YOKE AVR मॉडल और अनुप्रयोग" },
-      "body": { "en": "YOKE offers a complete range of AVR models: SVC-3KVA: Ideal for single appliances like refrigerators, TVs, or computers. Perfect for home offices. SVC-10KVA: Suitable for entire home appliances including air conditioners, washing machines, and multiple devices. SVC-30KVA: Designed for small commercial use, restaurants, shops with multiple appliances. SVC-50KVA to SVC-60KVA: Heavy-duty industrial AVRs for manufacturing equipment, CNC machines, production lines, and entire facilities.", "zh": "YOKE提供完整的AVR型号系列：SVC-3KVA：非常适合冰箱、电视或电脑等单个电器。是家庭办公室的理想选择。SVC-10KVA：适用于包括空调、洗衣机和多个设备在内的整个家庭电器。SVC-30KVA：专为小型商业用途、餐厅、商店的多个电器设计。SVC-50KVA至SVC-60KVA：重型工业AVR，用于制造设备、CNC机床、生产线和整个设施。", "es": "YOKE ofrece una gama completa de modelos AVR: SVC-3KVA: Ideal para electrodomésticos individuales como neveras, televisores o computadoras. Perfecto para oficinas en casa. SVC-10KVA: Adecuado para electrodomésticos de toda la casa.", "fr": "YOKE offre une gamme complète de modèles AVR: SVC-3KVA: Idéal pour les appareils électroménagers individuels comme les réfrigérateurs, télévisions ou ordinateurs. Parfait pour les bureaux à domicile.", "ar": "تقدم YOKE مجموعة كاملة من طرازات AVR: SVC-3KVA: مثالي للأجهزة الفردية مثل الثلاجات أو التلفزيونات أو أجهزة الكمبيوتر. مثالي لمكاتب المنزل.", "pt": "A YOKE oferece uma gama completa de modelos AVR: SVC-3KVA: Ideal para eletrodomésticos individuais como geladeiras, TVs ou computadores. Perfeito para home offices.", "ru": "YOKE предлагает полный модельный ряд AVR: SVC-3KVA: Идеально для отдельных приборов, таких как холодильники, телевизоры или компьютеры. Идеально для домашних офисов.", "ja": "YOKEは完全なAVRモデルシリーズを提供します：SVC-3KVA：冷蔵庫、テレビ、コンピュータなどの個別の电器に最適です。ホームオフィスに最適。", "de": "YOKE bietet eine vollständige Palette von AVR-Modellen: SVC-3KVA: Ideal für einzelne Geräte wie Kühlschränke, Fernseher oder Computer. Perfekt für Homeoffice.", "hi": "YOKE AVR मॉडल की एक पूरी श्रृंखला प्रदान करता है: SVC-3KVA: रेफ्रिजरेटर, टीवी या कंप्यूटर जैसे व्यक्तिगत उपकरणों के लिए आदर्श।" }
+      "heading": {
+        "en": "YOKE AVR Models and Applications",
+        "zh": "YOKE AVR型号和应用",
+        "es": "Modelos YOKE AVR y aplicaciones",
+        "fr": "Modèles YOKE AVR et applications",
+        "ar": "طرازات YOKE AVR والتطبيقات",
+        "pt": "Modelos YOKE AVR e aplicações",
+        "ru": "Модели YOKE AVR и области применения",
+        "ja": "YOKE AVRモデルとアプリケーション",
+        "de": "YOKE AVR-Modelle und Anwendungen",
+        "hi": "YOKE AVR मॉडल और अनुप्रयोग"
+      },
+      "body": {
+        "en": "YOKE offers a complete range of AVR models: SVC-3KVA: Ideal for single appliances like refrigerators, TVs, or computers. Perfect for home offices. SVC-10KVA: Suitable for entire home appliances including air conditioners, washing machines, and multiple devices. SVC-30KVA: Designed for small commercial use, restaurants, shops with multiple appliances. SVC-50KVA to SVC-60KVA: Heavy-duty industrial AVRs for manufacturing equipment, CNC machines, production lines, and entire facilities.",
+        "zh": "YOKE提供完整的AVR型号系列：SVC-3KVA：非常适合冰箱、电视或电脑等单个电器。是家庭办公室的理想选择。SVC-10KVA：适用于包括空调、洗衣机和多个设备在内的整个家庭电器。SVC-30KVA：专为小型商业用途、餐厅、商店的多个电器设计。SVC-50KVA至SVC-60KVA：重型工业AVR，用于制造设备、CNC机床、生产线和整个设施。",
+        "es": "YOKE ofrece una gama completa de modelos AVR: SVC-3KVA: Ideal para electrodomésticos individuales como neveras, televisores o computadoras. Perfecto para oficinas en casa. SVC-10KVA: Adecuado para electrodomésticos de toda la casa.",
+        "fr": "YOKE offre une gamme complète de modèles AVR: SVC-3KVA: Idéal pour les appareils électroménagers individuels comme les réfrigérateurs, télévisions ou ordinateurs. Parfait pour les bureaux à domicile.",
+        "ar": "تقدم YOKE مجموعة كاملة من طرازات AVR: SVC-3KVA: مثالي للأجهزة الفردية مثل الثلاجات أو التلفزيونات أو أجهزة الكمبيوتر. مثالي لمكاتب المنزل.",
+        "pt": "A YOKE oferece uma gama completa de modelos AVR: SVC-3KVA: Ideal para eletrodomésticos individuais como geladeiras, TVs ou computadores. Perfeito para home offices.",
+        "ru": "YOKE предлагает полный модельный ряд AVR: SVC-3KVA: Идеально для отдельных приборов, таких как холодильники, телевизоры или компьютеры. Идеально для домашних офисов.",
+        "ja": "YOKEは完全なAVRモデルシリーズを提供します：SVC-3KVA：冷蔵庫、テレビ、コンピュータなどの個別の电器に最適です。ホームオフィスに最適。",
+        "de": "YOKE bietet eine vollständige Palette von AVR-Modellen: SVC-3KVA: Ideal für einzelne Geräte wie Kühlschränke, Fernseher oder Computer. Perfekt für Homeoffice.",
+        "hi": "YOKE AVR मॉडल की एक पूरी श्रृंखला प्रदान करता है: SVC-3KVA: रेफ्रिजरेटर, टीवी या कंप्यूटर जैसे व्यक्तिगत उपकरणों के लिए आदर्श।"
+      }
     },
     {
       "id": "common-mistakes",
-      "heading": { "en": "Common Sizing Mistakes to Avoid", "zh": "应避免的常见选型错误", "es": "Errores comunes de dimensionamiento a evitar", "fr": "Erreurs de dimensionnement courantes à éviter", "ar": "أخطاء الحجم الشائعة التي يجب تجنبها", "pt": "Erros comuns de dimensionamento a evitar", "ru": "Распространенные ошибки при выборе, которых следует избегать", "ja": "避けるべき一般的なサイジングエラー", "de": "Häufige Dimensionierungsfehler vermeiden", "hi": "सामान्य साइज़िंग गलतियों से बचें" },
-      "body": { "en": "1. Ignoring motor starting currents: Motors draw 3-5× normal current at startup. 2. Not accounting for future expansion: Always add 20-30% capacity margin. 3. Mixing voltage classes: Ensure input voltage range matches your local grid (110V or 220V systems). 4. Forgetting power factor: Using PF=1.0 for motor loads underestimates required KVA. 5. Overlooking efficiency curves: AVRs operate most efficiently at 60-80% load. 6. Ignoring load type: Some equipment (laser printers, MRI machines) have unique power quality needs.", "zh": "1. 忽略电机启动电流：电机在启动时消耗正常电流的3-5倍。2. 没有考虑未来扩展：始终添加20-30%的容量余量。3. 混合电压等级：确保输入电压范围与当地电网匹配（110V或220V系统）。4.忘记功率因数：对电机负载使用PF=1.0会低估所需KVA。5. 忽略效率曲线：AVR在60-80%负载时效率最高。6. 忽视负载类型：某些设备（激光打印机、MRI机器）有特殊的电能质量需求。", "es": "1. Ignorar las corrientes de arranque del motor: Los motores consumen 3-5× la corriente normal en el arranque. 2. No tener en cuenta la expansión futura: Siempre agregue un margen de capacidad del 20-30%. 3. Mezclar clases de voltaje: Asegúrese de que el rango de voltaje de entrada coincida con su red local.", "fr": "1. Ignorer les courants de démarrage des moteurs: Les moteurs consomment 3-5× le courant normal au démarrage. 2. Ne pas tenir compte de l'expansion future: Ajoutez toujours une marge de capacité de 20-30%.", "ar": "1. تجاهل تيارات بدء المحرك: تستهلك المحركات 3-5× التيار العادي عند البدء. 2. عدم مراعاة التوسع المستقبلي: أضف دائمًا هامش سعة 20-30%.", "pt": "1. Ignorar correntes de partida do motor: Motores consomem 3-5× a corrente normal na partida. 2. Não considerar expansão futura: Sempre adicione margem de capacidade de 20-30%.", "ru": "1. Игнорирование пусковых токов двигателей: Двигатели потребляют в 3-5 раз больший ток при пуске. 2. Не учет будущего расширения: Всегда добавляйте запас мощности 20-30%.", "ja": "1. モーターの始動電流を無視する：モーターは始動時に通常の電流の3-5倍を消費します。2. 将来の拡張を考慮しない：常に20-30%の容量マージンを追加してください。", "de": "1. Anlaufströme der Motoren ignorieren: Motoren ziehen beim Start 3-5× den normalen Strom. 2. Zukünftige Erweiterung nicht berücksichtigen: Fügen Sie immer 20-30% Kapazitätsreserve hinzu.", "hi": "1. मोटर स्टार्टिंग करंट को अनदेखा करना: मोटर स्टार्टअप पर सामान्य करंट का 3-5× ड्रॉ करती हैं। 2. भविष्य के विस्तार के लिए खाते नहीं: हमेशा 20-30% क्षमता मार्जिन जोड़ें।" }
+      "heading": {
+        "en": "Common Sizing Mistakes to Avoid",
+        "zh": "应避免的常见选型错误",
+        "es": "Errores comunes de dimensionamiento a evitar",
+        "fr": "Erreurs de dimensionnement courantes à éviter",
+        "ar": "أخطاء الحجم الشائعة التي يجب تجنبها",
+        "pt": "Erros comuns de dimensionamento a evitar",
+        "ru": "Распространенные ошибки при выборе, которых следует избегать",
+        "ja": "避けるべき一般的なサイジングエラー",
+        "de": "Häufige Dimensionierungsfehler vermeiden",
+        "hi": "सामान्य साइज़िंग गलतियों से बचें"
+      },
+      "body": {
+        "en": "1. Ignoring motor starting currents: Motors draw 3-5× normal current at startup. 2. Not accounting for future expansion: Always add 20-30% capacity margin. 3. Mixing voltage classes: Ensure input voltage range matches your local grid (110V or 220V systems). 4. Forgetting power factor: Using PF=1.0 for motor loads underestimates required KVA. 5. Overlooking efficiency curves: AVRs operate most efficiently at 60-80% load. 6. Ignoring load type: Some equipment (laser printers, MRI machines) have unique power quality needs.",
+        "zh": "1. 忽略电机启动电流：电机在启动时消耗正常电流的3-5倍。2. 没有考虑未来扩展：始终添加20-30%的容量余量。3. 混合电压等级：确保输入电压范围与当地电网匹配（110V或220V系统）。4.忘记功率因数：对电机负载使用PF=1.0会低估所需KVA。5. 忽略效率曲线：AVR在60-80%负载时效率最高。6. 忽视负载类型：某些设备（激光打印机、MRI机器）有特殊的电能质量需求。",
+        "es": "1. Ignorar las corrientes de arranque del motor: Los motores consumen 3-5× la corriente normal en el arranque. 2. No tener en cuenta la expansión futura: Siempre agregue un margen de capacidad del 20-30%. 3. Mezclar clases de voltaje: Asegúrese de que el rango de voltaje de entrada coincida con su red local.",
+        "fr": "1. Ignorer les courants de démarrage des moteurs: Les moteurs consomment 3-5× le courant normal au démarrage. 2. Ne pas tenir compte de l'expansion future: Ajoutez toujours une marge de capacité de 20-30%.",
+        "ar": "1. تجاهل تيارات بدء المحرك: تستهلك المحركات 3-5× التيار العادي عند البدء. 2. عدم مراعاة التوسع المستقبلي: أضف دائمًا هامش سعة 20-30%.",
+        "pt": "1. Ignorar correntes de partida do motor: Motores consomem 3-5× a corrente normal na partida. 2. Não considerar expansão futura: Sempre adicione margem de capacidade de 20-30%.",
+        "ru": "1. Игнорирование пусковых токов двигателей: Двигатели потребляют в 3-5 раз больший ток при пуске. 2. Не учет будущего расширения: Всегда добавляйте запас мощности 20-30%.",
+        "ja": "1. モーターの始動電流を無視する：モーターは始動時に通常の電流の3-5倍を消費します。2. 将来の拡張を考慮しない：常に20-30%の容量マージンを追加してください。",
+        "de": "1. Anlaufströme der Motoren ignorieren: Motoren ziehen beim Start 3-5× den normalen Strom. 2. Zukünftige Erweiterung nicht berücksichtigen: Fügen Sie immer 20-30% Kapazitätsreserve hinzu.",
+        "hi": "1. मोटर स्टार्टिंग करंट को अनदेखा करना: मोटर स्टार्टअप पर सामान्य करंट का 3-5× ड्रॉ करती हैं। 2. भविष्य के विस्तार के लिए खाते नहीं: हमेशा 20-30% क्षमता मार्जिन जोड़ें।"
+      }
     }
   ],
   "faqItems": [
     {
-      "q": { "en": "How do I calculate AVR capacity needed?", "zh": "如何计算所需的AVR容量？" },
-      "a": { "en": "Add up the total wattage of all equipment you want to protect, then multiply by 1.2 to account for startup currents. Choose an AVR with capacity at least 20% higher than this total.", "zh": "将您想要保护的所有设备的总瓦数相加，然后乘以1.2以考虑启动电流。选择容量至少比这个总数高20%的AVR。" }
+      "q": {
+        "en": "How do I calculate AVR capacity needed?",
+        "zh": "如何计算所需的AVR容量？"
+      },
+      "a": {
+        "en": "Add up the total wattage of all equipment you want to protect, then multiply by 1.2 to account for startup currents. Choose an AVR with capacity at least 20% higher than this total.",
+        "zh": "将您想要保护的所有设备的总瓦数相加，然后乘以1.2以考虑启动电流。选择容量至少比这个总数高20%的AVR。"
+      }
     }
   ],
   "relatedProducts": [],
-  "relatedArticles": ["how-automatic-voltage-regulators-work", "understanding-avr-specifications"],
+  "relatedArticles": [
+    {
+      "slug": "how-automatic-voltage-regulators-work",
+      "title": ""
+    },
+    {
+      "slug": "understanding-avr-specifications",
+      "title": ""
+    }
+  ],
   "cta": {
     "text": {
       "en": "Not sure which AVR capacity you need? Contact YOKE for professional sizing guidance and competitive pricing.",

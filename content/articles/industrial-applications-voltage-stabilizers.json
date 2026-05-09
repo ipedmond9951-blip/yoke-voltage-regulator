@@ -32,38 +32,163 @@
   "sections": [
     {
       "id": "manufacturing",
-      "heading": { "en": "Manufacturing and Production Facilities", "zh": "制造和生产设施", "es": "Instalaciones de fabricación y producción", "fr": "Installations de fabrication et de production", "ar": "مرافق التصنيع والإنتاج", "pt": "Instalações de manufatura e produção", "ru": "Производственные мощности", "ja": "製造および生産施設", "de": "Fertigungs- und Produktionsanlagen", "hi": "विनिर्माण और उत्पादन सुविधाएं" },
-      "body": { "en": "Manufacturing facilities depend on stable voltage for CNC machines, robotic assembly lines, welding equipment, and industrial motors. Voltage fluctuations cause: CNC machines to malfunction and produce defective parts, robotic arms to lose positioning accuracy, production line downtime costing thousands per hour, motor overheating and premature failure. YOKE industrial AVRs (50KVA-60KVA) protect entire production lines, with models like SVC-50KVA and SVC-60KVA providing heavy-duty protection for manufacturing environments.", "zh": "制造设施依赖稳定电压的CNC机床、机器人装配线、焊接设备和工业电机。电压波动导致：CNC机床故障并产生有缺陷的零件，机器人手臂失去定位精度，每小时损失数千美元的生产线停机时间，电机过热和过早故障。YOKE工业AVR（50KVA-60KVA）保护整个生产线，SVC-50KVA和SVC-60KVA等型号为制造环境提供重型保护。", "es": "Las instalaciones de fabricación dependen del voltaje estable para máquinas CNC, líneas de ensamblaje robóticas, equipos de soldadura y motores industriales. Las fluctuaciones de voltaje causan: Mal funcionamiento de máquinas CNC y producción de piezas defectuosas.", "fr": "Les installations de fabrication dépendent d'une tension stable pour les machines CNC, les lignes d'assemblage robotisées, les équipements de soudage et les moteurs industriels.", "ar": "تعتمد مرافق التصنيع على جهد ثابت لـ CNC الآلات وخطوط التجميع الروبوتية ومعدات اللحام والمحركات الصناعية.", "pt": "As instalações de manufatura dependem de tensão estável para máquinas CNC, linhas de montagem robóticas, equipamentos de soldagem e motores industriais.", "ru": "Производственные объекты зависят от стабильного напряжения для станков с ЧПУ, роботизированных сборочных линий, сварочного оборудования и промышленных двигателей.", "ja": "製造施設は、CNC工作機械、ロボット組立ライン、熔接機器、産業用モーターにとって安定した电压に依存しています。", "de": "Fertigungsanlagen sind auf stabile Spannung für CNC-Maschinen, Roboter-Montagelinien, Schweißgeräte und Industriemotoren angewiesen.", "hi": "विनिर्माण सुविधाएं CNC मशीनों, रोबोटिक असेंबली लाइनों, वेल्डिंग उपकरणों और औद्योगिक मोटर्स के लिए स्थिर वोल्टेज पर निर्भर हैं।" }
+      "heading": {
+        "en": "Manufacturing and Production Facilities",
+        "zh": "制造和生产设施",
+        "es": "Instalaciones de fabricación y producción",
+        "fr": "Installations de fabrication et de production",
+        "ar": "مرافق التصنيع والإنتاج",
+        "pt": "Instalações de manufatura e produção",
+        "ru": "Производственные мощности",
+        "ja": "製造および生産施設",
+        "de": "Fertigungs- und Produktionsanlagen",
+        "hi": "विनिर्माण और उत्पादन सुविधाएं"
+      },
+      "body": {
+        "en": "Manufacturing facilities depend on stable voltage for CNC machines, robotic assembly lines, welding equipment, and industrial motors. Voltage fluctuations cause: CNC machines to malfunction and produce defective parts, robotic arms to lose positioning accuracy, production line downtime costing thousands per hour, motor overheating and premature failure. YOKE industrial AVRs (50KVA-60KVA) protect entire production lines, with models like SVC-50KVA and SVC-60KVA providing heavy-duty protection for manufacturing environments.",
+        "zh": "制造设施依赖稳定电压的CNC机床、机器人装配线、焊接设备和工业电机。电压波动导致：CNC机床故障并产生有缺陷的零件，机器人手臂失去定位精度，每小时损失数千美元的生产线停机时间，电机过热和过早故障。YOKE工业AVR（50KVA-60KVA）保护整个生产线，SVC-50KVA和SVC-60KVA等型号为制造环境提供重型保护。",
+        "es": "Las instalaciones de fabricación dependen del voltaje estable para máquinas CNC, líneas de ensamblaje robóticas, equipos de soldadura y motores industriales. Las fluctuaciones de voltaje causan: Mal funcionamiento de máquinas CNC y producción de piezas defectuosas.",
+        "fr": "Les installations de fabrication dépendent d'une tension stable pour les machines CNC, les lignes d'assemblage robotisées, les équipements de soudage et les moteurs industriels.",
+        "ar": "تعتمد مرافق التصنيع على جهد ثابت لـ CNC الآلات وخطوط التجميع الروبوتية ومعدات اللحام والمحركات الصناعية.",
+        "pt": "As instalações de manufatura dependem de tensão estável para máquinas CNC, linhas de montagem robóticas, equipamentos de soldagem e motores industriais.",
+        "ru": "Производственные объекты зависят от стабильного напряжения для станков с ЧПУ, роботизированных сборочных линий, сварочного оборудования и промышленных двигателей.",
+        "ja": "製造施設は、CNC工作機械、ロボット組立ライン、熔接機器、産業用モーターにとって安定した电压に依存しています。",
+        "de": "Fertigungsanlagen sind auf stabile Spannung für CNC-Maschinen, Roboter-Montagelinien, Schweißgeräte und Industriemotoren angewiesen.",
+        "hi": "विनिर्माण सुविधाएं CNC मशीनों, रोबोटिक असेंबली लाइनों, वेल्डिंग उपकरणों और औद्योगिक मोटर्स के लिए स्थिर वोल्टेज पर निर्भर हैं।"
+      }
     },
     {
       "id": "healthcare",
-      "heading": { "en": "Healthcare and Medical Facilities", "zh": "医疗和医疗机构", "es": "Instalaciones de atención médica y médicas", "fr": "Établissements de santé et médicaux", "ar": "مرافق الرعاية الصحية والطبية", "pt": "Instalações de saúde e médicas", "ru": "Медицинские учреждения", "ja": "医療および医療施設", "de": "Gesundheits- und Medizinische Einrichtungen", "hi": "स्वास्थ्य देखभाल और चिकित्सा सुविधाएं" },
-      "body": { "en": "Hospitals and medical facilities require uninterrupted, clean power for life-saving equipment. Medical devices sensitive to voltage fluctuations: MRI machines, CT scanners, X-ray equipment, patient monitoring systems, ventilators and life support, laboratory analytical equipment. Voltage instability can cause: Misdiagnosis from incorrect imaging, patient data corruption, equipment calibration drift, safety system failures. YOKE's precision AVRs provide the voltage stability required for diagnostic accuracy and patient safety.", "zh": "医院和医疗机构需要为救生设备提供不间断、干净的电源。对电压波动敏感的医疗设备：MRI机器、CT扫描仪、X光设备、患者监护系统、呼吸机和生命支持、实验室分析设备。电压不稳定可能导致：因成像错误而误诊，患者数据损坏，设备校准漂移，安全系统故障。YOKE的精密AVR提供诊断准确性和患者安全所需的电压稳定性。", "es": "Los hospitales e instalaciones médicas requieren energía limpia e ininterrumpida para equipos que salvan vidas. Dispositivos médicos sensibles a las fluctuaciones de voltaje: máquinas MRI, escáneres CT.", "fr": "Les hôpitaux et établissements médicaux nécessitent une alimentation propre et ininterrompue pour les équipements qui sauvent des vies.", "ar": "تتطلب المستشفيات والمرافق الطبية طاقة نظيفة وغير منقطعة للمعدات المنقذة للحياة.", "pt": "Hospitais e instalações médicas requerem energia limpa e ininterrupta para equipamentos que salvam vidas.", "ru": "Больницы и медицинские учреждения требуют бесперебойного и чистого питания для оборудования, спасающего жизнь.", "ja": "病院と医療施設は、生命を脅かす機器のためにクリーンで途切れることのない電力が必要です。", "de": "Krankenhäuser und medizinische Einrichtungen benötigen unterbrechungsfreie, saubere Energie für lebensrettende Geräte.", "hi": "अस्पतालों और चिकित्सा सुविधाओं को जीवन रक्षक उपकरणों के लिए निर्बाध, स्वच्छ बिजली की आवश्यकता होती है।" }
+      "heading": {
+        "en": "Healthcare and Medical Facilities",
+        "zh": "医疗和医疗机构",
+        "es": "Instalaciones de atención médica y médicas",
+        "fr": "Établissements de santé et médicaux",
+        "ar": "مرافق الرعاية الصحية والطبية",
+        "pt": "Instalações de saúde e médicas",
+        "ru": "Медицинские учреждения",
+        "ja": "医療および医療施設",
+        "de": "Gesundheits- und Medizinische Einrichtungen",
+        "hi": "स्वास्थ्य देखभाल और चिकित्सा सुविधाएं"
+      },
+      "body": {
+        "en": "Hospitals and medical facilities require uninterrupted, clean power for life-saving equipment. Medical devices sensitive to voltage fluctuations: MRI machines, CT scanners, X-ray equipment, patient monitoring systems, ventilators and life support, laboratory analytical equipment. Voltage instability can cause: Misdiagnosis from incorrect imaging, patient data corruption, equipment calibration drift, safety system failures. YOKE's precision AVRs provide the voltage stability required for diagnostic accuracy and patient safety.",
+        "zh": "医院和医疗机构需要为救生设备提供不间断、干净的电源。对电压波动敏感的医疗设备：MRI机器、CT扫描仪、X光设备、患者监护系统、呼吸机和生命支持、实验室分析设备。电压不稳定可能导致：因成像错误而误诊，患者数据损坏，设备校准漂移，安全系统故障。YOKE的精密AVR提供诊断准确性和患者安全所需的电压稳定性。",
+        "es": "Los hospitales e instalaciones médicas requieren energía limpia e ininterrumpida para equipos que salvan vidas. Dispositivos médicos sensibles a las fluctuaciones de voltaje: máquinas MRI, escáneres CT.",
+        "fr": "Les hôpitaux et établissements médicaux nécessitent une alimentation propre et ininterrompue pour les équipements qui sauvent des vies.",
+        "ar": "تتطلب المستشفيات والمرافق الطبية طاقة نظيفة وغير منقطعة للمعدات المنقذة للحياة.",
+        "pt": "Hospitais e instalações médicas requerem energia limpa e ininterrupta para equipamentos que salvam vidas.",
+        "ru": "Больницы и медицинские учреждения требуют бесперебойного и чистого питания для оборудования, спасающего жизнь.",
+        "ja": "病院と医療施設は、生命を脅かす機器のためにクリーンで途切れることのない電力が必要です。",
+        "de": "Krankenhäuser und medizinische Einrichtungen benötigen unterbrechungsfreie, saubere Energie für lebensrettende Geräte.",
+        "hi": "अस्पतालों और चिकित्सा सुविधाओं को जीवन रक्षक उपकरणों के लिए निर्बाध, स्वच्छ बिजली की आवश्यकता होती है।"
+      }
     },
     {
       "id": "datacenter",
-      "heading": { "en": "Data Centers and IT Infrastructure", "zh": "数据中心和IT基础设施", "es": "Centros de datos e infraestructura de TI", "fr": "Centres de données et infrastructure informatique", "ar": "مراكز البيانات وبنية تكنولوجيا المعلومات", "pt": "Data centers e infraestrutura de TI", "ru": "Центры обработки данных и IT-инфраструктура", "ja": "データセンターとITインフラストラクチャ", "de": "Rechenzentren und IT-Infrastruktur", "hi": "डेटा सेंटर और IT अवसंरचना" },
-      "body": { "en": "Data centers and server rooms face serious risks from voltage fluctuations. Even minor variations cause: Data corruption during write operations, server crashes and downtime, RAID array failures, network equipment malfunction, reduced equipment lifespan. Modern servers operate at very precise voltages (12V, 5V, 3.3V) with tight tolerances. YOKE AVRs ensure continuous, clean power delivery to prevent data loss and maintain 99.999% uptime requirements.", "zh": "数据中心和服务器机房面临电压波动带来的严重风险。即使是轻微的变化也会导致：在写入操作期间数据损坏，服务器崩溃和停机，RAID阵列故障，网络设备故障，设备寿命缩短。现代服务器以非常精确的电压（12V、5V、3.3V）和紧密公差运行。YOKE AVR确保持续、干净的电力输送，防止数据丢失并保持99.999%的正常运行时间要求。", "es": "Los centros de datos y las salas de servidores enfrentan riesgos graves por fluctuaciones de voltaje. Incluso variaciones menores causan: Daño de datos durante operaciones de escritura, caídas de servidores.", "fr": "Les centres de données et les salles de serveurs sont confrontés à de graves risques liés aux fluctuations de tension.", "ar": "تواجه مراكز البيانات وغرف الخوادم مخاطر خطيرة من تقلبات الجهد.", "pt": "Data centers e salas de servidores enfrentam riscos graves de flutuações de tensão.", "ru": "Центры обработки данных и серверные комнаты подвергаются серьезным рискам от колебаний напряжения.", "ja": "データセンターとサーバールームは、 voltage 変動から深刻なリスクに直面しています。", "de": "Rechenzentren und Serverräume sind ernsthaften Risiken durch Spannungsschwankungen ausgesetzt.", "hi": "डेटा सेंटर और सर्वर कक्ष वोल्टेज उतार-चढ़ाव से गंभीर जोखिमों का सामना करते हैं।" }
+      "heading": {
+        "en": "Data Centers and IT Infrastructure",
+        "zh": "数据中心和IT基础设施",
+        "es": "Centros de datos e infraestructura de TI",
+        "fr": "Centres de données et infrastructure informatique",
+        "ar": "مراكز البيانات وبنية تكنولوجيا المعلومات",
+        "pt": "Data centers e infraestrutura de TI",
+        "ru": "Центры обработки данных и IT-инфраструктура",
+        "ja": "データセンターとITインフラストラクチャ",
+        "de": "Rechenzentren und IT-Infrastruktur",
+        "hi": "डेटा सेंटर और IT अवसंरचना"
+      },
+      "body": {
+        "en": "Data centers and server rooms face serious risks from voltage fluctuations. Even minor variations cause: Data corruption during write operations, server crashes and downtime, RAID array failures, network equipment malfunction, reduced equipment lifespan. Modern servers operate at very precise voltages (12V, 5V, 3.3V) with tight tolerances. YOKE AVRs ensure continuous, clean power delivery to prevent data loss and maintain 99.999% uptime requirements.",
+        "zh": "数据中心和服务器机房面临电压波动带来的严重风险。即使是轻微的变化也会导致：在写入操作期间数据损坏，服务器崩溃和停机，RAID阵列故障，网络设备故障，设备寿命缩短。现代服务器以非常精确的电压（12V、5V、3.3V）和紧密公差运行。YOKE AVR确保持续、干净的电力输送，防止数据丢失并保持99.999%的正常运行时间要求。",
+        "es": "Los centros de datos y las salas de servidores enfrentan riesgos graves por fluctuaciones de voltaje. Incluso variaciones menores causan: Daño de datos durante operaciones de escritura, caídas de servidores.",
+        "fr": "Les centres de données et les salles de serveurs sont confrontés à de graves risques liés aux fluctuations de tension.",
+        "ar": "تواجه مراكز البيانات وغرف الخوادم مخاطر خطيرة من تقلبات الجهد.",
+        "pt": "Data centers e salas de servidores enfrentam riscos graves de flutuações de tensão.",
+        "ru": "Центры обработки данных и серверные комнаты подвергаются серьезным рискам от колебаний напряжения.",
+        "ja": "データセンターとサーバールームは、 voltage 変動から深刻なリスクに直面しています。",
+        "de": "Rechenzentren und Serverräume sind ernsthaften Risiken durch Spannungsschwankungen ausgesetzt.",
+        "hi": "डेटा सेंटर और सर्वर कक्ष वोल्टेज उतार-चढ़ाव से गंभीर जोखिमों का सामना करते हैं।"
+      }
     },
     {
       "id": "commercial",
-      "heading": { "en": "Commercial Buildings and Offices", "zh": "商业建筑和办公室", "es": "Edificios comerciales y oficinas", "fr": "Bâtiments commerciaux et bureaux", "ar": "المباني التجارية والمكاتب", "pt": "Edifícios comerciais e escritórios", "ru": "Коммерческие здания и офисы", "ja": "商業ビルとオフィス", "de": "Gewerbegebäude und Büros", "hi": "वाणिज्यिक भवन और कार्यालय" },
-      "body": { "en": "Commercial buildings house numerous sensitive systems requiring stable power: Elevators and escalators, HVAC systems, security and access control, fire alarm systems, commercial lighting with LED drivers, point-of-sale terminals. Power quality issues in commercial buildings cause: Elevator entrapments and system failures, HVAC compressor burnout, security system malfunctions, lost transactions at checkout. YOKE's commercial AVR solutions (10KVA-30KVA) protect these critical systems cost-effectively.", "zh": "商业建筑容纳众多需要稳定电源的敏感系统：电梯和自动扶梯、HVAC系统、安保和门禁系统、火灾报警系统、带LED驱动器的商业照明、销售点终端。商业建筑中的电能质量问题导致：电梯困人和系统故障，HVAC压缩机烧毁，安保系统故障，结账时交易丢失。YOKE的商业AVR解决方案（10KVA-30KVA）经济有效地保护这些关键系统。", "es": "Los edificios comerciales albergan numerosos sistemas sensibles que requieren energía estable: Ascensores y escaleras mecánicas, sistemas HVAC, control de acceso y seguridad.", "fr": "Les bâtiments commerciaux abritent de nombreux systèmes sensibles nécessitant une alimentation stable.", "ar": "تضم المباني التجارية العديد من الأنظمة الحساسة التي تتطلب طاقة مستقرة.", "pt": "Edifícios comerciais abrigam numerosos sistemas sensíveis que requerem energia estável.", "ru": "Коммерческие здания содержат многочисленные чувствительные системы, требующие стабильного питания.", "ja": "商業ビルには、安定した電力が必要な多くの敏感なシステムが配备されています。", "de": "Gewerbegebäude beherbergen zahlreiche empfindliche Systeme, die stabile Stromversorgung benötigen.", "hi": "वाणिज्यिक भवनों में कई संवेदनशील प्रणालियां होती हैं जिन्हें स्थिर बिजली की आवश्यकता होती है।" }
+      "heading": {
+        "en": "Commercial Buildings and Offices",
+        "zh": "商业建筑和办公室",
+        "es": "Edificios comerciales y oficinas",
+        "fr": "Bâtiments commerciaux et bureaux",
+        "ar": "المباني التجارية والمكاتب",
+        "pt": "Edifícios comerciais e escritórios",
+        "ru": "Коммерческие здания и офисы",
+        "ja": "商業ビルとオフィス",
+        "de": "Gewerbegebäude und Büros",
+        "hi": "वाणिज्यिक भवन और कार्यालय"
+      },
+      "body": {
+        "en": "Commercial buildings house numerous sensitive systems requiring stable power: Elevators and escalators, HVAC systems, security and access control, fire alarm systems, commercial lighting with LED drivers, point-of-sale terminals. Power quality issues in commercial buildings cause: Elevator entrapments and system failures, HVAC compressor burnout, security system malfunctions, lost transactions at checkout. YOKE's commercial AVR solutions (10KVA-30KVA) protect these critical systems cost-effectively.",
+        "zh": "商业建筑容纳众多需要稳定电源的敏感系统：电梯和自动扶梯、HVAC系统、安保和门禁系统、火灾报警系统、带LED驱动器的商业照明、销售点终端。商业建筑中的电能质量问题导致：电梯困人和系统故障，HVAC压缩机烧毁，安保系统故障，结账时交易丢失。YOKE的商业AVR解决方案（10KVA-30KVA）经济有效地保护这些关键系统。",
+        "es": "Los edificios comerciales albergan numerosos sistemas sensibles que requieren energía estable: Ascensores y escaleras mecánicas, sistemas HVAC, control de acceso y seguridad.",
+        "fr": "Les bâtiments commerciaux abritent de nombreux systèmes sensibles nécessitant une alimentation stable.",
+        "ar": "تضم المباني التجارية العديد من الأنظمة الحساسة التي تتطلب طاقة مستقرة.",
+        "pt": "Edifícios comerciais abrigam numerosos sistemas sensíveis que requerem energia estável.",
+        "ru": "Коммерческие здания содержат многочисленные чувствительные системы, требующие стабильного питания.",
+        "ja": "商業ビルには、安定した電力が必要な多くの敏感なシステムが配备されています。",
+        "de": "Gewerbegebäude beherbergen zahlreiche empfindliche Systeme, die stabile Stromversorgung benötigen.",
+        "hi": "वाणिज्यिक भवनों में कई संवेदनशील प्रणालियां होती हैं जिन्हें स्थिर बिजली की आवश्यकता होती है।"
+      }
     },
     {
       "id": "selection-guide",
-      "heading": { "en": "Choosing AVR for Industrial Applications", "zh": "为工业应用选择AVR", "es": "Elección de AVR para aplicaciones industriales", "fr": "Choisir un AVR pour les applications industrielles", "ar": "اختيار AVR للتطبيقات الصناعية", "pt": "Escolhendo AVR para aplicações industriais", "ru": "Выбор AVR для промышленных применений", "ja": "産業用途向けのAVRの選択", "de": "AVR für industrielle Anwendungen auswählen", "hi": "औद्योगिक अनुप्रयोगों के लिए AVR चुनना" },
-      "body": { "en": "Industrial AVR selection criteria: Capacity: Calculate total load plus 30% margin. Consider starting currents for motor loads. Response time: Faster is better for sensitive processes. Consider TND series for faster response. Voltage range: Match to your local grid conditions (140V-260V standard). Efficiency: Higher efficiency means lower operating costs. YOKE industrial AVRs (30KVA-60KVA) feature: Robust construction for factory environments, heat-resistant components, bypass capability for maintenance, remote monitoring and alarms, CE/CB certifications for international standards.", "zh": "工业AVR选择标准：容量：计算总负载加30%余量。考虑电机负载的启动电流。响应时间：对于敏感工艺，越快越好。考虑TND系列以获得更快响应。电压范围：与当地电网条件匹配（140V-260V标准）。效率：更高的效率意味着更低的运营成本。YOKE工业AVR（30KVA-60KVA）特点：专为工厂环境设计的坚固结构，耐热组件，维护旁路能力，远程监控和警报，符合国际标准的CE/CB认证。", "es": "Criterios de selección de AVR industrial: Capacidad: Calcule la carga total más un margen del 30%. Tiempo de respuesta: Más rápido es mejor para procesos sensibles.", "fr": "Critères de sélection AVR industriel: Capacité: Calculez la charge totale plus une marge de 30%. Temps de réponse: Plus rapide est mieux pour les processus sensibles.", "ar": "معايير اختيار AVR الصناعي: السعة: احسب الحمل الكلي زائد هامش 30%. وقت الاستجابة: الأسرع أفضل للعمليات الحساسة.", "pt": "Critérios de seleção de AVR industrial: Capacidade: Calcule a carga total mais margem de 30%. Tempo de resposta: Mais rápido é melhor para processos sensíveis.", "ru": "Критерии выбора промышленного AVR: Мощность: Рассчитайте общую нагрузку плюс 30% запас. Время отклика: Чем быстрее, тем лучше для чувствительных процессов.", "ja": "産業用AVR選択基準：容量：合計負荷に30%のマージンを計算。応答時間：敏感なプロセスのためにより高速が有利。", "de": "Kriterien für industrielle AVR-Auswahl: Kapazität: Berechnen Sie die Gesamtlast plus 30% Reserve. Reaktionszeit: Schneller ist besser für empfindliche Prozesse.", "hi": "औद्योगिक AVR चयन मानदंड: क्षमता: कुल भार और 30% मार्जिन की गणना करें। रिस्पॉन्स टाइम: संवेदनशील प्रक्रियाओं के लिए तेज़ बेहतर है।" }
+      "heading": {
+        "en": "Choosing AVR for Industrial Applications",
+        "zh": "为工业应用选择AVR",
+        "es": "Elección de AVR para aplicaciones industriales",
+        "fr": "Choisir un AVR pour les applications industrielles",
+        "ar": "اختيار AVR للتطبيقات الصناعية",
+        "pt": "Escolhendo AVR para aplicações industriais",
+        "ru": "Выбор AVR для промышленных применений",
+        "ja": "産業用途向けのAVRの選択",
+        "de": "AVR für industrielle Anwendungen auswählen",
+        "hi": "औद्योगिक अनुप्रयोगों के लिए AVR चुनना"
+      },
+      "body": {
+        "en": "Industrial AVR selection criteria: Capacity: Calculate total load plus 30% margin. Consider starting currents for motor loads. Response time: Faster is better for sensitive processes. Consider TND series for faster response. Voltage range: Match to your local grid conditions (140V-260V standard). Efficiency: Higher efficiency means lower operating costs. YOKE industrial AVRs (30KVA-60KVA) feature: Robust construction for factory environments, heat-resistant components, bypass capability for maintenance, remote monitoring and alarms, CE/CB certifications for international standards.",
+        "zh": "工业AVR选择标准：容量：计算总负载加30%余量。考虑电机负载的启动电流。响应时间：对于敏感工艺，越快越好。考虑TND系列以获得更快响应。电压范围：与当地电网条件匹配（140V-260V标准）。效率：更高的效率意味着更低的运营成本。YOKE工业AVR（30KVA-60KVA）特点：专为工厂环境设计的坚固结构，耐热组件，维护旁路能力，远程监控和警报，符合国际标准的CE/CB认证。",
+        "es": "Criterios de selección de AVR industrial: Capacidad: Calcule la carga total más un margen del 30%. Tiempo de respuesta: Más rápido es mejor para procesos sensibles.",
+        "fr": "Critères de sélection AVR industriel: Capacité: Calculez la charge totale plus une marge de 30%. Temps de réponse: Plus rapide est mieux pour les processus sensibles.",
+        "ar": "معايير اختيار AVR الصناعي: السعة: احسب الحمل الكلي زائد هامش 30%. وقت الاستجابة: الأسرع أفضل للعمليات الحساسة.",
+        "pt": "Critérios de seleção de AVR industrial: Capacidade: Calcule a carga total mais margem de 30%. Tempo de resposta: Mais rápido é melhor para processos sensíveis.",
+        "ru": "Критерии выбора промышленного AVR: Мощность: Рассчитайте общую нагрузку плюс 30% запас. Время отклика: Чем быстрее, тем лучше для чувствительных процессов.",
+        "ja": "産業用AVR選択基準：容量：合計負荷に30%のマージンを計算。応答時間：敏感なプロセスのためにより高速が有利。",
+        "de": "Kriterien für industrielle AVR-Auswahl: Kapazität: Berechnen Sie die Gesamtlast plus 30% Reserve. Reaktionszeit: Schneller ist besser für empfindliche Prozesse.",
+        "hi": "औद्योगिक AVR चयन मानदंड: क्षमता: कुल भार और 30% मार्जिन की गणना करें। रिस्पॉन्स टाइम: संवेदनशील प्रक्रियाओं के लिए तेज़ बेहतर है।"
+      }
     }
   ],
   "faqItems": [
     {
-      "q": { "en": "What industries benefit most from AVRs?", "zh": "哪些行业从AVR中受益最多？" },
-      "a": { "en": "Manufacturing, healthcare, IT data centers, telecommunications, and research facilities benefit most from voltage stabilization.", "zh": "制造业、医疗保健、IT数据中心、电信和研究设施从电压稳定中受益最多。" }
+      "q": {
+        "en": "What industries benefit most from AVRs?",
+        "zh": "哪些行业从AVR中受益最多？"
+      },
+      "a": {
+        "en": "Manufacturing, healthcare, IT data centers, telecommunications, and research facilities benefit most from voltage stabilization.",
+        "zh": "制造业、医疗保健、IT数据中心、电信和研究设施从电压稳定中受益最多。"
+      }
     }
   ],
   "relatedProducts": [],
-  "relatedArticles": ["protecting-sensitive-equipment", "avr-maintenance-troubleshooting-guide"],
+  "relatedArticles": [
+    {
+      "slug": "protecting-sensitive-equipment",
+      "title": ""
+    },
+    {
+      "slug": "avr-maintenance-troubleshooting-guide",
+      "title": ""
+    }
+  ],
   "cta": {
     "text": {
       "en": "Industrial grade voltage stabilizers from YOKE. Reliable protection for your manufacturing operations.",
