@@ -134,7 +134,7 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
       <div className="container mx-auto px-4 py-8 text-center">
         <a
           href={`/${locale}/#articles`}
-          className="inline-flex items-center gap-2 bg-primary-100 text-primary-700 px-8 py-4 rounded-xl font-semibold text-lg hover:bg-primary-200 transition-colors shadow-sm"
+          className="inline-flex items-center gap-2 bg-primary-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-primary-700 transition-colors shadow-lg"
         >
           📚 {locale === 'zh' ? '阅读技术文章' : 'Read Technical Articles'}
           <span className="text-xl">→</span>
