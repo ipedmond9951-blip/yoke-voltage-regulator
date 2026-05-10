@@ -7,7 +7,7 @@ import { type Locale, t, locales } from '@/i18n'
 import type { ArticleSection } from '@/lib/articles'
 import ShareButtons from '@/components/ShareButtons'
 
-const SITE_URL = 'https://www.tradego-fasteners.com'
+const SITE_URL = 'https://www.kk-electric.com'
 
 export async function generateStaticParams() {
   // Exclude redirect articles (articles with redirectTo field) from static generation
@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   // Old article slug redirected to new URL - don't index
   if (article.redirectTo) {
     return {
-      title: 'Page Moved | TradeGo Fasteners',
+      title: 'Page Moved | YOKE Voltage Regulators',
       robots: { index: false },
     }
   }
@@ -41,7 +41,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const desc = article.description[locale] || article.description.en
 
   return {
-    title: `${title} | TradeGo Fasteners`,
+    title: `${title} | YOKE Voltage Regulators`,
     description: desc,
     keywords: article.keywords,
     openGraph: {
@@ -50,7 +50,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       url: `${SITE_URL}/${locale}/industry/${slug}`,
       type: 'article',
       publishedTime: article.date,
-      authors: ['TradeGo Fasteners'],
+      authors: ['YOKE Electric'],
       images: [{ url: `${SITE_URL}${article.image}`, width: 1200, height: 630, alt: title }],
     },
     alternates: {
@@ -62,7 +62,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${title} | TradeGo Fasteners`,
+      title: `${title} | YOKE Voltage Regulators`,
       description: desc,
       images: [`${SITE_URL}${article.image}`],
     },
@@ -166,8 +166,8 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
     headline: title,
     description: desc,
     datePublished: article.date,
-    author: { '@type': 'Organization', name: 'TradeGo Fasteners' },
-    publisher: { '@type': 'Organization', name: 'TradeGo Fasteners' },
+    author: { '@type': 'Organization', name: 'YOKE Electric' },
+    publisher: { '@type': 'Organization', name: 'YOKE Electric' },
   }
 
   return (
