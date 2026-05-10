@@ -130,17 +130,6 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
       <WhyChooseUs locale={locale} />
       <ProductGrid locale={locale} />
 
-      {/* CTA Button to Articles Section */}
-      <div className="container mx-auto px-4 py-8 text-center">
-        <a
-          href={`/${locale}/#articles`}
-          className="inline-flex items-center gap-2 bg-primary-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-primary-700 transition-colors shadow-lg"
-        >
-          📚 {locale === 'zh' ? '阅读技术文章' : 'Read Technical Articles'}
-          <span className="text-xl">→</span>
-        </a>
-      </div>
-
       <ArticlesSection locale={locale} />
 
       {/* Application Scenarios - content depth for SEO */}

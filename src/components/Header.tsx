@@ -30,6 +30,7 @@ export default function Header({ locale = 'en' }: HeaderProps) {
         ...productModels.map(m => ({ href: m.href, label: m.label })),
       ],
     },
+    { href: `/${locale}#articles`, label: t(locale, 'nav.articles') },
     { href: `/${locale}#faq`, label: t(locale, 'nav.faq') },
     { href: `/${locale}#about`, label: t(locale, 'nav.about') },
     { href: `/${locale}#inquiry`, label: t(locale, 'nav.contact') },
