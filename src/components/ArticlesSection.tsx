@@ -85,7 +85,7 @@ export default function ArticlesSection({ locale = 'en' }: { locale?: Locale }) 
           {articles.slice(0, articlesPerRow).map((article) => (
             <Link 
               key={article.slug} 
-              href={`/${locale}/articles/${article.slug}`}
+              href={`/${locale}/industry/${article.slug}`}
               className="group block bg-gray-50 rounded-xl overflow-hidden hover:shadow-lg transition-shadow"
             >
               <div className="relative h-48 bg-gray-200 overflow-hidden">
@@ -119,7 +119,7 @@ export default function ArticlesSection({ locale = 'en' }: { locale?: Locale }) 
 
         <div className="text-center mt-10">
           <Link 
-            href={`/${locale}/articles`}
+            href={`/${locale}/industry`}
             className="inline-flex items-center gap-2 bg-primary-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-800 transition-colors"
           >
             {locale === 'zh' ? '查看更多文章' : 'View All Articles'}
