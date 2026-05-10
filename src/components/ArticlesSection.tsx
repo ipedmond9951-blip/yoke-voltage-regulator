@@ -89,9 +89,16 @@ export default function ArticlesSection({ locale = 'en' }: { locale?: Locale }) 
               className="group block bg-gray-50 rounded-xl overflow-hidden hover:shadow-lg transition-shadow"
             >
               <div className="relative h-48 bg-gray-200 overflow-hidden">
-                <div className="absolute inset-0 flex items-center justify-center bg-primary-100">
-                  <span className="text-4xl">⚡</span>
-                </div>
+                <Image
+                  src={article.image}
+                  alt={article.title}
+                  fill
+                  className="object-cover"
+                  onError={(e) => {
+                    e.currentTarget.style.display = 'none';
+                    e.currentTarget.parentElement!.innerHTML = '<div className=\"absolute inset-0 flex items-center justify-center bg-primary-100 text-4xl\">⚡</div>';
+                  }}
+                />
               </div>
               <div className="p-4 md:p-6">
                 <div className="flex items-center gap-2 text-xs text-gray-500 mb-2">
