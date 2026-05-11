@@ -31,6 +31,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
       },
     ],
-    sitemap: 'https://www.tradego-fasteners.com/sitemap.xml',
+    sitemap: 'https://kk-electric.com/sitemap.xml',
   };
 }

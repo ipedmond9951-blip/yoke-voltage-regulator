@@ -7,15 +7,15 @@ import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale: localeParam } = await params
   const locale = (localeParam as Locale) || 'en'
-  const siteUrl = 'https://www.tradego-fasteners.com'
+  const siteUrl = 'https://kk-electric.com'
   
   const titles: Record<string, string> = {
-    en: 'Fastener Selection Guide | 304/316 Stainless Steel Bolts, Marine Bolts, Solar Bracket Bolts, Lock Nuts & Washer Types',
-    zh: '紧固件选择指南 | 不锈钢304/316螺栓、海洋螺栓、太阳能支架螺栓、锁紧螺母、垫圈类型',
+    en: 'AVR & Voltage Regulator Guide | SVC TND Series, Stable Power Solutions, AVR Installation & Maintenance',
+    zh: '稳压器和电压调节器指南 | SVC TND系列，稳定电源解决方案，安装维护',
   }
   const descriptions: Record<string, string> = {
-    en: 'Expert fastener guides: stainless steel 304/316 hex bolts, high-strength 8.8/10.9/12.9 grade bolts, marine & outdoor corrosion-resistant bolts, solar bracket bolts, self-tapping screws, lock nuts, industrial washers. SABS & ISO 9001 certified. Market insights for Africa construction.',
-    zh: '专家紧固件指南：304/316不锈钢六角螺栓、高强度8.8/10.9/12.9级螺栓、海洋户外防腐螺栓、太阳能支架螺栓、自攻螺丝、锁紧螺母、工业垫圈。SABS和ISO 9001认证。非洲建筑市场洞察。',
+    en: 'Expert AVR guides: SVC & TND series automatic voltage regulators, stable power solutions, installation, maintenance, troubleshooting, and energy savings. CE/CB certified. Market insights for Africa power infrastructure.',
+    zh: '专家稳压器指南：SVC和TND系列自动电压调节器，稳定电源解决方案，安装、维护、故障排除和节能。CE/CB认证。非洲电力基础设施市场洞察。',
   }
   
   return {

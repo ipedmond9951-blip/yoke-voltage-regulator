@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server'
 
 export async function GET() {
-  const sitemapXml = 'https://www.tradego-fasteners.com/sitemap.xml'
+  const sitemapXml = 'https://kk-electric.com/sitemap.xml'
   const lastmod = new Date().toISOString()
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
