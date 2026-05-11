@@ -109,7 +109,7 @@ export async function GET() {
     },
     topQueries: [
       { query: 'roofing nails suppliers africa', clicks: 456, impressions: 2341, position: 3.2 },
-      { query: 'fasteners wholesale zimbabwe', clicks: 389, impressions: 1876, position: 4.1 },
+      { query: 'avr voltage regulator zimbabwe', clicks: 389, impressions: 1876, position: 4.1 },
       { query: 'drywall screws bulk', clicks: 312, impressions: 1543, position: 5.8 },
       { query: 'construction nails kenya', clicks: 287, impressions: 1234, position: 6.2 },
       { query: 'self drilling screws manufacturer', clicks: 245, impressions: 987, position: 7.5 },

@@ -24,7 +24,7 @@ export default function InvoiceSchema({
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'Invoice',
-    '@id': url ? `https://www.tradego-fasteners.com${url}#invoice` : undefined,
+    '@id': url ? `https://kk-electric.com${url}#invoice` : undefined,
     invoiceNumber: orderNumber,
     dateIssued: orderDate,
     customer: {
@@ -33,8 +33,8 @@ export default function InvoiceSchema({
     },
     broker: {
       '@type': 'Organization',
-      '@id': 'https://www.tradego-fasteners.com/#organization',
-      name: 'TradeGo Fasteners',
+      '@id': 'https://kk-electric.com/#organization',
+      name: 'YOKE AVR',
     },
     totalAmountDue: {
       '@type': 'MonetaryAmount',
@@ -43,10 +43,9 @@ export default function InvoiceSchema({
     },
     paymentStatus: `https://schema.org/${paymentStatus}`,
     fulfillmentStatus: `https://schema.org/${fulfillmentStatus}`,
-    url: url ? `https://www.tradego-fasteners.com${url}` : undefined,
+    url: url ? `https://kk-electric.com${url}` : undefined,
   }
 
-  // Remove undefined values
   const cleanSchema = JSON.parse(JSON.stringify(schema))
 
   return (

@@ -7,31 +7,31 @@ interface WebSiteSchemaProps {
 }
 
 export default function WebSiteSchema({ locale }: WebSiteSchemaProps) {
-  const siteUrl = 'https://www.tradego-fasteners.com'
+  const siteUrl = 'https://kk-electric.com'
   
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: locale === 'zh' ? 'TradeGo紧固件' : 'TradeGo Fasteners',
+    name: locale === 'zh' ? 'YOKE稳压器' : 'YOKE AVR',
     url: siteUrl,
     description: locale === 'zh' 
-      ? 'ISO 9001 & SABS认证中国紧固件制造商。12年非洲出口经验。干墙螺丝、IBR钉、建筑紧固件工厂价直销。'
-      : 'ISO 9001 & SABS certified China fastener manufacturer. 12+ years exporting to Africa. Factory direct prices for drywall screws, IBR nails, and construction fasteners.',
+      ? 'CE/CB认证稳压器制造商。10年非洲出口经验。SVC和TND系列自动电压调节器，应用于工业、商业和住宅。'
+      : 'CE/CB certified AVR manufacturer. 10+ years exporting to Africa. SVC and TND series automatic voltage regulators for industrial, commercial, and residential use.',
     keywords: locale === 'zh'
-      ? '干墙螺丝,IBR钉,紧固件,中国制造商,非洲,建筑,批发'
-      : 'drywall screws, IBR nails, fastener, China manufacturer, Africa, construction, wholesale',
+      ? '稳压器,电压调节器,AVR,SVC,TND,YOKE,电力保护,非洲'
+      : 'AVR,voltage regulator,SVC,TND,YOKE,power protection,automatic voltage regulator,Africa',
     inLanguage: locale === 'zh' ? 'zh' : 'en',
     isAccessibleForFree: true,
     about: {
       '@type': 'Thing',
-      name: locale === 'zh' ? '紧固件' : 'Fasteners',
+      name: locale === 'zh' ? '稳压器' : 'Voltage Regulators',
       description: locale === 'zh'
-        ? '建筑紧固件，包括干墙螺丝、螺栓、螺母和专业屋顶钉'
-        : 'Construction fasteners including drywall screws, bolts, nuts, and specialized roofing nails',
+        ? 'YOKE品牌稳压器，包括SVC系列和TND系列自动电压调节器'
+        : 'YOKE brand voltage regulators including SVC and TND series automatic voltage regulators',
     },
     audience: {
       '@type': 'Audience',
-      name: locale === 'zh' ? '非洲建筑专业人士' : 'Construction professionals in Africa',
+      name: locale === 'zh' ? '非洲电力基础设施专业人士' : 'Power infrastructure professionals in Africa',
       geographicArea: {
         '@type': 'Place',
         name: 'Africa',
@@ -47,20 +47,17 @@ export default function WebSiteSchema({ locale }: WebSiteSchemaProps) {
         urlTemplate: `${siteUrl}/${locale}/products?search={search_term_string}`,
       },
       'query-input': 'required name=search_term_string',
-      description: locale === 'zh' ? '搜索紧固件和建筑五金' : 'Search for fasteners and construction hardware',
+      description: locale === 'zh' ? '搜索稳压器和电压调节设备' : 'Search for voltage regulators and power equipment',
     },
     sameAs: [
-      'https://www.facebook.com/tradegofasteners',
-      'https://www.linkedin.com/company/tradegofasteners',
-      'https://twitter.com/tradegofasteners',
+      'https://www.linkedin.com/company/yoke-avr',
     ],
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'customer service',
-      email: 'info@tradego-fasteners.com',
+      email: 'info@kk-electric.com',
       availableLanguage: ['English', 'Chinese'],
     },
-
   }
 
   return (

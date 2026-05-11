@@ -1,58 +1,26 @@
 'use client'
-
 import { type Locale } from '@/i18n'
-
-interface BreadcrumbSchemaProps {
+interface BreadcrumbSchemaProps { 
   locale: Locale
-  pageName: string
-  pageUrl: string
+  pageUrl?: string
+  pageName?: string
 }
-
-const breadcrumbLabels: Record<string, Record<string, string>> = {
-  en: {
-    home: 'Home',
-    products: 'Products',
-    industry: 'Industry',
-    'product-upload': 'Product Upload',
-    'privacy-policy': 'Privacy Policy',
-    terms: 'Terms of Service',
-  },
-  zh: {
-    home: '首页',
-    products: '产品',
-    industry: '行业',
-    'product-upload': '产品上传',
-    'privacy-policy': '隐私政策',
-    terms: '服务条款',
-  },
-}
-
-export default function BreadcrumbSchema({ locale, pageName, pageUrl }: BreadcrumbSchemaProps) {
-  const labels = breadcrumbLabels[locale] || breadcrumbLabels.en
-
-  const schema = {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: [
-      {
-        '@type': 'ListItem',
-        position: 1,
-        name: labels.home || 'Home',
-        item: 'https://www.tradego-fasteners.com',
-      },
-      {
-        '@type': 'ListItem',
-        position: 2,
-        name: pageName,
-        item: `https://www.tradego-fasteners.com/${locale}${pageUrl}`,
-      },
-    ],
-  }
-
+export default function BreadcrumbSchema({ locale, pageUrl = '', pageName }: BreadcrumbSchemaProps) {
+  const baseUrl = 'https://kk-electric.com'
+  const items = [
+    { position: 1, name: 'Home', item: baseUrl },
+    ...(pageUrl ? [{ position: 2, name: pageName || 'Page', item: `${baseUrl}/${locale}${pageUrl}` }] : []),
+  ]
   return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-    />
+    <nav aria-label="Breadcrumb" className="container mx-auto px-4 py-3">
+      <ol className="flex items-center gap-2 text-sm">
+        {items.map((item, i) => (
+          <li key={i} className="flex items-center gap-2">
+            {i > 0 && <span className="text-gray-400">/</span>}
+            <a href={item.item} className="text-primary-600 hover:text-primary-800">{item.name}</a>
+          </li>
+        ))}
+      </ol>
+    </nav>
   )
 }

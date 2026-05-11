@@ -135,12 +135,12 @@ async function sendEmail(data: InquiryData, isHighValue: boolean): Promise<boole
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        from: 'TradeGo Inquiry <inquiry@tradego-fasteners.com>',
+        from: 'YOKE Inquiry <inquiry@kk-electric.com>',
         to: INQUIRY_EMAIL,
         replyTo: data.email,
         subject: `${isHighValue ? '⭐ HIGH VALUE ' : ''}Inquiry from ${data.company || data.name} (${data.country || 'Unknown'})`,
         html: `
-          <h2>New Inquiry from TradeGo Website</h2>
+          <h2>New Inquiry from YOKE AVR Website</h2>
           <table style="border-collapse: collapse; width: 100%;">
             <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Time</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${new Date().toISOString()}</td></tr>
             <tr><td style="padding: 8px; border: 1px solid #ddd;"><strong>Name</strong></td><td style="padding: 8px; border: 1px solid #ddd;">${data.name}</td></tr>
@@ -179,12 +179,12 @@ async function sendConfirmationEmail(data: InquiryData): Promise<boolean> {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        from: 'TradeGo Fasteners <info@tradegofasteners.com>',
+        from: 'YOKE AVR <info@kk-electric.com>',
         to: data.email,
-        subject: `Thank you for your inquiry - TradeGo Fasteners`,
+        subject: `Thank you for your inquiry - YOKE AVR`,
         html: `
           <h2>Dear ${data.name},</h2>
-          <p>Thank you for your interest in TradeGo Fasteners products. We have received your inquiry and will respond within <strong>24 hours</strong>.</p>
+          <p>Thank you for your interest in YOKE AVR products. We have received your inquiry and will respond within <strong>24 hours</strong>.</p>
           
           <h3>Your Inquiry Details:</h3>
           <table style="border-collapse: collapse; width: 100%; margin-bottom: 20px;">
@@ -202,15 +202,15 @@ async function sendConfirmationEmail(data: InquiryData): Promise<boolean> {
             <li>Sample orders can be arranged for quality verification</li>
           </ol>
           
-          <h3>Why choose TradeGo?</h3>
+          <h3>Why choose YOKE?</h3>
           <ul>
             <li>✅ ISO 9001 & SABS certified manufacturer</li>
-            <li>✅ 15+ years experience in fastener production</li>
+            <li>✅ 15+ years experience in AVR production</li>
             <li>✅ Sea freight to Africa - competitive rates</li>
             <li>✅ Custom packaging available</li>
           </ul>
           
-          <p style="margin-top: 20px;">Best regards,<br/>TradeGo Fasteners Sales Team</p>
+          <p style="margin-top: 20px;">Best regards,<br/>YOKE AVR Sales Team</p>
           
           <hr style="margin-top: 30px;"/>
           <p style="color: #666; font-size: 12px;">

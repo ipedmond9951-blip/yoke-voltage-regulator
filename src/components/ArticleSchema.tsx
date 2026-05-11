@@ -1,7 +1,5 @@
 'use client'
-
 import { type Locale } from '@/i18n'
-
 interface ArticleSchemaProps {
   locale?: Locale
   title: string
@@ -12,57 +10,39 @@ interface ArticleSchemaProps {
   image?: string
   url?: string
 }
-
 export default function ArticleSchema({
   locale = 'en',
   title,
   description,
-  author = 'TradeGo Fasteners',
+  author = 'YOKE AVR',
   datePublished,
   dateModified,
-  image = 'https://www.tradego-fasteners.com/images/blog/article-default.jpg',
+  image = 'https://kk-electric.com/images/blog/article-default.jpg',
   url,
 }: ArticleSchemaProps) {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    '@id': url ? `https://www.tradego-fasteners.com${url}` : undefined,
+    '@id': url ? `https://kk-electric.com${url}` : undefined,
     headline: title,
     description: description,
     image: image,
     author: {
       '@type': 'Organization',
-      '@id': 'https://www.tradego-fasteners.com/#organization',
+      '@id': 'https://kk-electric.com/#organization',
       name: author,
     },
-    publisher: {
-      '@id': 'https://www.tradego-fasteners.com/#organization',
-    },
+    publisher: { '@id': 'https://kk-electric.com/#organization' },
     datePublished: datePublished,
     dateModified: dateModified || datePublished,
-    mainEntityOfPage: {
-      '@type': 'WebPage',
-      '@id': url ? `https://www.tradego-fasteners.com${url}` : undefined,
-    },
-    articleSection: locale === 'zh' ? '紧固件知识' : 'Fastener Knowledge',
+    mainEntityOfPage: { '@id': url ? `https://kk-electric.com${url}` : undefined },
+    articleSection: locale === 'zh' ? '稳压器知识' : 'AVR Knowledge',
     keywords: locale === 'zh'
-      ? '紧固件,干墙螺丝,自钻螺丝,螺栓,螺母,IBR钉,建筑,批发'
-      : 'fasteners,drywall screws,self-drilling screws,bolts,nuts,IBR nails,construction,wholesale',
-    wordCount: description.split(' ').length * 10, // Estimate
+      ? '稳压器,电压调节器,SVC,TND,AVR,电力保护'
+      : 'AVR,voltage regulator,SVC,TND,power protection,electrical',
+    wordCount: description.split(' ').length * 10,
     inLanguage: locale === 'zh' ? 'zh-CN' : locale === 'es' ? 'es' : 'en',
-    isPartOf: {
-      '@type': 'WebSite',
-      '@id': 'https://www.tradego-fasteners.com/#website',
-    },
+    isPartOf: { '@type': 'WebSite', '@id': 'https://kk-electric.com/#website' },
   }
-
-  // Remove undefined values
-  const cleanSchema = JSON.parse(JSON.stringify(schema))
-
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(cleanSchema) }}
-    />
-  )
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
 }

@@ -1,101 +1,75 @@
 'use client'
-
 import { type Locale, t } from '@/i18n'
-
-interface ProductsContentSectionProps {
-  locale: Locale
-}
-
+interface ProductsContentSectionProps { locale: Locale }
 const content = {
   en: {
-    title: 'How to Select the Right Fastener',
-    selectionGuide: `Choosing the correct fastener for your construction project is critical for structural integrity and long-term durability. In African building projects, factors like coastal humidity, tropical conditions, and specific regulatory requirements must be considered.
+    title: 'How to Select the Right AVR',
+    selectionGuide: `Choosing the correct automatic voltage regulator (AVR) for your equipment is critical for protection and longevity. In African markets, voltage fluctuations ranging from 160V to 280V are common, making voltage regulation essential for sensitive equipment.
 
-For roofing applications in Southern Africa, IBR nails with hot-dip galvanization are recommended due to their superior corrosion resistance. For steel structure connections, self-drilling TEK screws eliminate the need for pre-drilling and provide secure fastening in single operation.
+For single-phase applications (homes, offices, shops), the SVC series stabilizer is recommended with capacity based on total load. For three-phase industrial applications (factories, hospitals, data centers), the TND series or TSD series three-phase regulators provide balanced voltage correction across all phases.
 
-When selecting anchor bolts for foundation work, ensure the bolt grade matches your load requirements. Grade 8.8 bolts are suitable for medium-duty applications, while Grade 10.9 or ASTM F1554 bolts are required for heavy structural loads. Always verify that the concrete has fully cured before applying full load to anchor bolts - typically 28 days for standard concrete mixes.`,
+When selecting AVR capacity, calculate the total wattage of all equipment to be connected, then multiply by 1.2 to account for surge currents. For inductive loads like motors and compressors, use 2-3x the running wattage to handle starting currents.`,
     qualityTitle: 'Quality Assurance & Certifications',
-    qualityText: `Every batch of TradeGo fasteners undergoes rigorous quality control before shipment. We provide Mill Test Certificates (MTC) and SGS inspection reports with each order, certifying material composition, tensile strength, and dimensional accuracy.
+    qualityText: `Every YOKE AVR undergoes rigorous testing before shipment. Our products are CE and CB certified, meeting international safety and performance standards. We provide full technical documentation including test reports, user manuals, and certification copies.
 
-Our manufacturing facilities are ISO 9001:2015 certified, and our products meet relevant African standards including SABS (South Africa), SSA/BS (Zimbabwe), and KEBS (Kenya). For projects requiring specific grade bolts, we can provide third-party testing certificates from Bureau Veritas or Intertek.
-
-Common quality issues to avoid: bolts with irregular thread spacing (indicates worn threading dies), rust spots appearing within weeks of installation (poor galvanization), and inconsistent head dimensions (sign of substandard manufacturing).`,
+Our manufacturing facilities are ISO 9001:2015 certified. For African markets, our products meet relevant standards including SABS (South Africa) requirements. We offer 2-year warranty on all AVR units with dedicated after-sales support.`,
     shippingTitle: 'Shipping to Africa',
-    shippingText: `TradeGo ships fasteners from our manufacturing facilities in China to major African ports including Durban (South Africa), Beira (Mozambique), and Harare (Zimbabwe) via established sea freight routes.
+    shippingText: `YOKE ships AVR units from our manufacturing facilities in China to major African ports including Durban (South Africa), Beira (Mozambique), and Harare (Zimbabwe) via established sea freight routes.
 
-Standard lead time is 15-25 days from order confirmation to port arrival. For urgent requirements, air freight options are available with 7-10 day delivery to major airports. We handle all export documentation including Bill of Lading, Commercial Invoice, and Certificate of Origin.
+Standard lead time is 20-30 days from order confirmation to port arrival. For urgent requirements, air freight options are available. We handle all export documentation including Bill of Lading, Commercial Invoice, and Certificate of Origin.
 
-Our packaging is designed for African logistics: inner waterproof bags, outer reinforced cartons with reinforced corners, and palletized loading for efficient container utilization. Minimum order quantity is 500kg for sea freight shipments, with mixed product orders welcome.`,
+Our packaging is designed for African logistics: inner foam protection, outer reinforced cartons, and palletized loading for efficient container utilization.`,
     applicationsTitle: 'Applications by Industry',
-    constructionText: `Construction: Structural steel connections, concrete formwork, roofing systems, and wall framing. High-rise buildings in Nairobi and Johannesburg typically specify Grade 8.8 hex bolts with hot-dip galvanization for exposed structural elements.`,
-    miningText: `Mining: Conveyor belt systems, crusher installations, and structural support in underground and open-pit operations. Mining operations in Zambia and South Africa require corrosion-resistant fasteners due to humid underground conditions and chemical exposure.`,
-    solarText: `Solar Panel Mounting: Ground-mounted and rooftop solar installations require specialized anchor bolts for concrete foundations and clamp-type fasteners for module mounting. Our HDG anchor bolts and stainless steel clamp sets are specifically designed for solar applications in African climates.`,
+    constructionText: `Industrial: CNC machines, robotic welding arms, laser cutting equipment, and automated production lines. YOKE three-phase AVR units provide stable voltage for precision manufacturing.`,
+    miningText: `Mining: Conveyor belt motor controls, crusher installations, ventilation systems, and underground pumping equipment. Mining operations in Zambia and South Africa require stable voltage to protect expensive equipment from power quality issues.`,
+    solarText: `Solar Energy: Inverter systems, battery charging equipment, and solar pump controllers. YOKE AVR units protect sensitive electronics from voltage variations common in off-grid solar installations.`,
   },
   zh: {
-    title: '如何选择合适的紧固件',
-    selectionGuide: `为您的建筑项目选择正确的紧固件对结构完整性和长期耐久性至关重要。在非洲建设项目中，必须考虑沿海湿度、热带条件和特定法规要求等因素。
+    title: '如何选择合适的稳压器',
+    selectionGuide: `为您的设备选择正确的自动电压稳压器（AVR）对保护设备正常运行和延长使用寿命至关重要。在非洲市场，电压波动范围通常在160V至280V之间，使电压调节成为敏感设备的必要保护。
 
-对于南非地区的屋顶应用，推荐使用热镀锌IBR钉，因其卓越的耐腐蚀性。对于钢结构连接，自钻TEK螺丝无需预钻孔，单次操作即可完成牢固连接。
+对于单相应用（家庭、办公室、商店），推荐使用SVC系列稳压器，容量根据总负载计算。对于三相工业应用（工厂、医院、数据中心），TND系列或TSD系列三相调节器可在所有相之间提供均衡的电压校正。
 
-选择地基锚栓时，请确保螺栓等级与您的负载要求相匹配。8.8级螺栓适用于中等负荷应用，而10.9级或ASTM F1554螺栓则用于重型结构负载。在将完全负载施加到锚栓之前，请始终验证混凝土已完全固化——标准混凝土混合料通常需要28天。`,
+选择AVR容量时，计算所有连接设备的总瓦特数，然后乘以1.2以考虑涌流。对于电机和压缩机等感性负载，使用运行瓦特数的2-3倍来处理启动电流。`,
     qualityTitle: '质量保证与认证',
-    qualityText: `每批次TradeGo紧固件在装运前都经过严格的质量控制。我们为每个订单提供材料试验证书（MTC）和SGS检验报告，证明材料成分、抗拉强度和尺寸精度。
+    qualityText: `每台YOKE稳压器在装运前都经过严格测试。我们的产品已获得CE和CB认证，符合国际安全和性能标准。我们提供完整的技术文档，包括测试报告、用户手册和认证副本。
 
-我们的制造设施已获得ISO 9001:2015认证，我们的产品符合相关非洲标准，包括SABS（南非）、SSA/BS（津巴布韦）和KEBS（肯尼亚）。对于需要特定等级螺栓的项目，我们可以提供来自必维国际检验集团或天祥集团的第三方测试证书。
-
-避免常见质量问题：螺纹间距不规则的螺栓（表示螺纹模具磨损），安装后几周内出现锈斑（镀锌不良），以及头部尺寸不一致（表明制造质量差）。`,
+我们的制造设施已获得ISO 9001:2015认证。对于非洲市场，我们的产品符合相关标准要求。所有AVR设备提供2年质保和专门的售后服务。`,
     shippingTitle: '非洲航运',
-    shippingText: `TradeGo从中国制造工厂向主要非洲港口发货，包括德班（南非）、贝拉（莫桑比克）和哈拉雷（津巴布韦），通过成熟海运路线。
+    shippingText: `YOKE从中国制造工厂向主要非洲港口发货，包括德班（南非）、贝拉（莫桑比克）和哈拉雷（津巴布韦）。
 
-从订单确认到港口到达的标准交货期为15-25天。对于紧急需求，可提供7-10天到达主要机场的空运选项。我们处理所有出口文件，包括提单、商业发票和原产地证书。
+从订单确认到港口到达的标准交货期为20-30天。对于紧急需求，可提供空运选项。我们处理所有出口文件，包括提单、商业发票和原产地证书。
 
-我们的包装专为非洲物流设计：内部防水袋，外层加固纸箱带加固角，以及托盘化装载以提高集装箱利用率。海运最小起订量为500公斤，欢迎混合产品订单。`,
+我们的包装专为非洲物流设计：内部泡沫保护，外层加固纸箱，以及托盘化装载。`,
     applicationsTitle: '行业应用',
-    constructionText: `建筑：钢结构连接、混凝土模板、屋顶系统和墙壁框架。内罗毕和约翰内斯堡的超高层建筑通常指定使用热镀锌的8.8级六角螺栓用于暴露的结构元件。`,
-    miningText: `采矿：输送带系统、破碎机安装以及地下和露天作业中的结构支撑。赞比亚和南非的采矿作业由于地下潮湿条件和化学暴露，需要耐腐蚀紧固件。`,
-    solarText: `太阳能电池板安装：地面安装和屋顶太阳能装置需要专门的锚栓用于混凝土基础，以及夹式紧固件用于模块安装。我们的热镀锌锚栓和不锈钢夹套件专为非洲气候的太阳能应用设计。`,
+    constructionText: `工业：数控机床、机器人焊接臂、激光切割设备和自动化生产线。YOKE三相AVR设备为精密制造提供稳定电压。`,
+    miningText: `采矿：输送带电机控制、破碎机安装、通风系统和地下抽水设备。赞比亚和南非的采矿作业需要稳定电压来保护昂贵设备免受电力质量问题影响。`,
+    solarText: `太阳能：逆变器系统、电池充电设备和太阳能泵控制器。YOKE AVR设备保护敏感电子设备免受离网太阳能装置中常见电压变化的影响。`,
   },
 }
-
 export default function ProductsContentSection({ locale }: ProductsContentSectionProps) {
-  // Fallback to English for unsupported locales
   const texts = content[locale as keyof typeof content] || content.en
-
   return (
     <div className="container mx-auto px-4 sm:px-6 py-12 md:py-16 space-y-12">
-      {/* Selection Guide */}
       <section className="bg-white rounded-xl p-6 md:p-8 shadow-sm border border-gray-100">
         <h2 className="text-2xl md:text-3xl font-bold text-primary-900 mb-4">{texts.title}</h2>
-        <div className="prose prose-gray max-w-none">
-          <p className="text-gray-700 leading-relaxed whitespace-pre-line">{texts.selectionGuide}</p>
-        </div>
+        <p className="text-gray-700 leading-relaxed whitespace-pre-line">{texts.selectionGuide}</p>
       </section>
-
-      {/* Two Column Layout */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        {/* Quality Assurance */}
         <section className="bg-white rounded-xl p-6 md:p-8 shadow-sm border border-gray-100">
           <h2 className="text-xl md:text-2xl font-bold text-primary-900 mb-4">{texts.qualityTitle}</h2>
-          <div className="prose prose-gray max-w-none">
-            <p className="text-gray-700 leading-relaxed whitespace-pre-line">{texts.qualityText}</p>
-          </div>
+          <p className="text-gray-700 leading-relaxed whitespace-pre-line">{texts.qualityText}</p>
         </section>
-
-        {/* Shipping */}
         <section className="bg-white rounded-xl p-6 md:p-8 shadow-sm border border-gray-100">
           <h2 className="text-xl md:text-2xl font-bold text-primary-900 mb-4">{texts.shippingTitle}</h2>
-          <div className="prose prose-gray max-w-none">
-            <p className="text-gray-700 leading-relaxed whitespace-pre-line">{texts.shippingText}</p>
-          </div>
+          <p className="text-gray-700 leading-relaxed whitespace-pre-line">{texts.shippingText}</p>
         </section>
       </div>
-
-      {/* Industry Applications */}
       <section className="bg-gradient-to-br from-primary-50 to-primary-100 rounded-xl p-6 md:p-8">
         <h2 className="text-2xl md:text-3xl font-bold text-primary-900 mb-6">{texts.applicationsTitle}</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="bg-white rounded-lg p-5 shadow-sm">
-            <h3 className="font-bold text-primary-800 mb-2">🏗️ {locale === 'zh' ? '建筑' : 'Construction'}</h3>
+            <h3 className="font-bold text-primary-800 mb-2">🏭 {locale === 'zh' ? '工业' : 'Industrial'}</h3>
             <p className="text-gray-700 text-sm leading-relaxed">{texts.constructionText}</p>
           </div>
           <div className="bg-white rounded-lg p-5 shadow-sm">

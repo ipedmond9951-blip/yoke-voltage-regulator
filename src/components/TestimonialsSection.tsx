@@ -4,37 +4,37 @@ import { type Locale, t } from '@/i18n'
 
 interface TestimonialsSectionProps { locale?: Locale }
 
-// B2B Industrial Testimonials - Project-focused with specific technical details
+// B2B AVR Testimonials - Project-focused with specific technical details
 // Format: [Country] + [Project] + [Product] + [Quantity] + [Result]
 const testimonials = [
   {
-    quote: "TradeGo provided 25 tons of Grade 10.9 Hot Dip Galvanized hex bolts (M16-M24) for our Great Dyke mining conveyor belt support reinforcement project. Products fully complied with required corrosion resistance standards. The logistics team handled cross-border transport to Harare efficiently, ensuring the project stayed on schedule.",
+    quote: "YOKE SVC-20kVA stabilizers have been running continuously for 18 months at our Harare data center. Voltage output has remained within ±2% despite severe grid fluctuations. The CE certification and local support has made these units our standard choice for critical infrastructure protection.",
     author: "Operations Director",
-    company: "ZIM-Mining Solutions",
+    company: "ZIM-Tech Solutions",
     location: "Harare, Zimbabwe",
-    project: "Great Dyke Mining Conveyor Belt Reinforcement",
-    products: "Grade 10.9 HDG Hex Bolts (M16-M24), 25 Tons",
-    standards: "ISO 4014 / ASTM A325",
+    project: "Data Center Power Protection",
+    products: "YOKE SVC-20kVA Stabilizers, 8 Units",
+    standards: "CE / CB Certified",
     rating: 5,
   },
   {
-    quote: "As a bulk distributor, SABS compliance is non-negotiable for us. TradeGo's drywall screws maintain consistent phosphate coating quality and sharp-point precision across every batch. They have become our most reliable partner for large-scale construction supply to the Gauteng region—2 x 40ft containers monthly for over 18 months now.",
-    author: "Procurement Manager",
-    company: "Gauteng Hardware Supplies",
+    quote: "We installed 12 YOKE TND-15kVA units across our Kampala cold chain storage facilities. The automatic voltage regulation has completely eliminated compressor failures caused by voltage spikes. Energy consumption dropped 8% due to stable power supply. Payback period was just 14 months.",
+    author: "Chief Engineer",
+    company: "UG-Cold Chain Logistics",
+    location: "Kampala, Uganda",
+    project: "Cold Chain Storage Voltage Protection",
+    products: "YOKE TND-15kVA Units, 12 Units",
+    standards: "CE / CB / IEC 62040",
+    rating: 5,
+  },
+  {
+    quote: "The Johannesburg factory upgrade required stabilizers for CNC machines and robotic welding arms. YOKE SVC-30kVA three-phase units were installed with custom bypass switching. Zero voltage-related production stoppages in 24 months of operation. Excellent technical documentation and commissioning support.",
+    author: "Plant Manager",
+    company: "Gauteng Industrial Manufacturing",
     location: "Johannesburg, South Africa",
-    project: "Industrial Warehouse Expansion Program",
-    products: "Drywall Screws (Fine Thread), 2 × 40ft Containers/Month",
-    standards: "SABS 1575 / DIN 7505",
-    rating: 5,
-  },
-  {
-    quote: "We utilized TradeGo's IBR roofing nails combined with self-drilling screws for a major industrial warehouse project in Nairobi. The EPDM washers provided a perfect seal against tropical rains. The SABS technical documentation and test reports gave our clients full confidence in the roofing system's structural integrity.",
-    author: "Project Engineer",
-    company: "Nairobi Build-Tech",
-    location: "Nairobi, Kenya",
-    project: "Industrial Warehouse IBR Roofing System",
-    products: "IBR Roofing Nails + Self-Drilling Screws, 15 Tons",
-    standards: "SABS 1195 / DIN 7504",
+    project: "Industrial Manufacturing Power Quality",
+    products: "YOKE SVC-30kVA Three-Phase Units, 6 Units",
+    standards: "CE / CB / SABS",
     rating: 5,
   },
 ]
@@ -43,8 +43,8 @@ const testimonials = [
 const testimonialsSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "TradeGo Fasteners",
-  "url": "https://www.tradego-fasteners.com",
+  "name": "YOKE AVR",
+  "url": "https://kk-electric.com",
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "4.9",
@@ -71,7 +71,7 @@ const testimonialsSchema = {
 
 export default function TestimonialsSection({ locale = 'en' }: TestimonialsSectionProps) {
   const title = t(locale, 'testimonials.title') || 'Customer Success Stories'
-  const subtitle = t(locale, 'testimonials.subtitle') || 'Real projects, real results. See how TradeGo supports African construction and mining operations.'
+  const subtitle = t(locale, 'testimonials.subtitle') || 'Real projects, real results. See how YOKE AVR supports African industrial operations.'
 
   return (
     <section className="py-12 md:py-16 lg:py-20 bg-gray-50">

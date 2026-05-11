@@ -145,7 +145,7 @@ async function fetchCommodities(): Promise<SteelPrice[] | null> {
     
     const response = await fetch(url, {
       headers: {
-        'User-Agent': 'Mozilla/5.0 (compatible; TradeGoBot/1.0)',
+        'User-Agent': 'Mozilla/5.0 (compatible; YOKEBot/1.0)',
       },
       next: { revalidate: 3600 }, // Cache for 1 hour
     })

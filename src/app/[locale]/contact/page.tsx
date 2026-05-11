@@ -11,31 +11,31 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const loc = (locale as Locale) || 'en'
   
   const titles: Record<string, string> = {
-    en: 'Contact TradeGo Fasteners - Get a Quote',
-    zh: '联系TradeGo紧固件 - 获取报价',
-    es: 'Contactar TradeGo Fasteners - Obtener Cotización',
-    fr: 'Contacter TradeGo Fasteners - Obtenir un Devis',
-    ar: 'التواصل مع TradeGo Fasteners - الحصول على عرض أسعار',
-    pt: 'Contato TradeGo Fasteners - Obter Cotação',
-    ru: 'Контакт TradeGo Fasteners - Получить Котировку',
-    ja: 'TradeGo Fastenersへのお問い合わせ',
-    de: 'TradeGo Fasteners Kontaktieren - Angebot Erhalten',
-    hi: 'TradeGo Fasteners से सं tact करें',
+    en: 'Contact YOKE AVR - Get a Quote',
+    zh: '联系YOKE AVR - 获取报价',
+    es: 'Contactar YOKE AVR - Obtener Cotización',
+    fr: 'Contacter YOKE AVR - Obtenir un Devis',
+    ar: 'التواصل مع YOKE AVR - الحصول على عرض أسعار',
+    pt: 'Contato YOKE AVR - Obter Cotação',
+    ru: 'Контакт YOKE AVR - Получить Котировку',
+    ja: 'YOKE AVRへのお問い合わせ',
+    de: 'YOKE AVR Kontaktieren - Angebot Erhalten',
+    hi: 'YOKE AVR से सं tact करें',
   }
   const descriptions: Record<string, string> = {
-    en: 'Contact TradeGo Fasteners for bulk fastener orders. ISO 9001 & SABS certified manufacturer. Sea freight to Africa. Get a quote in 24 hours.',
-    zh: '联系TradeGo紧固件获取批量紧固件订单报价。ISO 9001和SABS认证制造商。海运至非洲。24小时内获得报价。',
-    es: 'Contacte a TradeGo Fasteners para pedidos de sujetadores al por mayor. Fabricante certificado ISO 9001 & SABS. Flete marítimo a África.',
-    fr: 'Contactez TradeGo Fasteners pour les commandes de fixation en gros. Fabricant certifié ISO 9001 & SABS. Fret maritime vers l\'Afrique.',
-    ar: 'تواصل مع TradeGo Fasteners لطلبات التثبيت بالجملة. مصنع معتمد ISO 9001 و SABS. الشحن البحري إلى أفريقيا.',
-    pt: 'Contate TradeGo Fasteners para pedidos de fixadores em atacado. Fabricante certificado ISO 9001 & SABS. Frete marítimo para África.',
-    ru: 'Свяжитесь с TradeGo Fasteners для оптовых заказов крепежа. Производитель сертифицирован по ISO 9001 и SABS. Морская доставка в Африку.',
-    ja: 'TradeGo Fastenersへの大口注文お問い合わせ。ISO 9001およびSABS認定メーカー。海上輸送アフリカ向け。',
-    de: 'Kontaktieren Sie TradeGo Fasteners für Schrauben-Großbestellungen. ISO 9001 & SABS zertifizierter Hersteller. Seefracht nach Afrika.',
-    hi: 'TradeGo Fasteners से बल्क फास्टनर ऑर्डर के लिए सं tact करें। ISO 9001 और SABS प्रमाणित निर्माता। अफ्रीका को समुद्री माल।',
+    en: 'Contact YOKE AVR for bulk AVR orders. ISO 9001 & CE & CB certified manufacturer. Sea freight to Africa. Get a quote in 24 hours.',
+    zh: '联系YOKE AVR获取批量稳压器订单报价。ISO 9001和SABS认证制造商。海运至非洲。24小时内获得报价。',
+    es: 'Contacte a YOKE AVR para pedidos de sujetadores al por mayor. Fabricante certificado ISO 9001 & SABS. Flete marítimo a África.',
+    fr: 'Contactez YOKE AVR pour les commandes de fixation en gros. Fabricant certifié ISO 9001 & SABS. Fret maritime vers l\'Afrique.',
+    ar: 'تواصل مع YOKE AVR لطلبات التثبيت بالجملة. مصنع معتمد ISO 9001 و SABS. الشحن البحري إلى أفريقيا.',
+    pt: 'Contate YOKE AVR para pedidos de fixadores em atacado. Fabricante certificado ISO 9001 & SABS. Frete marítimo para África.',
+    ru: 'Свяжитесь с YOKE AVR для оптовых заказов крепежа. Производитель сертифицирован по ISO 9001 и SABS. Морская доставка в Африку.',
+    ja: 'YOKE AVRへの大口注文お問い合わせ。ISO 9001およびSABS認定メーカー。海上輸送アフリカ向け。',
+    de: 'Kontaktieren Sie YOKE AVR für Schrauben-Großbestellungen. ISO 9001 & SABS zertifizierter Hersteller. Seefracht nach Afrika.',
+    hi: 'YOKE AVR से बल्क फास्टनर ऑर्डर के लिए सं tact करें। ISO 9001 और SABS प्रमाणित निर्माता। अफ्रीका को समुद्री माल।',
   }
 
-  const siteUrl = 'https://www.tradego-fasteners.com'
+  const siteUrl = 'https://kk-electric.com'
 
   return {
     title: titles[loc] || titles.en,
@@ -74,8 +74,8 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
                 <span className="text-2xl">📧</span>
               </div>
               <h3 className="font-bold text-lg mb-2">{t(loc, 'contact.email')}</h3>
-              <p className="text-gray-600">info@tradegofasteners.com</p>
-              <p className="text-gray-600">sales@tradegofasteners.com</p>
+              <p className="text-gray-600">info@kk-electric.com</p>
+              <p className="text-gray-600">sales@kk-electric.com</p>
             </div>
             <div className="bg-white rounded-xl p-6 text-center shadow-sm">
               <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -140,7 +140,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h3 className="font-semibold text-lg mb-3">{t(loc, 'contact.officeAddress')}</h3>
-                <p className="text-gray-700">TradeGo Fasteners Co., Ltd.</p>
+                <p className="text-gray-700">YOKE AVR Co., Ltd.</p>
                 <p className="text-gray-600">Baoan District, Hangcheng Avenue</p>
                 <p className="text-gray-600">Shenzhen, Guangdong, China</p>
                 <p className="text-gray-600">Postal: 518102</p>

@@ -26,12 +26,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
   return {
     title: titles[loc] || titles.en,
-    description: 'TradeGo Fasteners Privacy Policy - Learn how we collect, use, and protect your personal information.',
+    description: 'YOKE AVR Privacy Policy - Learn how we collect, use, and protect your personal information.',
     alternates: {
-      canonical: `https://www.tradego-fasteners.com/${loc}/privacy-policy`,
+      canonical: `https://kk-electric.com/${loc}/privacy-policy`,
       languages: Object.fromEntries([
-        ['x-default', 'https://www.tradego-fasteners.com/en/privacy-policy'],
-        ...locales.map(l => [l, `https://www.tradego-fasteners.com/${l}/privacy-policy`]),
+        ['x-default', 'https://kk-electric.com/en/privacy-policy'],
+        ...locales.map(l => [l, `https://kk-electric.com/${l}/privacy-policy`]),
       ]),
     },
   }
@@ -63,11 +63,11 @@ const content: Record<string, { title: string; sections: { heading: string; text
       },
       {
         heading: 'Your Rights',
-        text: 'You have the right to access, correct, or delete your personal information. Contact us at info@tradego-fasteners.com to exercise these rights.'
+        text: 'You have the right to access, correct, or delete your personal information. Contact us at info@kk-electric.com to exercise these rights.'
       },
       {
         heading: 'Contact Us',
-        text: 'If you have any questions about this Privacy Policy, please contact us at info@tradego-fasteners.com.'
+        text: 'If you have any questions about this Privacy Policy, please contact us at info@kk-electric.com.'
       }
     ]
   },
@@ -96,11 +96,11 @@ const content: Record<string, { title: string; sections: { heading: string; text
       },
       {
         heading: '您的权利',
-        text: '您有权访问、更正或删除您的个人信息。请通过info@tradego-fasteners.com联系我们来行使这些权利。'
+        text: '您有权访问、更正或删除您的个人信息。请通过info@kk-electric.com联系我们来行使这些权利。'
       },
       {
         heading: '联系我们',
-        text: '如果您对本隐私政策有任何疑问，请通过info@tradego-fasteners.com与我们联系。'
+        text: '如果您对本隐私政策有任何疑问，请通过info@kk-electric.com与我们联系。'
       }
     ]
   }
@@ -132,11 +132,11 @@ const fallbackContent = {
     },
     {
       heading: 'Your Rights',
-      text: 'You have the right to access, correct, or delete your personal information. Contact us at info@tradego-fasteners.com to exercise these rights.'
+      text: 'You have the right to access, correct, or delete your personal information. Contact us at info@kk-electric.com to exercise these rights.'
     },
     {
       heading: 'Contact Us',
-      text: 'If you have any questions about this Privacy Policy, please contact us at info@tradego-fasteners.com.'
+      text: 'If you have any questions about this Privacy Policy, please contact us at info@kk-electric.com.'
     }
   ]
 }

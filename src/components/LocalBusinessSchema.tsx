@@ -10,11 +10,11 @@ export default function LocalBusinessSchema({ locale = 'en' }: LocalBusinessSche
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    '@id': 'https://www.tradego-fasteners.com/#business',
-    name: 'TradeGo Fasteners',
+    '@id': 'https://kk-electric.com/#business',
+    name: 'YOKE AVR',
     image: {
       '@type': 'ImageObject',
-      url: 'https://www.tradego-fasteners.com/images/logo.png',
+      url: 'https://kk-electric.com/images/logo.png',
       width: 200,
       height: 60,
     },
@@ -34,8 +34,8 @@ export default function LocalBusinessSchema({ locale = 'en' }: LocalBusinessSche
     },
     telephone: '+86-159-6340-9951',
     whatsapp: '+8615963409951',
-    email: 'sales@tradego-fasteners.com',
-    url: 'https://www.tradego-fasteners.com',
+    email: 'sales@kk-electric.com',
+    url: 'https://kk-electric.com',
     areaServed: [
       { '@type': 'Country', name: 'South Africa' },
       { '@type': 'Country', name: 'Zimbabwe' },
@@ -65,14 +65,13 @@ export default function LocalBusinessSchema({ locale = 'en' }: LocalBusinessSche
       bestRating: '5',
     },
     sameAs: [
-      'https://www.facebook.com/tradegofasteners',
-      'https://twitter.com/tradegofasteners',
+      'https://www.linkedin.com/company/yoke-avr',
     ],
     contactPoint: [
       {
         '@type': 'ContactPoint',
         telephone: '+86-159-6340-9951',
-        email: 'sales@tradego-fasteners.com',
+        email: 'sales@kk-electric.com',
         contactType: 'sales',
         availableLanguage: ['English', 'Chinese', 'Shona'],
         areaServed: [

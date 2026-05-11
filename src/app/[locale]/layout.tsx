@@ -118,7 +118,7 @@ export default async function LocaleLayout({
         <ReviewSchema locale={loc} />
         <NavigationSchema locale={loc} />
         <WebSiteSchema locale={loc} />
-        <ImageObjectSchema locale={loc} />
+        <ImageObjectSchema />
       </head>
       <body className="antialiased">
         <GeoProvider>
