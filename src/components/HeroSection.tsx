@@ -18,7 +18,7 @@ export default function HeroSection({ locale = 'en' }: HeroSectionProps) {
       {/* Hero Background Image - Priority LCP optimization */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/hero-construction.webp"
+          src="/images/avr-logistics.jpg"
           alt="Industrial power equipment"
           fill
           priority

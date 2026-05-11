@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1024">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a1628"/>
+      <stop offset="50%" style="stop-color:#1a3a5c"/>
+      <stop offset="100%" style="stop-color:#0d2847"/>
+    </linearGradient>
+    <linearGradient id="glowBlue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#0066cc;stop-opacity:0.3"/>
+    </linearGradient>
+    <linearGradient id="glowOrange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff6b00;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#ff9500;stop-opacity:0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1536" height="1024" fill="url(#bg)"/>
+
+  <!-- Grid pattern -->
+  <g stroke="#00d4ff" stroke-opacity="0.1" fill="none">
+    <line x1="0" y1="200" x2="1536" y2="200"/>
+    <line x1="0" y1="400" x2="1536" y2="400"/>
+    <line x1="0" y1="600" x2="1536" y2="600"/>
+    <line x1="0" y1="800" x2="1536" y2="800"/>
+    <line x1="300" y1="0" x2="300" y2="1024"/>
+    <line x1="600" y1="0" x2="600" y2="1024"/>
+    <line x1="900" y1="0" x2="900" y2="1024"/>
+    <line x1="1200" y1="0" x2="1200" y2="1024"/>
+  </g>
+
+  <!-- Central shield / protection symbol -->
+  <g transform="translate(768, 480)" filter="url(#softGlow)">
+    <!-- Outer glow ring -->
+    <circle cx="0" cy="0" r="280" fill="none" stroke="#00d4ff" stroke-width="2" stroke-opacity="0.3"/>
+    <circle cx="0" cy="0" r="320" fill="none" stroke="#00d4ff" stroke-width="1" stroke-opacity="0.15"/>
+
+    <!-- Shield shape -->
+    <path d="M0,-240 L180,-180 L180,80 L0,200 L-180,80 L-180,-180 Z"
+          fill="none" stroke="#00d4ff" stroke-width="4" stroke-opacity="0.8"/>
+
+    <!-- Inner shield fill -->
+    <path d="M0,-220 L160,-165 L160,70 L0,185 L-160,70 L-160,-165 Z"
+          fill="#00d4ff" fill-opacity="0.1"/>
+
+    <!-- Voltage bolt icon inside shield -->
+    <path d="M30,-100 L-50,20 L0,20 L-30,120 L60,-10 L5,-10 Z"
+          fill="#ff9500" filter="url(#glow)"/>
+  </g>
+
+  <!-- Circuit lines flowing from shield -->
+  <g stroke="#00d4ff" stroke-width="2" fill="none" stroke-opacity="0.5">
+    <!-- Left side circuits -->
+    <path d="M500,480 L350,480 L300,430 L300,300"/>
+    <path d="M520,520 L360,520 L310,570 L310,700"/>
+    <circle cx="300" cy="300" r="8" fill="#00d4ff"/>
+    <circle cx="310" cy="700" r="8" fill="#00d4ff"/>
+
+    <!-- Right side circuits -->
+    <path d="M1036,480 L1186,480 L1236,430 L1236,300"/>
+    <path d="M1016,520 L1176,520 L1226,570 L1226,700"/>
+    <circle cx="1236" cy="300" r="8" fill="#00d4ff"/>
+    <circle cx="1226" cy="700" r="8" fill="#00d4ff"/>
+
+    <!-- Top circuits -->
+    <path d="M768,240 L768,100 L650,80 L650,50"/>
+    <path d="M768,240 L768,80 L886,60 L886,30"/>
+    <circle cx="650" cy="50" r="6" fill="#00d4ff"/>
+    <circle cx="886" cy="30" r="6" fill="#00d4ff"/>
+
+    <!-- Bottom circuits -->
+    <path d="M768,680 L768,820 L680,840 L680,880"/>
+    <path d="M768,680 L768,840 L856,860 L856,900"/>
+    <circle cx="680" cy="880" r="6" fill="#00d4ff"/>
+    <circle cx="856" cy="900" r="6" fill="#00d4ff"/>
+  </g>
+
+  <!-- Transformer/coil icons on sides -->
+  <g fill="none" stroke="#ff9500" stroke-width="3" stroke-opacity="0.7">
+    <!-- Left transformer -->
+    <rect x="80" y="380" width="120" height="200" rx="10"/>
+    <line x1="100" y1="400" x2="100" y2="560"/>
+    <line x1="130" y1="400" x2="130" y2="560"/>
+    <line x1="160" y1="400" x2="160" y2="560"/>
+    <!-- Coil spirals -->
+    <path d="M200,430 Q230,430 230,460 Q230,490 200,490" stroke="#00d4ff"/>
+    <path d="M200,470 Q230,470 230,500 Q230,530 200,530" stroke="#00d4ff"/>
+    <path d="M200,510 Q230,510 230,540 Q230,570 200,570" stroke="#00d4ff"/>
+
+    <!-- Right transformer -->
+    <rect x="1336" y="380" width="120" height="200" rx="10"/>
+    <line x1="1356" y1="400" x2="1356" y2="560"/>
+    <line x1="1386" y1="400" x2="1386" y2="560"/>
+    <line x1="1416" y1="400" x2="1416" y2="560"/>
+    <!-- Coil spirals -->
+    <path d="M1306,430 Q1276,430 1276,460 Q1276,490 1306,490" stroke="#00d4ff"/>
+    <path d="M1306,470 Q1276,470 1276,500 Q1276,530 1306,530" stroke="#00d4ff"/>
+    <path d="M1306,510 Q1276,510 1276,540 Q1276,570 1306,570" stroke="#00d4ff"/>
+  </g>
+
+  <!-- Floating data points -->
+  <g fill="#00d4ff">
+    <circle cx="200" cy="150" r="4" opacity="0.6"/>
+    <circle cx="300" cy="180" r="3" opacity="0.5"/>
+    <circle cx="450" cy="120" r="5" opacity="0.7"/>
+    <circle cx="1086" cy="150" r="4" opacity="0.6"/>
+    <circle cx="1236" cy="180" r="3" opacity="0.5"/>
+    <circle cx="1336" cy="100" r="5" opacity="0.7"/>
+    <circle cx="150" cy="850" r="4" opacity="0.5"/>
+    <circle cx="1386" cy="870" r="4" opacity="0.5"/>
+  </g>
+
+  <!-- Power wave arcs -->
+  <g stroke="#00d4ff" stroke-width="1" fill="none" opacity="0.3">
+    <path d="M550,480 Q610,420 768,420 Q926,420 986,480"/>
+    <path d="M550,480 Q610,540 768,540 Q926,540 986,480"/>
+    <path d="M550,480 Q610,360 768,360 Q926,360 986,480"/>
+    <path d="M550,480 Q610,600 768,600 Q926,600 986,480"/>
+  </g>
+
+  <!-- "50+ Countries" decorative dots -->
+  <g fill="#ff9500" opacity="0.6">
+    <circle cx="600" cy="900" r="6"/>
+    <circle cx="640" cy="910" r="4"/>
+    <circle cx="680" cy="895" r="5"/>
+    <circle cx="720" cy="905" r="4"/>
+    <circle cx="760" cy="900" r="6"/>
+    <circle cx="800" cy="908" r="4"/>
+    <circle cx="840" cy="898" r="5"/>
+    <circle cx="880" cy="905" r="4"/>
+    <circle cx="920" cy="900" r="6"/>
+  </g>
+
+  <!-- Text area indicator at bottom -->
+  <rect x="300" y="940" width="936" height="60" rx="8" fill="#00d4ff" fill-opacity="0.05" stroke="#00d4ff" stroke-opacity="0.2"/>
+  <text x="768" y="978" font-family="Arial, sans-serif" font-size="24" fill="#00d4ff" text-anchor="middle" opacity="0.5">STABLE POWER SOLUTIONS</text>
+
+  <!-- Corner accent lines -->
+  <g stroke="#ff9500" stroke-width="3" opacity="0.4">
+    <line x1="30" y1="30" x2="30" y2="100"/>
+    <line x1="30" y1="30" x2="100" y2="30"/>
+    <line x1="1506" y1="30" x2="1506" y2="100"/>
+    <line x1="1506" y1="30" x2="1436" y2="30"/>
+    <line x1="30" y1="994" x2="30" y2="924"/>
+    <line x1="30" y1="994" x2="100" y2="994"/>
+    <line x1="1506" y1="994" x2="1506" y2="924"/>
+    <line x1="1506" y1="994" x2="1436" y2="994"/>
+  </g>
+</svg>
