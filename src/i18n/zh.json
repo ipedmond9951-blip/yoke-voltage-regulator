@@ -1,19 +1,19 @@
 {
   "hero": {
     "title": "YOKE 稳压器 - 专业电压稳定解决方案",
-    "subtitle": "10年以上稳压器制造经验。SVC/TND系列数控稳压器，适用于工业和家庭。CE/CB认证，全球发货。",
+    "subtitle": "YOKE - 10年以上稳压器制造经验，出口50+国家",
     "cta": "获取报价",
     "ctaSecondary": "查看产品",
     "iso": "CE/CB 认证",
     "global": "全球发货",
     "experience": "10年以上经验",
     "featured": "主打产品",
-    "product1_name": "SVC-3000VA",
+    "product1_name": "SVC-3000VA 稳压器",
     "product1_desc": "家用自动稳压器，3KVA容量",
-    "product2_name": "SVC-10KVA",
+    "product2_name": "SVC-10KVA 稳压器",
     "product2_desc": "工业级稳压器，10KVA容量",
-    "product3_name": "SVC-30KVA",
-    "product3_desc": "重型稳压器，30KVA容量",
+    "product3_name": "SVC-30KVA 稳压器",
+    "product3_desc": "重载稳压器，30KVA容量",
     "product4_name": "SVC-50KVA",
     "product4_desc": "工业稳压器，50KVA容量",
     "product5_name": "SVC-60KVA",
@@ -31,7 +31,7 @@
   },
   "products": {
     "title": "YOKE 稳压器产品",
-    "subtitle": "YOKE品牌稳压器 - SVC和TND系列电压稳压器，容量从3KVA到60KVA，适用于工业和家庭应用。",
+    "subtitle": "建筑和工业用高品质稳压器",
     "inquiry": "立即咨询",
     "allProducts": "所有产品",
     "searchPlaceholder": "搜索产品...",
@@ -39,14 +39,14 @@
   },
   "about": {
     "title": "为什么选择YOKE？",
-    "experience": "10年以上经验",
-    "experienceDesc": "YOKE拥有10年以上稳压器制造经验，专业生产SVC和TND系列产品。",
+    "experience": "10+年经验",
+    "experienceDesc": "10年以上稳压器制造经验",
     "certification": "CE/CB认证",
-    "certificationDesc": "所有YOKE产品均通过CE和CB认证，符合国际安全和质量问题标准。",
-    "global": "全球出口",
-    "globalDesc": "YOKE稳压器出口到全球50多个国家和地区，以可靠的质量和有竞争力的价格著称。",
+    "certificationDesc": "国际认证质量管理体系，确保产品安全可靠",
+    "global": "50+国家",
+    "globalDesc": "六大洲买家信赖的稳压器供应商",
     "moq": "小批量 + 快速响应",
-    "moqDesc": "样品订购欢迎。24小时报价响应。工厂直销价格。"
+    "moqDesc": "灵活订单量，支持各种规模企业"
   },
   "why": {
     "title": "为什么选择YOKE稳压器？",
@@ -62,13 +62,13 @@
   },
   "faq": {
     "title": "常见问题",
-    "subtitle": "YOKE稳压器常见问题 - 规格、应用、发货和付款条款。",
+    "subtitle": "查找关于我们稳压器和服务的常见问题解答",
     "contact": "还有更多问题？联系我们的专家团队。",
     "contactCta": "联系我们"
   },
   "inquiry": {
     "title": "获取报价",
-    "subtitle": "获取YOKE稳压器工厂价格。24小时内响应。",
+    "subtitle": "填写下方表单，我们将在24小时内回复",
     "name": "您的姓名",
     "email": "电子邮箱",
     "company": "公司名称",
@@ -85,11 +85,11 @@
   },
   "footer": {
     "company": "YOKE 电气",
-    "companyDesc": "专业自动稳压器制造商。10年以上经验，CE/CB认证产品，全球出口。",
+    "companyDesc": "专业稳压器制造商，专注非洲及全球市场，CE/CB认证",
     "quickLinks": "快速链接",
     "contactUs": "联系我们",
     "rights": "版权所有",
-    "address": "中国",
+    "address": "中国大陆",
     "email": "info@yoke-electric.com",
     "certifications": "认证"
   },
@@ -98,5 +98,11 @@
     "subtitle": "YOKE产品已获得CE和CB认证，符合国际安全和质量问题标准。",
     "ce": "CE认证",
     "cb": "CB认证"
+  },
+  "chat": {
+    "title": "YOKE 智能客服",
+    "online": "在线",
+    "openChat": "打开客服",
+    "greeting": "您好！YOKE专业稳压器厂家，有什么可以帮您？"
   }
 }

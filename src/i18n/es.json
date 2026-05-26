@@ -38,12 +38,12 @@
     "viewDetails": "Ver Detalles"
   },
   "about": {
-    "title": "¿Por Qué Elegir YOKE?",
-    "experience": "Más de 10 Años de Experiencia",
+    "title": "¿Por qué elegir YOKE?",
+    "experience": "10+ años de experiencia",
     "experienceDesc": "YOKE cuenta con más de 10 años de experiencia en la fabricación de reguladores de voltaje, especializándose en productos serie SVC y TND.",
-    "certification": "Certificación CE/CB",
+    "certification": "Certificado CE/CB",
     "certificationDesc": "Todos los productos YOKE están certificados CE y CB, cumpliendo con estándares internacionales de seguridad y calidad.",
-    "global": "Exportaciones Globales",
+    "global": "50+ países",
     "globalDesc": "YOKE exporta reguladores de voltaje a más de 50 países en todo el mundo, con calidad confiable y precios competitivos.",
     "moq": "MOQ Bajo + Respuesta Rápida",
     "moqDesc": "Pedidos de muestra bienvenidos. Respuesta de cotización en 24 horas. Precios directos de fábrica."
@@ -89,7 +89,7 @@
     "quickLinks": "Enlaces Rápidos",
     "contactUs": "Contáctenos",
     "rights": "Todos los derechos reservados.",
-    "address": "China",
+    "address": "China continental",
     "email": "info@yoke-electric.com",
     "certifications": "Certificaciones"
   },
@@ -98,5 +98,10 @@
     "subtitle": "Los productos YOKE están certificados CE y CB, cumpliendo con estándares internacionales de seguridad y calidad.",
     "ce": "Certificación CE",
     "cb": "Certificación CB"
+  },
+  "chat": {
+    "title": "Soporte YOKE",
+    "online": "En línea",
+    "openChat": "Abrir chat"
   }
 }

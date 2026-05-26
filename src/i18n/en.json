@@ -5,11 +5,11 @@
     "cta": "Get a Quote",
     "ctaSecondary": "View Products",
     "iso": "CE/CB Certified",
-    "global": "Global Shipping", 
+    "global": "Global Shipping",
     "experience": "10+ Years Experience",
     "featured": "Featured Products",
     "product1_name": "SVC-3000VA",
-    "product1_desc": "Automatic voltage regulator for home appliances, 3KVA capacity",
+    "product1_desc": "Home automatic voltage regulator, 3KVA capacity",
     "product2_name": "SVC-10KVA",
     "product2_desc": "Industrial grade AVR, 10KVA capacity",
     "product3_name": "SVC-30KVA",
@@ -31,7 +31,7 @@
   },
   "products": {
     "title": "Automatic Voltage Regulator Products",
-    "subtitle": "YOKE AVR products - SVC and TND series voltage stabilizers. Capacity from 3KVA to 60KVA for industrial and home applications.",
+    "subtitle": "High-quality voltage stabilizers for industrial and home use",
     "inquiry": "Inquire Now",
     "allProducts": "All Products",
     "searchPlaceholder": "Search products...",
@@ -40,11 +40,11 @@
   "about": {
     "title": "Why Choose YOKE?",
     "experience": "10+ Years Experience",
-    "experienceDesc": "YOKE has 10+ years of experience in voltage regulator manufacturing, specializing in SVC and TND series products.",
+    "experienceDesc": "A decade of AVR manufacturing excellence",
     "certification": "CE/CB Certified",
-    "certificationDesc": "All YOKE products are CE and CB certified, meeting international safety and quality standards.",
-    "global": "Global Exports",
-    "globalDesc": "YOKE exports voltage regulators to 50+ countries worldwide, with reliable quality and competitive pricing.",
+    "certificationDesc": "International quality certification for product safety",
+    "global": "50+ Countries",
+    "globalDesc": "Trusted by buyers across six continents",
     "moq": "Low MOQ + Fast Response",
     "moqDesc": "Sample orders welcome. 24-hour quote response. Factory direct pricing."
   },
@@ -62,15 +62,15 @@
   },
   "faq": {
     "title": "Frequently Asked Questions",
-    "subtitle": "Common questions about YOKE voltage regulators - specifications, applications, shipping, and payment terms.",
+    "subtitle": "Common questions about our voltage regulators and services",
     "contact": "Have more questions? Contact our expert team.",
     "contactCta": "Contact Us"
   },
   "inquiry": {
     "title": "Request a Quote",
-    "subtitle": "Get factory prices for YOKE voltage regulators. Response within 24 hours.",
+    "subtitle": "Fill out the form and we'll reply within 24 hours",
     "name": "Your Name",
-    "email": "Email Address", 
+    "email": "Email Address",
     "company": "Company Name",
     "country": "Country",
     "products": "Products Interested",
@@ -85,11 +85,11 @@
   },
   "footer": {
     "company": "YOKE Electric",
-    "companyDesc": "Professional automatic voltage regulator manufacturer. 10+ years experience, CE/CB certified products, global exports.",
+    "companyDesc": "Professional AVR manufacturer for Africa and global markets. CE/CB certified.",
     "quickLinks": "Quick Links",
     "contactUs": "Contact Us",
     "rights": "All rights reserved.",
-    "address": "China",
+    "address": "Mainland China",
     "email": "info@yoke-electric.com",
     "certifications": "Certifications"
   },
@@ -98,5 +98,11 @@
     "subtitle": "YOKE products are CE and CB certified, meeting international safety and quality standards.",
     "ce": "CE Certification",
     "cb": "CB Certification"
+  },
+  "chat": {
+    "title": "YOKE Support",
+    "online": "Online",
+    "openChat": "Open Chat",
+    "greeting": "Hello! YOKE is a professional AVR manufacturer. How can we help?"
   }
 }

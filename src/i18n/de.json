@@ -38,12 +38,12 @@
     "viewDetails": "Details Ansehen"
   },
   "about": {
-    "title": "Warum YOKE Wählen?",
-    "experience": "Über 10 Jahre Erfahrung",
+    "title": "Warum YOKE wählen?",
+    "experience": "10+ Jahre Erfahrung",
     "experienceDesc": "YOKE verfügt über mehr als 10 Jahre Erfahrung in der Herstellung von Spannungsreglern, spezialisiert auf SVC- und TND-Serienprodukte.",
-    "certification": "CE/CB Zertifiziert",
+    "certification": "CE/CB zertifiziert",
     "certificationDesc": "Alle YOKE-Produkte sind CE- und CB-zertifiziert und erfüllen internationale Sicherheits- und Qualitätsstandards.",
-    "global": "Globale Exporte",
+    "global": "50+ Länder",
     "globalDesc": "YOKE exportiert Spannungsregler in mehr als 50 Länder weltweit, mit zuverlässiger Qualität und wettbewerbsfähigen Preisen.",
     "moq": "Niedrige Mindestbestellmenge + Schnelle Antwort",
     "moqDesc": "Musterbestellungen willkommen. Angebot innerhalb von 24 Stunden. Direkte Fabrikpreise."
@@ -89,7 +89,7 @@
     "quickLinks": "Schnelllinks",
     "contactUs": "Kontaktieren Sie Uns",
     "rights": "Alle Rechte vorbehalten.",
-    "address": "China",
+    "address": "Festlandchina",
     "email": "info@yoke-electric.com",
     "certifications": "Zertifizierungen"
   },
@@ -98,5 +98,10 @@
     "subtitle": "YOKE-Produkte sind CE- und CB-zertifiziert und erfüllen internationale Sicherheits- und Qualitätsstandards.",
     "ce": "CE-Zertifizierung",
     "cb": "CB-Zertifizierung"
+  },
+  "chat": {
+    "title": "YOKE-Support",
+    "online": "Online",
+    "openChat": "Chat öffnen"
   }
 }

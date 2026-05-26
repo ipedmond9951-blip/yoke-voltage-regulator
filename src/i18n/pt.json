@@ -38,12 +38,12 @@
     "viewDetails": "Ver Detalhes"
   },
   "about": {
-    "title": "Por Que Escolher YOKE?",
-    "experience": "Mais de 10 Anos de Experiência",
+    "title": "Por que escolher YOKE?",
+    "experience": "10+ anos de experiência",
     "experienceDesc": "YOKE tem mais de 10 anos de experiência na fabricação de reguladores de tensão, especializando-se em produtos série SVC e TND.",
     "certification": "Certificado CE/CB",
     "certificationDesc": "Todos os produtos YOKE são certificados CE e CB, atendendo aos padrões internacionais de segurança e qualidade.",
-    "global": "Exportações Mundiais",
+    "global": "50+ países",
     "globalDesc": "YOKE exporta reguladores de tensão para mais de 50 países em todo o mundo, com qualidade confiável e preços competitivos.",
     "moq": "MOQ Baixo + Resposta Rápida",
     "moqDesc": "Pedidos de amostra bem-vindos. Resposta de cotação em 24 horas. Preços diretos de fábrica."
@@ -89,7 +89,7 @@
     "quickLinks": "Links Rápidos",
     "contactUs": "Fale Conosco",
     "rights": "Todos os direitos reservados.",
-    "address": "China",
+    "address": "China continental",
     "email": "info@yoke-electric.com",
     "certifications": "Certificações"
   },
@@ -98,5 +98,10 @@
     "subtitle": "Produtos YOKE são certificados CE e CB, atendendo aos padrões internacionais de segurança e qualidade.",
     "ce": "Certificação CE",
     "cb": "Certificação CB"
+  },
+  "chat": {
+    "title": "Suporte YOKE",
+    "online": "Online",
+    "openChat": "Abrir chat"
   }
 }

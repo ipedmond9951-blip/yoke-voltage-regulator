@@ -38,12 +38,12 @@
     "viewDetails": "詳細を見る"
   },
   "about": {
-    "title": "なぜYOKEを選ぶのか？",
-    "experience": "10年以上の経験",
+    "title": "YOKEを選ぶ理由",
+    "experience": "10+年の経験",
     "experienceDesc": "YOKEは10年以上にわたり電圧調整器の製造経験があり、SVCおよびTNDシリーズ製品に特化しています。",
-    "certification": "CE/CB認証",
+    "certification": "CE/CB認定",
     "certificationDesc": "すべてのYOKE 제품은CEおよびCB認証を取得しており、国際的な安全基準と品質基準を満たしています。",
-    "global": "グローバル輸出",
+    "global": "50+カ国",
     "globalDesc": "YOKEは信頼できる品質と競争力のある価格で、50以上の国に電圧調整器を輸出しています。",
     "moq": "低MOQ + 素早い対応",
     "moqDesc": "サンプル注文は大歓迎。24時間以内に見積もり回答。工場直結価格。"
@@ -89,7 +89,7 @@
     "quickLinks": "クイックリンク",
     "contactUs": "お問い合わせ",
     "rights": "全著作権所有。",
-    "address": "中国",
+    "address": "中国本土",
     "email": "info@yoke-electric.com",
     "certifications": "認証"
   },
@@ -98,5 +98,10 @@
     "subtitle": "YOKE製品はCEおよびCB認証を取得しており、国際的な安全基準と品質基準を満たしています。",
     "ce": "CE認証",
     "cb": "CB認証"
+  },
+  "chat": {
+    "title": "YOKEアシスタント",
+    "online": "オンライン",
+    "openChat": "チャットを開く"
   }
 }
