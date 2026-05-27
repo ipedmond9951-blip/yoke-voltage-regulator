@@ -12,16 +12,6 @@ const staticPages = [
   { path: '/terms', priority: 0.4, changefreq: 'yearly' },
 ]
 
-// Product slugs
-const productSlugs = [
-  'svc-3000va',
-  'tnd-svc-3000va',
-  'svc-10kva',
-  'svc-30kva',
-  'svc-50kva',
-  'svc-60kva',
-]
-
 export default function sitemap() {
   const entries = []
 
@@ -43,26 +33,6 @@ export default function sitemap() {
         lastModified: new Date().toISOString(),
         changeFrequency: page.changefreq,
         priority: page.priority,
-        alternates: { languages: langMap },
-      })
-    }
-  }
-
-  // Product pages (only en and zh make sense for products)
-  const productLocales = ['en', 'zh']
-  for (const locale of productLocales) {
-    for (const slug of productSlugs) {
-      const url = `${baseUrl}/${locale}/products/${slug}`
-      const langMap: Record<string, string> = {}
-      for (const l of productLocales) {
-        langMap[l] = `${baseUrl}/${l}/products/${slug}`
-      }
-      langMap['x-default'] = `${baseUrl}/en/products/${slug}`
-      entries.push({
-        url,
-        lastModified: new Date().toISOString(),
-        changeFrequency: 'weekly' as const,
-        priority: 0.8,
         alternates: { languages: langMap },
       })
     }

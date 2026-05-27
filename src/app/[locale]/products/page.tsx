@@ -25,7 +25,7 @@ const productText: Record<string, Record<string, string>> = {
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale: localeParam } = await params
   const locale = (localeParam as Locale) || 'en'
-  const siteUrl = 'https://www.yoke-electric.com'
+  const siteUrl = 'https://kk-electric.com'
   
   const titles: Record<string, string> = {
     en: 'YOKE Automatic Voltage Regulators | SVC & TND Series AVR 3KVA to 60KVA | Professional Manufacturer',

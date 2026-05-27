@@ -19,7 +19,7 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
   const { locale: localeParam } = await params
   const locale = (localeParam as Locale) || 'en'
   const msgs = getMessages(locale)
-  const BASE_URL = 'https://www.yoke-electric.com'
+  const BASE_URL = 'https://kk-electric.com'
 
   return (
     <>
@@ -106,8 +106,8 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.yoke-electric.com' },
-              { '@type': 'ListItem', position: 2, name: 'Products', item: 'https://www.yoke-electric.com/products' },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://kk-electric.com' },
+              { '@type': 'ListItem', position: 2, name: 'Products', item: 'https://kk-electric.com/products' },
             ],
           }),
         }}
@@ -119,7 +119,7 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
         {/* Social Share Buttons */}
         <div className="max-w-3xl mx-auto py-4">
           <ShareButtons 
-            url={`https://www.yoke-electric.com/${locale}`}
+            url={`https://kk-electric.com/${locale}`}
             title={locale === 'zh' ? 'YOKE稳压器 - 专业电压稳定解决方案' : 'YOKE Voltage Regulators - Professional AVR Manufacturer'}
             description={locale === 'zh' ? '10年以上稳压器制造经验，CE/CB认证，全球发货' : '10+ years AVR manufacturing experience. CE/CB certified products with global shipping.'}
           />

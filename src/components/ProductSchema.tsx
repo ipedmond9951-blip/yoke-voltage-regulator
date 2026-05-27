@@ -74,7 +74,7 @@ export default function ProductSchema({ products, locale }: ProductSchemaProps) 
           '@type': 'Product',
           name: names[product.slug] || product.nameKey,
           description: descriptions[product.slug] || `YOKE ${product.nameKey} automatic voltage regulator for industrial and commercial use.`,
-          image: `https://www.yoke-electric.com${product.image}`,
+          image: `https://kk-electric.com${product.image}`,
           brand: {
             '@type': 'Brand',
             name: 'YOKE',
@@ -112,7 +112,7 @@ export default function ProductSchema({ products, locale }: ProductSchemaProps) 
           },
           manufacturer: {
             '@type': 'Organization',
-            '@id': 'https://www.yoke-electric.com/#organization',
+            '@id': 'https://kk-electric.com/#organization',
             name: 'YOKE Electric',
           },
         }
