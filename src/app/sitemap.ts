@@ -28,12 +28,22 @@ export default function sitemap() {
   // Static pages in all languages
   for (const locale of locales) {
     for (const page of staticPages) {
-      const url = page.path === '' ? `/${locale}` : `/${locale}${page.path}`
+      const path = page.path === '' ? '' : page.path
+      const url = `${baseUrl}/${locale}${path}`
+      // Build hreflang map for all locales
+      const langMap: Record<string, string> = {}
+      for (const l of locales) {
+        langMap[l] = l === 'en' && page.path === '' 
+          ? `${baseUrl}/en` 
+          : `${baseUrl}/${l}${path}`
+      }
+      langMap['x-default'] = `${baseUrl}/en`
       entries.push({
-        url: `${baseUrl}${url}`,
+        url,
         lastModified: new Date().toISOString(),
         changeFrequency: page.changefreq,
         priority: page.priority,
+        alternates: { languages: langMap },
       })
     }
   }
@@ -42,11 +52,18 @@ export default function sitemap() {
   const productLocales = ['en', 'zh']
   for (const locale of productLocales) {
     for (const slug of productSlugs) {
+      const url = `${baseUrl}/${locale}/products/${slug}`
+      const langMap: Record<string, string> = {}
+      for (const l of productLocales) {
+        langMap[l] = `${baseUrl}/${l}/products/${slug}`
+      }
+      langMap['x-default'] = `${baseUrl}/en/products/${slug}`
       entries.push({
-        url: `${baseUrl}/${locale}/products/${slug}`,
+        url,
         lastModified: new Date().toISOString(),
         changeFrequency: 'weekly' as const,
         priority: 0.8,
+        alternates: { languages: langMap },
       })
     }
   }
@@ -55,11 +72,18 @@ export default function sitemap() {
   const articleSlugs = getAllSlugs()
   for (const locale of locales) {
     for (const slug of articleSlugs) {
+      const url = `${baseUrl}/${locale}/industry/${slug}`
+      const langMap: Record<string, string> = {}
+      for (const l of locales) {
+        langMap[l] = `${baseUrl}/${l}/industry/${slug}`
+      }
+      langMap['x-default'] = `${baseUrl}/en/industry/${slug}`
       entries.push({
-        url: `${baseUrl}/${locale}/industry/${slug}`,
+        url,
         lastModified: new Date().toISOString(),
         changeFrequency: 'monthly' as const,
         priority: 0.7,
+        alternates: { languages: langMap },
       })
     }
   }

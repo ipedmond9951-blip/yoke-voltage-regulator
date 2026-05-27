@@ -31,7 +31,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params
   const loc = (locale as Locale) || 'en'
-  const siteUrl = 'https://www.kk-electric.com'
+  const siteUrl = 'https://kk-electric.com'
   
   const titles: Record<string, string> = {
     zh: 'YOKE稳压器 - 中国电压调节器厂家 | ISO 9001认证',
@@ -103,8 +103,8 @@ export default async function LocaleLayout({
           "@context": "https://schema.org",
           "@type": "Organization",
           "name": "YOKE Electric",
-          "url": "https://www.kk-electric.com",
-          "logo": "https://www.kk-electric.com/images/logo.png",
+          "url": "https://kk-electric.com",
+          "logo": "https://kk-electric.com/images/logo.png",
           "description": "YOKE Electric - Professional automatic voltage regulator (AVR) manufacturer. SVC series stabilizers for home and industrial use. Global shipping. Factory prices, quality guaranteed.",
           "foundingDate": "2004",
           "address": { "@type": "PostalAddress", "addressCountry": "CN", "addressLocality": "Hebei" },
