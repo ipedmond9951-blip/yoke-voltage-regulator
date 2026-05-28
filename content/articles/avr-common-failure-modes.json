@@ -2,7 +2,7 @@
   "slug": "avr-common-failure-modes",
   "category": "Technical Guide",
   "date": "2026-05-31",
-  "readTime": 5,
+  "readTime": 8,
   "image": "/images/articles/avr-default.jpg",
   "title": {
     "en": "AVR Common Failure Modes and Prevention",
