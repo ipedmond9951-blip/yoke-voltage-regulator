@@ -1,8 +1,8 @@
 {
   "slug": "avr-voltage-sensing-technology",
   "category": "Technical Guide",
-  "date": "2026-06-08",
-  "readTime": 5,
+  "date": "2026-06-04",
+  "readTime": 8,
   "image": "/images/articles/avr-default.jpg",
   "title": {
     "en": "AVR Voltage Sensing: How Input Voltage is Measured",
