@@ -1,8 +1,8 @@
 {
   "slug": "avr-fixing-voltage-drift",
   "category": "Technical Guide",
-  "date": "2026-06-05",
-  "readTime": 6,
+  "date": "2026-06-06",
+  "readTime": 8,
   "image": "/images/articles/avr-default.jpg",
   "title": {
     "en": "Fixing AVR Voltage Drift: Calibration Guide",
