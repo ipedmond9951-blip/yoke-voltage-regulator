@@ -6,6 +6,9 @@ import { getAllArticles, getAllSlugs, getArticleBySlug } from '@/lib/articles'
 import { type Locale, t, locales } from '@/i18n'
 import type { ArticleSection } from '@/lib/articles'
 import ShareButtons from '@/components/ShareButtons'
+import ArticleSchema from '@/components/ArticleSchema'
+import BreadcrumbSchema from '@/components/BreadcrumbSchema'
+import HowToSchema from '@/components/HowToSchema'
 
 const SITE_URL = 'https://www.kk-electric.com'
 
@@ -160,15 +163,30 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
     })),
   } : null
 
-  const articleSchema = {
+  // HowTo Schema (for installation/how-to articles)
+  const howToSchema = (article as any).schema === 'HowTo' || (article as any).schema === 'how-to' ? {
     '@context': 'https://schema.org',
-    '@type': 'Article',
-    headline: title,
+    '@type': 'HowTo',
+    name: title,
     description: desc,
-    datePublished: article.date,
-    author: { '@type': 'Organization', name: 'YOKE Electric' },
-    publisher: { '@type': 'Organization', name: 'YOKE Electric' },
-  }
+    totalTime: `PT${(article.readTime || 5)}M`,
+    estimatedCost: {
+      '@type': 'MonetaryAmount',
+      currency: 'USD',
+      value: '0',
+    },
+    step: article.sections
+      .filter(s => s.body)
+      .map((s, i) => ({
+        '@type': 'HowToStep',
+        position: i + 1,
+        name: localizedText(s.heading, locale) || `Step ${i + 1}`,
+        text: ((s.body?.[locale] || s.body?.en || '')).replace(/<[^>]+>/g, ' ').substring(0, 500),
+      })),
+  } : null
+
+  // Page URL for schema
+  const pageUrl = `/${locale}/industry/${slug}`
 
   return (
     <div className="min-h-screen bg-white">
@@ -240,11 +258,67 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
         )}
       </article>
 
-      {/* Schema */}
+      {/* Schema - Full SEO JSON-LD Stack */}
+      {/* 1. Article (using enhanced component) */}
+      <ArticleSchema
+        locale={locale}
+        title={title}
+        description={desc}
+        author={typeof (article as any).author === 'object' && (article as any).author?.name ? (article as any).author.name : 'YOKE Electric Engineering Team'}
+        datePublished={article.date}
+        dateModified={(article as any).updatedDate || article.date}
+        image={`https://www.kk-electric.com${article.image || `/images/articles/${slug}.jpg`}`}
+        url={pageUrl}
+      />
+      {/* 2. FAQPage Schema (inline, supports 9 languages) */}
       {faqSchema && (
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       )}
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      {/* 3. HowTo Schema (for how-to articles) */}
+      {howToSchema && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }} />
+      )}
+      {/* 4. BreadcrumbList Schema (rich result) */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              {
+                '@type': 'ListItem',
+                position: 1,
+                name: 'Home',
+                item: 'https://kk-electric.com',
+              },
+              {
+                '@type': 'ListItem',
+                position: 2,
+                name: 'Industry',
+                item: `https://kk-electric.com/${locale}/industry`,
+              },
+              {
+                '@type': 'ListItem',
+                position: 3,
+                name: title,
+                item: `https://kk-electric.com${pageUrl}`,
+              },
+            ],
+          }),
+        }}
+      />
+      {/* 5. Speakable Schema (for voice search) */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'SpeakableSpecification',
+            xpath: ['/html/head/title', '/html/body//h1', '/html/body//article/p[1]'],
+          }),
+        }}
+      />
     </div>
   )
 }
