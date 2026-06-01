@@ -3,7 +3,7 @@
   "category": "Technical Guide",
   "date": "2026-05-27",
   "readTime": 5,
-  "image": "/images/articles/avr-default.jpg",
+  "image": "images/articles/avr-understanding-response-time.jpg",
   "title": {
     "en": "Understanding AVR Response Time: Why Speed Matters",
     "zh": "了解稳压器响应时间：为什么速度很重要",

@@ -3,7 +3,7 @@
   "category": "Technical Guide",
   "date": "2026-06-07",
   "readTime": 7,
-  "image": "/images/articles/avr-default.jpg",
+  "image": "images/articles/avr-power-factor-correction.jpg",
   "title": {
     "en": "AVR and Power Factor Correction",
     "zh": "AVR和功率因数校正",

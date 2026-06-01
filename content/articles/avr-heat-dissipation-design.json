@@ -3,7 +3,7 @@
   "category": "Technical Guide",
   "date": "2026-06-06",
   "readTime": 7,
-  "image": "/images/articles/avr-default.jpg",
+  "image": "images/articles/avr-heat-dissipation-design.jpg",
   "title": {
     "en": "AVR Heat Dissipation: Thermal Management Design",
     "zh": "AVR散热：热管理设计",

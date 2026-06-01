@@ -3,7 +3,7 @@
   "category": "Application Guide",
   "date": "2026-06-06",
   "readTime": 8,
-  "image": "/images/articles/avr-default.jpg",
+  "image": "images/articles/avr-for-generator-sets.jpg",
   "title": {
     "en": "AVR for Generator Sets: Backup Power Integration",
     "zh": "发电机AVR：备用电源集成",

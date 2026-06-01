@@ -3,7 +3,7 @@
   "category": "Product Comparison",
   "date": "2026-06-15",
   "readTime": 7,
-  "image": "/images/articles/avr-default.jpg",
+  "image": "images/articles/avr-size-comparison-guide.jpg",
   "title": {
     "en": "AVR Size and Footprint Comparison: Space Requirements",
     "zh": "AVR尺寸和占地面积比较：空间要求",

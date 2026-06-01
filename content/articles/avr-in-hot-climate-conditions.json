@@ -3,7 +3,7 @@
   "category": "Technical Guide",
   "date": "2026-06-03",
   "readTime": 5,
-  "image": "/images/articles/avr-default.jpg",
+  "image": "images/articles/avr-in-hot-climate-conditions.jpg",
   "title": {
     "en": "AVR Performance in Hot Climate Conditions",
     "zh": "炎热气候条件下的稳压器性能",

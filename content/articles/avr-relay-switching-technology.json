@@ -3,7 +3,7 @@
   "category": "Technical Guide",
   "date": "2026-06-03",
   "readTime": 5,
-  "image": "/images/articles/avr-default.jpg",
+  "image": "images/articles/avr-relay-switching-technology.jpg",
   "title": {
     "en": "Understanding Relay Switching Technology in AVR",
     "zh": "了解AVR中的继电器切换技术",
