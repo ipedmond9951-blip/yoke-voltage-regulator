@@ -1,8 +1,8 @@
 {
   "slug": "understanding-avr-overload-capacity",
   "category": "Technical Guide",
-  "date": "2026-06-01",
-  "readTime": 6,
+  "date": "2026-06-03",
+  "readTime": 8,
   "image": "/images/articles/avr-default.jpg",
   "title": {
     "en": "Understanding AVR Overload Capacity and Surge Tolerance",
