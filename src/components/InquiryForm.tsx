@@ -113,7 +113,7 @@ export default function InquiryForm({ locale = 'en' }: InquiryFormProps) {
               {loading ? '...' : t(locale, 'inquiry.submit')}
             </button>
             <a
-              href="https://wa.me/8615963409951"
+              href="https://wa.me/8613634200569"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Contact via WhatsApp for quick response"

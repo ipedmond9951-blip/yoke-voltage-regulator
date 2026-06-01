@@ -48,7 +48,7 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
               availableLanguage: ['English', 'Chinese', 'Spanish', 'Arabic', 'French', 'Portuguese', 'Russian', 'Japanese', 'German', 'Hindi'],
             },
             sameAs: [
-              'https://wa.me/8615963409951'
+              'https://wa.me/8613634200569'
             ],
           }),
         }}

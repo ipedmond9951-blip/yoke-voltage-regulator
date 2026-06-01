@@ -33,7 +33,7 @@ export default function LocalBusinessSchema({ locale = 'en' }: LocalBusinessSche
       longitude: 114.0579,
     },
     telephone: '+86-159-6340-9951',
-    whatsapp: '+8615963409951',
+    whatsapp: '+8613634200569',
     email: 'sales@kk-electric.com',
     url: 'https://kk-electric.com',
     areaServed: [

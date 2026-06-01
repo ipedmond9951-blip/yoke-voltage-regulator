@@ -16,7 +16,7 @@ const messages: Record<string, { text: string; label: string }> = {
 export default function WhatsAppCTA({ locale = 'en' }: WhatsAppCTAProps) {
   const msg = messages[locale] || messages.en
   const encoded = encodeURIComponent(msg.text)
-  const whatsappUrl = `https://wa.me/8615963409951?text=${encoded}`
+  const whatsappUrl = `https://wa.me/8613634200569?text=${encoded}`
   return (
     <a href={whatsappUrl} target="_blank" rel="noopener noreferrer"
       className="fixed bottom-6 left-6 z-50 bg-green-500 hover:bg-green-600 text-white px-4 py-3 rounded-full shadow-lg flex items-center gap-2 transition-all">

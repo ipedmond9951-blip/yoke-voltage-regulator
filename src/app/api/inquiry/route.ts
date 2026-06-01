@@ -249,7 +249,7 @@ async function sendWhatsAppNotification(data: InquiryData, isHighValue: boolean)
     const response = await fetch(WHATSAPP_WEBHOOK_URL, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ text, phone: '+8615963409951' }),
+      body: JSON.stringify({ text, phone: '+8613634200569' }),
     });
 
     return response.ok;

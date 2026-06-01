@@ -73,7 +73,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       ]),
     },
     verification: {
-      google: 'B8o4b_2zfT64y2bbOMBlBLBpyMsc01wKJKcB8HlUYTg',
+      google: 'UTGkDx8G0Uk-u5s04dxGcT9Cb4jREmgBXJS5r3biwMw',
     },
   }
 }
