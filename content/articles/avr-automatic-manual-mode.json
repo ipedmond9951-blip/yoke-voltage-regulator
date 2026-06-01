@@ -3,7 +3,7 @@
   "category": "Technical Guide",
   "date": "2026-06-06",
   "readTime": 7,
-  "image": "images/articles/avr-automatic-manual-mode.jpg",
+  "image": "/images/articles/avr-automatic-manual-mode.jpg",
   "title": {
     "en": "AVR Automatic vs Manual Mode: Understanding Operation Modes",
     "zh": "AVR自动 vs 手动模式：了解操作模式",

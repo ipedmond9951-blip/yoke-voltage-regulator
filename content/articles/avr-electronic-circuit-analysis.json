@@ -3,7 +3,7 @@
   "category": "Technical Guide",
   "date": "2026-06-06",
   "readTime": 8,
-  "image": "images/articles/avr-electronic-circuit-analysis.jpg",
+  "image": "/images/articles/avr-electronic-circuit-analysis.jpg",
   "title": {
     "en": "AVR Electronic Circuit Analysis: How Regulation Circuits Work",
     "zh": "AVR电子电路分析：调节电路如何工作",

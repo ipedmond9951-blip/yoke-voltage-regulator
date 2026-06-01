@@ -3,7 +3,7 @@
   "category": "FAQ",
   "date": "2026-06-03",
   "readTime": 6,
-  "image": "images/articles/avr-faq-beginners.jpg",
+  "image": "/images/articles/avr-faq-beginners.jpg",
   "title": {
     "en": "AVR FAQ: Common Questions Answered for Beginners",
     "zh": "AVR常见问题：新手指南常见问题解答",

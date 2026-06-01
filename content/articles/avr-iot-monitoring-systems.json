@@ -3,7 +3,7 @@
   "category": "Technical Guide",
   "date": "2026-06-06",
   "readTime": 6,
-  "image": "images/articles/avr-iot-monitoring-systems.jpg",
+  "image": "/images/articles/avr-iot-monitoring-systems.jpg",
   "title": {
     "en": "AVR with IoT Monitoring: Remote Management",
     "zh": "带IoT监控的AVR：远程管理",

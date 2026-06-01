@@ -3,7 +3,7 @@
   "category": "Technical Guide",
   "date": "2026-06-06",
   "readTime": 5,
-  "image": "images/articles/avr-protection-circuits-explained.jpg",
+  "image": "/images/articles/avr-protection-circuits-explained.jpg",
   "title": {
     "en": "AVR Protection Circuits: Overload Short Circuit and Thermal",
     "zh": "AVR保护电路：过载、短路和热保护",

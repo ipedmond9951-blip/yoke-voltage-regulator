@@ -3,7 +3,7 @@
   "category": "Case Study",
   "date": "2026-06-06",
   "readTime": 6,
-  "image": "images/articles/avr-case-study-data-center.jpg",
+  "image": "/images/articles/avr-case-study-data-center.jpg",
   "title": {
     "en": "Case Study: Data Center Achieves 99.99% Uptime with AVR",
     "zh": "案例研究：数据中心通过AVR实现99.99%正常运行时间",

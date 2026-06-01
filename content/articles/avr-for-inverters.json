@@ -3,7 +3,7 @@
   "category": "Application Guide",
   "date": "2026-06-06",
   "readTime": 8,
-  "image": "images/articles/avr-for-inverters.jpg",
+  "image": "/images/articles/avr-for-inverters.jpg",
   "title": {
     "en": "AVR for Inverters: Solar and Power Conversion",
     "zh": "逆变器AVR：太阳能和电力转换",

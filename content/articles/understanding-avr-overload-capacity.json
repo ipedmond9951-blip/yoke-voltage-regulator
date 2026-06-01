@@ -3,7 +3,7 @@
   "category": "Technical Guide",
   "date": "2026-06-03",
   "readTime": 8,
-  "image": "images/articles/understanding-avr-overload-capacity.jpg",
+  "image": "/images/articles/understanding-avr-overload-capacity.jpg",
   "title": {
     "en": "Understanding AVR Overload Capacity and Surge Tolerance",
     "zh": "了解稳压器过载能力和涌流耐受性",

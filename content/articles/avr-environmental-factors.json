@@ -3,7 +3,7 @@
   "category": "Technical Guide",
   "date": "2026-06-17",
   "readTime": 8,
-  "image": "images/articles/avr-environmental-factors.jpg",
+  "image": "/images/articles/avr-environmental-factors.jpg",
   "title": {
     "en": "AVR Environmental Factors: Altitude Humidity Temperature",
     "zh": "AVR环境因素：海拔、湿度、温度",

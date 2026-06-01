@@ -3,7 +3,7 @@
   "category": "Technical Guide",
   "date": "2026-06-17",
   "readTime": 6,
-  "image": "images/articles/avr-load-capacity-explained.jpg",
+  "image": "/images/articles/avr-load-capacity-explained.jpg",
   "title": {
     "en": "AVR Load Capacity: Continuous vs Peak Load Ratings",
     "zh": "AVR负载容量：连续vs峰值负载额定值",

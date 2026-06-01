@@ -3,7 +3,7 @@
   "category": "Technical Guide",
   "date": "2026-06-06",
   "readTime": 5,
-  "image": "images/articles/avr-voltage-sensing-technology.jpg",
+  "image": "/images/articles/avr-voltage-sensing-technology.jpg",
   "title": {
     "en": "AVR Voltage Sensing: How Input Voltage is Measured",
     "zh": "AVR电压传感：如何测量输入电压",

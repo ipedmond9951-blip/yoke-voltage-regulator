@@ -3,7 +3,7 @@
   "category": "Technical Guide",
   "date": "2026-06-17",
   "readTime": 8,
-  "image": "images/articles/avr-input-voltage-range-explained.jpg",
+  "image": "/images/articles/avr-input-voltage-range-explained.jpg",
   "title": {
     "en": "AVR Input Voltage Range: Understanding Wide Input Capability",
     "zh": "AVR输入电压范围：了解宽输入能力",

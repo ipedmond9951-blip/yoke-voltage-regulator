@@ -3,7 +3,7 @@
   "category": "Technical Guide",
   "date": "2026-06-17",
   "readTime": 7,
-  "image": "images/articles/avr-output-voltage-accuracy.jpg",
+  "image": "/images/articles/avr-output-voltage-accuracy.jpg",
   "title": {
     "en": "AVR Output Voltage Accuracy: 2% vs 5% Explained",
     "zh": "AVR输出电压精度：正负2% vs 正负5%详解",

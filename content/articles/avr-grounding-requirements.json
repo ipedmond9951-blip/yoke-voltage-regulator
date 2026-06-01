@@ -3,7 +3,7 @@
   "category": "Technical Guide",
   "date": "2026-06-16",
   "readTime": 6,
-  "image": "images/articles/avr-grounding-requirements.jpg",
+  "image": "/images/articles/avr-grounding-requirements.jpg",
   "title": {
     "en": "AVR Grounding Requirements: Electrical Safety Standards",
     "zh": "AVR接地要求：电气安全标准",

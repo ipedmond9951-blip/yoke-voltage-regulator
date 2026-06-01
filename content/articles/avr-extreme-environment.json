@@ -3,7 +3,7 @@
   "category": "Technical Guide",
   "date": "2026-06-17",
   "readTime": 5,
-  "image": "images/articles/avr-extreme-environment.jpg",
+  "image": "/images/articles/avr-extreme-environment.jpg",
   "title": {
     "en": "AVR for Extreme Environments: Desert and Arctic",
     "zh": "极端环境AVR：沙漠和北极",

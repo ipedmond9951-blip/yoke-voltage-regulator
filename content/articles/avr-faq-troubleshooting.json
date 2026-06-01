@@ -3,7 +3,7 @@
   "category": "FAQ",
   "date": "2026-06-06",
   "readTime": 6,
-  "image": "images/articles/avr-faq-troubleshooting.jpg",
+  "image": "/images/articles/avr-faq-troubleshooting.jpg",
   "title": {
     "en": "AVR Troubleshooting FAQ: Problem-Solving Questions",
     "zh": "AVR故障排除常见问题：解决问题",
