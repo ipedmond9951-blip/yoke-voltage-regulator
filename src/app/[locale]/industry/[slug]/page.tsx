@@ -175,6 +175,10 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
       currency: 'USD',
       value: '0',
     },
+    inLanguage: (() => {
+      const map: Record<string, string> = { en: 'en-US', zh: 'zh-CN', es: 'es-ES', ar: 'ar-SA', fr: 'fr-FR', pt: 'pt-PT', ru: 'ru-RU', ja: 'ja-JP', de: 'de-DE', hi: 'hi-IN' }
+      return map[locale] || 'en-US'
+    })(),
     step: article.sections
       .filter(s => s.body)
       .map((s, i) => ({

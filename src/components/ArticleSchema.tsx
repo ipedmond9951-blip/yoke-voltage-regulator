@@ -41,7 +41,21 @@ export default function ArticleSchema({
       ? '稳压器,电压调节器,SVC,TND,AVR,电力保护'
       : 'AVR,voltage regulator,SVC,TND,power protection,electrical',
     wordCount: description.split(' ').length * 10,
-    inLanguage: locale === 'zh' ? 'zh-CN' : locale === 'es' ? 'es' : 'en',
+    inLanguage: (() => {
+      const map: Record<string, string> = {
+        en: 'en-US',
+        zh: 'zh-CN',
+        es: 'es-ES',
+        ar: 'ar-SA',
+        fr: 'fr-FR',
+        pt: 'pt-PT',
+        ru: 'ru-RU',
+        ja: 'ja-JP',
+        de: 'de-DE',
+        hi: 'hi-IN',
+      }
+      return map[locale] || 'en-US'
+    })(),
     isPartOf: { '@type': 'WebSite', '@id': 'https://kk-electric.com/#website' },
   }
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />

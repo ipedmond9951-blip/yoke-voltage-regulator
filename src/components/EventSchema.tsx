@@ -18,7 +18,7 @@ export default function EventSchema({ locale = 'en', name, description, startDat
     keywords: locale === 'zh'
       ? '稳压器,电压调节器,电力设备,AVR,非洲'
       : 'AVR,voltage regulator,power equipment,electrical,Africa',
-    inLanguage: locale === 'zh' ? 'zh-CN' : locale === 'es' ? 'es' : 'en',
+    inLanguage: (() => { const map = { en: 'en-US', zh: 'zh-CN', es: 'es-ES', ar: 'ar-SA', fr: 'fr-FR', pt: 'pt-PT', ru: 'ru-RU', ja: 'ja-JP', de: 'de-DE', hi: 'hi-IN' }; return map[locale] || 'en-US' })(),
     isPartOf: { '@type': 'WebSite', '@id': 'https://kk-electric.com/#website' },
   }
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />

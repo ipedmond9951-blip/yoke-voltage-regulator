@@ -20,7 +20,7 @@ export default function WebSiteSchema({ locale }: WebSiteSchemaProps) {
     keywords: locale === 'zh'
       ? '稳压器,电压调节器,AVR,SVC,TND,YOKE,电力保护,非洲'
       : 'AVR,voltage regulator,SVC,TND,YOKE,power protection,automatic voltage regulator,Africa',
-    inLanguage: locale === 'zh' ? 'zh' : 'en',
+    inLanguage: (() => { const map = { en: 'en-US', zh: 'zh-CN', es: 'es-ES', ar: 'ar-SA', fr: 'fr-FR', pt: 'pt-PT', ru: 'ru-RU', ja: 'ja-JP', de: 'de-DE', hi: 'hi-IN' }; return map[locale] || 'en-US' })(),
     isAccessibleForFree: true,
     about: {
       '@type': 'Thing',
