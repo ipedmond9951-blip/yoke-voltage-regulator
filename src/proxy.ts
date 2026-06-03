@@ -133,11 +133,14 @@ const geoConfig: Record<string, { lang: string; currency: string }> = {
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl
 
-  // Skip API routes, static files, and Next.js internals
+  // Skip API routes, static files, sitemap, robots, and Next.js internals
   if (
     pathname.startsWith('/api') ||
     pathname.startsWith('/_next') ||
     pathname.startsWith('/favicon') ||
+    pathname.startsWith('/sitemap') ||
+    pathname.startsWith('/sitemap-index') ||
+    pathname === '/robots.txt' ||
     pathname.includes('.')
   ) {
     return NextResponse.next()
@@ -174,6 +177,6 @@ export function proxy(request: NextRequest) {
 }
 
 export const config = {
-  // Match all paths except API routes, static files, and _next
-  matcher: ['/((?!api|_next/static|_next/image|favicon.ico|.*\\..*).*)'],
+  // Match all paths except API routes, static files, sitemap/robots, and _next
+  matcher: ['/((?!api|_next/static|_next/image|favicon.ico|sitemap|sitemap-index|robots\\.txt|.*\\..*).*)'],
 }
