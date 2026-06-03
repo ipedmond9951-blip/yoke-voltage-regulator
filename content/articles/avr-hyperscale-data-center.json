@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-edge-computing",
+      "title": "AVR for Edge Computing Facilities"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-power-factor-correction",
+      "title": "AVR and Power Factor Correction"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-ai-smart-grid-integration",
+      "title": "AVR and AI in Smart Grid: Future of Voltage Regulation"
+    },
+    {
+      "slug": "avr-smart-city-power",
+      "title": "AVR for Smart City Power Infrastructure"
+    },
+    {
+      "slug": "how-power-quality-affects-manufacturing",
+      "title": "How Power Quality Affects Manufacturing Output and..."
     }
   ],
   "cta": {

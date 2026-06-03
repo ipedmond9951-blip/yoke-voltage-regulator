@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-for-generator-sets",
+      "title": "AVR for Generator Sets: Backup Power Integration"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-for-hvac-systems",
+      "title": "AVR for HVAC Systems: Climate Control Protection"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-for-surveillance-systems",
+      "title": "AVR for Surveillance and Security Camera Systems"
+    },
+    {
+      "slug": "avr-for-battery-chargers",
+      "title": "AVR for Battery Charging Systems"
+    },
+    {
+      "slug": "avr-for-amusement-parks",
+      "title": "AVR for Amusement Parks: Ride Safety Systems"
     }
   ],
   "cta": {

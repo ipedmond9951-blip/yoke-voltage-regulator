@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
-    },
-    {
       "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "title": "Understanding AVR Specifications: A Complete Technical Guide"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-load-capacity-explained",
+      "title": "AVR Load Capacity: Continuous vs Peak Load Ratings"
+    },
+    {
+      "slug": "understanding-avr-overload-capacity",
+      "title": "Understanding AVR Overload Capacity and Surge Tolerance"
+    },
+    {
+      "slug": "avr-grounding-requirements",
+      "title": "AVR Grounding Requirements: Electrical Safety Standards"
+    },
+    {
+      "slug": "avr-environmental-rating",
+      "title": "AVR Environmental Ratings: IP Code Explained"
     }
   ],
   "cta": {

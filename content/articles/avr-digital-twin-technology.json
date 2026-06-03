@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
-    },
-    {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-digital-display-technology",
+      "title": "AVR Digital Display: LCD vs LED Technology"
     },
     {
       "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "title": "AVR Maintenance and Troubleshooting: Complete Service Guide"
+    },
+    {
+      "slug": "avr-diy-maintenance-guide",
+      "title": "DIY AVR Maintenance: What You Can Do Yourself"
+    },
+    {
+      "slug": "avr-professional-maintenance",
+      "title": "Professional AVR Maintenance: Service Checklist"
+    },
+    {
+      "slug": "avr-cleaning-maintenance",
+      "title": "AVR Cleaning: Dust and Debris Maintenance"
     }
   ],
   "cta": {

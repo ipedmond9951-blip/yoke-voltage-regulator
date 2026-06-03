@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-environmental-rating",
+      "title": "AVR Environmental Ratings: IP Code Explained"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-recycling-disposal",
+      "title": "AVR Recycling and Disposal: Environmental Responsibility"
     },
     {
       "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "title": "AVR Maintenance and Troubleshooting: Complete Service Guide"
+    },
+    {
+      "slug": "voltage-fluctuations-causes-solutions",
+      "title": "Voltage Fluctuations: Causes, Effects, and Solutions..."
+    },
+    {
+      "slug": "avr-overheating-solutions",
+      "title": "AVR Overheating: Causes and Solutions"
     }
   ],
   "cta": {

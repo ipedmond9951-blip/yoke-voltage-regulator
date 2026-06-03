@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-for-ups-systems",
+      "title": "AVR for UPS Systems: Power Backup Enhancement"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "voltage-regulation-television-film-production",
+      "title": "Voltage Regulation in Television and Film Production"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "voltage-regulation-telecommunications",
+      "title": "Voltage Regulation in Telecommunications Infrastructure"
+    },
+    {
+      "slug": "avr-for-broadcasting-stations",
+      "title": "AVR for Broadcasting Stations: Broadcast Quality Power"
+    },
+    {
+      "slug": "avr-for-inverters",
+      "title": "AVR for Inverters: Solar and Power Conversion"
     }
   ],
   "cta": {

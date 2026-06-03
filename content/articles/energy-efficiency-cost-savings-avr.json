@@ -227,16 +227,24 @@
   },
   "relatedArticles": [
     {
+      "slug": "avr-energy-efficiency-money-savings",
+      "title": "AVR and Energy Efficiency: How Voltage Regulation Saves..."
+    },
+    {
+      "slug": "avr-energy-bill-reduction",
+      "title": "AVR Energy Bill Reduction: Real Savings Analysis"
+    },
+    {
       "slug": "avr-repair-cost-reduction",
       "title": "AVR Repair Cost Reduction Analysis"
     },
     {
-      "slug": "avr-production-loss-prevention",
-      "title": "AVR Production Loss Prevention Value"
+      "slug": "avr-quality-improvement-roi",
+      "title": "AVR Quality Improvement ROI"
     },
     {
-      "slug": "avr-downtime-cost-analysis",
-      "title": "AVR and Downtime Cost Analysis"
+      "slug": "avr-warranty-claim-savings",
+      "title": "AVR Warranty Claim Savings Analysis"
     }
   ],
   "relatedProducts": [

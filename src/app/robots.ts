@@ -31,6 +31,9 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
       },
     ],
-    sitemap: 'https://kk-electric.com/sitemap.xml',
+    sitemap: [
+      'https://kk-electric.com/sitemap-index.xml',
+      ...['en','zh','es','ar','fr','pt','ru','ja','de','hi'].map(l => `https://kk-electric.com/sitemap/${l}`),
+    ],
   };
 }

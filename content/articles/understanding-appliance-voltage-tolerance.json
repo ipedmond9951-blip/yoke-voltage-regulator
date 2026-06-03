@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-transport-handling",
+      "title": "AVR Transport and Handling: Safe Movement Guide"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "understanding-avr-overload-capacity",
+      "title": "Understanding AVR Overload Capacity and Surge Tolerance"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-input-voltage-range-explained",
+      "title": "AVR Input Voltage Range: Understanding Wide Input Capability"
+    },
+    {
+      "slug": "voltage-fluctuations-causes-solutions",
+      "title": "Voltage Fluctuations: Causes, Effects, and Solutions..."
+    },
+    {
+      "slug": "avr-output-voltage-accuracy",
+      "title": "AVR Output Voltage Accuracy: 2% vs 5% Explained"
     }
   ],
   "cta": {

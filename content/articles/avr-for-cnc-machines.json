@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-for-laboratory-equipment",
+      "title": "AVR for Laboratory Equipment: Precision Research Protection"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-for-dialysis-machines",
+      "title": "AVR for Dialysis Machines: Life-Saving Equipment Protection"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-for-laser-cutting",
+      "title": "AVR for Laser Cutting Machines"
+    },
+    {
+      "slug": "industrial-applications-voltage-stabilizers",
+      "title": "Industrial Applications of Voltage Stabilizers: A..."
+    },
+    {
+      "slug": "avr-for-welding-equipment",
+      "title": "AVR for Welding Equipment: Stable Arc Protection"
     }
   ],
   "cta": {

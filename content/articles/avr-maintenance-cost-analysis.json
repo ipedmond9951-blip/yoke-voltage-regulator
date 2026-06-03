@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-repair-cost-reduction",
+      "title": "AVR Repair Cost Reduction Analysis"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-replacement-vs-repair",
+      "title": "AVR Replacement vs Repair: Cost Decision Guide"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-reduced-stress-maintenance",
+      "title": "AVR Reduced Maintenance Stress: Operational Benefits"
+    },
+    {
+      "slug": "avr-downtime-cost-analysis",
+      "title": "AVR and Downtime Cost Analysis"
+    },
+    {
+      "slug": "avr-total-cost-ownership",
+      "title": "AVR Total Cost of Ownership Analysis"
     }
   ],
   "cta": {

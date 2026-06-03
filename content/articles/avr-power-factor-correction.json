@@ -292,15 +292,23 @@
   "relatedArticles": [
     {
       "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "title": "How Automatic Voltage Regulators (AVR) Work: A Complete..."
+    },
+    {
+      "slug": "avr-understanding-response-time",
+      "title": "Understanding AVR Response Time: Why Speed Matters"
     },
     {
       "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "title": "Understanding AVR Specifications: A Complete Technical Guide"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "how-power-quality-affects-manufacturing",
+      "title": "How Power Quality Affects Manufacturing Output and..."
+    },
+    {
+      "slug": "avr-smart-city-power",
+      "title": "AVR for Smart City Power Infrastructure"
     }
   ],
   "cta": {

@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "understanding-appliance-voltage-tolerance",
+      "title": "Understanding Voltage Tolerance of Common Household..."
+    },
+    {
+      "slug": "avr-electrical-testing",
+      "title": "AVR Electrical Testing: Measurement Procedures"
+    },
+    {
+      "slug": "avr-troubleshooting-guide",
+      "title": "AVR Troubleshooting: Step-by-Step Diagnosis"
     },
     {
       "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "title": "Understanding AVR Specifications: A Complete Technical Guide"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-5g-telecommunications",
+      "title": "AVR for 5G Telecommunications Infrastructure"
     }
   ],
   "cta": {

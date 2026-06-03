@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-for-inverters",
+      "title": "AVR for Inverters: Solar and Power Conversion"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-renewable-energy-systems-guide",
+      "title": "The Role of AVR in Renewable Energy Systems"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-for-battery-chargers",
+      "title": "AVR for Battery Charging Systems"
+    },
+    {
+      "slug": "how-avr-protects-air-conditioners",
+      "title": "How AVR Protects Air Conditioners and extends Lifespan"
+    },
+    {
+      "slug": "protecting-sensitive-equipment",
+      "title": "Protecting Sensitive Equipment with Voltage Stabilizers"
     }
   ],
   "cta": {

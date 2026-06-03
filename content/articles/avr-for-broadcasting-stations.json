@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-for-telecom-towers",
+      "title": "AVR for Telecom Towers: 4G 5G Base Station Protection"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "voltage-regulation-telecommunications",
+      "title": "Voltage Regulation in Telecommunications Infrastructure"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-for-audio-recording-studios",
+      "title": "AVR for Audio Recording Studios: Studio-Grade Power Quality"
+    },
+    {
+      "slug": "avr-for-dialysis-machines",
+      "title": "AVR for Dialysis Machines: Life-Saving Equipment Protection"
+    },
+    {
+      "slug": "avr-for-inverters",
+      "title": "AVR for Inverters: Solar and Power Conversion"
     }
   ],
   "cta": {

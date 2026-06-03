@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-buying-guide-home-users",
+      "title": "AVR Buying Guide for Home Users: What to Consider Before..."
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-buying-guide-industrial-buyers",
+      "title": "AVR Buying Guide for Industrial Buyers: Procurement..."
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-wholesale-bulk-purchase",
+      "title": "AVR Wholesale and Bulk Purchase Guide"
+    },
+    {
+      "slug": "avr-rental-vs-purchase",
+      "title": "AVR Rental vs Purchase: Which is Right for You"
+    },
+    {
+      "slug": "avr-online-vs-local-purchase",
+      "title": "Online vs Local AVR Purchase: Pros and Cons"
     }
   ],
   "cta": {

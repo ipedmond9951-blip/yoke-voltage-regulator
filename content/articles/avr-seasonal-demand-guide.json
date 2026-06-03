@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-pricing-elasticity",
+      "title": "AVR Pricing Elasticity Market Demand Guide"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-tax-planning-guide",
+      "title": "AVR Tax Planning Import Sales Tax Guide"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-inventory-management",
+      "title": "AVR Inventory Management Stock Planning Guide"
+    },
+    {
+      "slug": "avr-urbanization-trend",
+      "title": "AVR Urbanization Trend: City Growth Impact"
+    },
+    {
+      "slug": "avr-renewable-energy-synergy",
+      "title": "AVR and Renewable Energy Synergy: Market Outlook"
     }
   ],
   "cta": {

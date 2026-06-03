@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-tax-planning-guide",
+      "title": "AVR Tax Planning Import Sales Tax Guide"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-crm-integration-guide",
+      "title": "AVR CRM Integration Customer Management Guide"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-seasonal-demand-guide",
+      "title": "AVR Seasonal Demand Peak Season Planning"
+    },
+    {
+      "slug": "african-avr-market-analysis",
+      "title": "African AVR Market Analysis: Growth Opportunities"
+    },
+    {
+      "slug": "avr-nigeria-market-opportunity",
+      "title": "Nigeria AVR Market Opportunity"
     }
   ],
   "cta": {

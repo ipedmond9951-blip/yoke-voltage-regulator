@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-future-smart-grid-integration",
+      "title": "AVR in the Future Smart Grid: Integration and Innovation"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-heat-dissipation-design",
+      "title": "AVR Heat Dissipation: Thermal Management Design"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-ai-smart-grid-integration",
+      "title": "AVR and AI in Smart Grid: Future of Voltage Regulation"
+    },
+    {
+      "slug": "avr-industrial-automation",
+      "title": "AVR in Industrial Automation: Smart Factory Protection"
+    },
+    {
+      "slug": "avr-smart-city-power",
+      "title": "AVR for Smart City Power Infrastructure"
     }
   ],
   "cta": {

@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
+      "slug": "avr-space-applications",
+      "title": "AVR for Space and Satellite Applications"
+    },
+    {
+      "slug": "avr-underwater-applications",
+      "title": "AVR for Underwater and Marine Applications"
+    },
+    {
+      "slug": "how-power-quality-affects-manufacturing",
+      "title": "How Power Quality Affects Manufacturing Output and..."
+    },
+    {
+      "slug": "avr-ai-smart-grid-integration",
+      "title": "AVR and AI in Smart Grid: Future of Voltage Regulation"
+    },
+    {
       "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
-    },
-    {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
-    },
-    {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "title": "How Automatic Voltage Regulators (AVR) Work: A Complete..."
     }
   ],
   "cta": {

@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-cybersecurity-power-systems",
+      "title": "AVR Cybersecurity for Connected Power Systems"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-energy-storage-systems",
+      "title": "AVR for Energy Storage Systems"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-power-factor-correction",
+      "title": "AVR and Power Factor Correction"
+    },
+    {
+      "slug": "voltage-fluctuations-causes-solutions",
+      "title": "Voltage Fluctuations: Causes, Effects, and Solutions..."
+    },
+    {
+      "slug": "how-power-quality-affects-manufacturing",
+      "title": "How Power Quality Affects Manufacturing Output and..."
     }
   ],
   "cta": {

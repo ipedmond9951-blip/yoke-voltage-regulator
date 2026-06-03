@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-government-procurement-guide",
+      "title": "AVR for Government and Public Sector Procurement"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-buying-guide-home-users",
+      "title": "AVR Buying Guide for Home Users: What to Consider Before..."
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-buying-guide-small-business",
+      "title": "AVR Buying Guide for Small Business Owners"
+    },
+    {
+      "slug": "three-phase-vs-single-phase-avr-guide",
+      "title": "Three-Phase vs Single-Phase AVR: How to Choose the Right One"
+    },
+    {
+      "slug": "avr-auto-shop-guide",
+      "title": "AVR for Auto Repair Shops: Heavy Equipment Protection"
     }
   ],
   "cta": {

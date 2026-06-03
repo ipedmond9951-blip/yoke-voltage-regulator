@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
-    },
-    {
       "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "title": "Understanding AVR Specifications: A Complete Technical Guide"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-environmental-rating",
+      "title": "AVR Environmental Ratings: IP Code Explained"
+    },
+    {
+      "slug": "avr-transformer-technology-guide",
+      "title": "AVR Transformer Technology: Core Principles Explained"
+    },
+    {
+      "slug": "avr-servo-motor-regulation",
+      "title": "Servo Motor Regulation Technology in AVR"
+    },
+    {
+      "slug": "avr-fixing-voltage-drift",
+      "title": "Fixing AVR Voltage Drift: Calibration Guide"
     }
   ],
   "cta": {

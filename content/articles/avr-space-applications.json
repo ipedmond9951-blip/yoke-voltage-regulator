@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
+      "slug": "avr-microgrid-applications",
+      "title": "AVR in Microgrid Applications"
+    },
+    {
+      "slug": "avr-underwater-applications",
+      "title": "AVR for Underwater and Marine Applications"
+    },
+    {
       "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "title": "How Automatic Voltage Regulators (AVR) Work: A Complete..."
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-understanding-response-time",
+      "title": "Understanding AVR Response Time: Why Speed Matters"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-ai-smart-grid-integration",
+      "title": "AVR and AI in Smart Grid: Future of Voltage Regulation"
     }
   ],
   "cta": {

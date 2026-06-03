@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-portable-vs-fixed",
+      "title": "Portable vs Fixed AVR: Mobile vs Stationary Protection"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-certification-comparison",
+      "title": "AVR Certification Comparison: CE CB UL Standards"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-efficiency-comparison",
+      "title": "AVR Efficiency Comparison: Energy Loss Analysis"
+    },
+    {
+      "slug": "avr-warranty-comparison",
+      "title": "AVR Warranty Comparison: What Brands Offer"
+    },
+    {
+      "slug": "avr-price-per-kva-comparison",
+      "title": "AVR Price Per KVA Comparison: Value Analysis"
     }
   ],
   "cta": {

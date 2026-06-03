@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-real-estate-developers",
+      "title": "AVR for Real Estate Developers: New Construction Standards"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-rental-vs-purchase",
+      "title": "AVR Rental vs Purchase: Which is Right for You"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-school-university-guide",
+      "title": "AVR for Schools and Universities: Campus Power Protection"
+    },
+    {
+      "slug": "avr-hotel-resort-guide",
+      "title": "AVR for Hotels and Resorts: Guest Experience Protection"
+    },
+    {
+      "slug": "avr-auto-shop-guide",
+      "title": "AVR for Auto Repair Shops: Heavy Equipment Protection"
     }
   ],
   "cta": {

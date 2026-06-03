@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-safety-precautions",
+      "title": "AVR Safety Precautions: Electrical Safety Guide"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-testing-certification-standards",
+      "title": "AVR Testing and Certification Standards Explained"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-electrical-testing",
+      "title": "AVR Electrical Testing: Measurement Procedures"
+    },
+    {
+      "slug": "how-to-calculate-avr-kva-requirements",
+      "title": "How to Calculate AVR KVA Requirements: Complete Sizing Guide"
+    },
+    {
+      "slug": "voltage-fluctuations-causes-solutions",
+      "title": "Voltage Fluctuations: Causes, Effects, and Solutions..."
     }
   ],
   "cta": {

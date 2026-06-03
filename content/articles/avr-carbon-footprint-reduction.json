@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-noise-reduction-technology",
+      "title": "AVR Noise Reduction: Silent Operation Technology"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-environmental-rating",
+      "title": "AVR Environmental Ratings: IP Code Explained"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-environmental-factors",
+      "title": "AVR Environmental Factors: Altitude Humidity Temperature"
+    },
+    {
+      "slug": "avr-recycling-disposal",
+      "title": "AVR Recycling and Disposal: Environmental Responsibility"
+    },
+    {
+      "slug": "how-power-quality-affects-manufacturing",
+      "title": "How Power Quality Affects Manufacturing Output and..."
     }
   ],
   "cta": {

@@ -1,15 +1,20 @@
 import { NextResponse } from 'next/server'
+import { locales } from '@/i18n'
 
 export async function GET() {
-  const sitemapXml = 'https://kk-electric.com/sitemap.xml'
   const lastmod = new Date().toISOString()
+  const baseUrl = 'https://kk-electric.com'
+
+  const sitemaps = locales.map(l => {
+    return `  <sitemap>
+    <loc>${baseUrl}/sitemap/${l}</loc>
+    <lastmod>${lastmod}</lastmod>
+  </sitemap>`
+  }).join('\n')
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <sitemap>
-    <loc>${sitemapXml}</loc>
-    <lastmod>${lastmod}</lastmod>
-  </sitemap>
+${sitemaps}
 </sitemapindex>`
 
   return new NextResponse(xml, {

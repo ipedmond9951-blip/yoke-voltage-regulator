@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-environmental-rating",
+      "title": "AVR Environmental Ratings: IP Code Explained"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-environmental-factors",
+      "title": "AVR Environmental Factors: Altitude Humidity Temperature"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-heat-dissipation-design",
+      "title": "AVR Heat Dissipation: Thermal Management Design"
+    },
+    {
+      "slug": "avr-carbon-footprint-reduction",
+      "title": "AVR Carbon Footprint Reduction Contribution"
+    },
+    {
+      "slug": "avr-iot-monitoring-systems",
+      "title": "AVR with IoT Monitoring: Remote Management"
     }
   ],
   "cta": {

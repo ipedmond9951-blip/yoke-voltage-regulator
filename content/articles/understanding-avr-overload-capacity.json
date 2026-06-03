@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
-    },
-    {
       "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "title": "Understanding AVR Specifications: A Complete Technical Guide"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-protection-circuits-explained",
+      "title": "AVR Protection Circuits: Overload Short Circuit and Thermal"
+    },
+    {
+      "slug": "understanding-appliance-voltage-tolerance",
+      "title": "Understanding Voltage Tolerance of Common Household..."
+    },
+    {
+      "slug": "avr-tripping-causes-solutions",
+      "title": "AVR Tripping: Causes and Solutions"
+    },
+    {
+      "slug": "how-to-calculate-avr-kva-requirements",
+      "title": "How to Calculate AVR KVA Requirements: Complete Sizing Guide"
     }
   ],
   "cta": {

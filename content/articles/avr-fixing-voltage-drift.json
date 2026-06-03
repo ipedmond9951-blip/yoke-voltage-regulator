@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-output-voltage-accuracy",
+      "title": "AVR Output Voltage Accuracy: 2% vs 5% Explained"
     },
     {
       "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "title": "Understanding AVR Specifications: A Complete Technical Guide"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-automatic-manual-mode",
+      "title": "AVR Automatic vs Manual Mode: Understanding Operation Modes"
+    },
+    {
+      "slug": "avr-5g-telecommunications",
+      "title": "AVR for 5G Telecommunications Infrastructure"
+    },
+    {
+      "slug": "avr-power-factor-correction",
+      "title": "AVR and Power Factor Correction"
     }
   ],
   "cta": {

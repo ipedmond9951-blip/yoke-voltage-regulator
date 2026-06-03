@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-environmental-factors",
+      "title": "AVR Environmental Factors: Altitude Humidity Temperature"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-output-voltage-accuracy",
+      "title": "AVR Output Voltage Accuracy: 2% vs 5% Explained"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-efficiency-ratings-explained",
+      "title": "AVR Efficiency Ratings: What the Numbers Mean"
+    },
+    {
+      "slug": "avr-recycling-disposal",
+      "title": "AVR Recycling and Disposal: Environmental Responsibility"
+    },
+    {
+      "slug": "avr-transformer-technology-guide",
+      "title": "AVR Transformer Technology: Core Principles Explained"
     }
   ],
   "cta": {

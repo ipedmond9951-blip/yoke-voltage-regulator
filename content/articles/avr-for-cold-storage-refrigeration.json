@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-for-data-centers-it-equipment",
+      "title": "AVR for Data Centers and IT Equipment: Enterprise..."
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "industrial-applications-voltage-stabilizers",
+      "title": "Industrial Applications of Voltage Stabilizers: A..."
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-for-hvac-systems",
+      "title": "AVR for HVAC Systems: Climate Control Protection"
+    },
+    {
+      "slug": "avr-for-industrial-motors-compressors",
+      "title": "Protecting Industrial Motors and Compressors with AVR"
+    },
+    {
+      "slug": "avr-for-commercial-kitchens",
+      "title": "AVR for Commercial Kitchens: Protecting Kitchen Equipment"
     }
   ],
   "cta": {

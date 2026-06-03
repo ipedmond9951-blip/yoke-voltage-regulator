@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-energy-storage-systems",
+      "title": "AVR for Energy Storage Systems"
+    },
+    {
+      "slug": "avr-life-expectancy-guide",
+      "title": "AVR Life Expectancy: How Long Does AVR Last"
+    },
+    {
+      "slug": "avr-in-hot-climate-conditions",
+      "title": "AVR Performance in Hot Climate Conditions"
     },
     {
       "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "title": "Understanding AVR Specifications: A Complete Technical Guide"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-5g-telecommunications",
+      "title": "AVR for 5G Telecommunications Infrastructure"
     }
   ],
   "cta": {

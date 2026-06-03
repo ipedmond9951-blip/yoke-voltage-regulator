@@ -217,12 +217,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "protecting-sensitive-equipment",
-      "title": ""
+      "slug": "avr-overheating-solutions",
+      "title": "AVR Overheating: Causes and Solutions"
     },
     {
-      "slug": "industrial-applications-voltage-stabilizers",
-      "title": ""
+      "slug": "avr-tripping-causes-solutions",
+      "title": "AVR Tripping: Causes and Solutions"
+    },
+    {
+      "slug": "how-automatic-voltage-regulators-work",
+      "title": "How Automatic Voltage Regulators (AVR) Work: A Complete..."
+    },
+    {
+      "slug": "how-power-quality-affects-manufacturing",
+      "title": "How Power Quality Affects Manufacturing Output and..."
+    },
+    {
+      "slug": "understanding-appliance-voltage-tolerance",
+      "title": "Understanding Voltage Tolerance of Common Household..."
     }
   ],
   "cta": {

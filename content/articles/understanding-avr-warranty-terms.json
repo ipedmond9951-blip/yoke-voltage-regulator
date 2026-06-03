@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-price-comparison-guide",
+      "title": "AVR Price Comparison: What Determines Cost"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-buying-guide-home-users",
+      "title": "AVR Buying Guide for Home Users: What to Consider Before..."
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "choosing-right-avr-capacity",
+      "title": "How to Choose the Right AVR Capacity: Complete Sizing Guide"
+    },
+    {
+      "slug": "yoke-avr-installation-guide",
+      "title": "YOKE AVR Installation Guide: Step-by-Step Setup"
+    },
+    {
+      "slug": "avr-for-beginners-complete-guide",
+      "title": "AVR for Beginners: Complete Starter Guide"
     }
   ],
   "cta": {

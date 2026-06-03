@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "protecting-sensitive-equipment",
+      "title": "Protecting Sensitive Equipment with Voltage Stabilizers"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-for-surveillance-systems",
+      "title": "AVR for Surveillance and Security Camera Systems"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-for-printing-packaging-industry",
+      "title": "AVR for Printing and Packaging Industry"
+    },
+    {
+      "slug": "avr-for-audio-recording-studios",
+      "title": "AVR for Audio Recording Studios: Studio-Grade Power Quality"
+    },
+    {
+      "slug": "industrial-applications-voltage-stabilizers",
+      "title": "Industrial Applications of Voltage Stabilizers: A..."
     }
   ],
   "cta": {

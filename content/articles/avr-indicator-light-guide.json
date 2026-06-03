@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-efficiency-ratings-explained",
+      "title": "AVR Efficiency Ratings: What the Numbers Mean"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-digital-display-technology",
+      "title": "AVR Digital Display: LCD vs LED Technology"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-testing-certification-standards",
+      "title": "AVR Testing and Certification Standards Explained"
+    },
+    {
+      "slug": "signs-your-avr-needs-replacement",
+      "title": "7 Warning Signs Your AVR Needs Replacement"
+    },
+    {
+      "slug": "avr-diy-maintenance-guide",
+      "title": "DIY AVR Maintenance: What You Can Do Yourself"
     }
   ],
   "cta": {

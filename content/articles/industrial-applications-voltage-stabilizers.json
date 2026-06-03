@@ -244,12 +244,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "protecting-sensitive-equipment",
-      "title": ""
+      "slug": "avr-in-healthcare-medical-equipment",
+      "title": "AVR in Healthcare: Protecting Medical Equipment from..."
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": ""
+      "slug": "protecting-sensitive-equipment",
+      "title": "Protecting Sensitive Equipment with Voltage Stabilizers"
+    },
+    {
+      "slug": "avr-for-data-centers-it-equipment",
+      "title": "AVR for Data Centers and IT Equipment: Enterprise..."
+    },
+    {
+      "slug": "avr-for-industrial-motors-compressors",
+      "title": "Protecting Industrial Motors and Compressors with AVR"
+    },
+    {
+      "slug": "avr-for-printing-packaging-industry",
+      "title": "AVR for Printing and Packaging Industry"
     }
   ],
   "cta": {

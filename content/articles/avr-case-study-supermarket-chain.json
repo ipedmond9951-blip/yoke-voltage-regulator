@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-case-study-hotel-chain",
+      "title": "Case Study: Hotel Chain Standardizes Voltage Protection"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-case-study-kenyan-hospital",
+      "title": "Case Study: Kenyan Hospital Protects Life-Saving Equipment"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-case-study-nigerian-factory",
+      "title": "Case Study: Nigerian Factory Reduces Downtime with AVR"
+    },
+    {
+      "slug": "avr-case-study-manufacturing-plant",
+      "title": "Case Study: Manufacturing Plant Reduces Repair Costs 60%"
+    },
+    {
+      "slug": "avr-case-study-banking-branch",
+      "title": "Case Study: Banking Branch Protects ATM Network"
     }
   ],
   "cta": {

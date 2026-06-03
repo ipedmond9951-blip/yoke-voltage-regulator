@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-for-broadcasting-stations",
+      "title": "AVR for Broadcasting Stations: Broadcast Quality Power"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "voltage-regulation-television-film-production",
+      "title": "Voltage Regulation in Television and Film Production"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-for-dialysis-machines",
+      "title": "AVR for Dialysis Machines: Life-Saving Equipment Protection"
+    },
+    {
+      "slug": "avr-for-laboratory-equipment",
+      "title": "AVR for Laboratory Equipment: Precision Research Protection"
+    },
+    {
+      "slug": "protecting-sensitive-equipment",
+      "title": "Protecting Sensitive Equipment with Voltage Stabilizers"
     }
   ],
   "cta": {

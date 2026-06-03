@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-storage-guidelines",
+      "title": "AVR Storage Guidelines: Long-Term Preservation"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-net-zero-buildings",
+      "title": "AVR for Net-Zero Buildings"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-cybersecurity-power-systems",
+      "title": "AVR Cybersecurity for Connected Power Systems"
+    },
+    {
+      "slug": "avr-efficiency-ratings-explained",
+      "title": "AVR Efficiency Ratings: What the Numbers Mean"
+    },
+    {
+      "slug": "avr-medical-robotic-surgery",
+      "title": "AVR for Medical Robotic Surgery Systems"
     }
   ],
   "cta": {

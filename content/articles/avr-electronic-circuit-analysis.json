@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
+      "slug": "avr-protection-circuits-explained",
+      "title": "AVR Protection Circuits: Overload Short Circuit and Thermal"
+    },
+    {
+      "slug": "avr-heat-dissipation-design",
+      "title": "AVR Heat Dissipation: Thermal Management Design"
+    },
+    {
       "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "title": "How Automatic Voltage Regulators (AVR) Work: A Complete..."
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-ai-smart-grid-integration",
+      "title": "AVR and AI in Smart Grid: Future of Voltage Regulation"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-frequency-regulation",
+      "title": "AVR and Frequency Regulation: Does AVR Control Hz"
     }
   ],
   "cta": {

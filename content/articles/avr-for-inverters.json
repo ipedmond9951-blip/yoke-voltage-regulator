@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-for-solar-power-systems",
+      "title": "AVR for Solar Power Systems: Complete Protection Guide"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-renewable-energy-systems-guide",
+      "title": "The Role of AVR in Renewable Energy Systems"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-for-broadcasting-stations",
+      "title": "AVR for Broadcasting Stations: Broadcast Quality Power"
+    },
+    {
+      "slug": "avr-for-hvac-systems",
+      "title": "AVR for HVAC Systems: Climate Control Protection"
+    },
+    {
+      "slug": "avr-for-generator-sets",
+      "title": "AVR for Generator Sets: Backup Power Integration"
     }
   ],
   "cta": {

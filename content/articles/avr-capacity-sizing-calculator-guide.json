@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "choosing-right-avr-capacity",
+      "title": "How to Choose the Right AVR Capacity: Complete Sizing Guide"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-online-vs-local-purchase",
+      "title": "Online vs Local AVR Purchase: Pros and Cons"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "whole-house-voltage-regulator-guide",
+      "title": "Whole-House Voltage Regulator: Complete Home Protection..."
+    },
+    {
+      "slug": "avr-school-university-guide",
+      "title": "AVR for Schools and Universities: Campus Power Protection"
+    },
+    {
+      "slug": "avr-hotel-resort-guide",
+      "title": "AVR for Hotels and Resorts: Guest Experience Protection"
     }
   ],
   "cta": {

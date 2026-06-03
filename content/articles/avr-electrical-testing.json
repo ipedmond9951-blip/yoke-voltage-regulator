@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-safety-precautions",
+      "title": "AVR Safety Precautions: Electrical Safety Guide"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-testing-certification-standards",
+      "title": "AVR Testing and Certification Standards Explained"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-voltage-sensing-technology",
+      "title": "AVR Voltage Sensing: How Input Voltage is Measured"
+    },
+    {
+      "slug": "avr-troubleshooting-guide",
+      "title": "AVR Troubleshooting: Step-by-Step Diagnosis"
+    },
+    {
+      "slug": "avr-grounding-requirements",
+      "title": "AVR Grounding Requirements: Electrical Safety Standards"
     }
   ],
   "cta": {

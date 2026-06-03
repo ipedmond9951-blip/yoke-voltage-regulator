@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
-    },
-    {
       "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "title": "Understanding AVR Specifications: A Complete Technical Guide"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-voltage-sensing-technology",
+      "title": "AVR Voltage Sensing: How Input Voltage is Measured"
+    },
+    {
+      "slug": "understanding-appliance-voltage-tolerance",
+      "title": "Understanding Voltage Tolerance of Common Household..."
+    },
+    {
+      "slug": "avr-relay-switching-technology",
+      "title": "Understanding Relay Switching Technology in AVR"
+    },
+    {
+      "slug": "avr-automatic-manual-mode",
+      "title": "AVR Automatic vs Manual Mode: Understanding Operation Modes"
     }
   ],
   "cta": {

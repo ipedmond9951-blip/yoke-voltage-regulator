@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-for-xray-equipment",
+      "title": "AVR for X-Ray Equipment: Medical Radiology Protection"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-in-healthcare-medical-equipment",
+      "title": "AVR in Healthcare: Protecting Medical Equipment from..."
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "protecting-sensitive-equipment",
+      "title": "Protecting Sensitive Equipment with Voltage Stabilizers"
+    },
+    {
+      "slug": "avr-for-laboratory-equipment",
+      "title": "AVR for Laboratory Equipment: Precision Research Protection"
+    },
+    {
+      "slug": "avr-for-welding-equipment",
+      "title": "AVR for Welding Equipment: Stable Arc Protection"
     }
   ],
   "cta": {

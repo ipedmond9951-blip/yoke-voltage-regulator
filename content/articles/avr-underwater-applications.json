@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
+      "slug": "avr-space-applications",
+      "title": "AVR for Space and Satellite Applications"
+    },
+    {
+      "slug": "avr-microgrid-applications",
+      "title": "AVR in Microgrid Applications"
+    },
+    {
       "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "title": "How Automatic Voltage Regulators (AVR) Work: A Complete..."
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-understanding-response-time",
+      "title": "Understanding AVR Response Time: Why Speed Matters"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-power-factor-correction",
+      "title": "AVR and Power Factor Correction"
     }
   ],
   "cta": {

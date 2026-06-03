@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "how-avr-protects-air-conditioners",
+      "title": "How AVR Protects Air Conditioners and extends Lifespan"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-for-surveillance-systems",
+      "title": "AVR for Surveillance and Security Camera Systems"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-for-battery-chargers",
+      "title": "AVR for Battery Charging Systems"
+    },
+    {
+      "slug": "avr-for-ups-systems",
+      "title": "AVR for UPS Systems: Power Backup Enhancement"
+    },
+    {
+      "slug": "avr-for-traffic-systems",
+      "title": "AVR for Traffic Signal Systems: Road Safety Protection"
     }
   ],
   "cta": {

@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-relay-replacement-guide",
+      "title": "AVR Relay Replacement: Component-Level Repair"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-transformer-technology-guide",
+      "title": "AVR Transformer Technology: Core Principles Explained"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-servo-motor-regulation",
+      "title": "Servo Motor Regulation Technology in AVR"
+    },
+    {
+      "slug": "avr-noise-reduction-technology",
+      "title": "AVR Noise Reduction: Silent Operation Technology"
+    },
+    {
+      "slug": "avr-digital-twin-technology",
+      "title": "AVR Digital Twin: Predictive Maintenance Technology"
     }
   ],
   "cta": {

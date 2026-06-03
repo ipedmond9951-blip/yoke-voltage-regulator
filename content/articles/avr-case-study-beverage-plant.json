@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-case-study-manufacturing-plant",
+      "title": "Case Study: Manufacturing Plant Reduces Repair Costs 60%"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-case-study-fish-processing",
+      "title": "Case Study: Fish Processing Plant Reduces Spoilage"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-case-study-kenyan-hospital",
+      "title": "Case Study: Kenyan Hospital Protects Life-Saving Equipment"
+    },
+    {
+      "slug": "avr-case-study-water-treatment",
+      "title": "Case Study: Water Treatment Plant Ensures Clean Water Supply"
+    },
+    {
+      "slug": "avr-case-study-supermarket-chain",
+      "title": "Case Study: Supermarket Chain Protects Refrigeration Units"
     }
   ],
   "cta": {

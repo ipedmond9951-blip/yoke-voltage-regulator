@@ -244,12 +244,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "understanding-avr-specifications",
-      "title": ""
+      "slug": "avr-svc-vs-tnd-series",
+      "title": "SVC vs TND Series: Comprehensive AVR Comparison"
     },
     {
-      "slug": "industrial-applications-voltage-stabilizers",
-      "title": ""
+      "slug": "avr-relay-vs-servo",
+      "title": "Relay vs Servo AVR: Complete Technology Comparison"
+    },
+    {
+      "slug": "digital-vs-relay-avr-comparison",
+      "title": "Digital vs Relay AVR: Which Technology is Better?"
+    },
+    {
+      "slug": "avr-automatic-vs-manual-regulator",
+      "title": "Automatic vs Manual Voltage Regulator Comparison"
+    },
+    {
+      "slug": "avr-certification-comparison",
+      "title": "AVR Certification Comparison: CE CB UL Standards"
     }
   ],
   "cta": {

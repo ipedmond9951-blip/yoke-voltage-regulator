@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-auto-shop-guide",
+      "title": "AVR for Auto Repair Shops: Heavy Equipment Protection"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-spa-salon-guide",
+      "title": "AVR for Spas and Beauty Salons: Sensitive Equipment..."
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-installation-mistakes-to-avoid",
+      "title": "AVR Installation Mistakes to Avoid: Expert Tips"
+    },
+    {
+      "slug": "avr-gym-fitness-center-guide",
+      "title": "AVR for Gyms and Fitness Centers"
+    },
+    {
+      "slug": "whole-house-voltage-regulator-guide",
+      "title": "Whole-House Voltage Regulator: Complete Home Protection..."
     }
   ],
   "cta": {

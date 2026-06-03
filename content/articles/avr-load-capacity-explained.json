@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "how-to-calculate-avr-kva-requirements",
+      "title": "How to Calculate AVR KVA Requirements: Complete Sizing Guide"
     },
     {
       "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "title": "Understanding AVR Specifications: A Complete Technical Guide"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-environmental-rating",
+      "title": "AVR Environmental Ratings: IP Code Explained"
+    },
+    {
+      "slug": "avr-efficiency-ratings-explained",
+      "title": "AVR Efficiency Ratings: What the Numbers Mean"
+    },
+    {
+      "slug": "understanding-avr-overload-capacity",
+      "title": "Understanding AVR Overload Capacity and Surge Tolerance"
     }
   ],
   "cta": {

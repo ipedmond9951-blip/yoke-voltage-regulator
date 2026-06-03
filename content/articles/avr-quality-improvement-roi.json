@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-roi-calculation-guide",
+      "title": "AVR ROI Calculation: Measure Your Return on Investment"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-uptime-improvement",
+      "title": "AVR Uptime Improvement: Business Impact Analysis"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "energy-efficiency-cost-savings-avr",
+      "title": "Energy Efficiency and Cost Savings with Voltage Stabilizers"
+    },
+    {
+      "slug": "avr-employee-safety-value",
+      "title": "AVR Employee Safety Value"
+    },
+    {
+      "slug": "avr-customer-satisfaction",
+      "title": "AVR Customer Satisfaction Impact"
     }
   ],
   "cta": {

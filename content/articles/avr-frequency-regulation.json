@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-ai-smart-grid-integration",
+      "title": "AVR and AI in Smart Grid: Future of Voltage Regulation"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-servo-motor-regulation",
+      "title": "Servo Motor Regulation Technology in AVR"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-electronic-circuit-analysis",
+      "title": "AVR Electronic Circuit Analysis: How Regulation Circuits..."
+    },
+    {
+      "slug": "avr-power-factor-correction",
+      "title": "AVR and Power Factor Correction"
+    },
+    {
+      "slug": "avr-future-smart-grid-integration",
+      "title": "AVR in the Future Smart Grid: Integration and Innovation"
     }
   ],
   "cta": {

@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "svc-vs-tnd-series-comparison",
+      "title": "SVC vs TND Series AVR: Which One is Right for You?"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-relay-vs-servo",
+      "title": "Relay vs Servo AVR: Complete Technology Comparison"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-certification-comparison",
+      "title": "AVR Certification Comparison: CE CB UL Standards"
+    },
+    {
+      "slug": "avr-efficiency-comparison",
+      "title": "AVR Efficiency Comparison: Energy Loss Analysis"
+    },
+    {
+      "slug": "avr-warranty-comparison",
+      "title": "AVR Warranty Comparison: What Brands Offer"
     }
   ],
   "cta": {

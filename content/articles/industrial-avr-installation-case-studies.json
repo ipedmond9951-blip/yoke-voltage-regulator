@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-case-study-south-african-mine",
+      "title": "Case Study: South African Mining Operation Power Protection"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-case-study-manufacturing-plant",
+      "title": "Case Study: Manufacturing Plant Reduces Repair Costs 60%"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-case-study-nigerian-factory",
+      "title": "Case Study: Nigerian Factory Reduces Downtime with AVR"
+    },
+    {
+      "slug": "avr-case-study-ice-factory",
+      "title": "Case Study: Ice Factory Maintains Production Capacity"
+    },
+    {
+      "slug": "avr-case-study-glass-factory",
+      "title": "Case Study: Glass Factory Eliminates Production Defects"
     }
   ],
   "cta": {

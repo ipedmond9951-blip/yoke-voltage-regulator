@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-employee-safety-value",
+      "title": "AVR Employee Safety Value"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-brand-reputation-value",
+      "title": "AVR Brand Reputation Value for Dealers"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-risk-management-value",
+      "title": "AVR Risk Management Value Analysis"
+    },
+    {
+      "slug": "avr-warranty-claim-savings",
+      "title": "AVR Warranty Claim Savings Analysis"
+    },
+    {
+      "slug": "avr-regulatory-compliance-savings",
+      "title": "AVR Regulatory Compliance Savings"
     }
   ],
   "cta": {

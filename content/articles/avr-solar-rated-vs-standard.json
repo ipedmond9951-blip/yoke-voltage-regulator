@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-warranty-comparison",
+      "title": "AVR Warranty Comparison: What Brands Offer"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-certification-comparison",
+      "title": "AVR Certification Comparison: CE CB UL Standards"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-efficiency-comparison",
+      "title": "AVR Efficiency Comparison: Energy Loss Analysis"
+    },
+    {
+      "slug": "avr-price-per-kva-comparison",
+      "title": "AVR Price Per KVA Comparison: Value Analysis"
+    },
+    {
+      "slug": "avr-relay-vs-servo",
+      "title": "Relay vs Servo AVR: Complete Technology Comparison"
     }
   ],
   "cta": {

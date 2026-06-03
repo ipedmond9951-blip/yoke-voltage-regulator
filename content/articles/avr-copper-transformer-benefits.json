@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-transformer-technology-guide",
+      "title": "AVR Transformer Technology: Core Principles Explained"
+    },
+    {
+      "slug": "voltage-fluctuations-causes-solutions",
+      "title": "Voltage Fluctuations: Causes, Effects, and Solutions..."
     },
     {
       "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "title": "Understanding AVR Specifications: A Complete Technical Guide"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-5g-telecommunications",
+      "title": "AVR for 5G Telecommunications Infrastructure"
+    },
+    {
+      "slug": "avr-ai-smart-grid-integration",
+      "title": "AVR and AI in Smart Grid: Future of Voltage Regulation"
     }
   ],
   "cta": {

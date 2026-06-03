@@ -254,16 +254,24 @@
   },
   "relatedArticles": [
     {
-      "slug": "avr-for-gaming-arcades",
-      "title": "AVR for Gaming Arcades and Entertainment Centers"
+      "slug": "avr-in-healthcare-medical-equipment",
+      "title": "AVR in Healthcare: Protecting Medical Equipment from..."
     },
     {
-      "slug": "avr-for-surveillance-systems",
-      "title": "AVR for Surveillance and Security Camera Systems"
+      "slug": "avr-for-data-centers-it-equipment",
+      "title": "AVR for Data Centers and IT Equipment: Enterprise..."
     },
     {
-      "slug": "voltage-regulation-television-film-production",
-      "title": "Voltage Regulation in Television and Film Production"
+      "slug": "avr-for-xray-equipment",
+      "title": "AVR for X-Ray Equipment: Medical Radiology Protection"
+    },
+    {
+      "slug": "avr-for-medical-imaging",
+      "title": "AVR for Medical Imaging Equipment: X-Ray MRI CT Scanners"
+    },
+    {
+      "slug": "avr-for-laboratory-equipment",
+      "title": "AVR for Laboratory Equipment: Precision Research Protection"
     }
   ],
   "relatedProducts": [

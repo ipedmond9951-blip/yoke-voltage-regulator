@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
-    },
-    {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
-    },
-    {
       "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "title": "AVR Maintenance and Troubleshooting: Complete Service Guide"
+    },
+    {
+      "slug": "avr-capacitor-replacement",
+      "title": "AVR Capacitor Replacement: When and How"
+    },
+    {
+      "slug": "avr-relay-replacement-guide",
+      "title": "AVR Relay Replacement: Component-Level Repair"
+    },
+    {
+      "slug": "avr-fuse-replacement",
+      "title": "AVR Fuse Replacement: Quick Fix Guide"
+    },
+    {
+      "slug": "avr-fan-replacement",
+      "title": "AVR Fan Replacement: Cooling System Repair"
     }
   ],
   "cta": {

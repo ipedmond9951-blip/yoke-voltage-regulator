@@ -217,12 +217,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "yoke-avr-installation-guide",
-      "title": ""
+      "slug": "avr-professional-maintenance",
+      "title": "Professional AVR Maintenance: Service Checklist"
     },
     {
-      "slug": "protecting-sensitive-equipment",
-      "title": ""
+      "slug": "avr-diy-maintenance-guide",
+      "title": "DIY AVR Maintenance: What You Can Do Yourself"
+    },
+    {
+      "slug": "avr-digital-twin-technology",
+      "title": "AVR Digital Twin: Predictive Maintenance Technology"
+    },
+    {
+      "slug": "avr-troubleshooting-guide",
+      "title": "AVR Troubleshooting: Step-by-Step Diagnosis"
+    },
+    {
+      "slug": "signs-your-avr-needs-replacement",
+      "title": "7 Warning Signs Your AVR Needs Replacement"
     }
   ],
   "cta": {

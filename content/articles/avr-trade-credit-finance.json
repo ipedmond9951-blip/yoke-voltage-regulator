@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-trade-show-exhibition",
+      "title": "AVR Trade Show Exhibition Strategy Guide"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "east-africa-avr-trade",
+      "title": "East Africa AVR Trade: Kenya Tanzania Uganda"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "west-africa-avr-trade",
+      "title": "West Africa AVR Trade: Nigeria Ghana Senegal"
+    },
+    {
+      "slug": "southern-africa-avr-trade",
+      "title": "Southern Africa AVR Trade: South Africa Zambia Zimbabwe"
+    },
+    {
+      "slug": "african-avr-market-analysis",
+      "title": "African AVR Market Analysis: Growth Opportunities"
     }
   ],
   "cta": {

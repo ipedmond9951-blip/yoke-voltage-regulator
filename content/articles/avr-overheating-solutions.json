@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "voltage-fluctuations-causes-solutions",
+      "title": "Voltage Fluctuations: Causes, Effects, and Solutions..."
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-tripping-causes-solutions",
+      "title": "AVR Tripping: Causes and Solutions"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-noise-problem-solutions",
+      "title": "AVR Noise Problems: Buzzing Humming Solutions"
+    },
+    {
+      "slug": "avr-fuse-replacement",
+      "title": "AVR Fuse Replacement: Quick Fix Guide"
+    },
+    {
+      "slug": "avr-fan-replacement",
+      "title": "AVR Fan Replacement: Cooling System Repair"
     }
   ],
   "cta": {

@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-south-africa-import-guide",
+      "title": "South Africa AVR Import Guide"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-inventory-management",
+      "title": "AVR Inventory Management Stock Planning Guide"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-seasonal-demand-guide",
+      "title": "AVR Seasonal Demand Peak Season Planning"
+    },
+    {
+      "slug": "avr-sales-incentive-plan",
+      "title": "AVR Sales Incentive Plan Distribution Guide"
+    },
+    {
+      "slug": "avr-dropshipping-guide",
+      "title": "AVR Dropshipping Remote Sales Guide"
     }
   ],
   "cta": {

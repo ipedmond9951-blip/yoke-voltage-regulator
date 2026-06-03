@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "protecting-sensitive-equipment",
+      "title": "Protecting Sensitive Equipment with Voltage Stabilizers"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-for-water-pumping-systems",
+      "title": "AVR for Water Pumping Systems: Reliable Water Supply"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-in-healthcare-medical-equipment",
+      "title": "AVR in Healthcare: Protecting Medical Equipment from..."
+    },
+    {
+      "slug": "avr-for-pump-systems",
+      "title": "AVR for Pump Systems: Water and Wastewater Applications"
+    },
+    {
+      "slug": "avr-for-laboratory-equipment",
+      "title": "AVR for Laboratory Equipment: Precision Research Protection"
     }
   ],
   "cta": {

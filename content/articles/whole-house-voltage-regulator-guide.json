@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-buying-guide-home-users",
+      "title": "AVR Buying Guide for Home Users: What to Consider Before..."
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "choosing-right-avr-capacity",
+      "title": "How to Choose the Right AVR Capacity: Complete Sizing Guide"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-rental-vs-purchase",
+      "title": "AVR Rental vs Purchase: Which is Right for You"
+    },
+    {
+      "slug": "avr-capacity-sizing-calculator-guide",
+      "title": "AVR Capacity Sizing Calculator: Online Tools and Manual..."
+    },
+    {
+      "slug": "avr-installation-mistakes-to-avoid",
+      "title": "AVR Installation Mistakes to Avoid: Expert Tips"
     }
   ],
   "cta": {

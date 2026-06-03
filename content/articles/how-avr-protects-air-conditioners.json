@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-for-hvac-systems",
+      "title": "AVR for HVAC Systems: Climate Control Protection"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-for-industrial-motors-compressors",
+      "title": "Protecting Industrial Motors and Compressors with AVR"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "protecting-sensitive-equipment",
+      "title": "Protecting Sensitive Equipment with Voltage Stabilizers"
+    },
+    {
+      "slug": "avr-for-solar-power-systems",
+      "title": "AVR for Solar Power Systems: Complete Protection Guide"
+    },
+    {
+      "slug": "voltage-regulation-television-film-production",
+      "title": "Voltage Regulation in Television and Film Production"
     }
   ],
   "cta": {

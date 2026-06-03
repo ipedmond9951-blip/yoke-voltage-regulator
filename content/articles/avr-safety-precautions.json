@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
+      "slug": "avr-grounding-requirements",
+      "title": "AVR Grounding Requirements: Electrical Safety Standards"
+    },
+    {
+      "slug": "avr-electrical-testing",
+      "title": "AVR Electrical Testing: Measurement Procedures"
+    },
+    {
+      "slug": "voltage-fluctuations-causes-solutions",
+      "title": "Voltage Fluctuations: Causes, Effects, and Solutions..."
+    },
+    {
       "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "title": "How Automatic Voltage Regulators (AVR) Work: A Complete..."
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
-    },
-    {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-in-hot-climate-conditions",
+      "title": "AVR Performance in Hot Climate Conditions"
     }
   ],
   "cta": {

@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-for-telecom-towers",
+      "title": "AVR for Telecom Towers: 4G 5G Base Station Protection"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-for-broadcasting-stations",
+      "title": "AVR for Broadcasting Stations: Broadcast Quality Power"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "industrial-applications-voltage-stabilizers",
+      "title": "Industrial Applications of Voltage Stabilizers: A..."
+    },
+    {
+      "slug": "avr-for-data-centers-it-equipment",
+      "title": "AVR for Data Centers and IT Equipment: Enterprise..."
+    },
+    {
+      "slug": "avr-for-generator-sets",
+      "title": "AVR for Generator Sets: Backup Power Integration"
     }
   ],
   "cta": {

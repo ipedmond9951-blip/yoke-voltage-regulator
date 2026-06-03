@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-quantum-computing-power",
+      "title": "AVR for Quantum Computing Facilities"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-hyperscale-data-center",
+      "title": "AVR for Hyperscale Data Centers"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-ai-smart-grid-integration",
+      "title": "AVR and AI in Smart Grid: Future of Voltage Regulation"
+    },
+    {
+      "slug": "avr-power-factor-correction",
+      "title": "AVR and Power Factor Correction"
+    },
+    {
+      "slug": "avr-frequency-regulation",
+      "title": "AVR and Frequency Regulation: Does AVR Control Hz"
     }
   ],
   "cta": {

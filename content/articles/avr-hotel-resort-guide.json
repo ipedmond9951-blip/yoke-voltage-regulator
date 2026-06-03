@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-school-university-guide",
+      "title": "AVR for Schools and Universities: Campus Power Protection"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-auto-shop-guide",
+      "title": "AVR for Auto Repair Shops: Heavy Equipment Protection"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-budget-guide-affordable-protection",
+      "title": "AVR Budget Guide: Getting Maximum Protection at Minimum Cost"
+    },
+    {
+      "slug": "avr-spa-salon-guide",
+      "title": "AVR for Spas and Beauty Salons: Sensitive Equipment..."
+    },
+    {
+      "slug": "whole-house-voltage-regulator-guide",
+      "title": "Whole-House Voltage Regulator: Complete Home Protection..."
     }
   ],
   "cta": {

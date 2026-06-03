@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-online-vs-local-purchase",
+      "title": "Online vs Local AVR Purchase: Pros and Cons"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-rental-vs-purchase",
+      "title": "AVR Rental vs Purchase: Which is Right for You"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-buying-guide-home-users",
+      "title": "AVR Buying Guide for Home Users: What to Consider Before..."
+    },
+    {
+      "slug": "avr-buying-guide-small-business",
+      "title": "AVR Buying Guide for Small Business Owners"
+    },
+    {
+      "slug": "avr-for-beginners-complete-guide",
+      "title": "AVR for Beginners: Complete Starter Guide"
     }
   ],
   "cta": {

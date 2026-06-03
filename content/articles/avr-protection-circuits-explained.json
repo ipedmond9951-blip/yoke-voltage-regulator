@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-electronic-circuit-analysis",
+      "title": "AVR Electronic Circuit Analysis: How Regulation Circuits..."
+    },
+    {
+      "slug": "avr-heat-dissipation-design",
+      "title": "AVR Heat Dissipation: Thermal Management Design"
+    },
+    {
+      "slug": "understanding-avr-overload-capacity",
+      "title": "Understanding AVR Overload Capacity and Surge Tolerance"
     },
     {
       "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "title": "Understanding AVR Specifications: A Complete Technical Guide"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-tripping-causes-solutions",
+      "title": "AVR Tripping: Causes and Solutions"
     }
   ],
   "cta": {

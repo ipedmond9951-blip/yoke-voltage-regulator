@@ -281,12 +281,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "choosing-right-avr-capacity",
-      "title": ""
+      "slug": "avr-automatic-manual-mode",
+      "title": "AVR Automatic vs Manual Mode: Understanding Operation Modes"
+    },
+    {
+      "slug": "avr-power-factor-correction",
+      "title": "AVR and Power Factor Correction"
     },
     {
       "slug": "voltage-fluctuations-causes-solutions",
-      "title": ""
+      "title": "Voltage Fluctuations: Causes, Effects, and Solutions..."
+    },
+    {
+      "slug": "avr-understanding-response-time",
+      "title": "Understanding AVR Response Time: Why Speed Matters"
+    },
+    {
+      "slug": "avr-output-voltage-accuracy",
+      "title": "AVR Output Voltage Accuracy: 2% vs 5% Explained"
     }
   ],
   "cta": {

@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-overheating-solutions",
+      "title": "AVR Overheating: Causes and Solutions"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "voltage-fluctuations-causes-solutions",
+      "title": "Voltage Fluctuations: Causes, Effects, and Solutions..."
+    },
+    {
+      "slug": "understanding-avr-overload-capacity",
+      "title": "Understanding AVR Overload Capacity and Surge Tolerance"
     },
     {
       "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "title": "AVR Maintenance and Troubleshooting: Complete Service Guide"
+    },
+    {
+      "slug": "avr-noise-problem-solutions",
+      "title": "AVR Noise Problems: Buzzing Humming Solutions"
     }
   ],
   "cta": {

@@ -292,15 +292,23 @@
   "relatedArticles": [
     {
       "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "title": "How Automatic Voltage Regulators (AVR) Work: A Complete..."
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-common-failure-modes",
+      "title": "AVR Common Failure Modes and Prevention"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-noise-reduction-technology",
+      "title": "AVR Noise Reduction: Silent Operation Technology"
+    },
+    {
+      "slug": "avr-relay-switching-technology",
+      "title": "Understanding Relay Switching Technology in AVR"
+    },
+    {
+      "slug": "avr-environmental-factors",
+      "title": "AVR Environmental Factors: Altitude Humidity Temperature"
     }
   ],
   "cta": {

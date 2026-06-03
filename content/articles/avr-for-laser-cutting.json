@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-for-dialysis-machines",
+      "title": "AVR for Dialysis Machines: Life-Saving Equipment Protection"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-for-cnc-machines",
+      "title": "AVR for CNC Machines: Precision Manufacturing Protection"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-for-broadcasting-stations",
+      "title": "AVR for Broadcasting Stations: Broadcast Quality Power"
+    },
+    {
+      "slug": "avr-for-welding-equipment",
+      "title": "AVR for Welding Equipment: Stable Arc Protection"
+    },
+    {
+      "slug": "avr-for-audio-recording-studios",
+      "title": "AVR for Audio Recording Studios: Studio-Grade Power Quality"
     }
   ],
   "cta": {

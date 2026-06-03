@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-electrical-testing",
+      "title": "AVR Electrical Testing: Measurement Procedures"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-efficiency-ratings-explained",
+      "title": "AVR Efficiency Ratings: What the Numbers Mean"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-grounding-requirements",
+      "title": "AVR Grounding Requirements: Electrical Safety Standards"
+    },
+    {
+      "slug": "avr-output-voltage-accuracy",
+      "title": "AVR Output Voltage Accuracy: 2% vs 5% Explained"
+    },
+    {
+      "slug": "avr-indicator-light-guide",
+      "title": "AVR Indicator Lights: What They Mean"
     }
   ],
   "cta": {

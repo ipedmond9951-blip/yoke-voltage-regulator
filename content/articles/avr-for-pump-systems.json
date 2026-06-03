@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-for-water-pumping-systems",
+      "title": "AVR for Water Pumping Systems: Reliable Water Supply"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-for-agricultural-equipment",
+      "title": "AVR for Agricultural Equipment: Protecting Farm Machinery"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "industrial-applications-voltage-stabilizers",
+      "title": "Industrial Applications of Voltage Stabilizers: A..."
+    },
+    {
+      "slug": "avr-for-hvac-systems",
+      "title": "AVR for HVAC Systems: Climate Control Protection"
+    },
+    {
+      "slug": "avr-for-surveillance-systems",
+      "title": "AVR for Surveillance and Security Camera Systems"
     }
   ],
   "cta": {

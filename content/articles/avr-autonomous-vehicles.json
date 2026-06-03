@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-electric-vehicle-charging",
+      "title": "AVR for Electric Vehicle Charging Stations"
+    },
+    {
+      "slug": "avr-5g-telecommunications",
+      "title": "AVR for 5G Telecommunications Infrastructure"
+    },
+    {
+      "slug": "avr-smart-city-power",
+      "title": "AVR for Smart City Power Infrastructure"
+    },
+    {
+      "slug": "avr-power-factor-correction",
+      "title": "AVR and Power Factor Correction"
     },
     {
       "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
-    },
-    {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "title": "Understanding AVR Specifications: A Complete Technical Guide"
     }
   ],
   "cta": {

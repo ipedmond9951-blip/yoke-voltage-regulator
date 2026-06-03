@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-storage-guidelines",
+      "title": "AVR Storage Guidelines: Long-Term Preservation"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-relay-switching-technology",
+      "title": "Understanding Relay Switching Technology in AVR"
+    },
+    {
+      "slug": "understanding-avr-overload-capacity",
+      "title": "Understanding AVR Overload Capacity and Surge Tolerance"
     },
     {
       "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "title": "AVR Maintenance and Troubleshooting: Complete Service Guide"
+    },
+    {
+      "slug": "understanding-avr-specifications",
+      "title": "Understanding AVR Specifications: A Complete Technical Guide"
     }
   ],
   "cta": {

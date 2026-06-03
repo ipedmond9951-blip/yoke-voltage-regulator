@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-faq-technical-specs",
+      "title": "AVR Technical Specifications FAQ"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-faq-vs-stabilizer",
+      "title": "AVR vs Voltage Stabilizer FAQ"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-faq-purchasing",
+      "title": "AVR Purchasing FAQ: Buyers Questions Answered"
+    },
+    {
+      "slug": "avr-faq-maintenance",
+      "title": "AVR Maintenance FAQ: Service Questions Answered"
+    },
+    {
+      "slug": "avr-faq-beginners",
+      "title": "AVR FAQ: Common Questions Answered for Beginners"
     }
   ],
   "cta": {

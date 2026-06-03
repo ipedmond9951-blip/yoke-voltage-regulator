@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-copper-transformer-benefits",
+      "title": "Copper vs Aluminum Transformer in AVR: Benefits Analysis"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-servo-motor-regulation",
+      "title": "Servo Motor Regulation Technology in AVR"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-output-voltage-accuracy",
+      "title": "AVR Output Voltage Accuracy: 2% vs 5% Explained"
+    },
+    {
+      "slug": "avr-relay-switching-technology",
+      "title": "Understanding Relay Switching Technology in AVR"
+    },
+    {
+      "slug": "avr-noise-reduction-technology",
+      "title": "AVR Noise Reduction: Silent Operation Technology"
     }
   ],
   "cta": {

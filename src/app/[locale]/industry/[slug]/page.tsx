@@ -10,7 +10,7 @@ import ArticleSchema from '@/components/ArticleSchema'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import HowToSchema from '@/components/HowToSchema'
 
-const SITE_URL = 'https://www.kk-electric.com'
+const SITE_URL = 'https://kk-electric.com'
 
 export async function generateStaticParams() {
   // Exclude redirect articles (articles with redirectTo field) from static generation
@@ -271,7 +271,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
         author={typeof (article as any).author === 'object' && (article as any).author?.name ? (article as any).author.name : 'YOKE Electric Engineering Team'}
         datePublished={article.date}
         dateModified={(article as any).updatedDate || article.date}
-        image={`https://www.kk-electric.com${article.image || `/images/articles/${slug}.jpg`}`}
+        image={`https://kk-electric.com${article.image || `/images/articles/${slug}.jpg`}`}
         url={pageUrl}
       />
       {/* 2. FAQPage Schema (inline, supports 9 languages) */}

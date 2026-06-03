@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-case-study-fish-processing",
+      "title": "Case Study: Fish Processing Plant Reduces Spoilage"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-case-study-beverage-plant",
+      "title": "Case Study: Beverage Plant Protects Carbonation Systems"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-case-study-nigerian-factory",
+      "title": "Case Study: Nigerian Factory Reduces Downtime with AVR"
+    },
+    {
+      "slug": "industrial-avr-installation-case-studies",
+      "title": "Industrial AVR Installation: Real-World Case Studies"
+    },
+    {
+      "slug": "avr-case-study-textile-factory",
+      "title": "Case Study: Textile Factory Reduces Fabric Defects"
     }
   ],
   "cta": {

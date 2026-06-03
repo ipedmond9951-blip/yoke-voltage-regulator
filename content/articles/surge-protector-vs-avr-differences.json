@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-solar-rated-vs-standard",
+      "title": "Solar-Rated vs Standard AVR: What is the Difference"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-budget-vs-premium",
+      "title": "Budget vs Premium AVR: When to Pay More"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-warranty-comparison",
+      "title": "AVR Warranty Comparison: What Brands Offer"
+    },
+    {
+      "slug": "avr-certification-comparison",
+      "title": "AVR Certification Comparison: CE CB UL Standards"
+    },
+    {
+      "slug": "avr-efficiency-comparison",
+      "title": "AVR Efficiency Comparison: Energy Loss Analysis"
     }
   ],
   "cta": {

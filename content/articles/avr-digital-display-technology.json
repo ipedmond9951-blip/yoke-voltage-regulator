@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-digital-twin-technology",
+      "title": "AVR Digital Twin: Predictive Maintenance Technology"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-display-error-codes",
+      "title": "AVR Display Error Codes: Complete Reference"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-transformer-technology-guide",
+      "title": "AVR Transformer Technology: Core Principles Explained"
+    },
+    {
+      "slug": "avr-indicator-light-guide",
+      "title": "AVR Indicator Lights: What They Mean"
+    },
+    {
+      "slug": "avr-servo-motor-regulation",
+      "title": "Servo Motor Regulation Technology in AVR"
     }
   ],
   "cta": {

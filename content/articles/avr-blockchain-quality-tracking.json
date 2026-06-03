@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "how-power-quality-affects-manufacturing",
+      "title": "How Power Quality Affects Manufacturing Output and..."
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-testing-certification-standards",
+      "title": "AVR Testing and Certification Standards Explained"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-ai-smart-grid-integration",
+      "title": "AVR and AI in Smart Grid: Future of Voltage Regulation"
+    },
+    {
+      "slug": "avr-energy-storage-systems",
+      "title": "AVR for Energy Storage Systems"
+    },
+    {
+      "slug": "avr-microgrid-applications",
+      "title": "AVR in Microgrid Applications"
     }
   ],
   "cta": {

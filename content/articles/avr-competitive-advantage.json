@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-uptime-improvement",
+      "title": "AVR Uptime Improvement: Business Impact Analysis"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-equipment-lifespan",
+      "title": "How AVR Extends Equipment Lifespan: Cost Benefit"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-quality-improvement-roi",
+      "title": "AVR Quality Improvement ROI"
+    },
+    {
+      "slug": "avr-repair-cost-reduction",
+      "title": "AVR Repair Cost Reduction Analysis"
+    },
+    {
+      "slug": "avr-cost-benefit-analysis",
+      "title": "AVR Cost-Benefit Analysis Template"
     }
   ],
   "cta": {

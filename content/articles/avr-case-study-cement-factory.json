@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-case-study-nigerian-factory",
+      "title": "Case Study: Nigerian Factory Reduces Downtime with AVR"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-case-study-ice-factory",
+      "title": "Case Study: Ice Factory Maintains Production Capacity"
     },
     {
-      "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "slug": "avr-case-study-glass-factory",
+      "title": "Case Study: Glass Factory Eliminates Production Defects"
+    },
+    {
+      "slug": "avr-case-study-textile-factory",
+      "title": "Case Study: Textile Factory Reduces Fabric Defects"
+    },
+    {
+      "slug": "avr-case-study-welding-shop",
+      "title": "Case Study: Welding Shop Improves Arc Stability"
     }
   ],
   "cta": {

@@ -291,16 +291,24 @@
   ],
   "relatedArticles": [
     {
-      "slug": "how-automatic-voltage-regulators-work",
-      "title": "How AVR Works"
+      "slug": "avr-noise-reduction-technology",
+      "title": "AVR Noise Reduction: Silent Operation Technology"
     },
     {
-      "slug": "understanding-avr-specifications",
-      "title": "AVR Specs Guide"
+      "slug": "avr-overheating-solutions",
+      "title": "AVR Overheating: Causes and Solutions"
+    },
+    {
+      "slug": "avr-fuse-replacement",
+      "title": "AVR Fuse Replacement: Quick Fix Guide"
     },
     {
       "slug": "avr-maintenance-troubleshooting-guide",
-      "title": "AVR Maintenance"
+      "title": "AVR Maintenance and Troubleshooting: Complete Service Guide"
+    },
+    {
+      "slug": "avr-tripping-causes-solutions",
+      "title": "AVR Tripping: Causes and Solutions"
     }
   ],
   "cta": {
