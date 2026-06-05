@@ -8,9 +8,17 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params
   const loc = (locale as Locale) || 'en'
+  const siteUrl = 'https://kk-electric.com'
   return {
     title: loc === 'zh' ? 'YOKE AVR服务条款' : loc === 'es' ? 'Términos de Servicio de YOKE AVR' : loc === 'fr' ? 'Conditions de Service YOKE AVR' : 'YOKE AVR Terms of Service',
     description: loc === 'zh' ? 'YOKE AVR服务条款和条件' : 'YOKE AVR Terms of Service and Conditions',
+    alternates: {
+      canonical: `${siteUrl}/${loc}/terms`,
+      languages: Object.fromEntries([
+        ['x-default', `${siteUrl}/en/terms`],
+        ...locales.map(l => [l, `${siteUrl}/${l}/terms`]),
+      ]),
+    },
   }
 }
 

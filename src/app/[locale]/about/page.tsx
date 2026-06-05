@@ -9,7 +9,8 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params
   const loc = (locale as Locale) || 'en'
-  
+  const siteUrl = 'https://kk-electric.com'
+
   const titles: Record<string, string> = {
     en: 'About YOKE AVR - CE & CB Certified Voltage Regulator Manufacturer',
     zh: '关于YOKE AVR - CE和CB认证稳压器制造商',
@@ -18,7 +19,17 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     en: 'YOKE AVR: CE & CB certified China AVR manufacturer with 10+ years exporting to Africa. Factory in Shenzhen, shipping to South Africa, Zimbabwe, Kenya, Nigeria and 50+ African countries.',
     zh: 'YOKE AVR：CE和CB认证的中国稳压器制造商，10+年非洲出口经验。深圳工厂，海运至南非、津巴布韦、肯尼亚、尼日利亚和50+个非洲国家。',
   }
-  return { title: titles[loc] || titles.en, description: descriptions[loc] || descriptions.en }
+  return {
+    title: titles[loc] || titles.en,
+    description: descriptions[loc] || descriptions.en,
+    alternates: {
+      canonical: `${siteUrl}/${loc}/about`,
+      languages: Object.fromEntries([
+        ['x-default', `${siteUrl}/en/about`],
+        ...locales.map(l => [l, `${siteUrl}/${l}/about`]),
+      ]),
+    },
+  }
 }
 
 export default async function AboutPage({ params }: { params: Promise<{ locale: string }> }) {
