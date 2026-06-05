@@ -54,3 +54,8 @@ data/
 logs/
 *.log
 .backup-2026-06-03/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
