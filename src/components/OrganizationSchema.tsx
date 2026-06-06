@@ -21,7 +21,41 @@ export default function OrganizationSchema({ locale = 'en' }: OrganizationSchema
       availableLanguage: ['English', 'Chinese', 'Shona'], telephone: '+86-159-6340-9951',
       areaServed: [{ '@type': 'Country', name: 'South Africa' }, { '@type': 'Country', name: 'Zimbabwe' }, { '@type': 'Country', name: 'Kenya' }, { '@type': 'Country', name: 'Nigeria' }],
     },
-    sameAs: ['https://www.linkedin.com/company/yoke-avr'],
+    sameAs: [
+      'https://www.linkedin.com/company/yoke-avr',
+      'https://www.crunchbase.com/organization/yoke-avr',
+      'https://github.com/ipedmond9951-blip',
+      'https://twitter.com/yoke_avr',
+      'https://www.facebook.com/yokeavr',
+    ],
+    identifier: {
+      '@type': 'PropertyValue',
+      propertyID: 'VAT-CN',
+      value: '91440300MA5DA8JX2X',
+    },
+    knowsAbout: [
+      'Voltage Stabilizer',
+      'Automatic Voltage Regulator',
+      'Servo Voltage Stabilizer',
+      'Static Voltage Stabilizer',
+      'Three-Phase Voltage Regulator',
+      'Power Quality',
+      'Voltage Regulation Africa',
+      'Industrial Power Protection',
+    ],
+    award: [
+      'CE Certified (2018)',
+      'CB Scheme Certified (2019)',
+      'ISO 9001:2015 Quality Management (2020)',
+      'SONCAP Conformity (Nigeria, 2021)',
+      'PVoC Pre-Verification (Kenya, 2022)',
+    ],
+    memberOf: [
+      { '@type': 'Organization', name: 'China Chamber of Commerce for Import and Export of Machinery and Electronic Products (CCCME)' },
+      { '@type': 'Organization', name: 'IEEE Industry Applications Society' },
+    ],
+    naics: '335999',
+    isicV4: '2710',
   }
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
 }
