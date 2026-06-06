@@ -43,7 +43,7 @@ PUBLIC_DIR = PROJECT_ROOT / 'public'
 LOG_DIR = PROJECT_ROOT / 'logs'
 
 HOST = 'kk-electric.com'
-INDEXNOW_KEY = 'ce03de2e-3f7d-4ce3-b06d-4cda92b0f20f'  # Also need public/ce03de2e-3f7d-4ce3-b06d-4cda92b0f20f.txt
+INDEXNOW_KEY = '2c0964b6-7925-45bd-a8b6-9cb1a66b56c2'  # Also need public/2c0964b6-7925-45bd-a8b6-9cb1a66b56c2.txt
 ENDPOINT = 'https://api.indexnow.org/indexnow'
 LOCALES = ['en', 'zh', 'es', 'ar', 'fr', 'pt', 'ru', 'ja', 'de', 'hi']
 
