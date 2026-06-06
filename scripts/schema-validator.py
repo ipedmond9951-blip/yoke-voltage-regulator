@@ -20,7 +20,8 @@ ART_DIR = 'content/articles'
 LOG_DIR = 'logs'
 os.makedirs(LOG_DIR, exist_ok=True)
 
-LANG = ['en','zh','es','ar','fr','pt','ru','ja','de']
+# 10 locales: en, zh, es, ar, fr, pt, ru, ja, de, hi (was 9, missing 'hi' until 2026-06-06)
+LANG = ['en','zh','es','ar','fr','pt','ru','ja','de','hi']
 
 stats = Counter()
 issues = defaultdict(list)
