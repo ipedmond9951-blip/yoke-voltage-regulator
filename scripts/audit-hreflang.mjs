@@ -27,15 +27,25 @@ function getAllSlugs() {
 }
 
 async function check(url) {
-  try {
-    const res = await fetch(url, {
-      method: 'HEAD',
-      redirect: 'follow',
-      signal: AbortSignal.timeout(15000),
-    })
-    return { url, status: res.status, ok: res.ok }
-  } catch (e) {
-    return { url, status: 0, ok: false, error: e.message }
+  // Retry transient fetch failures (Node.js fetch occasionally drops connections
+  // when 3140 URLs are batched with concurrency 20). 3 attempts with linear
+  // backoff. After 3 failures, surface as a real dead URL.
+  const MAX_RETRIES = 3
+  for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+    try {
+      const res = await fetch(url, {
+        method: 'HEAD',
+        redirect: 'follow',
+        signal: AbortSignal.timeout(15000),
+      })
+      return { url, status: res.status, ok: res.ok, attempts: attempt }
+    } catch (e) {
+      if (attempt === MAX_RETRIES) {
+        return { url, status: 0, ok: false, error: e.message, attempts: attempt }
+      }
+      // Linear backoff: 500ms, 1s
+      await new Promise(r => setTimeout(r, 500 * attempt))
+    }
   }
 }
 
@@ -95,9 +105,14 @@ async function main() {
     console.log(`\n✅ 全量 100% 200 OK`)
   }
 
+  // Always write the dead URLs file (even when empty) so external cron
+  // monitors and dashboards can trust the timestamp — an old file would
+  // otherwise mask a "we stopped finding dead URLs" regression.
+  fs.writeFileSync('logs/hreflang-dead-urls.json', JSON.stringify(dead, null, 2))
   if (dead.length > 0) {
-    fs.writeFileSync('logs/hreflang-dead-urls.json', JSON.stringify(dead, null, 2))
-    console.log(`\n💾 死页清单已保存: logs/hreflang-dead-urls.json`)
+    console.log(`\n💾 死页清单已保存: logs/hreflang-dead-urls.json (${dead.length} entries)`)
+  } else {
+    console.log(`\n💾 死页清单已清空: logs/hreflang-dead-urls.json (0 entries — 100% pass)`)
   }
 }
 
