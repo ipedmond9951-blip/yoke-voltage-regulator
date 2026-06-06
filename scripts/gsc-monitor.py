@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-kk-electric.com GSC / sitemap / meta tag daily monitor.
+kk-electric.com GSC / sitemap / meta tag / canonical daily monitor.
 Runs via launchd `com.kk-electric.gsc-monitor.plist` every 6 hours.
 
 Performance notes (2026-06-05):
@@ -14,6 +14,11 @@ Checks:
 3. robots.txt — HTTP 200 + contain AI bot whitelist
 4. HTML file /google39f58fe255970694.html — HTTP 200 + correct GSC token
 5. 10 locale HTML pages — HTTP 200 + GSC meta tag + correct token + no www. in first 30KB
+6. 4 public server-component pages × 10 locales (40 URLs) — canonical points
+   to self, not inherited from [locale]/layout.tsx homepage
+   - Pages: home, products, about, terms
+   - Skipped: steel-prices, product-upload, analytics (client components,
+     Next.js 16 limit: metadata only in Server Components)
 
 Output: log to /Users/zhangming/workspace/yoke-voltage-regulator/logs/gsc-monitor.log
 Exit 0 = all OK, Exit 1 = at least one failure.
@@ -45,6 +50,17 @@ HTML_FILE_TOKEN = "google-site-verification=" + GSC_TOKEN
 META_TOKEN = GSC_TOKEN
 # Only flag www. on kk-electric.com itself, NOT www.sitemaps.org / www.w3.org / www.linkedin.com
 NO_WWW_RE = re.compile(r"https?://www\.kk-electric\.", re.IGNORECASE)
+# Canonical link: <link rel="canonical" href="..." />
+CANONICAL_RE = re.compile(
+    r'<link\s+rel="canonical"\s+href="([^"]+)"\s*/>',
+    re.IGNORECASE,
+)
+# Public server-component pages that should declare their own canonical.
+# Client-component pages (steel-prices, product-upload, analytics) inherit
+# the layout's homepage canonical — that's a Next.js 16 limitation, not a bug.
+# Curated to most-important public pages (excludes /industry hub which has its
+# own 308 article URLs) to keep monitor under ~60s end-to-end.
+CANONICAL_PAGES = ["", "products", "about", "terms"]
 
 
 def log(msg: str, err: bool = False) -> None:
@@ -178,41 +194,74 @@ def check_locale_page(lang: str) -> list[str]:
     return issues
 
 
+def check_canonical(lang: str, path: str) -> list[str]:
+    """Verify a public page's canonical URL points to itself, not homepage.
+
+    Bug history (2026-06-05): /about and /terms had no generateMetadata
+    canonical, so 20 URLs (2 pages × 10 locales) inherited the homepage
+    canonical from [locale]/layout.tsx. Fixed in commit 458a048.
+    """
+    expected_canon = f"{BASE}/{lang}/{path}" if path else f"{BASE}/{lang}"
+    url = expected_canon  # canonical URLs use no trailing slash
+    status, body = fetch_get(url, max_bytes=MAX_BODY)
+    issues = []
+    if status != 200:
+        return [f"canonical /{lang}/{path or '(home)'}: HTTP {status}"]
+    m = CANONICAL_RE.search(body)
+    if not m:
+        return [f"canonical /{lang}/{path or '(home)'}: no <link rel=canonical> in head"]
+    actual = m.group(1).rstrip("/")
+    expected = expected_canon.rstrip("/")
+    if actual != expected:
+        return [
+            f"canonical /{lang}/{path or '(home)'}: WRONG\n  expected: {expected}\n  got:      {actual}"
+        ]
+    return []
+
+
 def main() -> int:
     log("=== gsc-monitor started ===")
     all_issues: list[str] = []
 
-    log("[1/5] Checking 10 locale sitemaps...")
+    log("[1/6] Checking 10 locale sitemaps...")
     for lang in LOCALES:
         issues = check_sitemap(lang)
         all_issues.extend(issues)
         if not issues:
             log(f"  ✓ sitemap/{lang}")
 
-    log("[2/5] Checking sitemap-index.xml...")
+    log("[2/6] Checking sitemap-index.xml...")
     issues = check_sitemap_index()
     all_issues.extend(issues)
     if not issues:
         log("  ✓ sitemap-index.xml")
 
-    log("[3/5] Checking robots.txt...")
+    log("[3/6] Checking robots.txt...")
     issues = check_robots()
     all_issues.extend(issues)
     if not issues:
         log("  ✓ robots.txt")
 
-    log("[4/5] Checking google39f58fe255970694.html...")
+    log("[4/6] Checking google39f58fe255970694.html...")
     issues = check_html_file()
     all_issues.extend(issues)
     if not issues:
         log("  ✓ google HTML file")
 
-    log("[5/5] Checking 10 locale HTML pages (GSC meta tag + no www)...")
+    log("[5/6] Checking 10 locale HTML pages (GSC meta tag + no www)...")
     for lang in LOCALES:
         issues = check_locale_page(lang)
         all_issues.extend(issues)
         if not issues:
             log(f"  ✓ /{lang}")
+
+    log("[6/6] Checking 4 public pages × 10 locales canonical (40 URLs)...")
+    for path in CANONICAL_PAGES:
+        for lang in LOCALES:
+            issues = check_canonical(lang, path)
+            all_issues.extend(issues)
+            if not issues:
+                log(f"  ✓ /{lang}/{path or '(home)'}")
 
     log("=== gsc-monitor finished ===")
     if all_issues:
@@ -220,7 +269,7 @@ def main() -> int:
         for i, iss in enumerate(all_issues, 1):
             log(f"  {i}. {iss}", err=True)
         return 1
-    log(f"✅ OK: all 5 categories passed (10 sitemaps + index + robots + html file + 10 locales)")
+    log(f"✅ OK: all 6 categories passed (10 sitemaps + index + robots + html file + 10 locales + 40 canonical)")
     return 0
 
 
