@@ -43,7 +43,7 @@ PUBLIC_DIR = PROJECT_ROOT / 'public'
 LOG_DIR = PROJECT_ROOT / 'logs'
 
 HOST = 'kk-electric.com'
-INDEXNOW_KEY = 'yokeavr2026indexnow'  # Also need public/yokeavr2026indexnow.txt
+INDEXNOW_KEY = 'ce03de2e-3f7d-4ce3-b06d-4cda92b0f20f'  # Also need public/ce03de2e-3f7d-4ce3-b06d-4cda92b0f20f.txt
 ENDPOINT = 'https://api.indexnow.org/indexnow'
 LOCALES = ['en', 'zh', 'es', 'ar', 'fr', 'pt', 'ru', 'ja', 'de', 'hi']
 
