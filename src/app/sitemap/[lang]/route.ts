@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { locales } from '@/i18n'
 import { getAllSlugs } from '@/lib/articles'
+import { getAuthorSlugs } from '@/lib/authors'
 
 const baseUrl = 'https://kk-electric.com'
 
@@ -78,6 +79,24 @@ ${altLinks}${imageSection}
     <priority>0.7</priority>
 ${altLinks}
 ${imageBlock}
+  </url>`)
+  }
+  const authorSlugs = getAuthorSlugs()
+  for (const authorSlug of authorSlugs) {
+    const url = `${baseUrl}/${locale}/team/${authorSlug}`
+    const langMap: Record<string, string> = {}
+    for (const l of locales) {
+      langMap[l] = `${baseUrl}/${l}/team/${authorSlug}`
+    }
+    langMap['x-default'] = `${baseUrl}/en/team/${authorSlug}`
+    const altLinks = Object.entries(langMap)
+      .map(([lang, href]) => `    <xhtml:link rel="alternate" hreflang="${lang}" href="${href}"/>`)
+      .join('\n')
+    entries.push(`  <url>
+    <loc>${url}</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+${altLinks}
   </url>`)
   }
   return `<?xml version="1.0" encoding="UTF-8"?>
