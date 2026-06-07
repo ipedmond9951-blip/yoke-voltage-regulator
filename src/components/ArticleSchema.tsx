@@ -1,10 +1,14 @@
 'use client'
 import { type Locale } from '@/i18n'
+import { getAuthor } from '@/lib/authors'
 interface ArticleSchemaProps {
   locale?: Locale
   title: string
   description: string
   author?: string
+  authorSlug?: string
+  authorTitle?: string
+  authorCredentials?: string
   datePublished?: string
   dateModified?: string
   image?: string
@@ -15,6 +19,9 @@ export default function ArticleSchema({
   title,
   description,
   author = 'YOKE Electric Engineering Team',
+  authorSlug,
+  authorTitle,
+  authorCredentials,
   datePublished,
   dateModified,
   image = 'https://kk-electric.com/images/blog/article-default.jpg',
@@ -27,6 +34,22 @@ export default function ArticleSchema({
   }
   const inLanguage = langMap[locale] || 'en-US'
   const pageId = url ? `https://kk-electric.com${url}` : undefined
+  const authorProfile = authorSlug ? getAuthor(authorSlug) : undefined
+  const authorSchema = authorProfile
+    ? {
+        '@type': 'Person',
+        '@id': `https://kk-electric.com/en/team/${authorProfile.slug}`,
+        name: authorProfile.name,
+        url: `https://kk-electric.com/en/team/${authorProfile.slug}`,
+        jobTitle: authorProfile.jobTitle,
+        worksFor: { '@id': 'https://kk-electric.com/#organization' },
+      }
+    : {
+        '@type': 'Organization',
+        '@id': 'https://kk-electric.com/#organization',
+        name: author,
+        url: 'https://kk-electric.com',
+      }
   const schema: Record<string, unknown> = {
     '@context': 'https://schema.org',
     '@type': 'Article',
@@ -34,12 +57,7 @@ export default function ArticleSchema({
     headline: title,
     description: description,
     image: [image],
-    author: {
-      '@type': 'Organization',
-      '@id': 'https://kk-electric.com/#organization',
-      name: author,
-      url: 'https://kk-electric.com',
-    },
+    author: authorSchema,
     publisher: {
       '@type': 'Organization',
       '@id': 'https://kk-electric.com/#organization',

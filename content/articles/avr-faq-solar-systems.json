@@ -346,5 +346,6 @@
   },
   "schema": "FAQPage",
   "ogImage": "/images/articles/avr-faq-solar-systems.jpg",
-  "updatedDate": "2026-06-01"
+  "updatedDate": "2026-06-01",
+  "authorSlug": "anna-kim"
 }

@@ -346,5 +346,6 @@
   },
   "schema": "HowTo",
   "ogImage": "/images/articles/avr-blockchain-quality-tracking.jpg",
-  "updatedDate": "2026-06-01"
+  "updatedDate": "2026-06-01",
+  "authorSlug": "oshan-zhang"
 }

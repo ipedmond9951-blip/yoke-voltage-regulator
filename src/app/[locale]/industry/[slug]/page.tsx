@@ -3,6 +3,7 @@ import { redirect } from 'next/navigation'
 import Link from 'next/link'
 import Image from 'next/image'
 import { getAllArticles, getAllSlugs, getArticleBySlug } from '@/lib/articles'
+import { getAuthor } from '@/lib/authors'
 import { type Locale, t, locales } from '@/i18n'
 import type { ArticleSection } from '@/lib/articles'
 import ShareButtons from '@/components/ShareButtons'
@@ -260,6 +261,42 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
             </div>
           </div>
         )}
+
+        {/* About the Author - E-E-A-T signal */}
+        {(article as any).authorSlug && (() => {
+          const author = getAuthor((article as any).authorSlug)
+          if (!author) return null
+          return (
+            <div className="mt-10 bg-gradient-to-br from-primary-50 to-primary-100 rounded-xl p-6 border border-primary-200">
+              <div className="flex items-start gap-4">
+                <div className="w-16 h-16 md:w-20 md:h-20 rounded-full bg-gradient-to-br from-primary-300 to-primary-600 flex items-center justify-center text-white text-xl md:text-2xl font-bold flex-shrink-0">
+                  {author.name.split(' ').map(n => n[0]).join('')}
+                </div>
+                <div className="flex-1 min-w-0">
+                  <div className="text-xs uppercase tracking-wide text-primary-700 font-semibold mb-1">
+                    {locale === 'zh' ? '本文作者' : 'About the Author'}
+                  </div>
+                  <Link
+                    href={`/${locale}/team/${author.slug}`}
+                    className="text-lg md:text-xl font-bold text-primary-900 hover:text-primary-700 hover:underline"
+                  >
+                    {author.name}
+                  </Link>
+                  <div className="text-sm text-primary-800 mt-0.5">{author.jobTitle}</div>
+                  <p className="text-sm text-gray-700 mt-2 leading-relaxed">
+                    {author.shortBio}
+                  </p>
+                  <Link
+                    href={`/${locale}/team/${author.slug}`}
+                    className="inline-block mt-3 text-sm text-primary-700 hover:text-primary-900 font-medium"
+                  >
+                    {locale === 'zh' ? '查看完整简介 →' : 'View Full Profile →'}
+                  </Link>
+                </div>
+              </div>
+            </div>
+          )
+        })()}
       </article>
 
       {/* Schema - Full SEO JSON-LD Stack */}
@@ -269,6 +306,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
         title={title}
         description={desc}
         author={typeof (article as any).author === 'object' && (article as any).author?.name ? (article as any).author.name : 'YOKE Electric Engineering Team'}
+        authorSlug={(article as any).authorSlug}
         datePublished={article.date}
         dateModified={(article as any).updatedDate || article.date}
         image={`https://kk-electric.com${article.image || `/images/articles/${slug}.jpg`}`}

@@ -314,5 +314,6 @@
   },
   "schema": "HowTo",
   "ogImage": "/images/articles/avr-maintenance.jpg",
-  "updatedDate": "2026-06-01"
+  "updatedDate": "2026-06-01",
+  "authorSlug": "kennedy-mutua"
 }

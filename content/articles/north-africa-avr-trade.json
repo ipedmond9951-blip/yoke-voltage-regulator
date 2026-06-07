@@ -405,5 +405,6 @@
   },
   "schema": "Article",
   "ogImage": "/images/articles/north-africa-avr-trade.jpg",
-  "updatedDate": "2026-06-07"
+  "updatedDate": "2026-06-07",
+  "authorSlug": "anna-kim"
 }

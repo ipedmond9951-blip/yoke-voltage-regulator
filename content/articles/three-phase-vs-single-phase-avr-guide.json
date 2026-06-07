@@ -346,5 +346,6 @@
   },
   "schema": "HowTo",
   "ogImage": "/images/articles/three-phase-vs-single-phase-avr-guide.jpg",
-  "updatedDate": "2026-06-01"
+  "updatedDate": "2026-06-01",
+  "authorSlug": "oshan-zhang"
 }

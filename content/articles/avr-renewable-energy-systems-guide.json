@@ -346,5 +346,6 @@
   },
   "schema": "HowTo",
   "ogImage": "/images/articles/avr-renewable-energy-systems-guide.jpg",
-  "updatedDate": "2026-06-01"
+  "updatedDate": "2026-06-01",
+  "authorSlug": "oshan-zhang"
 }

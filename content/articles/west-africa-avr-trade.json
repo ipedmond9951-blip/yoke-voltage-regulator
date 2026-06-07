@@ -404,5 +404,6 @@
   },
   "schema": "Article",
   "ogImage": "/images/articles/west-africa-avr-trade.jpg",
-  "updatedDate": "2026-06-06"
+  "updatedDate": "2026-06-06",
+  "authorSlug": "anna-kim"
 }

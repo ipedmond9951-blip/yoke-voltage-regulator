@@ -346,5 +346,6 @@
   },
   "schema": "HowTo",
   "ogImage": "/images/articles/how-to-calculate-avr-kva-requirements.jpg",
-  "updatedDate": "2026-06-01"
+  "updatedDate": "2026-06-01",
+  "authorSlug": "oshan-zhang"
 }

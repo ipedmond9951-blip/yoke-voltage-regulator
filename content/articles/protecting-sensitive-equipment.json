@@ -302,5 +302,6 @@
   },
   "schema": "HowTo",
   "ogImage": "/images/articles/protecting-sensitive-electronics.jpg",
-  "updatedDate": "2026-06-01"
+  "updatedDate": "2026-06-01",
+  "authorSlug": "oshan-zhang"
 }
