@@ -58,3 +58,10 @@ export function getAllSlugs(): string[] {
     .filter(f => f.endsWith('.json'))
     .map(f => decodeURIComponent(f.replace('.json', '')))
 }
+
+export function getArticlesByAuthorSlug(authorSlug: string, excludeSlug?: string, limit: number = 4): Article[] {
+  const all = getAllArticles()
+  return all
+    .filter((a: any) => a.authorSlug === authorSlug && a.slug !== excludeSlug)
+    .slice(0, limit)
+}

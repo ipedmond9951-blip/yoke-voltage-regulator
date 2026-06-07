@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import { redirect } from 'next/navigation'
 import Link from 'next/link'
 import Image from 'next/image'
-import { getAllArticles, getAllSlugs, getArticleBySlug } from '@/lib/articles'
+import { getAllArticles, getAllSlugs, getArticleBySlug, getArticlesByAuthorSlug } from '@/lib/articles'
 import { getAuthor } from '@/lib/authors'
 import { type Locale, t, locales } from '@/i18n'
 import type { ArticleSection } from '@/lib/articles'
@@ -266,6 +266,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
         {(article as any).authorSlug && (() => {
           const author = getAuthor((article as any).authorSlug)
           if (!author) return null
+          const otherArticles = getArticlesByAuthorSlug(author.slug, slug, 4)
           return (
             <div className="mt-10 bg-gradient-to-br from-primary-50 to-primary-100 rounded-xl p-6 border border-primary-200">
               <div className="flex items-start gap-4">
@@ -294,6 +295,32 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
                   </Link>
                 </div>
               </div>
+              {otherArticles.length > 0 && (
+                <div className="mt-6 pt-6 border-t border-primary-200">
+                  <div className="text-xs uppercase tracking-wide text-primary-700 font-semibold mb-3">
+                    {locale === 'zh' ? `${author.name} 的其他文章` : `More Articles by ${author.name}`}
+                  </div>
+                  <div className="grid sm:grid-cols-2 gap-3">
+                    {otherArticles.map((a) => {
+                      const t = a.title?.[locale as keyof typeof a.title] || a.title?.en || a.slug
+                      return (
+                        <Link
+                          key={a.slug}
+                          href={`/${locale}/industry/${a.slug}`}
+                          className="block bg-white rounded-lg p-3 hover:shadow-sm transition-shadow group"
+                        >
+                          <div className="text-sm font-medium text-primary-900 group-hover:text-primary-700 line-clamp-2">
+                            {t}
+                          </div>
+                          <div className="text-xs text-gray-500 mt-1">
+                            {a.category} · {new Date(a.date).toLocaleDateString(locale === 'zh' ? 'zh-CN' : 'en-US', { year: 'numeric', month: 'short' })}
+                          </div>
+                        </Link>
+                      )
+                    })}
+                  </div>
+                </div>
+              )}
             </div>
           )
         })()}
