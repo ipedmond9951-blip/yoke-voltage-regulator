@@ -1,0 +1,66 @@
+/*
+  WikiData QuickStatements batch for YOKE AVR
+  Ready to paste into https://quickstatements.toolforge.org/#/v1
+  Q-ID is auto-assigned by WikiData (Q-PROPOSED). Don't pre-fill.
+  Requires WP:Notability - submitter must be logged in WikiData user with
+  sufficient edit history. YOKE organization needs WP:Notability check
+  (significant coverage in multiple independent reliable sources).
+*/
+
+CREATE
+LAST	Len	"YOKE"
+LAST	Den	"industrial automatic voltage regulator manufacturer"
+LAST	Aen	"YOKE industrial voltage stabilizer company"
+LAST	P31	Q7839061
+LAST	P856	"https://kk-electric.com"
+LAST	P2002	"yoke-avr"
+LAST	P7084	"yokeavr"
+LAST	P2013	"https://www.facebook.com/yokeavr"
+LAST	P2003	"https://twitter.com/yoke_avr"
+LAST	P4264	"https://www.linkedin.com/company/yoke-avr"
+LAST	P2037	"github.com/ipedmond9951-blip"
+LAST	P1321	"https://kk-electric.com"	// place of origin (website as proxy for organization)
+LAST	P17	Q148
+LAST	P131	Q1515
+LAST	P159	Q1515
+LAST	P571	+2013-01-01T00:00:00Z/9
+LAST	P1454	"https://kk-electric.com"	// legal form: company website
+LAST	P112	"ipedmond9951"
+LAST	P1056	Q15319031	// product: voltage stabilizer
+LAST	P452	Q1371849	// industry: electrical equipment manufacturing
+LAST	P452	Q11651	// industry: power electronics
+LAST	P740	"https://kk-electric.com/images/logo.png"
+LAST	P154	"https://kk-electric.com/images/og-image.jpg"
+LAST	P6375	"22.5429,114.0596"	// coordinate location: Shenzhen
+LAST	P421	"https://kk-electric.com"	// located at: placeholder
+LAST	P1376	"https://kk-electric.com"	// capital of: placeholder
+LAST	P576		// dissolved date: empty
+LAST	P1830	"https://kk-electric.com/images/team/oshan-zhang.jpg"	// owner of: YOKE AVR products
+LAST	P108	"ipedmond9951"	// employer: founder
+LAST	P112	"ipedmond9951"	// founded by: same
+LAST	P2868	"https://kk-electric.com/#organization"	// subject of: YOKE Organization Schema
+LAST	P910	Q-PROPOSED-YOKE	// topic's main category: placeholder
+LAST	P1454	"shenzhen"	// legal form
+LAST	P2855	"https://kk-electric.com/en/team/oshan-zhang"	// employee or member: Oshan Zhang
+LAST	P2855	"https://kk-electric.com/en/team/anna-kim"	// employee: Anna Kim
+LAST	P2855	"https://kk-electric.com/en/team/kennedy-mutua"	// employee: Kennedy Mutua
+
+/*
+  References for each claim (use Wikipedia articles, news articles, etc.):
+  S1: kk-electric.com / YOKE website (self-reference, low weight)
+  S2: Shenzhen industrial registration database
+  S3: Industry trade publications
+  S4: Customer case studies (independent companies)
+  S5: Patent database (if YOKE holds patents)
+
+  IMPORTANT: Self-references are NOT enough for WP:Notability.
+  WikiData submission requires independent reliable sources. Submitter
+  should research and add S2-S5 before submitting.
+
+  Suggested reference strategy:
+  - Use YOKE's exported clients (if customer logos are public)
+  - China Customs Export Records
+  - IEC/CE/CB certification database entries
+  - Industry press releases
+  - Patent filings on Google Patents
+*/
