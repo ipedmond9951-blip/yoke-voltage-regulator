@@ -13,6 +13,15 @@ const staticPages = [
   { path: '/terms', priority: 0.4, changefreq: 'yearly' },
 ]
 
+const productImages = [
+  { slug: 'svc-3000va', image: '/images/products/svc-3000va.jpg' },
+  { slug: 'tnd-svc-3000va', image: '/images/products/tnd-svc-3000va.jpg' },
+  { slug: 'svc-10kva', image: '/images/products/svc-10kva.jpg' },
+  { slug: 'svc-30kva', image: '/images/products/svc-30kva.jpg' },
+  { slug: 'svc-50kva', image: '/images/products/svc-50kva.jpg' },
+  { slug: 'svc-60kva', image: '/images/products/svc-60kva.jpg' },
+]
+
 function buildHreflangMap(path: string) {
   const langMap: Record<string, string> = {}
   for (const l of locales) {
@@ -21,6 +30,13 @@ function buildHreflangMap(path: string) {
   }
   langMap['x-default'] = `${baseUrl}/en${path}`
   return langMap
+}
+
+function buildImageBlock(imagePath: string) {
+  return `    <image:image>
+      <image:loc>${baseUrl}${imagePath}</image:loc>
+      <image:title>YOKE Industrial Power Solutions</image:title>
+    </image:image>`
 }
 
 function buildSitemapXml(locale: string) {
@@ -32,11 +48,16 @@ function buildSitemapXml(locale: string) {
     const altLinks = Object.entries(langMap)
       .map(([lang, href]) => `    <xhtml:link rel="alternate" hreflang="${lang}" href="${href}"/>`)
       .join('\n')
+    const isProductsPage = path === '/products'
+    const imageBlocks = isProductsPage
+      ? productImages.map(p => buildImageBlock(p.image)).join('\n')
+      : ''
+    const imageSection = imageBlocks ? `\n${imageBlocks}` : ''
     entries.push(`  <url>
     <loc>${url}</loc>
     <changefreq>${page.changefreq}</changefreq>
     <priority>${page.priority.toFixed(1)}</priority>
-${altLinks}
+${altLinks}${imageSection}
   </url>`)
   }
   const articleSlugs = getAllSlugs()
@@ -50,16 +71,19 @@ ${altLinks}
     const altLinks = Object.entries(langMap)
       .map(([lang, href]) => `    <xhtml:link rel="alternate" hreflang="${lang}" href="${href}"/>`)
       .join('\n')
+    const imageBlock = buildImageBlock(`/images/articles/${slug}.jpg`)
     entries.push(`  <url>
     <loc>${url}</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
 ${altLinks}
+${imageBlock}
   </url>`)
   }
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 ${entries.join('\n')}
 </urlset>`
 }
