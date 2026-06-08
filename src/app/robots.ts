@@ -14,7 +14,6 @@ export default function robots(): MetadataRoute.Robots {
           // (2026-06-06 audit: these are 'use client' pages without
           // generateMetadata, so they fall back to the homepage canonical
           // and would dilute the homepage's search ranking if indexed.)
-          '/steel-prices',
           '/product-upload',
           '/analytics',
         ],
