@@ -52,7 +52,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
     openGraph: {
       type: 'website',
-      locale: loc === 'zh' ? 'zh_CN' : 'en_US',
+      // Full 10-language locale mapping (was: fallback bug — only zh got zh_CN, other 8 fell back to en_US).
+      // Matches the 9-language locale code list used by inLanguage across all Schema components.
+      locale: ({ en: 'en_US', zh: 'zh_CN', es: 'es_ES', ar: 'ar_SA', fr: 'fr_FR', pt: 'pt_PT', ru: 'ru_RU', ja: 'ja_JP', de: 'de_DE', hi: 'hi_IN' } as Record<string, string>)[loc] || 'en_US',
       url: `${siteUrl}/${loc}`,
       siteName: 'YOKE Voltage Regulator',
       title: titles[loc] || titles.en,

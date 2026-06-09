@@ -53,6 +53,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       description: desc,
       url: `${SITE_URL}/${locale}/industry/${slug}`,
       type: 'article',
+      // Full 10-language locale mapping (was: missing field → fell back to layout's en_US for 8/10 langs).
+      locale: ({ en: 'en_US', zh: 'zh_CN', es: 'es_ES', ar: 'ar_SA', fr: 'fr_FR', pt: 'pt_PT', ru: 'ru_RU', ja: 'ja_JP', de: 'de_DE', hi: 'hi_IN' } as Record<string, string>)[locale] || 'en_US',
       publishedTime: article.date,
       authors: ['YOKE Electric'],
       images: [{ url: `${SITE_URL}${article.image}`, width: 1200, height: 630, alt: title }],
