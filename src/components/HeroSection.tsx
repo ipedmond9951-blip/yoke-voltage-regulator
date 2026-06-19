@@ -19,7 +19,7 @@ export default function HeroSection({ locale = 'en' }: HeroSectionProps) {
       <div className="absolute inset-0 z-0">
         <Image
           src="/images/avr-logistics.jpg"
-          alt="Industrial power equipment"
+          alt={t(locale, 'heroContent.imageAlt')}
           fill
           priority
           className="object-cover"
@@ -33,13 +33,13 @@ export default function HeroSection({ locale = 'en' }: HeroSectionProps) {
           {/* Left: Text */}
           <div className="flex-1 w-full max-w-xl">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[52px] font-bold mb-4 md:mb-5 leading-[1.1] tracking-tight">
-              Professional <span className="text-yellow-400">Voltage Regulators</span> Manufacturer
+              {t(locale, 'heroContent.title')}
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-primary-100/95 mb-4 md:mb-5">
-              SVC & TND Series AVR - Stable Power Solutions
+              {t(locale, 'heroContent.subtitle')}
             </p>
             <p className="text-sm md:text-base lg:text-lg text-primary-100/90 mb-5 md:mb-7 leading-relaxed">
-              CE/CB certified, 10+ years experience. Exporting to 50+ countries worldwide.
+              {t(locale, 'heroContent.description')}
             </p>
             <div className="flex flex-wrap gap-x-4 gap-y-2 mb-6 md:mb-8">
               {[t(locale, 'hero.iso'), t(locale, 'hero.global'), t(locale, 'hero.experience')].map((label, i) => (
@@ -50,8 +50,8 @@ export default function HeroSection({ locale = 'en' }: HeroSectionProps) {
               ))}
             </div>
             <div className="flex flex-wrap gap-3 md:gap-4">
-              <a href={`/${locale}#inquiry`} className="inline-flex items-center bg-warning-500 hover:bg-warning-400 text-primary-900 px-6 md:px-8 py-2.5 md:py-3 rounded-lg font-bold text-sm md:text-base transition-colors shadow-md">{t(locale, 'hero.cta')}</a>
-              <a href={`/${locale}#products`} className="inline-flex items-center border-2 border-white/50 text-white px-6 md:px-8 py-2.5 md:py-3 rounded-lg font-bold text-sm md:text-base hover:bg-white/10 transition-colors">{t(locale, 'hero.ctaSecondary')}</a>
+              <a href={`/${locale}/contact#inquiry`} className="inline-flex items-center bg-warning-500 hover:bg-warning-400 text-primary-900 px-6 md:px-8 py-2.5 md:py-3 rounded-lg font-bold text-sm md:text-base transition-colors shadow-md">{t(locale, 'hero.cta')}</a>
+              <a href={`/${locale}/products`} className="inline-flex items-center border-2 border-white/50 text-white px-6 md:px-8 py-2.5 md:py-3 rounded-lg font-bold text-sm md:text-base hover:bg-white/10 transition-colors">{t(locale, 'hero.ctaSecondary')}</a>
             </div>
           </div>
 
@@ -61,7 +61,7 @@ export default function HeroSection({ locale = 'en' }: HeroSectionProps) {
               <h3 className="text-lg md:text-xl font-bold mb-4 md:mb-5">{t(locale, 'hero.featured')}</h3>
               <div className="grid grid-cols-3 gap-2 md:gap-3">
                 {heroProducts.map((p, i) => (
-                  <a key={i} href={`/${locale}#products`} className="group flex flex-col items-center p-2 rounded-lg hover:bg-white/[0.08] transition-colors">
+                  <a key={i} href={`/${locale}/products`} className="group flex flex-col items-center p-2 rounded-lg hover:bg-white/[0.08] transition-colors">
                     <div className="w-14 h-14 md:w-16 md:h-16 rounded-lg overflow-hidden flex-shrink-0 bg-white/10 border border-white/10">
                       <Image src={p.src} alt={t(locale, `hero.${p.key}_name`)} width={64} height={64} className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-200" priority={i < 3} />
                     </div>

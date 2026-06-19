@@ -7,6 +7,7 @@ import { getAuthor } from '@/lib/authors'
 import { type Locale, t, locales } from '@/i18n'
 import type { ArticleSection } from '@/lib/articles'
 import ShareButtons from '@/components/ShareButtons'
+import LocalInfoBlock from '@/components/LocalInfoBlock'
 import ArticleSchema from '@/components/ArticleSchema'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import HowToSchema from '@/components/HowToSchema'
@@ -204,13 +205,13 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
         </div>
         <div className="container mx-auto px-4 sm:px-6 relative z-10 max-w-3xl">
           <Link href={`/${locale}/industry`} className="inline-flex items-center gap-1 text-primary-200 hover:text-white text-sm mb-6 transition-colors">
-            ← {locale === 'zh' ? '返回文章列表' : 'Back to articles'}
+            ← {t(locale, 'article.backToArticles')}
           </Link>
           <span className="inline-block bg-primary-500 text-white text-xs font-semibold px-3 py-1 rounded-full mb-4">{article.category}</span>
           <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">{title}</h1>
           <div className="flex items-center gap-4 text-sm text-primary-200">
             <span>{article.date}</span>
-            <span>· ~{article.readTime} min read</span>
+            <span>· ~{article.readTime} {t(locale, 'article.minRead')}</span>
           </div>
         </div>
       </section>
@@ -228,6 +229,9 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
         
         {article.sections.map(section => renderSection(section, locale))}
 
+        {/* Local Info Block - unique locale-specific content for GSC canonical validation */}
+        {locale !== 'en' && <LocalInfoBlock locale={locale} articleCategory={article.category} />}
+
         {/* CTA */}
         <div className="mt-12 bg-primary-50 rounded-xl p-6 md:p-8 text-center">
           <p className="text-lg font-medium text-gray-900 mb-4">{ctaText}</p>
@@ -239,7 +243,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
         {/* Related Products */}
         {article.relatedProducts.length > 0 && (
           <div className="mt-8">
-            <h3 className="text-lg font-semibold mb-3">Related Products</h3>
+            <h3 className="text-lg font-semibold mb-3">{t(locale, 'article.relatedProducts')}</h3>
             <div className="flex gap-3 flex-wrap">
               {article.relatedProducts.map(p => (
                 <Link key={p} href={`/${locale}/products`} className="px-4 py-2 bg-gray-100 rounded-lg text-sm text-gray-700 hover:bg-primary-100 hover:text-primary-700 transition-colors">
@@ -253,7 +257,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
         {/* Related Articles */}
         {article.relatedArticles && article.relatedArticles.length > 0 && (
           <div className="mt-8">
-            <h3 className="text-lg font-semibold mb-3">Related Articles</h3>
+            <h3 className="text-lg font-semibold mb-3">{t(locale, 'article.relatedArticles')}</h3>
             <div className="flex gap-3 flex-wrap">
               {article.relatedArticles.map((a: { slug: string; title: string }) => (
                 <Link key={a.slug} href={`/${locale}/industry/${a.slug}`} className="px-4 py-2 bg-blue-50 rounded-lg text-sm text-blue-700 hover:bg-blue-100 transition-colors">
@@ -277,7 +281,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
                 </div>
                 <div className="flex-1 min-w-0">
                   <div className="text-xs uppercase tracking-wide text-primary-700 font-semibold mb-1">
-                    {locale === 'zh' ? '本文作者' : 'About the Author'}
+                    {t(locale, 'article.aboutAuthor')}
                   </div>
                   <Link
                     href={`/${locale}/team/${author.slug}`}
@@ -293,14 +297,14 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
                     href={`/${locale}/team/${author.slug}`}
                     className="inline-block mt-3 text-sm text-primary-700 hover:text-primary-900 font-medium"
                   >
-                    {locale === 'zh' ? '查看完整简介 →' : 'View Full Profile →'}
+                    {t(locale, 'article.viewFullProfile')} →
                   </Link>
                 </div>
               </div>
               {otherArticles.length > 0 && (
                 <div className="mt-6 pt-6 border-t border-primary-200">
                   <div className="text-xs uppercase tracking-wide text-primary-700 font-semibold mb-3">
-                    {locale === 'zh' ? `${author.name} 的其他文章` : `More Articles by ${author.name}`}
+                    {t(locale, 'article.moreArticlesBy')} {author.name}
                   </div>
                   <div className="grid sm:grid-cols-2 gap-3">
                     {otherArticles.map((a) => {
@@ -315,7 +319,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
                             {t}
                           </div>
                           <div className="text-xs text-gray-500 mt-1">
-                            {a.category} · {new Date(a.date).toLocaleDateString(locale === 'zh' ? 'zh-CN' : 'en-US', { year: 'numeric', month: 'short' })}
+                            {a.category} · {new Date(a.date).toLocaleDateString(locale, { year: 'numeric', month: 'short' })}
                           </div>
                         </Link>
                       )
@@ -360,13 +364,13 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
               {
                 '@type': 'ListItem',
                 position: 1,
-                name: 'Home',
-                item: 'https://kk-electric.com',
+              name: t(locale, 'nav.home'),
+              item: 'https://kk-electric.com',
               },
               {
                 '@type': 'ListItem',
                 position: 2,
-                name: 'Industry',
+                name: t(locale, 'nav.industry'),
                 item: `https://kk-electric.com/${locale}/industry`,
               },
               {

@@ -65,19 +65,17 @@ const articles: Article[] = [
 ]
 
 export default function ArticlesSection({ locale = 'en' }: { locale?: Locale }) {
-  const articlesPerRow = locale === 'zh' ? 3 : 6
+  const articlesPerRow = 6
 
   return (
     <section className="py-16 md:py-20 bg-white" id="articles" style={{scrollMarginTop: '80px'}}>
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            {locale === 'zh' ? '技术文章' : 'Technical Articles'}
+            {t(locale, 'articlesSection.title')}
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            {locale === 'zh' 
-              ? '了解电压调节器的技术原理、选型指南和维护技巧' 
-              : 'Learn about AVR technical principles, selection guides, and maintenance tips'}
+            {t(locale, 'articlesSection.subtitle')}
           </p>
         </div>
 
@@ -102,7 +100,7 @@ export default function ArticlesSection({ locale = 'en' }: { locale?: Locale }) 
               </div>
               <div className="p-4 md:p-6">
                 <div className="flex items-center gap-2 text-xs text-gray-500 mb-2">
-                  <span>{article.readTime} {locale === 'zh' ? '分钟阅读' : 'min read'}</span>
+                  <span>{article.readTime} {t(locale, 'articlesSection.minRead')}</span>
                   <span>•</span>
                   <span>{article.date}</span>
                 </div>
@@ -122,7 +120,7 @@ export default function ArticlesSection({ locale = 'en' }: { locale?: Locale }) 
             href={`/${locale}/industry`}
             className="inline-flex items-center gap-2 bg-primary-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-800 transition-colors"
           >
-            {locale === 'zh' ? '查看更多文章' : 'View All Articles'}
+            {t(locale, 'articlesSection.viewAll')}
             <span>→</span>
           </Link>
         </div>

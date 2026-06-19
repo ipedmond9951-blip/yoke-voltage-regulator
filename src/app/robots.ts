@@ -35,10 +35,7 @@ export default function robots(): MetadataRoute.Robots {
         userAgent: 'anthropic-ai',
         allow: '/',
       },
-      {
-        userAgent: '*AI-Bot*',
-        allow: '/',
-      },
+
     ],
     sitemap: [
       'https://kk-electric.com/sitemap-index.xml',

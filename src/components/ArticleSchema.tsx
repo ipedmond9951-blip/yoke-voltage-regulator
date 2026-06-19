@@ -1,5 +1,5 @@
 'use client'
-import { type Locale } from '@/i18n'
+import { type Locale, t } from '@/i18n'
 import { getAuthor } from '@/lib/authors'
 interface ArticleSchemaProps {
   locale?: Locale
@@ -75,10 +75,8 @@ export default function ArticleSchema({
       '@type': 'WebPage',
       '@id': pageId,
     },
-    articleSection: locale === 'zh' ? '稳压器知识' : 'AVR Knowledge',
-    keywords: locale === 'zh'
-      ? '稳压器,电压调节器,SVC,TND,AVR,电力保护'
-      : 'AVR,voltage regulator,SVC,TND,power protection,electrical',
+    articleSection: t(locale, 'articleSchema.section'),
+    keywords: t(locale, 'articleSchema.keywords'),
     wordCount: description.split(' ').length * 10,
     inLanguage,
     isPartOf: { '@type': 'WebSite', '@id': 'https://kk-electric.com/#website' },

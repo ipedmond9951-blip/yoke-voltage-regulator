@@ -69,15 +69,15 @@ export default function ProductsContentSection({ locale }: ProductsContentSectio
         <h2 className="text-2xl md:text-3xl font-bold text-primary-900 mb-6">{texts.applicationsTitle}</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="bg-white rounded-lg p-5 shadow-sm">
-            <h3 className="font-bold text-primary-800 mb-2">🏭 {locale === 'zh' ? '工业' : 'Industrial'}</h3>
+            <h3 className="font-bold text-primary-800 mb-2">🏭 {t(locale, 'productsContent.industrial')}</h3>
             <p className="text-gray-700 text-sm leading-relaxed">{texts.constructionText}</p>
           </div>
           <div className="bg-white rounded-lg p-5 shadow-sm">
-            <h3 className="font-bold text-primary-800 mb-2">⛏️ {locale === 'zh' ? '采矿' : 'Mining'}</h3>
+            <h3 className="font-bold text-primary-800 mb-2">⛏️ {t(locale, 'productsContent.mining')}</h3>
             <p className="text-gray-700 text-sm leading-relaxed">{texts.miningText}</p>
           </div>
           <div className="bg-white rounded-lg p-5 shadow-sm">
-            <h3 className="font-bold text-primary-800 mb-2">☀️ {locale === 'zh' ? '太阳能' : 'Solar Energy'}</h3>
+            <h3 className="font-bold text-primary-800 mb-2">☀️ {t(locale, 'productsContent.solar')}</h3>
             <p className="text-gray-700 text-sm leading-relaxed">{texts.solarText}</p>
           </div>
         </div>

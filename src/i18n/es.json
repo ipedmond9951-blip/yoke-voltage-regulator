@@ -35,7 +35,11 @@
     "inquiry": "Consultar Ahora",
     "allProducts": "Todos los Productos",
     "searchPlaceholder": "Buscar productos...",
-    "viewDetails": "Ver Detalles"
+    "viewDetails": "Ver Detalles",
+    "daysUnit": "días",
+    "capacity": "Capacidad",
+    "inputVoltage": "Entrada",
+    "outputVoltage": "Salida"
   },
   "about": {
     "title": "¿Por qué elegir YOKE?",
@@ -102,6 +106,428 @@
   "chat": {
     "title": "Soporte YOKE",
     "online": "En línea",
-    "openChat": "Abrir chat"
+    "openChat": "Abrir chat",
+    "greeting": "¡Hola! YOKE es un fabricante profesional de AVR. ¿Cómo podemos ayudarle?"
+  },
+  "industry": {
+    "title": "Guía de Reguladores de Voltaje y AVR",
+    "subtitle": "Guías expertas de AVR: reguladores de voltaje automático serie SVC y TND, soluciones de energía estable, instalación, mantenimiento y solución de problemas.",
+    "publishedOn": "Publicado el",
+    "readMore": "Leer más"
+  },
+  "homepage": {
+    "applications": {
+      "title": "Aplicaciones de Reguladores de Voltaje",
+      "subtitle": "Los reguladores de voltaje YOKE se utilizan ampliamente en aplicaciones residenciales, comerciales e industriales en todo el mundo. Desde proteger electrodomésticos hasta alimentar líneas de producción, nuestros AVR certificados CE/CB ofrecen estabilización de voltaje confiable.",
+      "residential": {
+        "title": "Uso Residencial",
+        "desc": "Proteja aires acondicionados, refrigeradores, televisores y computadoras de las fluctuaciones de voltaje. SVC-3000VA y TND-SVC-3000VA son ideales para uso doméstico."
+      },
+      "commercial": {
+        "title": "Edificios Comerciales",
+        "desc": "Energía estable para oficinas, tiendas y restaurantes. Los modelos SVC-10KVA y SVC-15KVA manejan múltiples electrodomésticos simultáneamente."
+      },
+      "industrial": {
+        "title": "Industrial y Manufactura",
+        "desc": "Alimente líneas de producción, máquinas CNC y equipos pesados. Modelos SVC-30KVA a SVC-60KVA para necesidades de estabilización de voltaje industrial."
+      }
+    },
+    "understanding": {
+      "title": "Comprender los Reguladores de Voltaje Automático",
+      "subtitle": "Conozca cómo los AVR YOKE protegen su equipo de la inestabilidad de voltaje y las fluctuaciones de energía.",
+      "svcTitle": "Serie SVC - Estabilizadores de Voltaje con Motor Servo",
+      "svcDesc": "Los reguladores de la serie SVC (Control de Voltaje Servo) utilizan un mecanismo de motor servo para ajustar el voltaje. Cuando el voltaje de entrada fluctúa, el motor servo mueve automáticamente la escobilla de carbón a lo largo del devanado del autotransformador para mantener un voltaje de salida estable. Los reguladores SVC de YOKE ofrecen excelente precisión de regulación de voltaje (±2-3%) y tiempos de respuesta rápidos. Disponibles en capacidades de 3KVA a 60KVA, estas unidades son adecuadas tanto para aplicaciones residenciales como industriales ligeras donde la estabilización confiable de voltaje es crítica.",
+      "svcFeaturesTitle": "Características Clave de la Serie SVC",
+      "svcVoltageRange": "Rango de Voltaje: 140-260V (monofásico), 280-430V (trifásico)",
+      "svcOutputAccuracy": "Precisión de Salida: ±2% a ±3%",
+      "svcResponseTime": "Tiempo de Respuesta: Menos de 1 segundo",
+      "svcEfficiency": "Eficiencia: ≥ 95%",
+      "svcFrequency": "Frecuencia: 50/60Hz",
+      "svcProtection": "Protección: Sobrecarga, sobrevoltaje, bajovoltaje",
+      "tndTitle": "Serie TND - Estabilizadores de Voltaje con Pantalla Digital",
+      "tndDesc": "Los reguladores de voltaje de la serie TND cuentan con pantallas digitales LED o LCD que muestran el voltaje de entrada y salida en tiempo real. Estos modelos utilizan circuitos de control electrónico avanzados para tiempos de respuesta más rápidos y regulación de voltaje más precisa en comparación con los modelos SVC tradicionales. La pantalla digital permite a los usuarios monitorear las condiciones de voltaje de un vistazo, haciendo que la serie TND sea ideal para entornos donde la visibilidad y el monitoreo son importantes. Disponibles en varias capacidades con diseños compactos aptos para montaje en escritorio o pared.",
+      "tndFeaturesTitle": "Características Clave de la Serie TND",
+      "tndDisplay": "Pantalla: LED/LCD digital que muestra voltaje de entrada y salida",
+      "tndResponseTime": "Tiempo de Respuesta: Aproximadamente 500ms",
+      "tndVoltageRange": "Rango de Voltaje: 140-260V (monofásico)",
+      "tndOutputAccuracy": "Precisión de Salida: ±2%",
+      "tndDelayProtection": "Protección de Retardo: 3-6 segundos de retardo de inicio",
+      "tndNoiseLevel": "Nivel de Ruido: Operación de ultra bajo ruido",
+      "whyTitle": "Por Qué Importa la Estabilización de Voltaje",
+      "whyDesc": "Las fluctuaciones de voltaje y los picos de energía son problemas comunes en muchas redes eléctricas en todo el mundo. El voltaje inestable puede causar daños graves al equipo eléctrico, provocando reparaciones costosas o fallas prematuras del equipo. Un regulador de voltaje de calidad como los AVR YOKE garantiza que sus electrodomésticos y equipos reciban niveles de voltaje consistentes y seguros independientemente de las fluctuaciones de entrada. Esto extiende la vida útil del equipo, reduce el tiempo de inactividad y ahorra dinero en reparaciones y reemplazos.",
+      "overVoltageTitle": "Protección contra Sobrevoltaje",
+      "overVoltageDesc": "Los picos de voltaje pueden destruir instantáneamente la electrónica sensible. Los AVR YOKE detectan y corrigen condiciones de sobrevoltaje en milisegundos.",
+      "underVoltageTitle": "Protección contra Bajovoltaje",
+      "underVoltageDesc": "El bajo voltaje causa sobrecalentamiento y falla prematura del equipo. Los AVR YOKE elevan el bajovoltaje a niveles de operación seguros."
+    },
+    "capacity": {
+      "title": "Guía de Selección de Capacidad AVR",
+      "desc": "Seleccionar la capacidad correcta es crucial para una regulación de voltaje efectiva. La capacidad del AVR debe exceder su carga total en un 20-30% para considerar las corrientes de arranque y la expansión futura. Para cargas inductivas (motores, compresores), permita 3-5 veces la potencia de funcionamiento para el arranque.",
+      "model": "Modelo AVR",
+      "capacity": "Capacidad",
+      "recommended": "Uso Recomendado",
+      "maxCurrent": "Corriente Máxima",
+      "contactHelp": "¿No está seguro de qué capacidad necesita? Contacte a nuestro equipo con los detalles de su carga y le ayudaremos a seleccionar el modelo correcto.",
+      "rec3000": "Electrodomésticos, computadora, TV",
+      "rec10": "Oficina pequeña, tienda, múltiples habitaciones",
+      "rec30": "Oficina grande, industria ligera",
+      "rec50": "Líneas de producción, taller",
+      "rec60": "Industria pesada, maquinaria grande"
+    }
+  },
+  "faqItems": [
+    {
+      "q": "¿Qué tipos de reguladores de voltaje fabrican?",
+      "a": "YOKE produce las series SVC (Regulador de Voltaje Servo) y TND (Alta Precisión). Capacidades de 500VA a 100KVA. Modelos monofásicos y trifásicos disponibles."
+    },
+    {
+      "q": "¿Cuál es la diferencia entre las series SVC y TND?",
+      "a": "Serie SVC: Tipo relé, respuesta rápida, asequible. Serie TND: Control por motor servo, mayor precisión (±2%), pantalla digital, para equipos sensibles."
+    },
+    {
+      "q": "¿Qué rango de voltaje de entrada soportan sus reguladores?",
+      "a": "Rango de entrada estándar: 140-260V para monofásico. Serie TND: 150-250V para mayor precisión. Modelos trifásicos: 250-450V o personalizado."
+    },
+    {
+      "q": "¿Cuál es la precisión del voltaje de salida?",
+      "a": "Serie SVC: precisión de salida ±3-5%. Serie TND: precisión de salida ±2%. Ambas mantienen salida estable bajo condiciones de entrada variables."
+    },
+    {
+      "q": "¿Cuál es su cantidad mínima de pedido (MOQ)?",
+      "a": "MOQ estándar 1 unidad. Pedidos de muestra bienvenidos. Pedidos OEM/ODM MOQ 50 unidades. Precios al por mayor para distribuidores."
+    },
+    {
+      "q": "¿Qué métodos de pago aceptan?",
+      "a": "T/T, L/C, PayPal, Western Union. 30% de depósito, 70% de saldo antes del envío. Alibaba Trade Assurance para pedidos pequeños."
+    },
+    {
+      "q": "¿Pueden personalizar los reguladores de voltaje para aplicaciones específicas?",
+      "a": "Sí, OEM/ODM disponible. Rangos de voltaje personalizados, frecuencias (50/60Hz), carcasas especiales y marca. MOQ 50 unidades para personalización."
+    },
+    {
+      "q": "¿Qué certificaciones tienen sus productos?",
+      "a": "Certificados CE, CB, ISO 9001:2015. Todos los productos pasan pruebas de calidad estrictas. Informes de prueba y certificados disponibles a solicitud."
+    },
+    {
+      "q": "¿Cuál es el tiempo de entrega típico?",
+      "a": "Modelos estándar: 7-15 días. Modelos personalizados: 20-30 días. Producción exprés disponible para pedidos urgentes (7 días, +15% de cargo)."
+    },
+    {
+      "q": "¿Ofrecen garantía en sus reguladores de voltaje?",
+      "a": "Sí, garantía de 1-2 años según el modelo. La garantía cubre defectos de fabricación. Repuestos y soporte técnico incluidos."
+    },
+    {
+      "q": "¿Cuánto tiempo dura la vida útil de los reguladores de voltaje YOKE?",
+      "a": "Los reguladores YOKE están diseñados para 10+ años de operación continua. La vida útil depende de la carga, el entorno y las condiciones de uso."
+    },
+    {
+      "q": "¿Qué aplicaciones son adecuadas para sus reguladores de voltaje?",
+      "a": "Electrodomésticos (refrigeradores, aire acondicionado, televisores), equipos de oficina, dispositivos médicos, maquinaria industrial, equipos CNC, máquinas de soldadura y líneas de producción."
+    },
+    {
+      "q": "¿Realizan envíos internacionales?",
+      "a": "Sí, envío mundial disponible. Exprés (DHL/FedEx): 5-7 días. Flete marítimo: 20-30 días. Flete aéreo: 10-15 días. Términos CIF/DDP disponibles."
+    },
+    {
+      "q": "¿Qué incluye el paquete?",
+      "a": "Cada unidad incluye: regulador de voltaje, manual de usuario, tarjeta de garantía. Opcional: pantalla de voltímetro, kit de montaje en pared, cables de entrada/salida."
+    },
+    {
+      "q": "¿Cómo instalo el regulador de voltaje?",
+      "a": "Instalación en pared o de pie. Conecte la entrada a la red eléctrica, la salida al equipo protegido. Guía de instalación completa incluida con cada unidad."
+    },
+    {
+      "q": "¿Por qué elegir los reguladores de voltaje YOKE?",
+      "a": "12+ años de experiencia en fabricación, fábrica certificada ISO 9001, 98% de tasa de entrega a tiempo, precios competitivos con garantía de 2 años y soporte postventa global."
+    },
+    {
+      "q": "¿Ofrecen soporte técnico?",
+      "a": "Sí, soporte técnico 24/7 disponible. Orientación de instalación, solución de problemas y consejos de mantenimiento. Asistencia remota por videollamada."
+    },
+    {
+      "q": "¿Cómo hago un pedido?",
+      "a": "1) Seleccione modelo y cantidad. 2) Solicite cotización. 3) Confirme especificaciones. 4) Pague 30% de depósito. 5) Producción. 6) Inspección. 7) Pague saldo. 8) Envío."
+    }
+  ],
+  "aboutPage": {
+    "companyProfile": "Perfil de la Empresa",
+    "companyProfileDesc": "YOKE AVR es un fabricante chino profesional especializado en I+D, producción y exportación de Reguladores de Voltaje Automáticos (AVR). Desde nuestra fundación en 2014, nos hemos enfocado en proporcionar productos estabilizadores de voltaje de alta calidad al mercado africano. La empresa está certificada CE y CB con la certificación del sistema de gestión de calidad ISO 9001:2015, sirviendo a 50+ países africanos.",
+    "productionCapacity": "Capacidad de Producción",
+    "productionCapacityDesc": "Fábrica moderna con producción anual de 50,000+ unidades AVR",
+    "marketCoverage": "Cobertura de Mercado",
+    "marketCoverageDesc": "Productos exportados a 50+ países africanos",
+    "title": "Sobre YOKE AVR - Fabricante de Reguladores de Voltaje Certificado CE & CB",
+    "description": "YOKE AVR: Fabricante chino de AVR certificado CE & CB con 10+ años exportando a África. Fábrica en Shenzhen, envíos a Sudáfrica, Zimbabue, Kenia, Nigeria y 50+ países africanos."
+  },
+  "contactPage": {
+    "title": "Contactar YOKE AVR - Obtener Cotización",
+    "description": "Contacte a YOKE AVR para pedidos al por mayor de AVR. Fabricante certificado ISO 9001, CE y CB. Flete marítimo a África. Cotización en 24 horas.",
+    "whatsappLabel": "WhatsApp",
+    "factoryAddress": "Distrito de Baoan, Avenida Hangcheng\nShenzhen, Guangdong, China\nCódigo Postal: 518102",
+    "shippingRoutes": "Durban (Sudáfrica): 20-25 días\nBeira (Mozambique): 15-20 días\nMombasa (Kenia): 20-25 días\nHarare (Zimbabue): 25-30 días"
+  },
+  "faqPage": {
+    "title": "FAQ YOKE AVR - Preguntas y Respuestas sobre Reguladores de Voltaje",
+    "description": "Preguntas frecuentes sobre los reguladores de voltaje automáticos YOKE. Especificaciones, precios, envíos, garantía e información de pedidos."
+  },
+  "heroContent": {
+    "title": "Fabricante Profesional de Reguladores de Voltaje",
+    "subtitle": "Serie SVC y TND AVR - Soluciones de Energía Estable",
+    "description": "Certificado CE/CB, más de 10 años de experiencia. Exportación a más de 50 países en todo el mundo.",
+    "imageAlt": "Equipo industrial regulador de voltaje YOKE"
+  },
+  "productDetail": {
+    "specifications": "Especificaciones",
+    "keyFeatures": "Características Clave",
+    "applications": "Aplicaciones",
+    "otherProducts": "Otros Productos",
+    "perUnit": "/unidad",
+    "inquireNow": "Consultar Ahora",
+    "capacity": "Capacidad",
+    "inputVoltage": "Voltaje de Entrada",
+    "outputVoltage": "Voltaje de Salida",
+    "frequency": "Frecuencia",
+    "phase": "Fase",
+    "accuracy": "Precisión",
+    "responseTime": "Tiempo de Respuesta",
+    "efficiency": "Eficiencia",
+    "protection": "Protección",
+    "weight": "Peso",
+    "dimensions": "Dimensiones",
+    "metaTitle": "{name} - Regulador de Voltaje YOKE | Especificaciones y Precio",
+    "metaDescription": "Regulador de voltaje {name} por YOKE. {capacity}, precisión {accuracy}. Certificado CE/CB. Solicite una cotización hoy."
+  },
+  "layoutMeta": {
+    "title": "YOKE Regulador de Voltaje - Fabricante de Estabilizadores de Voltaje Automáticos | ISO 9001",
+    "description": "YOKE Electric - Fabricante profesional de reguladores de voltaje automático (AVR). Estabilizadores serie SVC para uso doméstico e industrial. Envío global. Precios de fábrica, calidad garantizada."
+  },
+  "orgSchema": {
+    "foundingLocation": "Shenzhen, China",
+    "areaServed": "Global, con enfoque en África",
+    "contactType": "ventas"
+  },
+  "stats": {
+    "heading": "¿Por qué YOKE?",
+    "subheading": "Los números demuestran calidad - Fábrica con certificación CE y CB, 10 años enfocados en África",
+    "items": [
+      {
+        "value": "10+",
+        "label": "Años de Experiencia",
+        "sublabel": "Desde 2014, enfocados en África"
+      },
+      {
+        "value": "500+",
+        "label": "Clientes Globales",
+        "sublabel": "En más de 50 países africanos"
+      },
+      {
+        "value": "2000+",
+        "label": "Unidades Instaladas",
+        "sublabel": "Series SVC y TND"
+      },
+      {
+        "value": "98%",
+        "label": "Entrega a Tiempo",
+        "sublabel": "Confiabilidad líder en la industria"
+      },
+      {
+        "value": "0.2%",
+        "label": "Tasa de Defectos",
+        "sublabel": "Promedio de la industria: 1-2%"
+      },
+      {
+        "value": "5000",
+        "label": "Capacidad/Mes (Unidades)",
+        "sublabel": "Capacidad de producción"
+      }
+    ],
+    "badges": {
+      "iso": "ISO 9001:2015",
+      "ce": "Certificado CE",
+      "cb": "Certificado CB",
+      "madeIn": "Hecho en China"
+    }
+  },
+  "article": {
+    "backToArticles": "Volver a artículos",
+    "minRead": "min de lectura",
+    "relatedProducts": "Productos Relacionados",
+    "relatedArticles": "Artículos Relacionados",
+    "aboutAuthor": "Sobre el Autor",
+    "viewFullProfile": "Ver Perfil Completo",
+    "moreArticlesBy": "Más artículos de"
+  },
+  "video": {
+    "title": "Videos de Productos",
+    "factoryIntro": "Introducción a la Fábrica YOKE AVR",
+    "seriesDemo": "Demo de la Serie SVC/TND"
+  },
+  "emailSubscribe": {
+    "title": "Suscríbete a Nuestro Boletín",
+    "subtitle": "Recibe las últimas noticias de productos AVR y actualizaciones de precios",
+    "placeholder": "Ingresa tu email",
+    "button": "Suscribirse"
+  },
+  "productsContent": {
+    "industrial": "Industrial",
+    "mining": "Minería",
+    "solar": "Energía Solar"
+  },
+  "searchSection": {
+    "allProducts": "Todos los Productos",
+    "home3kva": "Doméstico (3KVA)",
+    "commercial10kva": "Comercial (10KVA)",
+    "industrial3060": "Industrial (30-60KVA)",
+    "highPrecision": "Alta Precisión (TND)",
+    "placeholder": "Buscar productos...",
+    "results": "resultados",
+    "for": "para",
+    "products": "productos",
+    "in": "en",
+    "noResults": "No se encontraron productos",
+    "tryDifferent": "Pruebe otras palabras clave",
+    "viewAll": "Ver Todos los Productos"
+  },
+  "articlesSection": {
+    "title": "Artículos Técnicos",
+    "subtitle": "Guías expertas sobre regulación de voltaje, instalación y protección eléctrica",
+    "minRead": "min de lectura",
+    "viewAll": "Ver Todos los Artículos"
+  },
+  "webSchema": {
+    "name": "YOKE AVR",
+    "description": "Fabricante profesional de reguladores de voltaje automáticos. Certificados CE y CB, envío global a África.",
+    "keywords": "regulador de voltaje, AVR, estabilizador, YOKE, África, protección eléctrica",
+    "searchName": "Reguladores de Voltaje",
+    "searchDesc": "Buscar reguladores de voltaje y equipos eléctricos",
+    "audience": "Profesionales de infraestructura eléctrica en África"
+  },
+  "navSchema": {
+    "products": "Productos"
+  },
+  "articleSchema": {
+    "section": "Conocimiento AVR",
+    "keywords": "regulador de voltaje, AVR, estabilizador, protección eléctrica, YOKE Electric"
+  },
+  "teamCard": {
+    "founder": "Fundador y CEO",
+    "engineer": "Ingeniero Senior"
+  },
+  "aboutSchema": {
+    "description": "Fabricante profesional de AVR con más de 10 años de experiencia. Estabilizadores de voltaje serie SVC/TND para uso industrial y doméstico. Certificación CE/CB, envío global."
+  },
+  "certs": {
+    "qualityNote": "Todos los productos incluyen certificados de material, informes de prueba y garantías de calidad. Ofrecemos servicios de inspección de terceros bajo solicitud."
+  },
+  "privacy": {
+    "metaTitle": "Política de Privacidad",
+    "metaDescription": "Política de Privacidad de YOKE AVR - Conozca cómo recopilamos, usamos y protegemos su información personal.",
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: 15 de enero de 2026",
+    "sections": [
+      {
+        "heading": "Información que Recopilamos",
+        "text": "Recopilamos información que usted nos proporciona directamente, incluyendo: nombre, correo electrónico, número de teléfono, nombre de la empresa, dirección y cualquier otra información que elija proporcionar al contactarnos o hacer consultas a través de nuestro sitio web."
+      },
+      {
+        "heading": "Cómo Usamos su Información",
+        "text": "Usamos la información que recopilamos para: responder a sus consultas, procesar sus solicitudes, enviarle información de productos, mejorar nuestro sitio web y servicios, y comunicarnos con usted sobre nuestros productos y promociones."
+      },
+      {
+        "heading": "Compartir Información",
+        "text": "No vendemos, intercambiamos ni transferimos su información personal a terceros sin su consentimiento, excepto como se describe en esta política o según lo exija la ley."
+      },
+      {
+        "heading": "Seguridad de Datos",
+        "text": "Implementamos medidas técnicas y organizativas apropiadas para proteger su información personal contra acceso no autorizado, alteración, divulgación o destrucción."
+      },
+      {
+        "heading": "Cookies",
+        "text": "Nuestro sitio web utiliza cookies para mejorar su experiencia de navegación. Puede elegir deshabilitar las cookies a través de la configuración de su navegador, pero esto puede afectar la funcionalidad del sitio."
+      },
+      {
+        "heading": "Sus Derechos",
+        "text": "Usted tiene derecho a acceder, corregir o eliminar su información personal. Contáctenos en info@kk-electric.com para ejercer estos derechos."
+      },
+      {
+        "heading": "Contáctenos",
+        "text": "Si tiene alguna pregunta sobre esta Política de Privacidad, contáctenos en info@kk-electric.com."
+      }
+    ]
+  },
+  "terms": {
+    "metaTitle": "Términos de Servicio de YOKE AVR",
+    "metaDescription": "Términos de Servicio y Condiciones de YOKE AVR",
+    "title": "Términos de Servicio",
+    "sections": [
+      {
+        "heading": "Introducción",
+        "text": "Al acceder y usar el sitio web de YOKE AVR, usted acepta estar sujeto a estos Términos de Servicio."
+      },
+      {
+        "heading": "Productos",
+        "text": "YOKE AVR vende reguladores de voltaje industriales, incluyendo pero no limitados a: estabilizadores monofásicos de la serie SVC, estabilizadores digitales de la serie TND y reguladores trifásicos de la serie TSD. Todos los productos se venden de acuerdo con los estándares industriales aplicables."
+      },
+      {
+        "heading": "Precios y Pago",
+        "text": "Los precios están sujetos a cambios sin previo aviso. Los términos de pago son los acordados por escrito entre YOKE AVR y el cliente."
+      },
+      {
+        "heading": "Envío",
+        "text": "Los costos de envío se calculan según el peso, dimensiones y destino. Los tiempos de entrega son estimados y pueden variar según la ubicación y el método de envío elegido."
+      },
+      {
+        "heading": "Limitación de Responsabilidad",
+        "text": "YOKE AVR no será responsable de ningún daño indirecto, incidental, especial o consecuente derivado del uso de nuestros productos o servicios."
+      },
+      {
+        "heading": "Propiedad Intelectual",
+        "text": "Todo el contenido de este sitio web, incluidos textos, gráficos, logotipos e imágenes, es propiedad de YOKE AVR y está protegido por las leyes de derechos de autor."
+      },
+      {
+        "heading": "Contáctenos",
+        "text": "Para preguntas sobre estos Términos de Servicio, contáctenos en info@kk-electric.com."
+      }
+    ]
+  },
+  "team": {
+    "metaTitle": "Equipo de Ingeniería YOKE - Expertos en Regulación de Voltaje | YOKE AVR",
+    "metaDescription": "Conozca al equipo de ingeniería de YOKE: 15+ años de experiencia diseñando reguladores de voltaje certificados CE para mercados B2B africanos.",
+    "breadcrumbHome": "Inicio",
+    "breadcrumbTeam": "Equipo de Ingeniería",
+    "title": "Equipo de Ingeniería YOKE",
+    "subtitle": "15+ años de experiencia en diseño de reguladores de voltaje e ingeniería de campo, enfocados en mercados B2B africanos. Nuestros ingenieros, editores técnicos y especialistas en aplicaciones de campo brindan soporte técnico experto a los clientes.",
+    "viewFullProfile": "Ver Perfil Completo →",
+    "whyTitle": "Por Qué Elegir Ingeniería YOKE",
+    "gridExpertiseTitle": "Experiencia en Redes Africanas",
+    "gridExpertiseDesc": "47+ países de experiencia en campo con profunda comprensión de los desafíos de las redes africanas (fluctuaciones 130V-310V, cargas de petróleo y gas, sistemas solares híbridos).",
+    "certTitle": "Certificado CE y CB",
+    "certDesc": "Todos los productos cuentan con certificación CE, CB y RoHS, cumpliendo los estándares internacionales IEC 60076 / IEEE C57.13.",
+    "supportTitle": "Soporte Técnico 24/7",
+    "supportDesc": "Ingenieros de campo con sede en Nairobi brindan soporte de instalación, puesta en marcha y mantenimiento con respuesta de 24 horas entre zonas horarias.",
+    "backToAbout": "Volver a la Página Acerca de"
+  },
+  "licensePage": {
+    "heading": "Licencia de Imagen",
+    "intro": "Esta página documenta los términos de licencia para imágenes publicadas en kk-electric.com y referenciadas por el marcado Schema.org ImageObject.",
+    "sections": [
+      {
+        "title": "Uso Permitido",
+        "body": "Las imágenes pueden usarse para cobertura editorial, comparación de productos e fines informativos con atribución adecuada a YOKE Electric. La reventa comercial de imágenes sin modificar no está permitida."
+      },
+      {
+        "title": "Atribución Requerida",
+        "body": "Al reutilizar cualquier imagen de producto YOKE, incluya: \"Imagen © YOKE Electric, kk-electric.com\". Para uso web, enlace la atribución a https://kk-electric.com."
+      },
+      {
+        "title": "Modificaciones",
+        "body": "Se permite el recorte, corrección de color y redimensionamiento para ajuste editorial. No se permiten modificaciones que tergiversen las especificaciones del producto."
+      },
+      {
+        "title": "Aviso de Marca",
+        "body": "YOKE y el logotipo YOKE son marcas registradas de YOKE Electric. La licencia de uso de imágenes no otorga derecho a usar la marca YOKE por separado."
+      }
+    ],
+    "backToHome": "Volver al inicio"
   }
 }

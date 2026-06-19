@@ -1,15 +1,10 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
-import { locales, type Locale } from '@/i18n'
+import { locales, type Locale, t, getMessages } from '@/i18n'
 
-/**
- * License page — referenced by Schema.org ImageObject.license URL
- * (ImageObjectSchema.tsx uses https://kk-electric.com/license as the license URL).
- *
- * Built 2026-06-09 to resolve GSC 404 report (1 affected URL: /license).
- * Marked noindex so the page is reachable for schema validation but doesn't compete
- * with product/article pages in the index.
- */
+export async function generateStaticParams() {
+  return locales.map((locale) => ({ locale }))
+}
 
 const titles: Record<string, string> = {
   en: 'Image License | YOKE Voltage Regulators',
@@ -37,19 +32,12 @@ const descriptions: Record<string, string> = {
   hi: 'YOKE AVR के लिए छवि उपयोग लाइसेंस। YOKE उत्पाद छवियों के संपादकीय और सूचनात्मक उपयोग की अनुमति आरोपण के साथ।',
 }
 
-export async function generateStaticParams() {
-  return locales.map((locale) => ({ locale }))
-}
-
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params
   const loc = (locale as Locale) || 'en'
   return {
     title: titles[loc] || titles.en,
     description: descriptions[loc] || descriptions.en,
-    // Noindex — license/terms-style pages don't need to compete with product/article SERP space.
-    // But the URL itself must be reachable (200) so Google schema validation passes for
-    // the ImageObject.license reference.
     robots: { index: false, follow: true },
     alternates: {
       canonical: `https://kk-electric.com/${loc}/license`,
@@ -64,35 +52,23 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 export default async function LicensePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params
   const loc = (locale as Locale) || 'en'
-
-  const content: Record<string, { heading: string; intro: string; sections: { title: string; body: string }[] }> = {
-    en: {
-      heading: 'Image License',
-      intro: 'This page documents the license terms for images published on kk-electric.com and referenced by Schema.org ImageObject markup.',
-      sections: [
-        { title: 'Permitted Use', body: 'Images may be used for editorial coverage, product comparison, and informational purposes with proper attribution to YOKE Electric. Commercial resale of unmodified images is not permitted.' },
-        { title: 'Required Attribution', body: 'When reusing any YOKE product image, include: "Image © YOKE Electric, kk-electric.com". For web use, link the attribution back to https://kk-electric.com.' },
-        { title: 'Modifications', body: 'Cropping, color correction, and resizing for editorial fit are permitted. Modifications that misrepresent product specifications (altering capacity labels, swapping model numbers) are not.' },
-        { title: 'Trademark Notice', body: 'YOKE and the YOKE logo are trademarks of YOKE Electric. The license to use images does not grant any right to use the YOKE trademark separately.' },
-      ],
-    },
-  }
-  const t = content[loc] || content.en
+  const msgs = getMessages(loc)
+  const licenseData = msgs.licensePage || getMessages('en').licensePage
 
   return (
     <div className="container mx-auto px-4 sm:px-6 py-12 max-w-3xl">
-      <h1 className="text-3xl md:text-4xl font-bold text-primary-900 mb-4">{t.heading}</h1>
-      <p className="text-gray-700 mb-8 leading-relaxed">{t.intro}</p>
+      <h1 className="text-3xl md:text-4xl font-bold text-primary-900 mb-4">{licenseData.heading}</h1>
+      <p className="text-gray-700 mb-8 leading-relaxed">{licenseData.intro}</p>
       <div className="space-y-6">
-        {t.sections.map((s) => (
-          <section key={s.title} className="bg-white rounded-lg border border-gray-200 p-5">
+        {licenseData.sections.map((s: { title: string; body: string }, i: number) => (
+          <section key={i} className="bg-white rounded-lg border border-gray-200 p-5">
             <h2 className="text-xl font-semibold text-gray-900 mb-2">{s.title}</h2>
             <p className="text-gray-700 leading-relaxed text-sm">{s.body}</p>
           </section>
         ))}
       </div>
       <p className="text-sm text-gray-500 mt-8">
-        <Link href={`/${loc}`} className="hover:text-primary-700">← Back to home</Link>
+        <Link href={`/${loc}`} className="hover:text-primary-700">← {licenseData.backToHome}</Link>
       </p>
     </div>
   )

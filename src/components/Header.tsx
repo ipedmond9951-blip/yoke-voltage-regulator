@@ -12,28 +12,28 @@ export default function Header({ locale = 'en' }: HeaderProps) {
   const [dropdown, setDropdown] = useState<string | null>(null)
 
   const productModels = [
-    { label: 'SVC-3000VA', href: `/${locale}#products` },
-    { label: 'SVC-10KVA', href: `/${locale}#products` },
-    { label: 'SVC-30KVA', href: `/${locale}#products` },
-    { label: 'SVC-50KVA', href: `/${locale}#products` },
-    { label: 'SVC-60KVA', href: `/${locale}#products` },
-    { label: 'TND-SVC-3000VA', href: `/${locale}#products` },
+    { label: 'SVC-3000VA', href: `/${locale}/products` },
+    { label: 'SVC-10KVA', href: `/${locale}/products` },
+    { label: 'SVC-30KVA', href: `/${locale}/products` },
+    { label: 'SVC-50KVA', href: `/${locale}/products` },
+    { label: 'SVC-60KVA', href: `/${locale}/products` },
+    { label: 'TND-SVC-3000VA', href: `/${locale}/products` },
   ]
 
   const navItems: Array<{ href?: string; label: string; children?: Array<{ href: string; label: string; anchor?: string; icon?: string }> }> = [
     { href: `/${locale}`, label: t(locale, 'nav.home') },
     {
-      href: `/${locale}#products`,
+      href: `/${locale}/products`,
       label: t(locale, 'nav.products'),
       children: [
-        { href: `/${locale}#products`, label: t(locale, 'products.allProducts') },
+        { href: `/${locale}/products`, label: t(locale, 'products.allProducts') },
         ...productModels.map(m => ({ href: m.href, label: m.label })),
       ],
     },
-    { href: `/${locale}#articles`, label: t(locale, 'nav.articles') },
-    { href: `/${locale}#faq`, label: t(locale, 'nav.faq') },
-    { href: `/${locale}#about`, label: t(locale, 'nav.about') },
-    { href: `/${locale}#inquiry`, label: t(locale, 'nav.contact') },
+    { href: `/${locale}/industry`, label: t(locale, 'nav.articles') },
+    { href: `/${locale}/faq`, label: t(locale, 'nav.faq') },
+    { href: `/${locale}/about`, label: t(locale, 'nav.about') },
+    { href: `/${locale}/contact`, label: t(locale, 'nav.contact') },
   ]
 
   return (
@@ -87,7 +87,7 @@ export default function Header({ locale = 'en' }: HeaderProps) {
             <div className="hidden sm:flex items-center gap-1.5">
               <CurrencySwitcher />
             </div>
-            <a href={`/${locale}#inquiry`} className="hidden md:inline-flex bg-primary-700 text-white px-4 py-2 rounded-lg font-semibold hover:bg-primary-900 transition-colors text-xs md:text-sm whitespace-nowrap">
+            <a href={`/${locale}/contact`} className="hidden md:inline-flex bg-primary-700 text-white px-4 py-2 rounded-lg font-semibold hover:bg-primary-900 transition-colors text-xs md:text-sm whitespace-nowrap">
               {t(locale, 'nav.contact')}
             </a>
             <button onClick={() => setMenuOpen(!menuOpen)} className="lg:hidden p-3 min-w-[44px] min-h-[44px] text-gray-600 hover:bg-gray-100 rounded-md flex items-center justify-center" aria-label="Menu">
@@ -132,7 +132,7 @@ export default function Header({ locale = 'en' }: HeaderProps) {
               <LanguageSwitcher />
               <CurrencySwitcher />
             </div>
-            <a href={`/${locale}#inquiry`} onClick={() => setMenuOpen(false)} className="block mx-4 mt-2 bg-primary-700 text-white text-center py-3 min-h-[44px] rounded-lg font-semibold text-sm">
+            <a href={`/${locale}/contact`} onClick={() => setMenuOpen(false)} className="block mx-4 mt-2 bg-primary-700 text-white text-center py-3 min-h-[44px] rounded-lg font-semibold text-sm">
               {t(locale, 'nav.contact')}
             </a>
           </div>

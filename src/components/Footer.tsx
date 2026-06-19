@@ -22,10 +22,10 @@ export default function Footer({ locale = 'en' }: FooterProps) {
             <h4 className="font-semibold mb-3 text-sm">{t(locale, 'footer.quickLinks')}</h4>
             <div className="space-y-1.5 text-xs md:text-sm">
               <Link href={`/${locale}`} className="block text-gray-400 hover:text-white">{t(locale, 'nav.home')}</Link>
-              <Link href={`/${locale}#products`} className="block text-gray-400 hover:text-white">{t(locale, 'nav.products')}</Link>
-              <Link href={`/${locale}#about`} className="block text-gray-400 hover:text-white">{t(locale, 'nav.about')}</Link>
-              <Link href={`/${locale}#faq`} className="block text-gray-400 hover:text-white">{t(locale, 'nav.faq')}</Link>
-              <Link href={`/${locale}#inquiry`} className="block text-gray-400 hover:text-white">{t(locale, 'nav.contact')}</Link>
+              <Link href={`/${locale}/products`} className="block text-gray-400 hover:text-white">{t(locale, 'nav.products')}</Link>
+              <Link href={`/${locale}/about`} className="block text-gray-400 hover:text-white">{t(locale, 'nav.about')}</Link>
+              <Link href={`/${locale}/faq`} className="block text-gray-400 hover:text-white">{t(locale, 'nav.faq')}</Link>
+              <Link href={`/${locale}/contact`} className="block text-gray-400 hover:text-white">{t(locale, 'nav.contact')}</Link>
             </div>
           </div>
 
@@ -33,12 +33,12 @@ export default function Footer({ locale = 'en' }: FooterProps) {
           <div>
             <h4 className="font-semibold mb-3 text-sm">{t(locale, 'nav.products')}</h4>
             <div className="space-y-1.5 text-xs md:text-sm">
-              <Link href={`/${locale}#products`} className="block text-gray-400 hover:text-white">SVC-3000VA</Link>
-              <Link href={`/${locale}#products`} className="block text-gray-400 hover:text-white">SVC-10KVA</Link>
-              <Link href={`/${locale}#products`} className="block text-gray-400 hover:text-white">SVC-30KVA</Link>
-              <Link href={`/${locale}#products`} className="block text-gray-400 hover:text-white">SVC-50KVA</Link>
-              <Link href={`/${locale}#products`} className="block text-gray-400 hover:text-white">SVC-60KVA</Link>
-              <Link href={`/${locale}#products`} className="block text-gray-400 hover:text-white">TND-SVC-3000VA</Link>
+              <Link href={`/${locale}/products`} className="block text-gray-400 hover:text-white">SVC-3000VA</Link>
+              <Link href={`/${locale}/products`} className="block text-gray-400 hover:text-white">SVC-10KVA</Link>
+              <Link href={`/${locale}/products`} className="block text-gray-400 hover:text-white">SVC-30KVA</Link>
+              <Link href={`/${locale}/products`} className="block text-gray-400 hover:text-white">SVC-50KVA</Link>
+              <Link href={`/${locale}/products`} className="block text-gray-400 hover:text-white">SVC-60KVA</Link>
+              <Link href={`/${locale}/products`} className="block text-gray-400 hover:text-white">TND-SVC-3000VA</Link>
             </div>
           </div>
 

@@ -27,28 +27,22 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const locale = (localeParam as Locale) || 'en'
   const siteUrl = 'https://kk-electric.com'
   
-  const titles: Record<string, string> = {
-    en: 'YOKE Automatic Voltage Regulators | SVC & TND Series AVR 3KVA to 60KVA | Professional Manufacturer',
-    zh: 'YOKE自动稳压器 | SVC和TND系列稳压器3KVA至60KVA | 专业生产厂家',
-  }
-  const descriptions: Record<string, string> = {
-    en: 'YOKE automatic voltage regulators: SVC series (3KVA-60KVA) and TND high precision series. CE certified, copper transformer, fast response. Ideal for home appliances, industrial equipment, CNC machines. Worldwide shipping.',
-    zh: 'YOKE自动稳压器：SVC系列（3KVA-60KVA）和TND高精度系列。CE认证，铜芯变压器，响应快速。适用于家用电器、工业设备、数控机床。全球发货。',
-  }
+  const metaTitle = t(locale, 'products.title')
+  const metaDescription = t(locale, 'products.subtitle')
   
   return {
-    title: titles[locale] || titles.en,
-    description: descriptions[locale] || descriptions.en,
+    title: `${metaTitle} | SVC & TND Series AVR 3KVA to 60KVA | Professional Manufacturer`,
+    description: metaDescription,
     openGraph: {
-      title: titles[locale] || titles.en,
-      description: descriptions[locale] || descriptions.en,
+      title: `${metaTitle} | SVC & TND Series AVR 3KVA to 60KVA | Professional Manufacturer`,
+      description: metaDescription,
       url: `${siteUrl}/${locale}/products`,
       type: 'website',
     },
     alternates: {
       canonical: `${siteUrl}/${locale}/products`,
       languages: Object.fromEntries([
-        ['x-default', `${siteUrl}/${locale}/products`],
+        ['x-default', `${siteUrl}/en/products`],
         ...locales.map(l => [l, `${siteUrl}/${l}/products`]),
       ]),
     },

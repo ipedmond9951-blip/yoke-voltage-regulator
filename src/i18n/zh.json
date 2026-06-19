@@ -35,7 +35,11 @@
     "inquiry": "立即咨询",
     "allProducts": "所有产品",
     "searchPlaceholder": "搜索产品...",
-    "viewDetails": "查看详情"
+    "viewDetails": "查看详情",
+    "daysUnit": "天",
+    "capacity": "容量",
+    "inputVoltage": "输入电压",
+    "outputVoltage": "输出电压"
   },
   "about": {
     "title": "为什么选择YOKE？",
@@ -104,5 +108,426 @@
     "online": "在线",
     "openChat": "打开客服",
     "greeting": "您好！YOKE专业稳压器厂家，有什么可以帮您？"
+  },
+  "industry": {
+    "title": "稳压器和电压调节器指南",
+    "subtitle": "专家稳压器指南：SVC和TND系列自动电压调节器，稳定电源解决方案，安装、维护和故障排除。",
+    "publishedOn": "发布于",
+    "readMore": "阅读更多"
+  },
+  "homepage": {
+    "applications": {
+      "title": "稳压器应用场景",
+      "subtitle": "YOKE稳压器广泛应用于住宅、商业和工业领域。从保护家用电器到为生产线供电，我们的CE/CB认证稳压器提供可靠的电压稳定。",
+      "residential": {
+        "title": "家庭使用",
+        "desc": "保护空调、冰箱、电视和电脑免受电压波动影响。SVC-3000VA和TND-SVC-3000VA是家用理想选择。"
+      },
+      "commercial": {
+        "title": "商业建筑",
+        "desc": "为办公室、商铺和餐厅提供稳定电力。SVC-10KVA和SVC-15KVA型号可同时支持多台设备运行。"
+      },
+      "industrial": {
+        "title": "工业制造",
+        "desc": "为生产线、数控机床和重型设备供电。SVC-30KVA至SVC-60KVA型号满足工业电压稳定需求。"
+      }
+    },
+    "understanding": {
+      "title": "了解自动稳压器",
+      "subtitle": "了解YOKE稳压器如何保护您的设备免受电压不稳定和电力波动的影响。",
+      "svcTitle": "SVC系列 - 伺服电机稳压器",
+      "svcDesc": "SVC（伺服电压控制）系列稳压器采用伺服电机调节电压。当输入电压波动时，伺服电机自动移动碳刷沿自耦变压器绕组滑动，以保持稳定的输出电压。YOKE SVC稳压器具有优异的稳压精度（±2-3%）和快速响应时间。容量从3KVA到60KVA，适用于对可靠电压稳定有要求的住宅和轻工业应用。",
+      "svcFeaturesTitle": "SVC系列主要特点",
+      "svcVoltageRange": "电压范围：140-260V（单相），280-430V（三相）",
+      "svcOutputAccuracy": "输出精度：±2%至±3%",
+      "svcResponseTime": "响应时间：小于1秒",
+      "svcEfficiency": "效率：≥ 95%",
+      "svcFrequency": "频率：50/60Hz",
+      "svcProtection": "保护功能：过载、过压、欠压保护",
+      "tndTitle": "TND系列 - 数显稳压器",
+      "tndDesc": "TND系列稳压器配备数字LED或LCD显示屏，实时显示输入和输出电压。这些型号采用先进的电子控制电路，比传统SVC型号响应更快、稳压更精确。数字显示屏让用户一目了然地监控电压状况，使TND系列特别适合对可视性和监控有要求的环境。提供多种容量，紧凑设计适合桌面或壁挂安装。",
+      "tndFeaturesTitle": "TND系列主要特点",
+      "tndDisplay": "显示屏：数字LED/LCD显示输入输出电压",
+      "tndResponseTime": "响应时间：约500ms",
+      "tndVoltageRange": "电压范围：140-260V（单相）",
+      "tndOutputAccuracy": "输出精度：±2%",
+      "tndDelayProtection": "延时保护：3-6秒启动延时",
+      "tndNoiseLevel": "噪音水平：超低噪音运行",
+      "whyTitle": "电压稳定为何重要",
+      "whyDesc": "电压波动和浪涌是许多电网的常见问题。不稳定的电压会对电气设备造成严重损害，导致昂贵的维修或设备过早失效。像YOKE稳压器这样的优质产品可确保您的设备无论输入如何波动都能获得一致、安全的电压水平。这延长了设备寿命，减少了停机时间，节省了维修和更换费用。",
+      "overVoltageTitle": "过压保护",
+      "overVoltageDesc": "电压尖峰可瞬间损毁精密电子设备。YOKE稳压器可在毫秒内检测并纠正过压状况。",
+      "underVoltageTitle": "欠压保护",
+      "underVoltageDesc": "低电压会导致设备过热和提前失效。YOKE稳压器将欠压提升至安全运行水平。"
+    },
+    "capacity": {
+      "title": "稳压器容量选型指南",
+      "desc": "选择合适的容量对有效稳压至关重要。稳压器容量应超过总负载20-30%，以应对启动电流和未来扩容。对于感性负载（电机、压缩机），启动功率应为运行功率的3-5倍。",
+      "model": "型号",
+      "capacity": "容量",
+      "recommended": "推荐用途",
+      "maxCurrent": "最大电流",
+      "contactHelp": "不确定需要多大容量？请联系我们，提供您的负载详情，我们将帮您选择合适的型号。",
+      "rec3000": "家用电器、电脑、电视",
+      "rec10": "小型办公室、商铺、多房间",
+      "rec30": "大型办公室、轻工业",
+      "rec50": "生产线、车间",
+      "rec60": "重工业、大型机械"
+    }
+  },
+  "faqItems": [
+    {
+      "q": "你们生产哪些类型的稳压器？",
+      "a": "YOKE生产SVC（伺服稳压器）和TND（高精度）系列。容量从500VA到100KVA。单相和三相型号可选。"
+    },
+    {
+      "q": "SVC和TND系列有什么区别？",
+      "a": "SVC系列：继电器型，响应快，价格实惠。TND系列：伺服电机控制，精度更高（±2%），数字显示，适用于精密设备。"
+    },
+    {
+      "q": "你们的稳压器支持什么输入电压范围？",
+      "a": "标准输入范围：单相140-260V。TND系列：150-250V，精度更高。三相型号：250-450V或定制。"
+    },
+    {
+      "q": "输出电压精度是多少？",
+      "a": "SVC系列：±3-5%输出精度。TND系列：±2%输出精度。两者在输入变化条件下均保持稳定输出。"
+    },
+    {
+      "q": "你们的最低起订量（MOQ）是多少？",
+      "a": "标准MOQ 1台。欢迎样品订单。OEM/ODM订单MOQ 50台。经销商可享批量价格。"
+    },
+    {
+      "q": "你们接受哪些付款方式？",
+      "a": "T/T、L/C、PayPal、西联汇款。30%定金，70%发货前付清余款。小额订单可使用阿里巴巴信保。"
+    },
+    {
+      "q": "可以为特定应用定制稳压器吗？",
+      "a": "可以，提供OEM/ODM服务。可定制电压范围、频率（50/60Hz）、特殊外壳和品牌标识。定制MOQ 50台。"
+    },
+    {
+      "q": "你们的产品有哪些认证？",
+      "a": "CE、CB、ISO 9001:2015认证。所有产品经过严格质量检测。可应要求提供测试报告和证书。"
+    },
+    {
+      "q": "典型的交货周期是多久？",
+      "a": "标准型号：7-15天。定制型号：20-30天。紧急订单可加急生产（7天，加收15%费用）。"
+    },
+    {
+      "q": "你们的稳压器有保修吗？",
+      "a": "有，根据型号提供1-2年保修。保修涵盖制造缺陷。包含备件和技术支持。"
+    },
+    {
+      "q": "YOKE稳压器的使用寿命是多久？",
+      "a": "YOKE稳压器设计用于10年以上的连续运行。寿命取决于负载、环境和使用条件。"
+    },
+    {
+      "q": "你们的稳压器适用于哪些应用？",
+      "a": "家用电器（冰箱、空调、电视）、办公设备、医疗设备、工业机械、CNC设备、焊接机和生产线。"
+    },
+    {
+      "q": "你们支持国际运输吗？",
+      "a": "支持全球运输。快递（DHL/FedEx）：5-7天。海运：20-30天。空运：10-15天。提供CIF/DDP条款。"
+    },
+    {
+      "q": "包装中包含什么？",
+      "a": "每台包含：稳压器、用户手册、保修卡。可选：电压表显示、壁挂安装套件、输入/输出线缆。"
+    },
+    {
+      "q": "如何安装稳压器？",
+      "a": "壁挂或落地安装。将输入端连接到市电，输出端连接到受保护设备。每台产品附带完整安装指南。"
+    },
+    {
+      "q": "为什么选择YOKE稳压器？",
+      "a": "12年以上制造经验，ISO 9001认证工厂，98%准时交付率，具竞争力的价格加2年保修，以及全球售后服务。"
+    },
+    {
+      "q": "你们提供技术支持吗？",
+      "a": "提供，24/7技术支持可用。提供安装指导、故障排除和维护建议。可通过视频通话远程协助。"
+    },
+    {
+      "q": "如何下单？",
+      "a": "1) 选择型号和数量。2) 请求报价。3) 确认规格。4) 支付30%定金。5) 生产。6) 检验。7) 付清余款。8) 发货。"
+    }
+  ],
+  "aboutPage": {
+    "companyProfile": "公司简介",
+    "companyProfileDesc": "YOKE AVR是一家专业从事自动稳压器（AVR）研发、生产和出口的中国制造商。自2014年成立以来，我们一直致力于为非洲市场提供高质量的稳压产品。公司已获得CE和CB认证，并通过ISO 9001:2015质量管理体系认证，服务50多个非洲国家。",
+    "productionCapacity": "生产能力",
+    "productionCapacityDesc": "现代化工厂，年产量50,000台以上AVR",
+    "marketCoverage": "市场覆盖",
+    "marketCoverageDesc": "产品出口至50多个非洲国家",
+    "title": "关于YOKE AVR - CE和CB认证稳压器制造商",
+    "description": "YOKE AVR：CE和CB认证的中国AVR制造商，10年以上对非出口经验。工厂位于深圳，发货至南非、津巴布韦、肯尼亚、尼日利亚等50多个非洲国家。"
+  },
+  "contactPage": {
+    "title": "联系YOKE AVR - 获取报价",
+    "description": "联系YOKE AVR进行批量AVR订购。ISO 9001和CE和CB认证制造商。海运至非洲。24小时内获取报价。",
+    "whatsappLabel": "WhatsApp",
+    "factoryAddress": "宝安区航城大道\n深圳，广东，中国\n邮编：518102",
+    "shippingRoutes": "德班（南非）：20-25天\n贝拉（莫桑比克）：15-20天\n蒙巴萨（肯尼亚）：20-25天\n哈拉雷（津巴布韦）：25-30天"
+  },
+  "faqPage": {
+    "title": "YOKE AVR常见问题 - 稳压器问答",
+    "description": "关于YOKE自动稳压器的常见问题。规格、价格、运输、保修和订购信息。"
+  },
+  "heroContent": {
+    "title": "专业稳压器制造商",
+    "subtitle": "SVC & TND系列稳压器 - 稳定电源解决方案",
+    "description": "CE/CB认证，10年以上经验。出口全球50多个国家。",
+    "imageAlt": "YOKE稳压器工业设备"
+  },
+  "productDetail": {
+    "specifications": "技术规格",
+    "keyFeatures": "核心特点",
+    "applications": "应用领域",
+    "otherProducts": "其他产品",
+    "perUnit": "/台",
+    "inquireNow": "立即咨询",
+    "capacity": "容量",
+    "inputVoltage": "输入电压",
+    "outputVoltage": "输出电压",
+    "frequency": "频率",
+    "phase": "相数",
+    "accuracy": "精度",
+    "responseTime": "响应时间",
+    "efficiency": "效率",
+    "protection": "保护功能",
+    "weight": "重量",
+    "dimensions": "尺寸",
+    "metaTitle": "{name} - YOKE稳压器 | 规格与价格",
+    "metaDescription": "{name} YOKE稳压器。{capacity}，{accuracy}精度。CE/CB认证。立即获取报价。"
+  },
+  "layoutMeta": {
+    "title": "YOKE稳压器 - 中国电压调节器厂家 | ISO 9001认证",
+    "description": "YOKE Electric - 专业电压调节器（稳压器）制造商。SVC系列稳压器家用和工业用。全球发货。工厂价格，品质保证。"
+  },
+  "orgSchema": {
+    "foundingLocation": "中国深圳",
+    "areaServed": "全球，重点关注非洲",
+    "contactType": "销售"
+  },
+  "stats": {
+    "heading": "为什么选择YOKE？",
+    "subheading": "数字证明实力 - CE和CB认证工厂，专注非洲市场10年",
+    "items": [
+      {
+        "value": "10+",
+        "label": "年经验",
+        "sublabel": "自2014年起，专注非洲"
+      },
+      {
+        "value": "500+",
+        "label": "全球客户",
+        "sublabel": "覆盖50+非洲国家"
+      },
+      {
+        "value": "2000+",
+        "label": "已安装台数",
+        "sublabel": "SVC和TND系列"
+      },
+      {
+        "value": "98%",
+        "label": "准时交付率",
+        "sublabel": "行业领先可靠性"
+      },
+      {
+        "value": "0.2%",
+        "label": "缺陷率",
+        "sublabel": "行业平均：1-2%"
+      },
+      {
+        "value": "5000",
+        "label": "月产能/台",
+        "sublabel": "生产能力"
+      }
+    ],
+    "badges": {
+      "iso": "ISO 9001:2015",
+      "ce": "CE认证",
+      "cb": "CB认证",
+      "madeIn": "中国制造"
+    }
+  },
+  "article": {
+    "backToArticles": "返回文章列表",
+    "minRead": "分钟阅读",
+    "relatedProducts": "相关产品",
+    "relatedArticles": "相关文章",
+    "aboutAuthor": "本文作者",
+    "viewFullProfile": "查看完整简介",
+    "moreArticlesBy": "的其他文章"
+  },
+  "video": {
+    "title": "产品视频",
+    "factoryIntro": "YOKE AVR 工厂介绍",
+    "seriesDemo": "SVC/TND系列演示"
+  },
+  "emailSubscribe": {
+    "title": "订阅我们的新闻通讯",
+    "subtitle": "获取最新稳压器产品资讯和价格更新",
+    "placeholder": "输入您的邮箱",
+    "button": "订阅"
+  },
+  "productsContent": {
+    "industrial": "工业",
+    "mining": "采矿",
+    "solar": "太阳能"
+  },
+  "searchSection": {
+    "allProducts": "全部产品",
+    "home3kva": "家用 (3KVA)",
+    "commercial10kva": "商用 (10KVA)",
+    "industrial3060": "工业用 (30-60KVA)",
+    "highPrecision": "高精度 (TND系列)",
+    "placeholder": "搜索产品...",
+    "results": "个结果",
+    "for": "关于",
+    "products": "个产品",
+    "in": "在",
+    "noResults": "没有找到匹配的产品",
+    "tryDifferent": "尝试其他关键词或浏览全产品",
+    "viewAll": "查看全部产品"
+  },
+  "articlesSection": {
+    "title": "技术文章",
+    "subtitle": "电压调节、安装和电力保护专家指南",
+    "minRead": "分钟阅读",
+    "viewAll": "查看更多文章"
+  },
+  "webSchema": {
+    "name": "YOKE稳压器",
+    "description": "专业自动电压调节器制造商。CE和CB认证，全球发货至非洲。",
+    "keywords": "稳压器,AVR,电压调节器,YOKE,非洲,电力保护",
+    "searchName": "稳压器",
+    "searchDesc": "搜索稳压器和电压调节设备",
+    "audience": "非洲电力基础设施专业人士"
+  },
+  "navSchema": {
+    "products": "产品"
+  },
+  "articleSchema": {
+    "section": "稳压器知识",
+    "keywords": "稳压器,AVR,电压调节器,电力保护,YOKE Electric"
+  },
+  "teamCard": {
+    "founder": "创始人兼CEO",
+    "engineer": "高级工程师"
+  },
+  "aboutSchema": {
+    "description": "YOKE - 10年以上稳压器制造经验，出口50+国家"
+  },
+  "certs": {
+    "qualityNote": "所有产品均配有材料证书、测试报告和质量保证。我们提供第三方检验服务。"
+  },
+  "privacy": {
+    "metaTitle": "隐私政策",
+    "metaDescription": "YOKE AVR隐私政策 - 了解我们如何收集、使用和保护您的个人信息。",
+    "title": "隐私政策",
+    "lastUpdated": "最后更新：2026年1月15日",
+    "sections": [
+      {
+        "heading": "我们收集的信息",
+        "text": "我们直接收集您向我们提供的信息，包括：姓名、电子邮件地址、电话号码、公司名称、地址，以及您在与我们联系或通过网站进行询价时选择提供的任何其他信息。"
+      },
+      {
+        "heading": "我们如何使用您的信息",
+        "text": "我们使用收集的信息来：回复您的询问、处理您的请求、向您发送产品信息、改进我们的网站和服务，以及就我们的产品和促销与您沟通。"
+      },
+      {
+        "heading": "信息共享",
+        "text": "除非本政策描述或法律要求，否则未经您同意，我们不会向第三方出售、交易或以其他方式转让您的个人信息。"
+      },
+      {
+        "heading": "数据安全",
+        "text": "我们实施适当的技术和组织措施，保护您的个人信息免受未经授权的访问、更改、披露或销毁。"
+      },
+      {
+        "heading": "Cookie",
+        "text": "我们的网站使用cookie来增强您的浏览体验。您可以通过浏览器设置选择禁用cookie，但这可能会影响网站功能。"
+      },
+      {
+        "heading": "您的权利",
+        "text": "您有权访问、更正或删除您的个人信息。请通过info@kk-electric.com联系我们来行使这些权利。"
+      },
+      {
+        "heading": "联系我们",
+        "text": "如果您对本隐私政策有任何疑问，请通过info@kk-electric.com与我们联系。"
+      }
+    ]
+  },
+  "terms": {
+    "metaTitle": "YOKE AVR服务条款",
+    "metaDescription": "YOKE AVR服务条款和条件",
+    "title": "服务条款",
+    "sections": [
+      {
+        "heading": "概述",
+        "text": "访问和使用YOKE AVR网站即表示您同意受这些服务条款的约束。"
+      },
+      {
+        "heading": "产品",
+        "text": "YOKE AVR销售工业稳压器，包括但不限于：SVC系列单相稳压器、TND系列数字稳压器和TSD系列三相稳压器。所有产品均按照适用的行业标准销售。"
+      },
+      {
+        "heading": "定价和付款",
+        "text": "价格如有变动，恕不另行通知。付款条款以YOKE与客户书面协议为准。"
+      },
+      {
+        "heading": "运输",
+        "text": "运费根据重量、体积和目的地计算。交货时间为估计值，可能因地点和运输方式而异。"
+      },
+      {
+        "heading": "责任限制",
+        "text": "YOKE AVR对因使用我们的产品或服务而产生的任何间接、附带、特殊或后果性损害不承担责任。"
+      },
+      {
+        "heading": "知识产权",
+        "text": "本网站上的所有内容，包括文本、图形、徽标和图片，均为YOKE AVR的财产，受版权法保护。"
+      },
+      {
+        "heading": "联系我们",
+        "text": "如对这些服务条款有疑问，请通过 info@kk-electric.com 与我们联系。"
+      }
+    ]
+  },
+  "team": {
+    "metaTitle": "YOKE 工程团队 - 稳压器专家 | YOKE AVR",
+    "metaDescription": "认识 YOKE 工程团队：15+ 年设计 CE 认证稳压器经验，服务非洲 B2B 市场。首席工程师、技术编辑、现场应用专员。",
+    "breadcrumbHome": "首页",
+    "breadcrumbTeam": "工程团队",
+    "title": "YOKE 工程团队",
+    "subtitle": "15+ 年稳压器设计与现场工程经验，专注服务非洲 B2B 市场。我们的工程师、技术编辑和现场应用专员持续为客户提供专业的技术支持。",
+    "viewFullProfile": "查看完整简介 →",
+    "whyTitle": "为什么选择 YOKE 工程师",
+    "gridExpertiseTitle": "非洲电网专业",
+    "gridExpertiseDesc": "47+ 国家现场经验，深入理解非洲电网（130V-310V 波动、油气田负载、太阳能混合系统）挑战。",
+    "certTitle": "CE/CB 认证",
+    "certDesc": "所有产品通过 CE、CB、RoHS 认证，符合 IEC 60076 / IEEE C57.13 国际标准。",
+    "supportTitle": "24/7 技术支持",
+    "supportDesc": "Nairobi 现场工程师提供安装、调试、维护全周期支持，跨时区响应 24 小时内。",
+    "backToAbout": "返回关于页面"
+  },
+  "licensePage": {
+    "heading": "图片许可",
+    "intro": "本页面记录了 kk-electric.com 上发布并由 Schema.org ImageObject 标记引用的图片许可条款。",
+    "sections": [
+      {
+        "title": "许可使用",
+        "body": "图片可用于编辑报道、产品比较和信息目的，但需注明 YOKE Electric 出处。不允许商业转售未修改的图片。"
+      },
+      {
+        "title": "必需归属",
+        "body": "使用任何 YOKE 产品图片时，请注明：\"图片© YOKE Electric, kk-electric.com\"。网络使用时，请将归属链接至 https://kk-electric.com。"
+      },
+      {
+        "title": "修改",
+        "body": "允许裁剪、色彩校正和调整大小以适应编辑需求。不允许歪曲产品规格的修改（更改容量标签、替换型号）。"
+      },
+      {
+        "title": "商标声明",
+        "body": "YOKE 和 YOKE 标志是 YOKE Electric 的商标。使用图片的许可不授予单独使用 YOKE 商标的任何权利。"
+      }
+    ],
+    "backToHome": "返回首页"
   }
 }

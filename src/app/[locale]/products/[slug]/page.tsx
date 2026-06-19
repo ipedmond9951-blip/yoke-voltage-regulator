@@ -91,10 +91,10 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
       seller: { '@type': 'Organization', name: 'YOKE Electric' },
     },
     additionalProperty: [
-      { '@type': 'PropertyValue', name: 'Capacity', value: product.specs.capacity },
-      { '@type': 'PropertyValue', name: 'Input Voltage', value: product.specs.inputVoltage },
-      { '@type': 'PropertyValue', name: 'Output Voltage', value: product.specs.outputVoltage },
-      { '@type': 'PropertyValue', name: 'Frequency', value: product.specs.frequency },
+      { '@type': 'PropertyValue', name: t(locale, 'productDetail.capacity'), value: product.specs.capacity },
+      { '@type': 'PropertyValue', name: t(locale, 'productDetail.inputVoltage'), value: product.specs.inputVoltage },
+      { '@type': 'PropertyValue', name: t(locale, 'productDetail.outputVoltage'), value: product.specs.outputVoltage },
+      { '@type': 'PropertyValue', name: t(locale, 'productDetail.frequency'), value: product.specs.frequency },
     ],
   }
 
@@ -138,28 +138,28 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
               <p className="text-gray-700 text-lg leading-relaxed mb-6">{text.desc}</p>
 
               <div className="text-2xl font-bold text-primary-700 mb-6">
-                ${product.pricePerPiece.toFixed(2)}<span className="text-sm text-gray-500 font-normal">/unit</span>
+                ${product.pricePerPiece.toFixed(2)}<span className="text-sm text-gray-500 font-normal">{t(locale, 'productDetail.perUnit')}</span>
               </div>
 
               {/* Specs Table */}
               <div className="bg-white rounded-xl border border-gray-200 overflow-hidden mb-6">
-                <div className="bg-primary-50 px-4 py-2 font-semibold text-primary-900">Specifications</div>
+                <div className="bg-primary-50 px-4 py-2 font-semibold text-primary-900">{t(locale, 'productDetail.specifications')}</div>
                 <table className="w-full text-sm">
                   <tbody>
                     <tr className="border-t border-gray-200">
-                      <td className="px-4 py-2 text-gray-600">Capacity</td>
+                      <td className="px-4 py-2 text-gray-600">{t(locale, 'productDetail.capacity')}</td>
                       <td className="px-4 py-2 font-medium text-right">{product.specs.capacity}</td>
                     </tr>
                     <tr className="border-t border-gray-200">
-                      <td className="px-4 py-2 text-gray-600">Input Voltage</td>
+                      <td className="px-4 py-2 text-gray-600">{t(locale, 'productDetail.inputVoltage')}</td>
                       <td className="px-4 py-2 font-medium text-right">{product.specs.inputVoltage}</td>
                     </tr>
                     <tr className="border-t border-gray-200">
-                      <td className="px-4 py-2 text-gray-600">Output Voltage</td>
+                      <td className="px-4 py-2 text-gray-600">{t(locale, 'productDetail.outputVoltage')}</td>
                       <td className="px-4 py-2 font-medium text-right">{product.specs.outputVoltage}</td>
                     </tr>
                     <tr className="border-t border-gray-200">
-                      <td className="px-4 py-2 text-gray-600">Frequency</td>
+                      <td className="px-4 py-2 text-gray-600">{t(locale, 'productDetail.frequency')}</td>
                       <td className="px-4 py-2 font-medium text-right">{product.specs.frequency}</td>
                     </tr>
                   </tbody>
@@ -168,9 +168,9 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
 
               {/* Features */}
               <div className="mb-6">
-                <h2 className="text-lg font-semibold text-gray-900 mb-3">Key Features</h2>
+                <h2 className="text-lg font-semibold text-gray-900 mb-3">{t(locale, 'productDetail.keyFeatures')}</h2>
                 <ul className="space-y-1.5 text-sm text-gray-700">
-                  {product.features.map((f) => (
+                  {text.features.map((f) => (
                     <li key={f} className="flex items-start gap-2">
                       <span className="text-primary-600 font-bold mt-0.5">✓</span>
                       <span>{f}</span>
@@ -181,9 +181,9 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
 
               {/* Applications */}
               <div className="mb-8">
-                <h2 className="text-lg font-semibold text-gray-900 mb-3">Applications</h2>
+                <h2 className="text-lg font-semibold text-gray-900 mb-3">{t(locale, 'productDetail.applications')}</h2>
                 <div className="flex flex-wrap gap-2">
-                  {product.applications.map((a) => (
+                  {text.applications.map((a) => (
                     <span key={a} className="text-xs bg-primary-50 text-primary-700 px-2.5 py-1 rounded font-medium">{a}</span>
                   ))}
                 </div>
@@ -191,7 +191,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
 
               {/* Inquire CTA */}
               <a
-                href={`/${locale}#inquiry`}
+                href={`/${locale}/contact#inquiry`}
                 className="inline-flex items-center bg-primary-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary-800 transition-colors"
               >
                 {t(locale, 'products.inquiry') || 'Inquire Now'}
@@ -201,7 +201,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
 
           {/* Other Products */}
           <div className="mt-16">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Other Products</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">{t(locale, 'productDetail.otherProducts')}</h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
               {allProducts
                 .filter((p) => p.slug !== slug)

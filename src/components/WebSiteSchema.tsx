@@ -1,6 +1,6 @@
 'use client'
 
-import { type Locale } from '@/i18n'
+import { type Locale, t } from '@/i18n'
 
 interface WebSiteSchemaProps {
   locale: Locale
@@ -12,26 +12,20 @@ export default function WebSiteSchema({ locale }: WebSiteSchemaProps) {
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: locale === 'zh' ? 'YOKE稳压器' : 'YOKE AVR',
+    name: t(locale, 'webSchema.name'),
     url: siteUrl,
-    description: locale === 'zh' 
-      ? 'CE/CB认证稳压器制造商。10年非洲出口经验。SVC和TND系列自动电压调节器，应用于工业、商业和住宅。'
-      : 'CE/CB certified AVR manufacturer. 10+ years exporting to Africa. SVC and TND series automatic voltage regulators for industrial, commercial, and residential use.',
-    keywords: locale === 'zh'
-      ? '稳压器,电压调节器,AVR,SVC,TND,YOKE,电力保护,非洲'
-      : 'AVR,voltage regulator,SVC,TND,YOKE,power protection,automatic voltage regulator,Africa',
+    description: t(locale, 'webSchema.description'),
+    keywords: t(locale, 'webSchema.keywords'),
     inLanguage: (() => { const map = { en: 'en-US', zh: 'zh-CN', es: 'es-ES', ar: 'ar-SA', fr: 'fr-FR', pt: 'pt-PT', ru: 'ru-RU', ja: 'ja-JP', de: 'de-DE', hi: 'hi-IN' }; return map[locale] || 'en-US' })(),
     isAccessibleForFree: true,
     about: {
       '@type': 'Thing',
-      name: locale === 'zh' ? '稳压器' : 'Voltage Regulators',
-      description: locale === 'zh'
-        ? 'YOKE品牌稳压器，包括SVC系列和TND系列自动电压调节器'
-        : 'YOKE brand voltage regulators including SVC and TND series automatic voltage regulators',
+      name: t(locale, 'webSchema.searchName'),
+      description: t(locale, 'webSchema.description'),
     },
     audience: {
       '@type': 'Audience',
-      name: locale === 'zh' ? '非洲电力基础设施专业人士' : 'Power infrastructure professionals in Africa',
+      name: t(locale, 'webSchema.audience'),
       geographicArea: {
         '@type': 'Place',
         name: 'Africa',
@@ -47,7 +41,7 @@ export default function WebSiteSchema({ locale }: WebSiteSchemaProps) {
         urlTemplate: `${siteUrl}/${locale}/products?search={search_term_string}`,
       },
       'query-input': 'required name=search_term_string',
-      description: locale === 'zh' ? '搜索稳压器和电压调节设备' : 'Search for voltage regulators and power equipment',
+      description: t(locale, 'webSchema.searchDesc'),
     },
     sameAs: [
       'https://www.linkedin.com/company/yoke-avr',

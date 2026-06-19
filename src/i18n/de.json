@@ -35,7 +35,11 @@
     "inquiry": "Jetzt Anfragen",
     "allProducts": "Alle Produkte",
     "searchPlaceholder": "Produkte suchen...",
-    "viewDetails": "Details Ansehen"
+    "viewDetails": "Details Ansehen",
+    "daysUnit": "Tage",
+    "capacity": "Kapazität",
+    "inputVoltage": "Eingang",
+    "outputVoltage": "Ausgang"
   },
   "about": {
     "title": "Warum YOKE wählen?",
@@ -102,6 +106,428 @@
   "chat": {
     "title": "YOKE-Support",
     "online": "Online",
-    "openChat": "Chat öffnen"
+    "openChat": "Chat öffnen",
+    "greeting": "Hallo! YOKE ist ein professioneller AVR-Hersteller. Wie können wir Ihnen helfen?"
+  },
+  "industry": {
+    "title": "AVR & Spannungsregler Leitfaden",
+    "subtitle": "Expertenleitfäden für AVR: Automatische Spannungsregler der SVC- und TND-Serie, stabile Stromlösungen, Installation, Wartung und Fehlerbehebung.",
+    "publishedOn": "Veröffentlicht am",
+    "readMore": "Weiterlesen"
+  },
+  "homepage": {
+    "applications": {
+      "title": "Anwendungen von Spannungsreglern",
+      "subtitle": "YOKE Spannungsregler werden weltweit in Wohn-, Gewerbe- und Industriegebäuden eingesetzt. Vom Schutz von Haushaltsgeräten bis zur Stromversorgung von Produktionslinien liefern unsere CE/CB-zertifizierten AVR zuverlässige Spannungsstabilisierung.",
+      "residential": {
+        "title": "Haushaltsnutzung",
+        "desc": "Schützen Sie Klimaanlagen, Kühlschränke, Fernseher und Computer vor Spannungsschwankungen. SVC-3000VA und TND-SVC-3000VA sind ideal für den Haushaltsgebrauch."
+      },
+      "commercial": {
+        "title": "Gewerbegebäude",
+        "desc": "Stabile Stromversorgung für Büros, Geschäfte und Restaurants. Die Modelle SVC-10KVA und SVC-15KVA versorgen mehrere Geräte gleichzeitig."
+      },
+      "industrial": {
+        "title": "Industrie & Fertigung",
+        "desc": "Stromversorgung für Produktionslinien, CNC-Maschinen und Schwerlastausrüstung. Modelle SVC-30KVA bis SVC-60KVA für industrielle Spannungsstabilisierungsanforderungen."
+      }
+    },
+    "understanding": {
+      "title": "Automatische Spannungsregler verstehen",
+      "subtitle": "Erfahren Sie, wie YOKE AVR Ihre Geräte vor Spannungsinstabilität und Stromschwankungen schützen.",
+      "svcTitle": "SVC-Serie - Servomotor-Spannungsstabilisatoren",
+      "svcDesc": "Regler der SVC-Serie (Servo Voltage Control) nutzen einen Servomotor-Mechanismus zur Spannungsanpassung. Bei Schwankungen der Eingangsspannung bewegt der Servomotor automatisch die Kohlebürste entlang der Autotransformatorwicklung, um eine stabile Ausgangsspannung aufrechtzuerhalten. YOKE SVC-Regler bieten hervorragende Spannungsregulierungsgenauigkeit (±2-3%) und schnelle Reaktionszeiten. Erhältlich in Kapazitäten von 3KVA bis 60KVA, eignen sich diese Geräte sowohl für Wohn- als auch für leicht industrielle Anwendungen, bei denen zuverlässige Spannungsstabilisierung kritisch ist.",
+      "svcFeaturesTitle": "Hauptmerkmale der SVC-Serie",
+      "svcVoltageRange": "Spannungsbereich: 140-260V (einphasig), 280-430V (dreiphasig)",
+      "svcOutputAccuracy": "Ausgangsgenauigkeit: ±2% bis ±3%",
+      "svcResponseTime": "Reaktionszeit: Weniger als 1 Sekunde",
+      "svcEfficiency": "Effizienz: ≥ 95%",
+      "svcFrequency": "Frequenz: 50/60Hz",
+      "svcProtection": "Schutz: Überlastung, Überspannung, Unterspannung",
+      "tndTitle": "TND-Serie - Spannungsstabilisatoren mit Digitalanzeige",
+      "tndDesc": "Spannungsregler der TND-Serie verfügen über digitale LED- oder LCD-Anzeigen, die Eingangs- und Ausgangsspannung in Echtzeit anzeigen. Diese Modelle nutzen fortschrittliche elektronische Steuerkreise für schnellere Reaktionszeiten und präzisere Spannungsregulierung im Vergleich zu herkömmlichen SVC-Modellen. Die Digitalanzeige ermöglicht es Benutzern, Spannungsverhältnisse auf einen Blick zu überwachen, was die TND-Serie ideal für Umgebungen macht, in denen Sichtbarkeit und Überwachung wichtig sind. Erhältlich in verschiedenen Kapazitäten mit kompakten Designs für Tisch- oder Wandmontage.",
+      "tndFeaturesTitle": "Hauptmerkmale der TND-Serie",
+      "tndDisplay": "Anzeige: Digitale LED/LCD zeigt Eingangs- und Ausgangsspannung",
+      "tndResponseTime": "Reaktionszeit: Etwa 500ms",
+      "tndVoltageRange": "Spannungsbereich: 140-260V (einphasig)",
+      "tndOutputAccuracy": "Ausgangsgenauigkeit: ±2%",
+      "tndDelayProtection": "Verzögerungsschutz: 3-6 Sekunden Startverzögerung",
+      "tndNoiseLevel": "Geräuschpegel: Ultra-leiser Betrieb",
+      "whyTitle": "Warum Spannungsstabilisierung wichtig ist",
+      "whyDesc": "Spannungsschwankungen und Stromspitzen sind in vielen Stromnetzen weltweit ein häufiges Problem. Instabile Spannung kann schwere Schäden an elektrischen Geräten verursachen, was zu teuren Reparaturen oder vorzeitigem Ausfall führt. Ein hochwertiger Spannungsregler wie die YOKE AVR stellt sicher, dass Ihre Geräte und Ausrüstungen unabhängig von Eingangsschwankungen konsistente, sichere Spannungspegel erhalten. Dies verlängert die Lebensdauer der Geräte, reduziert Ausfallzeiten und spart Geld bei Reparaturen und Austausch.",
+      "overVoltageTitle": "Überspannungsschutz",
+      "overVoltageDesc": "Spannungsspitzen können empfindliche Elektronik sofort zerstören. YOKE AVR erkennen und korrigieren Überspannungszustände innerhalb von Millisekunden.",
+      "underVoltageTitle": "Unterspannungsschutz",
+      "underVoltageDesc": "Niedrige Spannung führt zu Überhitzung und vorzeitigem Ausfall von Geräten. YOKE AVR heben Unterspannung auf sichere Betriebspegel an."
+    },
+    "capacity": {
+      "title": "AVR Kapazitätsauswahl-Leitfaden",
+      "desc": "Die Auswahl der richtigen Kapazität ist entscheidend für eine wirksame Spannungsregulierung. Die AVR-Kapazität sollte Ihre Gesamtlast um 20-30% übersteigen, um Startströme und zukünftige Erweiterungen zu berücksichtigen. Bei induktiven Lasten (Motoren, Kompressoren) sollten Sie das 3-5-fache der Betriebsleistung für den Anlauf einplanen.",
+      "model": "AVR-Modell",
+      "capacity": "Kapazität",
+      "recommended": "Empfohlene Verwendung",
+      "maxCurrent": "Maximalstrom",
+      "contactHelp": "Nicht sicher, welche Kapazität Sie benötigen? Kontaktieren Sie unser Team mit Ihren Lastdaten und wir helfen Ihnen bei der Auswahl des richtigen Modells.",
+      "rec3000": "Haushaltsgeräte, Computer, TV",
+      "rec10": "Kleines Büro, Geschäft, mehrere Räume",
+      "rec30": "Großes Büro, Leichtindustrie",
+      "rec50": "Produktionslinien, Werkstatt",
+      "rec60": "Schwerindustrie, große Maschinen"
+    }
+  },
+  "faqItems": [
+    {
+      "q": "Welche Arten von Spannungsreglern stellen Sie her?",
+      "a": "YOKE produziert die SVC- (Servo-Spannungsregler) und TND-Serie (Hohe Präzision). Kapazitäten von 500VA bis 100KVA. Einphasige und dreiphasige Modelle verfügbar."
+    },
+    {
+      "q": "Was ist der Unterschied zwischen der SVC- und TND-Serie?",
+      "a": "SVC-Serie: Relais-Typ, schnelle Reaktion, erschwinglich. TND-Serie: Servomotor-Steuerung, höhere Präzision (±2%), Digitalanzeige, für empfindliche Geräte."
+    },
+    {
+      "q": "Welchen Eingangsspannungsbereich unterstützen Ihre Spannungsregler?",
+      "a": "Standard-Eingangsbereich: 140-260V für einphasig. TND-Serie: 150-250V für höhere Präzision. Dreiphasige Modelle: 250-450V oder kundenspezifisch."
+    },
+    {
+      "q": "Wie genau ist die Ausgangsspannung?",
+      "a": "SVC-Serie: ±3-5% Ausgangsgenauigkeit. TND-Serie: ±2% Ausgangsgenauigkeit. Beide halten stabile Ausgabe bei schwankenden Eingangsbedingungen."
+    },
+    {
+      "q": "Was ist Ihre Mindestbestellmenge (MOQ)?",
+      "a": "Standard-MOQ 1 Einheit. Musterbestellungen willkommen. OEM/ODM-Bestellungen MOQ 50 Einheiten. Großhandelspreise für Distributoren."
+    },
+    {
+      "q": "Welche Zahlungsmethoden akzeptieren Sie?",
+      "a": "T/T, L/C, PayPal, Western Union. 30% Anzahlung, 70% Restbetrag vor Versand. Alibaba Trade Assurance für kleine Bestellungen."
+    },
+    {
+      "q": "Können Sie Spannungsregler für spezifische Anwendungen anpassen?",
+      "a": "Ja, OEM/ODM verfügbar. Kundenspezifische Spannungsbereiche, Frequenzen (50/60Hz), spezielle Gehäuse und Branding. MOQ 50 Einheiten für Anpassungen."
+    },
+    {
+      "q": "Welche Zertifizierungen haben Ihre Produkte?",
+      "a": "CE, CB, ISO 9001:2015 zertifiziert. Alle Produkte durchlaufen strenge Qualitätstests. Testberichte und Zertifikate auf Anfrage verfügbar."
+    },
+    {
+      "q": "Wie lange ist die typische Lieferzeit?",
+      "a": "Standardmodelle: 7-15 Tage. Kundenspezifische Modelle: 20-30 Tage. Expressproduktion für dringende Bestellungen verfügbar (7 Tage, +15% Aufpreis)."
+    },
+    {
+      "q": "Bieten Sie Garantie für Ihre Spannungsregler?",
+      "a": "Ja, 1-2 Jahre Garantie je nach Modell. Garantie deckt Fertigungsfehler ab. Ersatzteile und technischer Support inklusive."
+    },
+    {
+      "q": "Wie lange ist die Lebensdauer von YOKE Spannungsreglern?",
+      "a": "YOKE-Regler sind für 10+ Jahre Dauerbetrieb ausgelegt. Die Lebensdauer hängt von Last, Umgebung und Nutzungsbedingungen ab."
+    },
+    {
+      "q": "Für welche Anwendungen eignen sich Ihre Spannungsregler?",
+      "a": "Haushaltsgeräte (Kühlschränke, Klimaanlagen, Fernseher), Büroausstattung, medizinische Geräte, Industriemaschinen, CNC-Ausrüstung, Schweißmaschinen und Produktionslinien."
+    },
+    {
+      "q": "Versenden Sie international?",
+      "a": "Ja, weltweiter Versand verfügbar. Express (DHL/FedEx): 5-7 Tage. Seefracht: 20-30 Tage. Luftfracht: 10-15 Tage. CIF/DDP-Bedingungen verfügbar."
+    },
+    {
+      "q": "Was ist im Paket enthalten?",
+      "a": "Jede Einheit enthält: Spannungsregler, Benutzerhandbuch, Garantiekarte. Optional: Voltmeter-Anzeige, Wandmontage-Set, Eingangs-/Ausgangskabel."
+    },
+    {
+      "q": "Wie installiere ich den Spannungsregler?",
+      "a": "Wand- oder Bodenmontage. Eingang an Stromnetz anschließen, Ausgang an geschütztes Gerät. Vollständige Installationsanleitung bei jeder Einheit inklusive."
+    },
+    {
+      "q": "Warum YOKE Spannungsregler wählen?",
+      "a": "12+ Jahre Herstellungserfahrung, ISO 9001 zertifizierte Fabrik, 98% Pünktlichkeitsrate, wettbewerbsfähige Preise mit 2-Jahres-Garantie und weltweitem After-Sales-Support."
+    },
+    {
+      "q": "Bieten Sie technischen Support an?",
+      "a": "Ja, 24/7 technischer Support verfügbar. Installationsanleitung, Fehlerbehebung und Wartungstipps. Fernunterstützung per Videoanruf."
+    },
+    {
+      "q": "Wie bestelle ich?",
+      "a": "1) Modell und Menge auswählen. 2) Angebot anfordern. 3) Spezifikationen bestätigen. 4) 30% Anzahlung zahlen. 5) Produktion. 6) Inspektion. 7) Restbetrag zahlen. 8) Versand."
+    }
+  ],
+  "aboutPage": {
+    "companyProfile": "Unternehmensprofil",
+    "companyProfileDesc": "YOKE AVR ist ein professioneller chinesischer Hersteller, der auf die Entwicklung, Produktion und den Export von automatischen Spannungsreglern (AVR) spezialisiert ist. Seit unserer Gründung im Jahr 2014 konzentrieren wir uns auf die Bereitstellung hochwertiger Spannungsstabilisatorprodukte für den afrikanischen Markt. Das Unternehmen ist CE- und CB-zertifiziert mit ISO 9001:2015 Qualitätsmanagement-Systemzertifizierung und bedient 50+ afrikanische Länder.",
+    "productionCapacity": "Produktionskapazität",
+    "productionCapacityDesc": "Moderne Fabrik mit Jahresproduktion von 50.000+ AVR-Einheiten",
+    "marketCoverage": "Marktabdeckung",
+    "marketCoverageDesc": "Produkte exportiert in 50+ afrikanische Länder",
+    "title": "Über YOKE AVR - CE & CB zertifizierter Spannungsregler-Hersteller",
+    "description": "YOKE AVR: CE & CB zertifizierter chinesischer AVR-Hersteller mit 10+ Jahren Export nach Afrika. Fabrik in Shenzhen, Versand nach Südafrika, Simbabwe, Kenia, Nigeria und 50+ afrikanische Länder."
+  },
+  "contactPage": {
+    "title": "YOKE AVR Kontaktieren - Angebot Erhalten",
+    "description": "Kontaktieren Sie YOKE AVR für Großbestellungen von AVR. ISO 9001, CE und CB zertifizierter Hersteller. Seefracht nach Afrika. Angebot innerhalb von 24 Stunden.",
+    "whatsappLabel": "WhatsApp",
+    "factoryAddress": "Bezirk Baoan, Hangcheng Avenue\nShenzhen, Guangdong, China\nPostleitzahl: 518102",
+    "shippingRoutes": "Durban (Südafrika): 20-25 Tage\nBeira (Mosambik): 15-20 Tage\nMombasa (Kenia): 20-25 Tage\nHarare (Simbabwe): 25-30 Tage"
+  },
+  "faqPage": {
+    "title": "YOKE AVR FAQ - Spannungsregler Fragen & Antworten",
+    "description": "Häufig gestellte Fragen zu YOKE automatischen Spannungsreglern. Spezifikationen, Preise, Versand, Garantie und Bestellinformationen."
+  },
+  "heroContent": {
+    "title": "Professioneller Spannungsregler-Hersteller",
+    "subtitle": "SVC & TND Serie AVR - Stabile Stromlösungen",
+    "description": "CE/CB-zertifiziert, über 10 Jahre Erfahrung. Export in über 50 Länder weltweit.",
+    "imageAlt": "YOKE Spannungsregler Industrieanlage"
+  },
+  "productDetail": {
+    "specifications": "Spezifikationen",
+    "keyFeatures": "Hauptmerkmale",
+    "applications": "Anwendungen",
+    "otherProducts": "Weitere Produkte",
+    "perUnit": "/Stück",
+    "inquireNow": "Jetzt Anfragen",
+    "capacity": "Kapazität",
+    "inputVoltage": "Eingangsspannung",
+    "outputVoltage": "Ausgangsspannung",
+    "frequency": "Frequenz",
+    "phase": "Phase",
+    "accuracy": "Genauigkeit",
+    "responseTime": "Reaktionszeit",
+    "efficiency": "Effizienz",
+    "protection": "Schutz",
+    "weight": "Gewicht",
+    "dimensions": "Abmessungen",
+    "metaTitle": "{name} - YOKE Spannungsregler | Spezifikationen & Preis",
+    "metaDescription": "{name} Spannungsregler von YOKE. {capacity}, {accuracy} Genauigkeit. CE/CB-zertifiziert. Jetzt Angebot einholen."
+  },
+  "layoutMeta": {
+    "title": "YOKE Spannungsregler - Hersteller Automatischer Spannungsstabilisatoren | ISO 9001",
+    "description": "YOKE Electric - Professioneller Hersteller von automatischen Spannungsreglern (AVR). SVC-Serie Stabilisatoren für Haushalt und Industrie. Weltweiter Versand. Fabrikpreise, Qualität garantiert."
+  },
+  "orgSchema": {
+    "foundingLocation": "Shenzhen, China",
+    "areaServed": "Weltweit, mit Fokus auf Afrika",
+    "contactType": "Vertrieb"
+  },
+  "stats": {
+    "heading": "Warum YOKE?",
+    "subheading": "Zahlen beweisen Qualität - CE & CB zertifizierte Fabrik, 10 Jahre Afrika-Fokus",
+    "items": [
+      {
+        "value": "10+",
+        "label": "Jahre Erfahrung",
+        "sublabel": "Seit 2014, Fokus auf Afrika"
+      },
+      {
+        "value": "500+",
+        "label": "Globale Kunden",
+        "sublabel": "In über 50 afrikanischen Ländern"
+      },
+      {
+        "value": "2000+",
+        "label": "Installierte Einheiten",
+        "sublabel": "SVC- und TND-Serie"
+      },
+      {
+        "value": "98%",
+        "label": "Pünktliche Lieferung",
+        "sublabel": "Branchenführende Zuverlässigkeit"
+      },
+      {
+        "value": "0.2%",
+        "label": "Fehlerrate",
+        "sublabel": "Branchendurchschnitt: 1-2%"
+      },
+      {
+        "value": "5000",
+        "label": "Einheiten Kapazität/Monat",
+        "sublabel": "Produktionskapazität"
+      }
+    ],
+    "badges": {
+      "iso": "ISO 9001:2015",
+      "ce": "CE-Zertifiziert",
+      "cb": "CB-Zertifiziert",
+      "madeIn": "Hergestellt in China"
+    }
+  },
+  "article": {
+    "backToArticles": "Zurück zu Artikeln",
+    "minRead": "Min. Lesezeit",
+    "relatedProducts": "Verwandte Produkte",
+    "relatedArticles": "Verwandte Artikel",
+    "aboutAuthor": "Über den Autor",
+    "viewFullProfile": "Vollständiges Profil",
+    "moreArticlesBy": "Weitere Artikel von"
+  },
+  "video": {
+    "title": "Produktvideos",
+    "factoryIntro": "YOKE AVR Werkseinführung",
+    "seriesDemo": "SVC/TND Serie Demo"
+  },
+  "emailSubscribe": {
+    "title": "Newsletter abonnieren",
+    "subtitle": "Neueste AVR-Produktneuigkeiten und Preisaktualisierungen",
+    "placeholder": "E-Mail eingeben",
+    "button": "Abonnieren"
+  },
+  "productsContent": {
+    "industrial": "Industrie",
+    "mining": "Bergbau",
+    "solar": "Solarenergie"
+  },
+  "searchSection": {
+    "allProducts": "Alle Produkte",
+    "home3kva": "Haushalt (3KVA)",
+    "commercial10kva": "Gewerbe (10KVA)",
+    "industrial3060": "Industrie (30-60KVA)",
+    "highPrecision": "Hohe Präzision (TND)",
+    "placeholder": "Produkte suchen...",
+    "results": "Ergebnisse",
+    "for": "für",
+    "products": "Produkte",
+    "in": "in",
+    "noResults": "Keine Produkte gefunden",
+    "tryDifferent": "Andere Suchbegriffe versuchen",
+    "viewAll": "Alle Produkte ansehen"
+  },
+  "articlesSection": {
+    "title": "Technische Artikel",
+    "subtitle": "Expertenguides zur Spannungsregelung, Installation und Stromschutz",
+    "minRead": "Min. Lesezeit",
+    "viewAll": "Alle Artikel ansehen"
+  },
+  "webSchema": {
+    "name": "YOKE AVR",
+    "description": "Professioneller Hersteller automatischer Spannungsregler. CE & CB zertifiziert, weltweiter Versand nach Afrika.",
+    "keywords": "Spannungsregler, AVR, Stabilisator, YOKE, Afrika, Stromschutz",
+    "searchName": "Spannungsregler",
+    "searchDesc": "Suche nach Spannungsreglern und Stromausrüstung",
+    "audience": "Strominfrastruktur-Fachleute in Afrika"
+  },
+  "navSchema": {
+    "products": "Produkte"
+  },
+  "articleSchema": {
+    "section": "AVR-Wissen",
+    "keywords": "Spannungsregler, AVR, Stabilisator, Stromschutz, YOKE Electric"
+  },
+  "teamCard": {
+    "founder": "Gründer und CEO",
+    "engineer": "Senior-Ingenieur"
+  },
+  "aboutSchema": {
+    "description": "Professioneller AVR-Hersteller mit über 10 Jahren Erfahrung. SVC/TND-Serie Spannungsstabilisatoren für industriellen und häuslichen Gebrauch. CE/CB-zertifiziert, weltweiter Versand."
+  },
+  "certs": {
+    "qualityNote": "Alle Produkte werden mit Materialzertifikaten, Testberichten und Qualitätsgarantien geliefert. Wir bieten auf Anfrage Inspektionsdienste durch Dritte an."
+  },
+  "privacy": {
+    "metaTitle": "Datenschutzrichtlinie",
+    "metaDescription": "YOKE AVR Datenschutzrichtlinie - Erfahren Sie, wie wir Ihre persönlichen Daten erfassen, nutzen und schützen.",
+    "title": "Datenschutzrichtlinie",
+    "lastUpdated": "Letzte Aktualisierung: 15. Januar 2026",
+    "sections": [
+      {
+        "heading": "Informationen, die Wir Erfassen",
+        "text": "Wir erfassen Informationen, die Sie uns direkt zur Verfügung stellen, einschließlich: Name, E-Mail-Adresse, Telefonnummer, Firmenname, Adresse und alle weiteren Informationen, die Sie bei der Kontaktaufnahme oder Anfrage über unsere Website bereitstellen möchten."
+      },
+      {
+        "heading": "Wie Wir Ihre Informationen Nutzen",
+        "text": "Wir nutzen die erfassten Informationen, um: Ihre Anfragen zu beantworten, Ihre Anforderungen zu bearbeiten, Ihnen Produktinformationen zu senden, unsere Website und Dienstleistungen zu verbessern und Sie über unsere Produkte und Aktionen zu informieren."
+      },
+      {
+        "heading": "Weitergabe von Informationen",
+        "text": "Wir verkaufen, tauschen oder übertragen Ihre persönlichen Informationen nicht an Dritte ohne Ihre Zustimmung, außer wie in dieser Richtlinie beschrieben oder gesetzlich vorgeschrieben."
+      },
+      {
+        "heading": "Datensicherheit",
+        "text": "Wir ergreifen angemessene technische und organisatorische Maßnahmen, um Ihre persönlichen Informationen vor unbefugtem Zugriff, Änderung, Offenlegung oder Zerstörung zu schützen."
+      },
+      {
+        "heading": "Cookies",
+        "text": "Unsere Website verwendet Cookies, um Ihr Surferlebnis zu verbessern. Sie können Cookies in Ihren Browser-Einstellungen deaktivieren, dies kann jedoch die Website-Funktionalität beeinträchtigen."
+      },
+      {
+        "heading": "Ihre Rechte",
+        "text": "Sie haben das Recht, auf Ihre persönlichen Informationen zuzugreifen, diese zu korrigieren oder zu löschen. Kontaktieren Sie uns unter info@kk-electric.com, um diese Rechte auszuüben."
+      },
+      {
+        "heading": "Kontaktieren Sie Uns",
+        "text": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns unter info@kk-electric.com."
+      }
+    ]
+  },
+  "terms": {
+    "metaTitle": "YOKE AVR Nutzungsbedingungen",
+    "metaDescription": "Nutzungsbedingungen und Bedingungen von YOKE AVR",
+    "title": "Nutzungsbedingungen",
+    "sections": [
+      {
+        "heading": "Einleitung",
+        "text": "Durch den Zugriff auf und die Nutzung der YOKE AVR-Website stimmen Sie der Bindung an diese Nutzungsbedingungen zu."
+      },
+      {
+        "heading": "Produkte",
+        "text": "YOKE AVR verkauft industrielle Spannungsregler, einschließlich aber nicht beschränkt auf: SVC-Serie Einphasen-Stabilisatoren, TND-Serie Digital-Stabilisatoren und TSD-Serie Dreiphasen-Regler. Alle Produkte werden gemäß den geltenden Industriestandards verkauft."
+      },
+      {
+        "heading": "Preise und Zahlung",
+        "text": "Preise sind ohne Vorankündigung Änderungen vorbehalten. Zahlungsbedingungen richten sich nach der schriftlichen Vereinbarung zwischen YOKE AVR und dem Kunden."
+      },
+      {
+        "heading": "Versand",
+        "text": "Versandkosten werden basierend auf Gewicht, Abmessungen und Zielort berechnet. Lieferzeiten sind Schätzungen und können je nach Standort und gewählter Versandmethode variieren."
+      },
+      {
+        "heading": "Haftungsbeschränkung",
+        "text": "YOKE AVR haftet nicht für indirekte, zufällige, besondere oder Folgeschäden, die aus der Nutzung unserer Produkte oder Dienstleistungen entstehen."
+      },
+      {
+        "heading": "Geistiges Eigentum",
+        "text": "Alle Inhalte dieser Website, einschließlich Texte, Grafiken, Logos und Bilder, sind Eigentum von YOKE AVR und durch Urheberrechtsgesetze geschützt."
+      },
+      {
+        "heading": "Kontaktieren Sie Uns",
+        "text": "Bei Fragen zu diesen Nutzungsbedingungen kontaktieren Sie uns unter info@kk-electric.com."
+      }
+    ]
+  },
+  "team": {
+    "metaTitle": "YOKE Ingenieurteam - Spannungsregelungsexperten | YOKE AVR",
+    "metaDescription": "Lernen Sie das YOKE Ingenieurteam kennen: 15+ Jahre Erfahrung bei der Entwicklung CE-zertifizierter Spannungsregler für afrikanische B2B-Märkte.",
+    "breadcrumbHome": "Startseite",
+    "breadcrumbTeam": "Ingenieurteam",
+    "title": "YOKE Ingenieurteam",
+    "subtitle": "15+ Jahre Erfahrung in der Entwicklung von Spannungsreglern und Feldeingeneurwesen, mit Fokus auf afrikanische B2B-Märkte. Unsere Ingenieure, technischen Redakteure und Feldanwendungsspezialisten bieten Kunden fachkundige technische Unterstützung.",
+    "viewFullProfile": "Vollständiges Profil ansehen →",
+    "whyTitle": "Warum YOKE Ingenieurwesen Wählen",
+    "gridExpertiseTitle": "Afrikanische Netze Expertise",
+    "gridExpertiseDesc": "47+ Länder Feldeerfahrung mit tiefem Verständnis der afrikanischen Netzeherausforderungen (130V-310V Schwankungen, Öl- und Gaslasten, Solar-Hybridsysteme).",
+    "certTitle": "CE und CB Zertifiziert",
+    "certDesc": "Alle Produkte tragen CE-, CB- und RoHS-Zertifizierungen und erfüllen die internationalen Standards IEC 60076 / IEEE C57.13.",
+    "supportTitle": "24/7 Technischer Support",
+    "supportDesc": "Nairobi-basierte Feldingenieure bieten Installations-, Inbetriebnahme- und Wartungsunterstützung mit 24-Stunden-Zeitzonen-übergreifender Reaktionszeit.",
+    "backToAbout": "Zurück zur Über-uns-Seite"
+  },
+  "licensePage": {
+    "heading": "Bildlizenz",
+    "intro": "Diese Seite dokumentiert die Lizenzbedingungen für Bilder, die auf kk-electric.com veröffentlicht und durch Schema.org ImageObject-Markup referenziert werden.",
+    "sections": [
+      {
+        "title": "Erlaubte Verwendung",
+        "body": "Bilder dürfen für redaktionelle Berichterstattung, Produktvergleich und Informationszwecke mit angemessener Quellenangabe bei YOKE Electric verwendet werden. Der kommerzielle Weiterverkauf unveränderter Bilder ist nicht gestattet."
+      },
+      {
+        "title": "Erforderliche Quellenangabe",
+        "body": "Bei der Wiederverwendung eines YOKE-Produktbildes geben Sie an: \"Bild © YOKE Electric, kk-electric.com\". Für die Web-Nutzung verlinken Sie die Quellenangabe auf https://kk-electric.com."
+      },
+      {
+        "title": "Änderungen",
+        "body": "Zuschnitt, Farbkorrektur und Größenänderung für redaktionelle Zwecke sind erlaubt. Änderungen, die Produktspezifikationen verfälschen, sind nicht gestattet."
+      },
+      {
+        "title": "Markenhinweis",
+        "body": "YOKE und das YOKE-Logo sind Marken der YOKE Electric. Die Lizenz zur Verwendung von Bildern gewährt kein Recht zur separaten Verwendung der YOKE-Marke."
+      }
+    ],
+    "backToHome": "Zurück zur Startseite"
   }
 }

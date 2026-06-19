@@ -1,5 +1,6 @@
 import { type Locale, t, locales } from '@/i18n'
 import Link from 'next/link'
+import Image from 'next/image'
 import { getAllArticles } from '@/lib/articles'
 import type { Metadata } from 'next'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
@@ -9,28 +10,22 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const locale = (localeParam as Locale) || 'en'
   const siteUrl = 'https://kk-electric.com'
   
-  const titles: Record<string, string> = {
-    en: 'AVR & Voltage Regulator Guide | SVC TND Series, Stable Power Solutions, AVR Installation & Maintenance',
-    zh: '稳压器和电压调节器指南 | SVC TND系列，稳定电源解决方案，安装维护',
-  }
-  const descriptions: Record<string, string> = {
-    en: 'Expert AVR guides: SVC & TND series automatic voltage regulators, stable power solutions, installation, maintenance, troubleshooting, and energy savings. CE/CB certified. Market insights for Africa power infrastructure.',
-    zh: '专家稳压器指南：SVC和TND系列自动电压调节器，稳定电源解决方案，安装、维护、故障排除和节能。CE/CB认证。非洲电力基础设施市场洞察。',
-  }
+  const metaTitle = t(locale, 'industry.title')
+  const metaDescription = t(locale, 'industry.subtitle')
   
   return {
-    title: titles[locale] || titles.en,
-    description: descriptions[locale] || descriptions.en,
+    title: `${metaTitle} | SVC TND Series, Stable Power Solutions, AVR Installation & Maintenance`,
+    description: metaDescription,
     openGraph: {
-      title: titles[locale] || titles.en,
-      description: descriptions[locale] || descriptions.en,
+      title: `${metaTitle} | SVC TND Series, Stable Power Solutions, AVR Installation & Maintenance`,
+      description: metaDescription,
       url: `${siteUrl}/${locale}/industry`,
       type: 'website',
     },
     alternates: {
       canonical: `${siteUrl}/${locale}/industry`,
       languages: Object.fromEntries([
-        ['x-default', `${siteUrl}/${locale}/industry`],
+        ['x-default', `${siteUrl}/en/industry`],
         ...locales.map(l => [l, `${siteUrl}/${l}/industry`]),
       ]),
     },
@@ -78,7 +73,7 @@ export default async function IndustryPage({ params }: { params: Promise<{ local
                 >
                   {/* Image */}
                   <div className="relative w-full md:w-56 h-48 md:h-auto bg-gray-100 flex-shrink-0 overflow-hidden">
-                    <img src={article.image} alt={title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                    <Image src={article.image} alt={title} fill className="object-cover group-hover:scale-105 transition-transform duration-500" sizes="(max-width: 768px) 100vw, 224px" />
                     <span className="absolute top-3 left-3 bg-primary-600 text-white text-xs font-semibold px-2.5 py-1 rounded-full">{article.category}</span>
                   </div>
 
