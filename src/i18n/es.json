@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "Regulador de Voltaje Automático YOKE - Soluciones de Energía Estable",
-    "subtitle": "Fabricante profesional de AVR con más de 10 años de experiencia. Estabilizadores de voltaje serie SVC/TND para uso industrial y doméstico. Certificación CE/CB, envío global.",
+    "subtitle": "YOKE - Fabricante profesional de estabilizadores automáticos de voltaje, más de 10 años de experiencia. Series SVC/TND, certificación CE/CB, exportación a 50+ países. Desde 3KVA doméstico hasta 60KVA industrial.",
     "cta": "Obtener Cotización",
     "ctaSecondary": "Ver Productos",
     "iso": "Certificación CE/CB",
@@ -54,7 +54,7 @@
   },
   "why": {
     "title": "¿Por Qué Reguladores de Voltaje YOKE?",
-    "subtitle": "Fabricante profesional de AVR con más de 10 años de experiencia. Productos de calidad con envío global.",
+    "subtitle": "Fabricante profesional de estabilizadores, más de 10 años de experiencia. Productos CE/CB, sistema de calidad ISO 9001, envío a 50+ países. Desde pedidos pequeños hasta OEM/ODM.",
     "experienceTitle": "Más de 10 Años de Experiencia",
     "experienceDesc": "Especialización en reguladores de voltaje automático desde 2014. Series SVC y TND con confiabilidad comprobada.",
     "certTitle": "Certificación CE/CB",
@@ -118,7 +118,7 @@
   "homepage": {
     "applications": {
       "title": "Aplicaciones de Reguladores de Voltaje",
-      "subtitle": "Los reguladores de voltaje YOKE se utilizan ampliamente en aplicaciones residenciales, comerciales e industriales en todo el mundo. Desde proteger electrodomésticos hasta alimentar líneas de producción, nuestros AVR certificados CE/CB ofrecen estabilización de voltaje confiable.",
+      "subtitle": "Los estabilizadores YOKE se utilizan ampliamente en sectores residenciales, comerciales e industriales. Desde proteger electrodomésticos hasta alimentar líneas de producción, nuestros estabilizadores certificados CE/CB proporcionan estabilización de voltaje confiable. Ya sea fluctuaciones frecuentes o sobretensiones súbitas — YOKE tiene la solución.",
       "residential": {
         "title": "Uso Residencial",
         "desc": "Proteja aires acondicionados, refrigeradores, televisores y computadoras de las fluctuaciones de voltaje. SVC-3000VA y TND-SVC-3000VA son ideales para uso doméstico."
@@ -136,7 +136,7 @@
       "title": "Comprender los Reguladores de Voltaje Automático",
       "subtitle": "Conozca cómo los AVR YOKE protegen su equipo de la inestabilidad de voltaje y las fluctuaciones de energía.",
       "svcTitle": "Serie SVC - Estabilizadores de Voltaje con Motor Servo",
-      "svcDesc": "Los reguladores de la serie SVC (Control de Voltaje Servo) utilizan un mecanismo de motor servo para ajustar el voltaje. Cuando el voltaje de entrada fluctúa, el motor servo mueve automáticamente la escobilla de carbón a lo largo del devanado del autotransformador para mantener un voltaje de salida estable. Los reguladores SVC de YOKE ofrecen excelente precisión de regulación de voltaje (±2-3%) y tiempos de respuesta rápidos. Disponibles en capacidades de 3KVA a 60KVA, estas unidades son adecuadas tanto para aplicaciones residenciales como industriales ligeras donde la estabilización confiable de voltaje es crítica.",
+      "svcDesc": "La serie SVC utiliza un servomotor para regular el voltaje. Cuando fluctúa el voltaje de entrada, el servomotor mueve automáticamente la escobilla de carbón. YOKE SVC: precisión ±2-3%, respuesta en 1 segundo. Capacidad 3KVA-60KVA. Núcleo de cobre: eficiencia ≥95%. Triple protección contra sobrecarga, sobretensión y subtensión.",
       "svcFeaturesTitle": "Características Clave de la Serie SVC",
       "svcVoltageRange": "Rango de Voltaje: 140-260V (monofásico), 280-430V (trifásico)",
       "svcOutputAccuracy": "Precisión de Salida: ±2% a ±3%",
@@ -145,7 +145,7 @@
       "svcFrequency": "Frecuencia: 50/60Hz",
       "svcProtection": "Protección: Sobrecarga, sobrevoltaje, bajovoltaje",
       "tndTitle": "Serie TND - Estabilizadores de Voltaje con Pantalla Digital",
-      "tndDesc": "Los reguladores de voltaje de la serie TND cuentan con pantallas digitales LED o LCD que muestran el voltaje de entrada y salida en tiempo real. Estos modelos utilizan circuitos de control electrónico avanzados para tiempos de respuesta más rápidos y regulación de voltaje más precisa en comparación con los modelos SVC tradicionales. La pantalla digital permite a los usuarios monitorear las condiciones de voltaje de un vistazo, haciendo que la serie TND sea ideal para entornos donde la visibilidad y el monitoreo son importantes. Disponibles en varias capacidades con diseños compactos aptos para montaje en escritorio o pared.",
+      "tndDesc": "La serie TND cuenta con pantalla digital LED/LCD mostrando voltaje en tiempo real. Circuito electrónico avanzado: respuesta más rápida y mayor precisión que SVC. Precisión de salida ±2%, ideal para equipos de precisión y laboratorios. Diseño compacto, bajo nivel de ruido.",
       "tndFeaturesTitle": "Características Clave de la Serie TND",
       "tndDisplay": "Pantalla: LED/LCD digital que muestra voltaje de entrada y salida",
       "tndResponseTime": "Tiempo de Respuesta: Aproximadamente 500ms",
@@ -154,20 +154,20 @@
       "tndDelayProtection": "Protección de Retardo: 3-6 segundos de retardo de inicio",
       "tndNoiseLevel": "Nivel de Ruido: Operación de ultra bajo ruido",
       "whyTitle": "Por Qué Importa la Estabilización de Voltaje",
-      "whyDesc": "Las fluctuaciones de voltaje y los picos de energía son problemas comunes en muchas redes eléctricas en todo el mundo. El voltaje inestable puede causar daños graves al equipo eléctrico, provocando reparaciones costosas o fallas prematuras del equipo. Un regulador de voltaje de calidad como los AVR YOKE garantiza que sus electrodomésticos y equipos reciban niveles de voltaje consistentes y seguros independientemente de las fluctuaciones de entrada. Esto extiende la vida útil del equipo, reduce el tiempo de inactividad y ahorra dinero en reparaciones y reemplazos.",
+      "whyDesc": "Las fluctuaciones y sobretensiones son problemas comunes en muchas redes eléctricas, especialmente en África, Asia del Sur y Medio Oriente. Voltaje inestable causa daños graves. Bajo voltaje sobrecalienta motores; picos pueden quemar placas de circuito. Los estabilizadores YOKE garantizan voltaje seguro, prolongan vida útil, reducen inactividad.",
       "overVoltageTitle": "Protección contra Sobrevoltaje",
-      "overVoltageDesc": "Los picos de voltaje pueden destruir instantáneamente la electrónica sensible. Los AVR YOKE detectan y corrigen condiciones de sobrevoltaje en milisegundos.",
+      "overVoltageDesc": "Los picos de voltaje pueden destruir instantáneamente equipos electrónicos sensibles. Cuando el voltaje supera el nominal en 10%+, las placas de circuito enfrentan riesgo de daño permanente. Los estabilizadores YOKE detectan sobretensión en milisegundos y ajustan automáticamente la salida.",
       "underVoltageTitle": "Protección contra Bajovoltaje",
-      "underVoltageDesc": "El bajo voltaje causa sobrecalentamiento y falla prematura del equipo. Los AVR YOKE elevan el bajovoltaje a niveles de operación seguros."
+      "underVoltageDesc": "Bajo voltaje causa sobrecalentamiento de motores y fallo prematuro de equipos. Los estabilizadores YOKE elevan automáticamente el voltaje bajo a nivel seguro, asegurando funcionamiento normal incluso con entrada de 140V."
     },
     "capacity": {
       "title": "Guía de Selección de Capacidad AVR",
-      "desc": "Seleccionar la capacidad correcta es crucial para una regulación de voltaje efectiva. La capacidad del AVR debe exceder su carga total en un 20-30% para considerar las corrientes de arranque y la expansión futura. Para cargas inductivas (motores, compresores), permita 3-5 veces la potencia de funcionamiento para el arranque.",
+      "desc": "Elegir la capacidad correcta es crucial. La capacidad debe exceder la carga total en 20-30%. Para cargas inductivas, la potencia de arranque es 3-5 veces la de funcionamiento. Ejemplo: aire acondicionado 2KW = arranque 6-10KW — SVC-10KVA+ recomendado. Sume potencias y añada 30% de margen.",
       "model": "Modelo AVR",
       "capacity": "Capacidad",
       "recommended": "Uso Recomendado",
       "maxCurrent": "Corriente Máxima",
-      "contactHelp": "¿No está seguro de qué capacidad necesita? Contacte a nuestro equipo con los detalles de su carga y le ayudaremos a seleccionar el modelo correcto.",
+      "contactHelp": "¿No sabe qué capacidad necesita? Contáctenos — nuestros ingenieros le darán asesoramiento profesional y cotización en 24 horas.",
       "rec3000": "Electrodomésticos, computadora, TV",
       "rec10": "Oficina pequeña, tienda, múltiples habitaciones",
       "rec30": "Oficina grande, industria ligera",
@@ -251,7 +251,7 @@
   ],
   "aboutPage": {
     "companyProfile": "Perfil de la Empresa",
-    "companyProfileDesc": "YOKE AVR es un fabricante chino profesional especializado en I+D, producción y exportación de Reguladores de Voltaje Automáticos (AVR). Desde nuestra fundación en 2014, nos hemos enfocado en proporcionar productos estabilizadores de voltaje de alta calidad al mercado africano. La empresa está certificada CE y CB con la certificación del sistema de gestión de calidad ISO 9001:2015, sirviendo a 50+ países africanos.",
+    "companyProfileDesc": "YOKE AVR es un fabricante chino de estabilizadores automáticos de voltaje. Desde 2014, suministramos productos de alta calidad a mercados globales, especialmente África. CE/CB, ISO 9001:2015. Capacidad 5000+ unidades/mes, línea completa 3KVA-60KVA. 98% entregas puntuales, tasa de defectos 0.2%.",
     "productionCapacity": "Capacidad de Producción",
     "productionCapacityDesc": "Fábrica moderna con producción anual de 50,000+ unidades AVR",
     "marketCoverage": "Cobertura de Mercado",
@@ -268,7 +268,7 @@
   },
   "faqPage": {
     "title": "FAQ YOKE AVR - Preguntas y Respuestas sobre Reguladores de Voltaje",
-    "description": "Preguntas frecuentes sobre los reguladores de voltaje automáticos YOKE. Especificaciones, precios, envíos, garantía e información de pedidos."
+    "description": "Preguntas frecuentes sobre estabilizadores YOKE. Especificaciones, precios, envío, garantía, certificación, instalación y pedidos."
   },
   "heroContent": {
     "title": "Fabricante Profesional de Reguladores de Voltaje",
@@ -299,7 +299,7 @@
   },
   "layoutMeta": {
     "title": "YOKE Regulador de Voltaje - Fabricante de Estabilizadores de Voltaje Automáticos | ISO 9001",
-    "description": "YOKE Electric - Fabricante profesional de reguladores de voltaje automático (AVR). Estabilizadores serie SVC para uso doméstico e industrial. Envío global. Precios de fábrica, calidad garantizada."
+    "description": "YOKE Electric - Fabricante profesional de estabilizadores de voltaje. Series SVC y TND, 3KVA-60KVA. Certificación CE/CB/ISO 9001, exportación a 50+ países. Precios de fábrica, desde 1 unidad, envío mundial."
   },
   "orgSchema": {
     "foundingLocation": "Shenzhen, China",
@@ -396,7 +396,7 @@
   },
   "webSchema": {
     "name": "YOKE AVR",
-    "description": "Fabricante profesional de reguladores de voltaje automáticos. Certificados CE y CB, envío global a África.",
+    "description": "Fabricante profesional de estabilizadores automáticos de voltaje. CE/CB, ISO 9001, exportación a 50+ países. Series SVC/TND 3KVA-60KVA.",
     "keywords": "regulador de voltaje, AVR, estabilizador, YOKE, África, protección eléctrica",
     "searchName": "Reguladores de Voltaje",
     "searchDesc": "Buscar reguladores de voltaje y equipos eléctricos",
@@ -414,10 +414,10 @@
     "engineer": "Ingeniero Senior"
   },
   "aboutSchema": {
-    "description": "Fabricante profesional de AVR con más de 10 años de experiencia. Estabilizadores de voltaje serie SVC/TND para uso industrial y doméstico. Certificación CE/CB, envío global."
+    "description": "YOKE - más de 10 años fabricando estabilizadores, certificación CE/CB/ISO 9001, exportación a 50+ países. Series SVC/TND 3KVA-60KVA."
   },
   "certs": {
-    "qualityNote": "Todos los productos incluyen certificados de material, informes de prueba y garantías de calidad. Ofrecemos servicios de inspección de terceros bajo solicitud."
+    "qualityNote": "Todos los productos incluyen certificados de materiales, informes de pruebas y garantía de calidad. Ofrecemos inspección de terceros: SGS, BV, TUV. Cada estabilizador pasa pruebas de alto voltaje y carga completa antes del envío."
   },
   "privacy": {
     "metaTitle": "Política de Privacidad",

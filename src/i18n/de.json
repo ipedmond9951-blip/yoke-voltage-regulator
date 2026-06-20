@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "YOKE Automatischer Spannungsregler - Stabile Stromlösungen",
-    "subtitle": "Professioneller AVR-Hersteller mit über 10 Jahren Erfahrung. SVC/TND-Serie Spannungsstabilisatoren für industriellen und häuslichen Gebrauch. CE/CB-zertifiziert, weltweiter Versand.",
+    "subtitle": "YOKE - Professioneller Hersteller automatischer Spannungsstabilisatoren, über 10 Jahre Erfahrung. SVC/TND-Serien, CE/CB-Zertifizierung, Export in 50+ Länder. Von 3KVA Haushalt bis 60KVA Industrie.",
     "cta": "Angebot Erhalten",
     "ctaSecondary": "Produkte Ansehen",
     "iso": "CE/CB Zertifiziert",
@@ -54,7 +54,7 @@
   },
   "why": {
     "title": "Warum YOKE Spannungsregler?",
-    "subtitle": "Professioneller AVR-Hersteller mit über 10 Jahren Erfahrung. Qualitätsprodukte mit weltweitem Versand.",
+    "subtitle": "Professioneller Stabilisatoren-Hersteller, über 10 Jahre Erfahrung. CE/CB-zertifizierte Produkte, ISO 9001 Qualitätsmanagement, Versand in 50+ Länder. Von Kleinmengen bis OEM/ODM.",
     "experienceTitle": "Über 10 Jahre Erfahrung",
     "experienceDesc": "Spezialisierung auf automatische Spannungsregler seit 2014. SVC- und TND-Serien mit bewährter Zuverlässigkeit.",
     "certTitle": "CE/CB Zertifiziert",
@@ -118,7 +118,7 @@
   "homepage": {
     "applications": {
       "title": "Anwendungen von Spannungsreglern",
-      "subtitle": "YOKE Spannungsregler werden weltweit in Wohn-, Gewerbe- und Industriegebäuden eingesetzt. Vom Schutz von Haushaltsgeräten bis zur Stromversorgung von Produktionslinien liefern unsere CE/CB-zertifizierten AVR zuverlässige Spannungsstabilisierung.",
+      "subtitle": "YOKE-Stabilisatoren werden in Wohn-, Gewerbe- und Industriebereichen vielfältig eingesetzt. Vom Schutz Haushaltsgeräte bis zur Stromversorgung von Produktionslinien — unsere CE/CB-zertifizierten Stabilisatoren bieten zuverlässige Spannungsstabilisierung.",
       "residential": {
         "title": "Haushaltsnutzung",
         "desc": "Schützen Sie Klimaanlagen, Kühlschränke, Fernseher und Computer vor Spannungsschwankungen. SVC-3000VA und TND-SVC-3000VA sind ideal für den Haushaltsgebrauch."
@@ -136,7 +136,7 @@
       "title": "Automatische Spannungsregler verstehen",
       "subtitle": "Erfahren Sie, wie YOKE AVR Ihre Geräte vor Spannungsinstabilität und Stromschwankungen schützen.",
       "svcTitle": "SVC-Serie - Servomotor-Spannungsstabilisatoren",
-      "svcDesc": "Regler der SVC-Serie (Servo Voltage Control) nutzen einen Servomotor-Mechanismus zur Spannungsanpassung. Bei Schwankungen der Eingangsspannung bewegt der Servomotor automatisch die Kohlebürste entlang der Autotransformatorwicklung, um eine stabile Ausgangsspannung aufrechtzuerhalten. YOKE SVC-Regler bieten hervorragende Spannungsregulierungsgenauigkeit (±2-3%) und schnelle Reaktionszeiten. Erhältlich in Kapazitäten von 3KVA bis 60KVA, eignen sich diese Geräte sowohl für Wohn- als auch für leicht industrielle Anwendungen, bei denen zuverlässige Spannungsstabilisierung kritisch ist.",
+      "svcDesc": "Die SVC-Serie nutzt einen Servomotor zur Spannungsregelung. Bei Eingangsschwankungen bewegt der Servomotor die Kohlebürste. YOKE SVC: Präzision ±2-3%, Reaktion in 1 Sekunde. Leistung 3KVA-60KVA. Kupferkern: Effizienz ≥95%. Dreifacher Schutz gegen Überlast, Überspannung und Unterspannung.",
       "svcFeaturesTitle": "Hauptmerkmale der SVC-Serie",
       "svcVoltageRange": "Spannungsbereich: 140-260V (einphasig), 280-430V (dreiphasig)",
       "svcOutputAccuracy": "Ausgangsgenauigkeit: ±2% bis ±3%",
@@ -145,7 +145,7 @@
       "svcFrequency": "Frequenz: 50/60Hz",
       "svcProtection": "Schutz: Überlastung, Überspannung, Unterspannung",
       "tndTitle": "TND-Serie - Spannungsstabilisatoren mit Digitalanzeige",
-      "tndDesc": "Spannungsregler der TND-Serie verfügen über digitale LED- oder LCD-Anzeigen, die Eingangs- und Ausgangsspannung in Echtzeit anzeigen. Diese Modelle nutzen fortschrittliche elektronische Steuerkreise für schnellere Reaktionszeiten und präzisere Spannungsregulierung im Vergleich zu herkömmlichen SVC-Modellen. Die Digitalanzeige ermöglicht es Benutzern, Spannungsverhältnisse auf einen Blick zu überwachen, was die TND-Serie ideal für Umgebungen macht, in denen Sichtbarkeit und Überwachung wichtig sind. Erhältlich in verschiedenen Kapazitäten mit kompakten Designs für Tisch- oder Wandmontage.",
+      "tndDesc": "Die TND-Serie verfügt über LED/LCD-Digitaldisplay für Echtzeitspannung. Fortschrittliche elektronische Steuerschaltung: schnellere Reaktion und präzisere Stabilisierung als SVC. Ausgangsgenauigkeit ±2%, ideal für Präzisionsgeräte. Kompaktes Design, geringer Geräuschpegel.",
       "tndFeaturesTitle": "Hauptmerkmale der TND-Serie",
       "tndDisplay": "Anzeige: Digitale LED/LCD zeigt Eingangs- und Ausgangsspannung",
       "tndResponseTime": "Reaktionszeit: Etwa 500ms",
@@ -154,20 +154,20 @@
       "tndDelayProtection": "Verzögerungsschutz: 3-6 Sekunden Startverzögerung",
       "tndNoiseLevel": "Geräuschpegel: Ultra-leiser Betrieb",
       "whyTitle": "Warum Spannungsstabilisierung wichtig ist",
-      "whyDesc": "Spannungsschwankungen und Stromspitzen sind in vielen Stromnetzen weltweit ein häufiges Problem. Instabile Spannung kann schwere Schäden an elektrischen Geräten verursachen, was zu teuren Reparaturen oder vorzeitigem Ausfall führt. Ein hochwertiger Spannungsregler wie die YOKE AVR stellt sicher, dass Ihre Geräte und Ausrüstungen unabhängig von Eingangsschwankungen konsistente, sichere Spannungspegel erhalten. Dies verlängert die Lebensdauer der Geräte, reduziert Ausfallzeiten und spart Geld bei Reparaturen und Austausch.",
+      "whyDesc": "Spannungsschwankungen und Überspannungen sind häufige Probleme, besonders in Afrika, Südasien und Nahost. Instabile Spannung beschädigt Geräte schwer. Niedrige Spannung überhitzt Motoren; Spitzen zerstören Leiterplatten. YOKE-Stabilisatoren garantieren sichere Spannung, verlängern Lebensdauer, reduzieren Ausfallzeiten.",
       "overVoltageTitle": "Überspannungsschutz",
-      "overVoltageDesc": "Spannungsspitzen können empfindliche Elektronik sofort zerstören. YOKE AVR erkennen und korrigieren Überspannungszustände innerhalb von Millisekunden.",
+      "overVoltageDesc": "Spannungsspitzen können empfindliche elektronische Geräte sofort zerstören. Wenn die Spannung den Nennwert um 10%+ übersteigt, sind Leiterplatten dauerhaft gefährdet. YOKE-Stabilisatoren erkennen Überspannung in Millisekunden und korrigieren automatisch den Ausgang.",
       "underVoltageTitle": "Unterspannungsschutz",
-      "underVoltageDesc": "Niedrige Spannung führt zu Überhitzung und vorzeitigem Ausfall von Geräten. YOKE AVR heben Unterspannung auf sichere Betriebspegel an."
+      "underVoltageDesc": "Niedrige Spannung verursacht Motorüberhitzung und vorzeitigen Ausfall. YOKE-Stabilisatoren heben die Unterspannung automatisch auf den sicheren Level und gewährleisten normalen Betrieb selbst bei 140V Eingang."
     },
     "capacity": {
       "title": "AVR Kapazitätsauswahl-Leitfaden",
-      "desc": "Die Auswahl der richtigen Kapazität ist entscheidend für eine wirksame Spannungsregulierung. Die AVR-Kapazität sollte Ihre Gesamtlast um 20-30% übersteigen, um Startströme und zukünftige Erweiterungen zu berücksichtigen. Bei induktiven Lasten (Motoren, Kompressoren) sollten Sie das 3-5-fache der Betriebsleistung für den Anlauf einplanen.",
+      "desc": "Die richtige Kapazität zu wählen ist entscheidend. Kapazität muss die Gesamtlast um 20-30% übersteigen. Bei induktiven Lasten ist die Anlaufleistung 3-5x der Betriebsleistung. Beispiel: 2KW Klimaanlage = Anlauf 6-10KW — SVC-10KVA+ empfohlen. Leistungen addieren und 30% Reserve hinzufügen.",
       "model": "AVR-Modell",
       "capacity": "Kapazität",
       "recommended": "Empfohlene Verwendung",
       "maxCurrent": "Maximalstrom",
-      "contactHelp": "Nicht sicher, welche Kapazität Sie benötigen? Kontaktieren Sie unser Team mit Ihren Lastdaten und wir helfen Ihnen bei der Auswahl des richtigen Modells.",
+      "contactHelp": "Unsicher welche Kapazität? Kontaktieren Sie uns — unsere Ingenieure liefern innerhalb von 24 Stunden professionelle Beratung und Angebot.",
       "rec3000": "Haushaltsgeräte, Computer, TV",
       "rec10": "Kleines Büro, Geschäft, mehrere Räume",
       "rec30": "Großes Büro, Leichtindustrie",
@@ -251,7 +251,7 @@
   ],
   "aboutPage": {
     "companyProfile": "Unternehmensprofil",
-    "companyProfileDesc": "YOKE AVR ist ein professioneller chinesischer Hersteller, der auf die Entwicklung, Produktion und den Export von automatischen Spannungsreglern (AVR) spezialisiert ist. Seit unserer Gründung im Jahr 2014 konzentrieren wir uns auf die Bereitstellung hochwertiger Spannungsstabilisatorprodukte für den afrikanischen Markt. Das Unternehmen ist CE- und CB-zertifiziert mit ISO 9001:2015 Qualitätsmanagement-Systemzertifizierung und bedient 50+ afrikanische Länder.",
+    "companyProfileDesc": "YOKE AVR ist ein chinesischer Hersteller automatischer Spannungsstabilisatoren. Seit 2014 liefern wir hochwertige Stabilisatoren auf Weltmärkte, besonders nach Afrika. CE/CB, ISO 9001:2015. Kapazität 5000+ Einheiten/Monat, volle Palette 3KVA-60KVA. 98% pünktliche Lieferung, Defektrate 0.2%.",
     "productionCapacity": "Produktionskapazität",
     "productionCapacityDesc": "Moderne Fabrik mit Jahresproduktion von 50.000+ AVR-Einheiten",
     "marketCoverage": "Marktabdeckung",
@@ -268,7 +268,7 @@
   },
   "faqPage": {
     "title": "YOKE AVR FAQ - Spannungsregler Fragen & Antworten",
-    "description": "Häufig gestellte Fragen zu YOKE automatischen Spannungsreglern. Spezifikationen, Preise, Versand, Garantie und Bestellinformationen."
+    "description": "Häufige Fragen zu YOKE-Stabilisatoren. Spezifikationen, Preise, Versand, Garantie, Zertifizierung, Installation und Bestellung."
   },
   "heroContent": {
     "title": "Professioneller Spannungsregler-Hersteller",
@@ -299,7 +299,7 @@
   },
   "layoutMeta": {
     "title": "YOKE Spannungsregler - Hersteller Automatischer Spannungsstabilisatoren | ISO 9001",
-    "description": "YOKE Electric - Professioneller Hersteller von automatischen Spannungsreglern (AVR). SVC-Serie Stabilisatoren für Haushalt und Industrie. Weltweiter Versand. Fabrikpreise, Qualität garantiert."
+    "description": "YOKE Electric - Professioneller Spannungsstabilisatoren-Hersteller. SVC- und TND-Serien, 3KVA-60KVA. CE/CB/ISO 9001 Zertifizierung, Export in 50+ Länder. Fabrikpreise, ab 1 Stück, weltweiter Versand."
   },
   "orgSchema": {
     "foundingLocation": "Shenzhen, China",
@@ -396,7 +396,7 @@
   },
   "webSchema": {
     "name": "YOKE AVR",
-    "description": "Professioneller Hersteller automatischer Spannungsregler. CE & CB zertifiziert, weltweiter Versand nach Afrika.",
+    "description": "Professioneller Hersteller automatischer Spannungsstabilisatoren. CE/CB, ISO 9001, Export in 50+ Länder. SVC/TND-Serien 3KVA-60KVA.",
     "keywords": "Spannungsregler, AVR, Stabilisator, YOKE, Afrika, Stromschutz",
     "searchName": "Spannungsregler",
     "searchDesc": "Suche nach Spannungsreglern und Stromausrüstung",
@@ -414,10 +414,10 @@
     "engineer": "Senior-Ingenieur"
   },
   "aboutSchema": {
-    "description": "Professioneller AVR-Hersteller mit über 10 Jahren Erfahrung. SVC/TND-Serie Spannungsstabilisatoren für industriellen und häuslichen Gebrauch. CE/CB-zertifiziert, weltweiter Versand."
+    "description": "YOKE - über 10 Jahre Stabilisatoren-Fertigung, CE/CB/ISO 9001 Zertifizierung, Export in 50+ Länder. SVC/TND-Serien 3KVA-60KVA."
   },
   "certs": {
-    "qualityNote": "Alle Produkte werden mit Materialzertifikaten, Testberichten und Qualitätsgarantien geliefert. Wir bieten auf Anfrage Inspektionsdienste durch Dritte an."
+    "qualityNote": "Alle Produkte kommen mit Materialzertifikaten, Testberichten und Qualitätsgarantie. Drittpartei-Inspektion: SGS, BV, TUV. Jeder Stabilisator durchläuft Hochspannungstest und Volllasttest vor Versand."
   },
   "privacy": {
     "metaTitle": "Datenschutzrichtlinie",

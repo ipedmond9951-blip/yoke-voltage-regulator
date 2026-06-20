@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "Régulateur de Tension Automatique YOKE - Solutions d'Alimentation Stable",
-    "subtitle": "Fabricant professionnel d'AVR avec plus de 10 ans d'expérience. Stabilisateurs de tension série SVC/TND pour usage industriel et domestique. Certifié CE/CB, expédition mondiale.",
+    "subtitle": "YOKE - Fabricant professionnel de stabilisateurs automatiques de tension, plus de 10 ans d'expérience. Séries SVC/TND, certification CE/CB, exportation vers 50+ pays. Du 3KVA domestique au 60KVA industriel.",
     "cta": "Obtenir un Devis",
     "ctaSecondary": "Voir les Produits",
     "iso": "Certifié CE/CB",
@@ -54,7 +54,7 @@
   },
   "why": {
     "title": "Pourquoi les Régulateurs de Tension YOKE ?",
-    "subtitle": "Fabricant professionnel d'AVR avec plus de 10 ans d'expérience. Produits de qualité avec expédition mondiale.",
+    "subtitle": "Fabricant professionnel de stabilisateurs, plus de 10 ans d'expérience. Produits certifiés CE/CB, système qualité ISO 9001, expédition vers 50+ pays. Des petites quantités à l'OEM/ODM.",
     "experienceTitle": "Plus de 10 Ans d'Expérience",
     "experienceDesc": "Spécialisation dans les régulateurs de tension automatique depuis 2014. Séries SVC et TND avec fiabilité prouvée.",
     "certTitle": "Certifié CE/CB",
@@ -118,7 +118,7 @@
   "homepage": {
     "applications": {
       "title": "Applications des Régulateurs de Tension",
-      "subtitle": "Les régulateurs de tension YOKE sont largement utilisés dans les applications résidentielles, commerciales et industrielles dans le monde entier. De la protection des appareils ménagers à l'alimentation des lignes de production, nos AVR certifiés CE/CB offrent une stabilisation de tension fiable.",
+      "subtitle": "Les stabilisateurs YOKE sont largement utilisés dans les secteurs résidentiel, commercial et industriel. De la protection des appareils ménagers à l'alimentation des lignes de production, nos stabilisateurs certifiés CE/CB assurent une stabilisation de tension fiable.",
       "residential": {
         "title": "Usage Résidentiel",
         "desc": "Protégez les climatiseurs, réfrigérateurs, téléviseurs et ordinateurs des fluctuations de tension. SVC-3000VA et TND-SVC-3000VA sont idéaux pour un usage domestique."
@@ -136,7 +136,7 @@
       "title": "Comprendre les Régulateurs de Tension Automatiques",
       "subtitle": "Découvrez comment les AVR YOKE protègent vos équipements de l'instabilité de tension et des fluctuations d'alimentation.",
       "svcTitle": "Série SVC - Stabilisateurs de Tension à Moteur Servo",
-      "svcDesc": "Les régulateurs de la série SVC (Contrôle de Tension Servo) utilisent un mécanisme à moteur servo pour ajuster la tension. Lorsque la tension d'entrée fluctue, le moteur servo déplace automatiquement la brosse en carbone le long de l'enroulement de l'autotransformateur pour maintenir une tension de sortie stable. Les régulateurs SVC de YOKE offrent une excellente précision de régulation de tension (±2-3%) et des temps de réponse rapides. Disponibles en capacités de 3KVA à 60KVA, ces unités conviennent aux applications résidentielles et industrielles légères où une stabilisation fiable de la tension est critique.",
+      "svcDesc": "La série SVC utilise un servomoteur pour réguler la tension. Lors de fluctuations, le servomoteur déplace la brosse de carbone. YOKE SVC: précision ±2-3%, réponse en 1 seconde. Capacité 3KVA-60KVA. Noyau cuivre: efficacité ≥95%. Protection triple contre surcharge, surtension et sous-tension.",
       "svcFeaturesTitle": "Caractéristiques Clés de la Série SVC",
       "svcVoltageRange": "Plage de Tension : 140-260V (monophasé), 280-430V (triphasé)",
       "svcOutputAccuracy": "Précision de Sortie : ±2% à ±3%",
@@ -145,7 +145,7 @@
       "svcFrequency": "Fréquence : 50/60Hz",
       "svcProtection": "Protection : Surcharge, surtension, sous-tension",
       "tndTitle": "Série TND - Stabilisateurs de Tension à Affichage Numérique",
-      "tndDesc": "Les régulateurs de tension de la série TND sont équipés d'affichages numériques LED ou LCD montrant la tension d'entrée et de sortie en temps réel. Ces modèles utilisent une circuiterie de contrôle électronique avancée pour des temps de réponse plus rapides et une régulation de tension plus précise par rapport aux modèles SVC traditionnels. L'affichage numérique permet aux utilisateurs de surveiller les conditions de tension d'un coup d'œil, rendant la série TND idéale pour les environnements où la visibilité et la surveillance sont importantes. Disponibles en différentes capacités avec des designs compacts adaptés au montage sur bureau ou mural.",
+      "tndDesc": "La série TND est équipée d'un affichage LED/LCD numérique montrant les tensions en temps réel. Circuit électronique avancé: réponse plus rapide et plus précise que SVC. Précision de sortie ±2%, idéale pour équipements de précision. Design compact, faible bruit.",
       "tndFeaturesTitle": "Caractéristiques Clés de la Série TND",
       "tndDisplay": "Affichage : LED/LCD numérique montrant la tension d'entrée et de sortie",
       "tndResponseTime": "Temps de Réponse : Environ 500ms",
@@ -154,20 +154,20 @@
       "tndDelayProtection": "Protection à Retardement : 3-6 secondes de retard au démarrage",
       "tndNoiseLevel": "Niveau Sonore : Fonctionnement à bruit ultra-faible",
       "whyTitle": "Pourquoi la Stabilisation de Tension est Importante",
-      "whyDesc": "Les fluctuations de tension et les surtensions sont des problèmes courants dans de nombreux réseaux électriques dans le monde. Une tension instable peut causer des dommages graves aux équipements électriques, entraînant des réparations coûteuses ou des défaillances prématurées. Un régulateur de tension de qualité comme les AVR YOKE garantit que vos appareils et équipements reçoivent des niveaux de tension constants et sûrs indépendamment des fluctuations d'entrée. Cela prolonge la durée de vie des équipements, réduit les temps d'arrêt et économise de l'argent sur les réparations et remplacements.",
+      "whyDesc": "Les fluctuations et surtensions sont courantes dans de nombreux réseaux, surtout en Afrique, Asie du Sud et Moyen-Orient. Tension instable endommage gravement les équipements. Basse tension surchauffe les moteurs; les pics détruisent les cartes de circuits. Les stabilisateurs YOKE garantissent tension sûre, prolongent durée de vie, réduisent temps d'arrêt.",
       "overVoltageTitle": "Protection contre les Surtensions",
-      "overVoltageDesc": "Les pics de tension peuvent détruire instantanément l'électronique sensible. Les AVR YOKE détectent et corrigent les conditions de surtension en quelques millisecondes.",
+      "overVoltageDesc": "Les pics de tension peuvent détruire instantanément les équipements sensibles. Quand la tension dépasse la valeur nominale de 10%+, les cartes de circuits risquent des dommages permanents. Les stabilisateurs YOKE détectent la surtension en millisecondes et ajustent automatiquement la sortie.",
       "underVoltageTitle": "Protection contre les Sous-tensions",
-      "underVoltageDesc": "Une basse tension provoque la surchauffe et la défaillance prématurée des équipements. Les AVR YOKE augmentent la sous-tension à des niveaux de fonctionnement sûrs."
+      "underVoltageDesc": "La basse tension provoque la surchauffe des moteurs et la défaillance prématurée. Les stabilisateurs YOKE relèvent automatiquement la sous-tension au niveau sûr, assurant un fonctionnement normal même à 140V en entrée."
     },
     "capacity": {
       "title": "Guide de Sélection de Capacité AVR",
-      "desc": "Choisir la bonne capacité est crucial pour une régulation de tension efficace. La capacité de l'AVR doit dépasser votre charge totale de 20-30% pour tenir compte des courants de démarrage et de l'expansion future. Pour les charges inductives (moteurs, compresseurs), prévoyez 3 à 5 fois la puissance de fonctionnement pour le démarrage.",
+      "desc": "Choisir la bonne capacité est crucial. La capacité doit dépasser la charge totale de 20-30%. Pour les charges inductives, la puissance de démarrage est 3-5x la puissance de fonctionnement. Exemple: climatisation 2KW = démarrage 6-10KW — SVC-10KVA+ recommandé. Additionnez et ajoutez 30% de marge.",
       "model": "Modèle AVR",
       "capacity": "Capacité",
       "recommended": "Usage Recommandé",
       "maxCurrent": "Courant Maximum",
-      "contactHelp": "Pas sûr de la capacité dont vous avez besoin ? Contactez notre équipe avec les détails de votre charge et nous vous aiderons à sélectionner le bon modèle.",
+      "contactHelp": "Vous ne savez pas quelle capacité choisir? Contactez-nous — nos ingénieurs fourniront un conseil professionnel et un devis en 24 heures.",
       "rec3000": "Appareils ménagers, ordinateur, TV",
       "rec10": "Petit bureau, boutique, plusieurs pièces",
       "rec30": "Grand bureau, industrie légère",
@@ -251,7 +251,7 @@
   ],
   "aboutPage": {
     "companyProfile": "Profil de l'Entreprise",
-    "companyProfileDesc": "YOKE AVR est un fabricant chinois professionnel spécialisé dans la R&D, la production et l'exportation de régulateurs de tension automatiques (AVR). Depuis notre fondation en 2014, nous nous concentrons sur la fourniture de produits stabilisateurs de tension de haute qualité au marché africain. L'entreprise est certifiée CE et CB avec la certification du système de gestion de la qualité ISO 9001:2015, servant 50+ pays africains.",
+    "companyProfileDesc": "YOKE AVR est un fabricant chinois de stabilisateurs automatiques de tension. Depuis 2014, nous fournissons des produits de haute qualité aux marchés mondiaux, notamment l'Afrique. CE/CB, ISO 9001:2015. Capacité 5000+ unités/mois, gamme complète 3KVA-60KVA. 98% livraisons à l'heure, taux de défauts 0.2%.",
     "productionCapacity": "Capacité de Production",
     "productionCapacityDesc": "Usine moderne avec une production annuelle de 50 000+ unités AVR",
     "marketCoverage": "Couverture du Marché",
@@ -268,7 +268,7 @@
   },
   "faqPage": {
     "title": "FAQ YOKE AVR - Questions et Réponses sur les Régulateurs de Tension",
-    "description": "Questions fréquemment posées sur les régulateurs de tension automatiques YOKE. Spécifications, prix, expédition, garantie et informations de commande."
+    "description": "Questions fréquentes sur les stabilisateurs YOKE. Spécifications, prix, expédition, garantie, certification, installation et commandes."
   },
   "heroContent": {
     "title": "Fabricant Professionnel de Régulateurs de Tension",
@@ -299,7 +299,7 @@
   },
   "layoutMeta": {
     "title": "YOKE Régulateur de Tension - Fabricant de Stabilisateurs de Tension Automatiques | ISO 9001",
-    "description": "YOKE Electric - Fabricant professionnel de régulateurs de tension automatiques (AVR). Stabilisateurs série SVC pour usage domestique et industriel. Expédition mondiale. Prix d'usine, qualité garantie."
+    "description": "YOKE Electric - Fabricant professionnel de stabilisateurs de tension. Séries SVC et TND, 3KVA-60KVA. Certification CE/CB/ISO 9001, exportation vers 50+ pays. Prix d'usine, à partir de 1 unité, expédition mondiale."
   },
   "orgSchema": {
     "foundingLocation": "Shenzhen, Chine",
@@ -396,7 +396,7 @@
   },
   "webSchema": {
     "name": "YOKE AVR",
-    "description": "Fabricant professionnel de régulateurs de tension automatiques. Certifiés CE et CB, expédition mondiale vers l'Afrique.",
+    "description": "Fabricant professionnel de stabilisateurs automatiques de tension. CE/CB, ISO 9001, exportation vers 50+ pays. Séries SVC/TND 3KVA-60KVA.",
     "keywords": "régulateur de tension, AVR, stabilisateur, YOKE, Afrique, protection électrique",
     "searchName": "Régulateurs de Tension",
     "searchDesc": "Rechercher des régulateurs de tension et équipements électriques",
@@ -414,10 +414,10 @@
     "engineer": "Ingénieur Senior"
   },
   "aboutSchema": {
-    "description": "Fabricant professionnel d'AVR avec plus de 10 ans d'expérience. Stabilisateurs de tension série SVC/TND pour usage industriel et domestique. Certifié CE/CB, expédition mondiale."
+    "description": "YOKE - plus de 10 ans de fabrication de stabilisateurs, certification CE/CB/ISO 9001, exportation vers 50+ pays. Séries SVC/TND 3KVA-60KVA."
   },
   "certs": {
-    "qualityNote": "Tous les produits sont accompagnés de certificats de matériau, rapports de test et garanties de qualité. Nous fournissons des services d'inspection tierce partie sur demande."
+    "qualityNote": "Tous les produits sont accompagnés de certificats matériaux, rapports de test et garantie qualité. Services d'inspection tierce partie: SGS, BV, TUV. Chaque stabilisateur subit des tests haute tension et de pleine charge avant expédition."
   },
   "privacy": {
     "metaTitle": "Politique de Confidentialité",
