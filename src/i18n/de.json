@@ -60,9 +60,9 @@
     "certTitle": "CE/CB Zertifiziert",
     "certDesc": "Alle Produkte erfüllen CE- und CB-Sicherheitsstandards. Qualität garantiert.",
     "capabilityTitle": "Vollständige Produktionslinie",
-    "capabilityDesc": "Moderne Produktionsanlagen mit monatlicher Kapazität von über 10.000 Einheiten.",
+    "capabilityDesc": "Modernes Werk, 5000+ Einheiten/Monat. Automatische Wicklung und Prüfung.",
     "logisticsTitle": "Experten für Weltweiten Versand",
-    "logisticsDesc": "Versand in mehr als 50 Länder. See- und Luftfrachtoptionen verfügbar."
+    "logisticsDesc": "Versand in 50+ Länder. Express 5-7 Tage, Seefracht 20-30 Tage, Luftfracht 10-15 Tage. CIF/DDP Bedingungen."
   },
   "faq": {
     "title": "Häufig Gestellte Fragen",
@@ -178,11 +178,11 @@
   "faqItems": [
     {
       "q": "Welche Arten von Spannungsreglern stellen Sie her?",
-      "a": "YOKE produziert die SVC- (Servo-Spannungsregler) und TND-Serie (Hohe Präzision). Kapazitäten von 500VA bis 100KVA. Einphasige und dreiphasige Modelle verfügbar."
+      "a": "YOKE produziert zwei Serien: SVC (Servostabilisatoren) und TND (Hochpräzision mit Digitaldisplay). Leistung 500VA bis 100KVA. SVC für Haushalt und Leichtindustrie. TND Präzision ±2% für Präzisionsgeräte und Labore. Ein- und dreiphasige Modelle, OEM/ODM verfügbar."
     },
     {
       "q": "Was ist der Unterschied zwischen der SVC- und TND-Serie?",
-      "a": "SVC-Serie: Relais-Typ, schnelle Reaktion, erschwinglich. TND-Serie: Servomotor-Steuerung, höhere Präzision (±2%), Digitalanzeige, für empfindliche Geräte."
+      "a": "SVC: Servomotor mit Kohlebürste, schnelle Reaktion (<1s), erschwinglicher Preis. TND: elektronische Steuerung, LED/LCD-Digitaldisplay, Präzision ±2%, Reaktion ~500ms, geringer Lärm. Für Präzisionsgeräte. TND teurer aber präziser."
     },
     {
       "q": "Welchen Eingangsspannungsbereich unterstützen Ihre Spannungsregler?",
@@ -202,7 +202,7 @@
     },
     {
       "q": "Können Sie Spannungsregler für spezifische Anwendungen anpassen?",
-      "a": "Ja, OEM/ODM verfügbar. Kundenspezifische Spannungsbereiche, Frequenzen (50/60Hz), spezielle Gehäuse und Branding. MOQ 50 Einheiten für Anpassungen."
+      "a": "Ja! Vollständiger OEM/ODM-Service. Anpassung: Spannungsbereich, Frequenz (50/60Hz), Gehäuse und Schutz (IP20-IP54), Marke und Verpackung, Sonderfunktionen. MOQ ab 50 Stück, Lieferzeit 20-30 Tage."
     },
     {
       "q": "Welche Zertifizierungen haben Ihre Produkte?",
@@ -214,15 +214,15 @@
     },
     {
       "q": "Bieten Sie Garantie für Ihre Spannungsregler?",
-      "a": "Ja, 1-2 Jahre Garantie je nach Modell. Garantie deckt Fertigungsfehler ab. Ersatzteile und technischer Support inklusive."
+      "a": "Standardmodelle: 7-15 Tage. Maßgeschneidert: 20-30 Tage. Dringend: 7 Tage (+15%). Großbestellungen (500+): 5-10 Tage zusätzlich. 100% Inspektion vor Versand."
     },
     {
       "q": "Wie lange ist die Lebensdauer von YOKE Spannungsreglern?",
-      "a": "YOKE-Regler sind für 10+ Jahre Dauerbetrieb ausgelegt. Die Lebensdauer hängt von Last, Umgebung und Nutzungsbedingungen ab."
+      "a": "Lebensdauer 10+ Jahre. Kupfertransformator und hochwertige Kohlebürsten. SVC: Bürsten 3-5 Jahre (austauschbar). TND: kein mechanischer Verschleiß, länger haltbar. Garantie 1-2 Jahre, lebenslange Ersatzteile."
     },
     {
       "q": "Für welche Anwendungen eignen sich Ihre Spannungsregler?",
-      "a": "Haushaltsgeräte (Kühlschränke, Klimaanlagen, Fernseher), Büroausstattung, medizinische Geräte, Industriemaschinen, CNC-Ausrüstung, Schweißmaschinen und Produktionslinien."
+      "a": "Haushaltsgeräte (Kühlschränke, Klimaanlagen, TVs), Büroausstattung, Medizingeräte, Industriemaschinen (CNC, Schweißen), Gewerbeanlagen, Telekommunikation, Solaranlagen. Von 3KVA bis 60KVA."
     },
     {
       "q": "Versenden Sie international?",
@@ -230,23 +230,23 @@
     },
     {
       "q": "Was ist im Paket enthalten?",
-      "a": "Jede Einheit enthält: Spannungsregler, Benutzerhandbuch, Garantiekarte. Optional: Voltmeter-Anzeige, Wandmontage-Set, Eingangs-/Ausgangskabel."
+      "a": "Weltweiter Versand: Express (DHL/FedEx) 5-7 Tage, Seefracht 20-30 Tage, Luftfracht 10-15 Tage. CIF/FOB/DDP Bedingungen. Haupthäfen: Durban, Mombasa, Lagos."
     },
     {
       "q": "Wie installiere ich den Spannungsregler?",
-      "a": "Wand- oder Bodenmontage. Eingang an Stromnetz anschließen, Ausgang an geschütztes Gerät. Vollständige Installationsanleitung bei jeder Einheit inklusive."
+      "a": "Standardpaket: Stabilisator, Handbuch, Garantiekarte, Zertifikat. Optionen: Digitalvoltmeter, Wandhalterung, Kabel, Staubschutzhülle, Ersatzteile (Bürsten und Sicherungen)."
     },
     {
       "q": "Warum YOKE Spannungsregler wählen?",
-      "a": "12+ Jahre Herstellungserfahrung, ISO 9001 zertifizierte Fabrik, 98% Pünktlichkeitsrate, wettbewerbsfähige Preise mit 2-Jahres-Garantie und weltweitem After-Sales-Support."
+      "a": "Einfache Installation: Wand- oder Bodenaufstellung. Eingang ans Netz, Ausgang an Geräte anschließen. Klemmen markiert L/N/PE. Detaillierte Anleitung beiliegend. Für 30KVA+ professionellen Elektriker empfehlen."
     },
     {
       "q": "Bieten Sie technischen Support an?",
-      "a": "Ja, 24/7 technischer Support verfügbar. Installationsanleitung, Fehlerbehebung und Wartungstipps. Fernunterstützung per Videoanruf."
+      "a": "12+ Jahre Erfahrung, ISO 9001, CE/CB, 98% pünktliche Lieferung, 0.2% Defekte, wettbewerbsfähige Preise, 1-2 Jahre Garantie, 50+ Länder, 24/7 Support."
     },
     {
       "q": "Wie bestelle ich?",
-      "a": "1) Modell und Menge auswählen. 2) Angebot anfordern. 3) Spezifikationen bestätigen. 4) 30% Anzahlung zahlen. 5) Produktion. 6) Inspektion. 7) Restbetrag zahlen. 8) Versand."
+      "a": "7x24 Telefon/WhatsApp, Installation (Video+Anleitung), Diagnose, Wartung, Ersatzteile, Nairobi Service-Center für Afrika."
     }
   ],
   "aboutPage": {
@@ -390,7 +390,7 @@
   },
   "articlesSection": {
     "title": "Technische Artikel",
-    "subtitle": "Expertenguides zur Spannungsregelung, Installation und Stromschutz",
+    "subtitle": "Expertenleitfäden zur Spannungsstabilisierung, Installation, Wartung und Geräteschutz.",
     "minRead": "Min. Lesezeit",
     "viewAll": "Alle Artikel ansehen"
   },
@@ -496,7 +496,7 @@
     "breadcrumbHome": "Startseite",
     "breadcrumbTeam": "Ingenieurteam",
     "title": "YOKE Ingenieurteam",
-    "subtitle": "15+ Jahre Erfahrung in der Entwicklung von Spannungsreglern und Feldeingeneurwesen, mit Fokus auf afrikanische B2B-Märkte. Unsere Ingenieure, technischen Redakteure und Feldanwendungsspezialisten bieten Kunden fachkundige technische Unterstützung.",
+    "subtitle": "15+ Jahre Stabilisatoren-Design und Feldengineering, spezialisiert auf afrikanischen B2B-Markt. Felderfahrung in 47+ Ländern.",
     "viewFullProfile": "Vollständiges Profil ansehen →",
     "whyTitle": "Warum YOKE Ingenieurwesen Wählen",
     "gridExpertiseTitle": "Afrikanische Netze Expertise",

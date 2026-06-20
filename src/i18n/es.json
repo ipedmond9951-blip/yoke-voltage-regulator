@@ -60,9 +60,9 @@
     "certTitle": "Certificación CE/CB",
     "certDesc": "Todos los productos cumplen con estándares de seguridad CE y CB. Calidad garantizada.",
     "capabilityTitle": "Línea de Producción Completa",
-    "capabilityDesc": "Instalaciones de manufactura modernas con capacidad mensual de más de 10,000 unidades.",
+    "capabilityDesc": "Fábrica moderna, 5000+ unidades/mes. Bobinado y prueba automáticos.",
     "logisticsTitle": "Expertos en Envío Global",
-    "logisticsDesc": "Envío a más de 50 países. Opciones de envío marítimo y aéreo disponibles."
+    "logisticsDesc": "Envío a 50+ países. Exprés 5-7 días, marítimo 20-30 días, aéreo 10-15 días. Términos CIF/DDP."
   },
   "faq": {
     "title": "Preguntas Frecuentes",
@@ -178,11 +178,11 @@
   "faqItems": [
     {
       "q": "¿Qué tipos de reguladores de voltaje fabrican?",
-      "a": "YOKE produce las series SVC (Regulador de Voltaje Servo) y TND (Alta Precisión). Capacidades de 500VA a 100KVA. Modelos monofásicos y trifásicos disponibles."
+      "a": "YOKE produce dos series: SVC (servo estabilizadores) y TND (alta precisión con display digital). Capacidad de 500VA a 100KVA. SVC para hogar e industria ligera. TND con precisión ±2% para equipos de precisión y laboratorios. Modelos monofásicos y trifásicos, OEM/ODM disponible."
     },
     {
       "q": "¿Cuál es la diferencia entre las series SVC y TND?",
-      "a": "Serie SVC: Tipo relé, respuesta rápida, asequible. Serie TND: Control por motor servo, mayor precisión (±2%), pantalla digital, para equipos sensibles."
+      "a": "SVC: servomotor con escobilla, respuesta rápida (<1s), precio accesible. TND: control electrónico, display digital LED/LCD, precisión ±2%, respuesta ~500ms, bajo ruido. Para equipos de precisión. TND más caro pero más preciso."
     },
     {
       "q": "¿Qué rango de voltaje de entrada soportan sus reguladores?",
@@ -202,7 +202,7 @@
     },
     {
       "q": "¿Pueden personalizar los reguladores de voltaje para aplicaciones específicas?",
-      "a": "Sí, OEM/ODM disponible. Rangos de voltaje personalizados, frecuencias (50/60Hz), carcasas especiales y marca. MOQ 50 unidades para personalización."
+      "a": "¡Sí! Servicio completo OEM/ODM. Personalización: rango de voltaje, frecuencia (50/60Hz), carcasa y protección (IP20-IP54), marca y empaque, funciones especiales. MOQ desde 50 unidades, plazo 20-30 días."
     },
     {
       "q": "¿Qué certificaciones tienen sus productos?",
@@ -214,15 +214,15 @@
     },
     {
       "q": "¿Ofrecen garantía en sus reguladores de voltaje?",
-      "a": "Sí, garantía de 1-2 años según el modelo. La garantía cubre defectos de fabricación. Repuestos y soporte técnico incluidos."
+      "a": "Modelos estándar: 7-15 días. Personalizados: 20-30 días. Urgentes: 7 días (+15%). Pedidos grandes (500+): 5-10 días adicionales. 100% inspección antes del envío."
     },
     {
       "q": "¿Cuánto tiempo dura la vida útil de los reguladores de voltaje YOKE?",
-      "a": "Los reguladores YOKE están diseñados para 10+ años de operación continua. La vida útil depende de la carga, el entorno y las condiciones de uso."
+      "a": "Vida útil 10+ años. Transformador de cobre y escobillas de alta calidad. SVC: escobillas 3-5 años (reemplazables). TND: sin desgaste mecánico, más duradero. Garantía 1-2 años, repuestos de por vida."
     },
     {
       "q": "¿Qué aplicaciones son adecuadas para sus reguladores de voltaje?",
-      "a": "Electrodomésticos (refrigeradores, aire acondicionado, televisores), equipos de oficina, dispositivos médicos, maquinaria industrial, equipos CNC, máquinas de soldadura y líneas de producción."
+      "a": "Electrodomésticos (neveras, aires acondicionados, TVs), equipos de oficina, equipos médicos, maquinaria industrial (CNC, soldadura), instalaciones comerciales, telecomunicaciones, sistemas solares. De 3KVA a 60KVA."
     },
     {
       "q": "¿Realizan envíos internacionales?",
@@ -230,23 +230,23 @@
     },
     {
       "q": "¿Qué incluye el paquete?",
-      "a": "Cada unidad incluye: regulador de voltaje, manual de usuario, tarjeta de garantía. Opcional: pantalla de voltímetro, kit de montaje en pared, cables de entrada/salida."
+      "a": "Envío mundial: exprés (DHL/FedEx) 5-7 días, marítimo 20-30 días, aéreo 10-15 días. Términos CIF/FOB/DDP. Puertos principales: Durban, Mombasa, Lagos."
     },
     {
       "q": "¿Cómo instalo el regulador de voltaje?",
-      "a": "Instalación en pared o de pie. Conecte la entrada a la red eléctrica, la salida al equipo protegido. Guía de instalación completa incluida con cada unidad."
+      "a": "Paquete estándar: estabilizador, manual, tarjeta de garantía, certificado. Opciones: voltímetro digital, soporte de pared, cables, cubierta antipolvo, repuestos (escobillas y fusibles)."
     },
     {
       "q": "¿Por qué elegir los reguladores de voltaje YOKE?",
-      "a": "12+ años de experiencia en fabricación, fábrica certificada ISO 9001, 98% de tasa de entrega a tiempo, precios competitivos con garantía de 2 años y soporte postventa global."
+      "a": "Instalación sencilla: montaje en pared o piso. Conecte entrada a la red, salida al equipo. Terminales marcados L/N/PE. Guía detallada incluida. Para 30KVA+ recomendamos electricista profesional."
     },
     {
       "q": "¿Ofrecen soporte técnico?",
-      "a": "Sí, soporte técnico 24/7 disponible. Orientación de instalación, solución de problemas y consejos de mantenimiento. Asistencia remota por videollamada."
+      "a": "12+ años experiencia, ISO 9001, CE/CB, 98% entregas puntuales, 0.2% defectos, precios competitivos, 1-2 años garantía, 50+ países, soporte 24/7."
     },
     {
       "q": "¿Cómo hago un pedido?",
-      "a": "1) Seleccione modelo y cantidad. 2) Solicite cotización. 3) Confirme especificaciones. 4) Pague 30% de depósito. 5) Producción. 6) Inspección. 7) Pague saldo. 8) Envío."
+      "a": "7x24 teléfono/WhatsApp, instalación (video+guía), diagnóstico, mantenimiento, repuestos, centro de servicio Nairobi para África."
     }
   ],
   "aboutPage": {
@@ -390,7 +390,7 @@
   },
   "articlesSection": {
     "title": "Artículos Técnicos",
-    "subtitle": "Guías expertas sobre regulación de voltaje, instalación y protección eléctrica",
+    "subtitle": "Guías expertas sobre estabilización de voltaje, instalación, mantenimiento y protección de equipos.",
     "minRead": "min de lectura",
     "viewAll": "Ver Todos los Artículos"
   },
@@ -496,7 +496,7 @@
     "breadcrumbHome": "Inicio",
     "breadcrumbTeam": "Equipo de Ingeniería",
     "title": "Equipo de Ingeniería YOKE",
-    "subtitle": "15+ años de experiencia en diseño de reguladores de voltaje e ingeniería de campo, enfocados en mercados B2B africanos. Nuestros ingenieros, editores técnicos y especialistas en aplicaciones de campo brindan soporte técnico experto a los clientes.",
+    "subtitle": "15+ años diseñando estabilizadores e ingeniería de campo, especializados en mercado B2B africano. Experiencia en 47+ países.",
     "viewFullProfile": "Ver Perfil Completo →",
     "whyTitle": "Por Qué Elegir Ingeniería YOKE",
     "gridExpertiseTitle": "Experiencia en Redes Africanas",

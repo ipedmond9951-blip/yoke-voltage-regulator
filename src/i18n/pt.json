@@ -60,9 +60,9 @@
     "certTitle": "Certificado CE/CB",
     "certDesc": "Todos os produtos atendem aos padrões de segurança CE e CB. Qualidade garantida.",
     "capabilityTitle": "Linha de Produção Completa",
-    "capabilityDesc": "Instalações de fabricação modernas com capacidade mensal de mais de 10.000 unidades.",
+    "capabilityDesc": "Fábrica moderna, 5000+ unidades/mês. Enrolamento e teste automáticos.",
     "logisticsTitle": "Especialistas em Envio Mundial",
-    "logisticsDesc": "Envio para mais de 50 países. Opções de envio marítimo e aéreo disponíveis."
+    "logisticsDesc": "Envio para 50+ países. Expresso 5-7 dias, marítimo 20-30 dias, aéreo 10-15 dias. Termos CIF/DDP."
   },
   "faq": {
     "title": "Perguntas Frequentes",
@@ -178,11 +178,11 @@
   "faqItems": [
     {
       "q": "Quais tipos de reguladores de tensão vocês fabricam?",
-      "a": "YOKE produz as séries SVC (Regulador de Tensão Servo) e TND (Alta Precisão). Capacidades de 500VA a 100KVA. Modelos monofásicos e trifásicos disponíveis."
+      "a": "YOKE produz duas séries: SVC (servo estabilizadores) e TND (alta precisão com display digital). Capacidade de 500VA a 100KVA. SVC para uso doméstico e indústria leve. TND precisão ±2% para equipamentos de precisão e laboratórios. Modelos mono e trifásicos, OEM/ODM disponível."
     },
     {
       "q": "Qual é a diferença entre as séries SVC e TND?",
-      "a": "Série SVC: Tipo relé, resposta rápida, acessível. Série TND: Controle por motor servo, maior precisão (±2%), display digital, para equipamentos sensíveis."
+      "a": "SVC: servomotor com escova, resposta rápida (<1s), preço acessível. TND: controle eletrônico, display digital LED/LCD, precisão ±2%, resposta ~500ms, baixo ruído. Para equipamentos de precisão. TND mais caro mas mais preciso."
     },
     {
       "q": "Qual faixa de tensão de entrada seus reguladores suportam?",
@@ -202,7 +202,7 @@
     },
     {
       "q": "Podem personalizar reguladores de tensão para aplicações específicas?",
-      "a": "Sim, OEM/ODM disponível. Faixas de tensão personalizadas, frequências (50/60Hz), invólucros especiais e marca. MOQ 50 unidades para personalização."
+      "a": "Sim! Serviço OEM/ODM completo. Personalização: faixa de tensão, frequência (50/60Hz), carcaça e proteção (IP20-IP54), marca e embalagem, funções especiais. MOQ a partir de 50 unidades, prazo 20-30 dias."
     },
     {
       "q": "Quais certificações seus produtos possuem?",
@@ -214,15 +214,15 @@
     },
     {
       "q": "Oferecem garantia nos reguladores de tensão?",
-      "a": "Sim, garantia de 1-2 anos dependendo do modelo. A garantia cobre defeitos de fabricação. Peças de reposição e suporte técnico incluídos."
+      "a": "Modelos padrão: 7-15 dias. Personalizados: 20-30 dias. Urgentes: 7 dias (+15%). Pedidos grandes (500+): 5-10 dias adicionais. 100% inspeção antes do envio."
     },
     {
       "q": "Qual é a vida útil dos reguladores de tensão YOKE?",
-      "a": "Os reguladores YOKE são projetados para 10+ anos de operação contínua. A vida útil depende da carga, ambiente e condições de uso."
+      "a": "Vida útil 10+ anos. Transformador cobre e escovas de alta qualidade. SVC: escovas 3-5 anos (substituíveis). TND: sem desgaste mecânico, mais durável. Garantia 1-2 anos, peças sobressalentes vitalícias."
     },
     {
       "q": "Quais aplicações são adequadas para seus reguladores de tensão?",
-      "a": "Eletrodomésticos (geladeiras, ar-condicionado, TVs), equipamentos de escritório, dispositivos médicos, maquinário industrial, equipamentos CNC, máquinas de solda e linhas de produção."
+      "a": "Eletrodomésticos (geladeiras, ares-condicionados, TVs), equipamentos de escritório, equipamentos médicos, máquinas industriais (CNC, soldagem), instalações comerciais, telecomunicações, sistemas solares. De 3KVA a 60KVA."
     },
     {
       "q": "Fazem envio internacional?",
@@ -230,23 +230,23 @@
     },
     {
       "q": "O que está incluído no pacote?",
-      "a": "Cada unidade inclui: regulador de tensão, manual do usuário, cartão de garantia. Opcional: display de voltímetro, kit de montagem em parede, cabos de entrada/saída."
+      "a": "Envio mundial: expresso (DHL/FedEx) 5-7 dias, marítimo 20-30 dias, aéreo 10-15 dias. Termos CIF/FOB/DDP. Portos principais: Durban, Mombasa, Lagos."
     },
     {
       "q": "Como instalo o regulador de tensão?",
-      "a": "Instalação em parede ou no chão. Conecte a entrada à rede elétrica, a saída ao equipamento protegido. Guia de instalação completo incluído com cada unidade."
+      "a": "Pacote padrão: estabilizador, manual, cartão de garantia, certificado. Opções: voltímetro digital, suporte de parede, cabos, capa antipó, peças sobressalentes (escovas e fusíveis)."
     },
     {
       "q": "Por que escolher reguladores de tensão YOKE?",
-      "a": "12+ anos de experiência em fabricação, fábrica certificada ISO 9001, 98% de taxa de entrega no prazo, preços competitivos com garantia de 2 anos e suporte pós-venda global."
+      "a": "Instalação simples: montagem em parede ou piso. Conecte entrada à rede, saída ao equipamento. Terminais marcados L/N/PE. Guia detalhado incluso. Para 30KVA+ eletricista profissional recomendado."
     },
     {
       "q": "Oferecem suporte técnico?",
-      "a": "Sim, suporte técnico 24/7 disponível. Orientação de instalação, solução de problemas e dicas de manutenção. Assistência remota por videochamada."
+      "a": "12+ anos experiência, ISO 9001, CE/CB, 98% entregas pontuais, 0.2% defeitos, preços competitivos, 1-2 anos garantia, 50+ países, suporte 24/7."
     },
     {
       "q": "Como faço um pedido?",
-      "a": "1) Selecione modelo e quantidade. 2) Solicite cotação. 3) Confirme especificações. 4) Pague 30% de depósito. 5) Produção. 6) Inspeção. 7) Pague saldo. 8) Envio."
+      "a": "7x24 telefone/WhatsApp, instalação (vídeo+guia), diagnóstico, manutenção, peças sobressalentes, centro de serviço Nairobi para África."
     }
   ],
   "aboutPage": {
@@ -390,7 +390,7 @@
   },
   "articlesSection": {
     "title": "Artigos Técnicos",
-    "subtitle": "Guias especializados sobre regulação de tensão, instalação e proteção elétrica",
+    "subtitle": "Guias especialistas sobre estabilização de tensão, instalação, manutenção e proteção de equipamentos.",
     "minRead": "min de leitura",
     "viewAll": "Ver Todos os Artigos"
   },
@@ -496,7 +496,7 @@
     "breadcrumbHome": "Início",
     "breadcrumbTeam": "Equipe de Engenharia",
     "title": "Equipe de Engenharia YOKE",
-    "subtitle": "15+ anos de experiência em projeto de reguladores de tensão e engenharia de campo, focados em mercados B2B africanos. Nossos engenheiros, editores técnicos e especialistas em aplicações de campo fornecem suporte técnico especializado aos clientes.",
+    "subtitle": "15+ anos projetando estabilizadores e engenharia de campo, especializados no mercado B2B africano. Experiência em 47+ países.",
     "viewFullProfile": "Ver Perfil Completo →",
     "whyTitle": "Por Que Escolher a Engenharia YOKE",
     "gridExpertiseTitle": "Experiência em Redes Africanas",
