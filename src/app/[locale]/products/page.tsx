@@ -6,6 +6,7 @@ import ProductSchema from '@/components/ProductSchema'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
 import ProductsContentSection from '@/components/ProductsContentSection'
 import StatisticsSection from '@/components/StatisticsSection'
+import LocalInfoBlock from '@/components/LocalInfoBlock'
 
 // Static product data (same as ProductGrid)
 const allProducts = [
@@ -75,6 +76,9 @@ export default async function ProductsPage({ params }: { params: Promise<{ local
 
       {/* Unique Content Section - Helps with SEO indexing */}
       <ProductsContentSection locale={locale} />
+
+      {/* Local Info Block - unique locale-specific content for GSC canonical validation */}
+      {locale !== 'en' && <div className="container mx-auto px-4 sm:px-6"><LocalInfoBlock locale={locale} /></div>}
 
       {/* Product Schema for SEO */}
       <ProductSchema products={allProducts} locale={locale} />

@@ -10,6 +10,7 @@ import InquiryForm from '@/components/InquiryForm'
 import ShareButtons from '@/components/ShareButtons'
 import StatisticsSection from '@/components/StatisticsSection'
 import ArticlesSection from '@/components/ArticlesSection'
+import LocalInfoBlock from '@/components/LocalInfoBlock'
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }))
@@ -269,6 +270,10 @@ export default async function LocalePage({ params }: { params: Promise<{ locale:
 
       <FAQSection locale={locale} />
       <CertificationsSection locale={locale} />
+
+      {/* Local Info Block - unique locale-specific content for GSC canonical validation */}
+      {locale !== 'en' && <div className="container mx-auto px-4 sm:px-6 py-10"><LocalInfoBlock locale={locale} /></div>}
+
       <InquiryForm locale={locale} />
     </>
   )

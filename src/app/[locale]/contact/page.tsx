@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import { locales, type Locale } from '@/i18n'
 import { t } from '@/i18n'
+import LocalInfoBlock from '@/components/LocalInfoBlock'
 
 export async function generateStaticParams() {
   return locales.map((locale) => ({ locale }))
@@ -131,6 +132,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
             </div>
           </div>
         </div>
+        {loc !== 'en' && <LocalInfoBlock locale={loc} />}
       </section>
     </div>
   )

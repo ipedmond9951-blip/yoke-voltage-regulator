@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { notFound } from 'next/navigation'
 import Script from 'next/script'
 import InquiryForm from '@/components/InquiryForm'
+import LocalInfoBlock from '@/components/LocalInfoBlock'
 import { allProducts, getProductBySlug, getAllProductSlugs, getProductText } from '@/lib/products'
 import { locales, type Locale, t } from '@/i18n'
 
@@ -198,6 +199,9 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
               </a>
             </div>
           </div>
+
+          {/* Local Info Block - unique locale-specific content for GSC canonical validation */}
+          {locale !== 'en' && <LocalInfoBlock locale={locale} articleCategory={product.specs.capacity} />}
 
           {/* Other Products */}
           <div className="mt-16">

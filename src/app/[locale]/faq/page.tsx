@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import { locales, type Locale, t } from '@/i18n'
 import FAQSection from '@/components/FAQSection'
 import BreadcrumbSchema from '@/components/BreadcrumbSchema'
+import LocalInfoBlock from '@/components/LocalInfoBlock'
 
 export async function generateStaticParams() {
   return locales.map((locale) => ({ locale }))
@@ -45,6 +46,7 @@ export default async function FAQPage({ params }: { params: Promise<{ locale: st
         </div>
       </section>
       <FAQSection locale={loc} />
+      {loc !== 'en' && <div className="container mx-auto px-4 sm:px-6 py-10"><LocalInfoBlock locale={loc} /></div>}
     </>
   )
 }
