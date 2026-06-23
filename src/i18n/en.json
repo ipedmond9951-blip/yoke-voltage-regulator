@@ -39,7 +39,8 @@
     "daysUnit": "days",
     "capacity": "Capacity",
     "inputVoltage": "Input",
-    "outputVoltage": "Output"
+    "outputVoltage": "Output",
+    "lead": "Lead Time"
   },
   "about": {
     "title": "Why Choose YOKE?",
@@ -50,7 +51,16 @@
     "global": "50+ Countries",
     "globalDesc": "Trusted by buyers across six continents",
     "moq": "Low MOQ + Fast Response",
-    "moqDesc": "Sample orders welcome. 24-hour quote response. Factory direct pricing."
+    "moqDesc": "Sample orders welcome. 24-hour quote response. Factory direct pricing.",
+    "manufacturing": "Manufacturing",
+    "manufacturingDesc": "State-of-the-art production facility with automated assembly lines and rigorous quality control at every stage",
+    "manufacturingAlt": "YOKE AVR manufacturing facility with production line",
+    "quality": "Quality Control",
+    "qualityDesc": "100% testing before shipment with CE/CB certified quality management system and third-party inspection available",
+    "qualityAlt": "Voltage regulator quality control testing station",
+    "logistics": "Global Logistics",
+    "logisticsDesc": "Sea freight, air freight and express shipping to 50+ countries with professional packaging and on-time delivery",
+    "logisticsAlt": "YOKE warehouse with packed voltage regulators ready for shipment"
   },
   "why": {
     "title": "Why YOKE Voltage Regulators?",

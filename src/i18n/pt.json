@@ -39,7 +39,8 @@
     "daysUnit": "dias",
     "capacity": "Capacidade",
     "inputVoltage": "Entrada",
-    "outputVoltage": "Saída"
+    "outputVoltage": "Saída",
+    "lead": "Prazo de entrega"
   },
   "about": {
     "title": "Por que escolher YOKE?",
@@ -50,7 +51,16 @@
     "global": "50+ países",
     "globalDesc": "YOKE exporta reguladores de tensão para mais de 50 países em todo o mundo, com qualidade confiável e preços competitivos.",
     "moq": "MOQ Baixo + Resposta Rápida",
-    "moqDesc": "Pedidos de amostra bem-vindos. Resposta de cotação em 24 horas. Preços diretos de fábrica."
+    "moqDesc": "Pedidos de amostra bem-vindos. Resposta de cotação em 24 horas. Preços diretos de fábrica.",
+    "manufacturing": "Fabricação",
+    "manufacturingDesc": "Instalação de produção de última geração com linhas de montagem automatizadas e controle de qualidade rigoroso em cada etapa, capacidade mensal superior a 10.000 unidades",
+    "manufacturingAlt": "Linha de produção da fábrica de reguladores YOKE",
+    "quality": "Controle de qualidade",
+    "qualityDesc": "Teste de 100% antes do envio, sistema de gestão de qualidade certificado CE/CB, inspeção por terceiros disponível, garantia de qualidade de cada produto",
+    "qualityAlt": "Estação de teste de controle de qualidade de reguladores de tensão",
+    "logistics": "Logística global",
+    "logisticsDesc": "Envio marítimo, aéreo e expresso para mais de 50 países, embalagem profissional, taxa de entrega no prazo superior a 98%",
+    "logisticsAlt": "Armazém YOKE com reguladores embalados prontos para envio"
   },
   "why": {
     "title": "Por Que Reguladores de Tensão YOKE?",

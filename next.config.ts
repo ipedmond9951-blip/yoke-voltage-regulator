@@ -13,6 +13,7 @@ const nextConfig: NextConfig = {
     return [
       { source: '/:locale(en|zh|es|ar|fr|pt|ru|ja|de|hi)/steel-prices', destination: '/:locale/products', permanent: true },
       { source: '/steel-prices', destination: '/en/products', permanent: true },
+      { source: '/:locale(en|zh|es|ar|fr|pt|ru|ja|de|hi)-sitemap.xml', destination: '/sitemap/:locale', permanent: true },
     ];
   },
   images: {

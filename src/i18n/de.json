@@ -39,7 +39,8 @@
     "daysUnit": "Tage",
     "capacity": "Kapazität",
     "inputVoltage": "Eingang",
-    "outputVoltage": "Ausgang"
+    "outputVoltage": "Ausgang",
+    "lead": "Lieferzeit"
   },
   "about": {
     "title": "Warum YOKE wählen?",
@@ -50,7 +51,16 @@
     "global": "50+ Länder",
     "globalDesc": "YOKE exportiert Spannungsregler in mehr als 50 Länder weltweit, mit zuverlässiger Qualität und wettbewerbsfähigen Preisen.",
     "moq": "Niedrige Mindestbestellmenge + Schnelle Antwort",
-    "moqDesc": "Musterbestellungen willkommen. Angebot innerhalb von 24 Stunden. Direkte Fabrikpreise."
+    "moqDesc": "Musterbestellungen willkommen. Angebot innerhalb von 24 Stunden. Direkte Fabrikpreise.",
+    "manufacturing": "Fertigung",
+    "manufacturingDesc": "Modernste Produktionsanlage mit automatisierten Montagelinien und strenger Qualitätskontrolle in jeder Phase, monatliche Kapazität über 10.000 Einheiten",
+    "manufacturingAlt": "Produktionslinie der YOKE AVR-Fertigungsanlage",
+    "quality": "Qualitätskontrolle",
+    "qualityDesc": "100% Prüfung vor Versand, CE/CB-zertifiziertes Qualitätsmanagementsystem, Drittparteieninspektion verfügbar, Qualitätsgarantie für jedes Produkt",
+    "qualityAlt": "Qualitätskontroll-Prüfstations für Spannungsregler",
+    "logistics": "Globale Logistik",
+    "logisticsDesc": "See-, Luft- und Expressversand in über 50 Länder, professionelle Verpackung, Pünktlichkeitsrate über 98%",
+    "logisticsAlt": "YOKE-Lager mit verpackten Spannungsreglern versandbereit"
   },
   "why": {
     "title": "Warum YOKE Spannungsregler?",

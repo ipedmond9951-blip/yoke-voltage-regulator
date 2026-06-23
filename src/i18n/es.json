@@ -39,7 +39,8 @@
     "daysUnit": "días",
     "capacity": "Capacidad",
     "inputVoltage": "Entrada",
-    "outputVoltage": "Salida"
+    "outputVoltage": "Salida",
+    "lead": "Plazo de entrega"
   },
   "about": {
     "title": "¿Por qué elegir YOKE?",
@@ -50,7 +51,16 @@
     "global": "50+ países",
     "globalDesc": "YOKE exporta reguladores de voltaje a más de 50 países en todo el mundo, con calidad confiable y precios competitivos.",
     "moq": "MOQ Bajo + Respuesta Rápida",
-    "moqDesc": "Pedidos de muestra bienvenidos. Respuesta de cotización en 24 horas. Precios directos de fábrica."
+    "moqDesc": "Pedidos de muestra bienvenidos. Respuesta de cotización en 24 horas. Precios directos de fábrica.",
+    "manufacturing": "Fabricación",
+    "manufacturingDesc": "Instalación de producción de última generación con líneas de ensamblaje automatizadas y control de calidad riguroso en cada etapa, capacidad mensual superior a 10,000 unidades",
+    "manufacturingAlt": "Línea de producción de la fábrica de reguladores YOKE",
+    "quality": "Control de calidad",
+    "qualityDesc": "Prueba del 100% antes del envío, sistema de gestión de calidad certificado CE/CB, inspección de terceros disponible, garantía de calidad de cada producto",
+    "qualityAlt": "Estación de prueba de control de calidad de reguladores de voltaje",
+    "logistics": "Logística global",
+    "logisticsDesc": "Envío marítimo, aéreo y exprés a más de 50 países, embalaje profesional para transporte seguro, tasa de entrega puntual superior al 98%",
+    "logisticsAlt": "Almacén YOKE con reguladores empacados listos para envío"
   },
   "why": {
     "title": "¿Por Qué Reguladores de Voltaje YOKE?",

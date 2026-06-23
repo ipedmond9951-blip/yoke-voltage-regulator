@@ -39,7 +39,8 @@
     "daysUnit": "工作日",
     "capacity": "额定容量",
     "inputVoltage": "输入电压范围",
-    "outputVoltage": "稳定输出电压"
+    "outputVoltage": "稳定输出电压",
+    "lead": "交货期"
   },
   "about": {
     "title": "为什么选择YOKE稳压器？",
@@ -50,7 +51,16 @@
     "global": "出口全球50+国家",
     "globalDesc": "产品远销非洲、中东、南亚、东南亚等六大洲五十多个国家，深受信赖",
     "moq": "小批量灵活起订 + 24小时快速响应",
-    "moqDesc": "1台起订，欢迎样品单测试。24小时内报价响应。工厂直供价格优势明显，OEM/ODM定制订单50台起，灵活满足各种规模企业需求。"
+    "moqDesc": "1台起订，欢迎样品单测试。24小时内报价响应。工厂直供价格优势明显，OEM/ODM定制订单50台起，灵活满足各种规模企业需求。",
+    "manufacturing": "生产制造",
+    "manufacturingDesc": "拥有自动化装配产线和全流程质量控制的现代化生产基地，月产能超过10000台",
+    "manufacturingAlt": "YOKE稳压器制造工厂生产线",
+    "quality": "质量控制",
+    "qualityDesc": "出货前100%全检，CE/CB认证质量管理体系完善，支持第三方验货，确保每台产品品质达标",
+    "qualityAlt": "稳压器质量控制检测工位",
+    "logistics": "全球物流",
+    "logisticsDesc": "海运、空运、快递三种方式出口至全球50多个国家，专业包装确保运输安全，准时交付率98%以上",
+    "logisticsAlt": "YOKE仓库已打包稳压器准备发货"
   },
   "why": {
     "title": "为什么选择YOKE稳压器？",
