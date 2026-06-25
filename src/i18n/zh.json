@@ -27,7 +27,8 @@
     "articles": "技术文章",
     "faq": "常见问题解答",
     "about": "关于YOKE",
-    "contact": "联系获取报价"
+    "contact": "联系获取报价",
+    "industry": "应用案例"
   },
   "products": {
     "title": "YOKE自动稳压器产品系列",
@@ -117,7 +118,10 @@
     "title": "YOKE在线技术客服",
     "online": "在线服务中",
     "openChat": "打开在线客服",
-    "greeting": "您好！欢迎咨询YOKE专业稳压器厂家，我们提供SVC/TND全系列产品，有什么产品选型、价格报价或技术问题可以帮您？"
+    "greeting": "您好！欢迎咨询YOKE专业稳压器厂家，我们提供SVC/TND全系列产品，有什么产品选型、价格报价或技术问题可以帮您？",
+    "placeholder": "咨询稳压器产品...",
+    "send": "发送",
+    "typing": "YOKE AI正在输入..."
   },
   "industry": {
     "title": "稳压器与电压调节器专业技术指南",
@@ -539,5 +543,26 @@
       }
     ],
     "backToHome": "返回YOKE首页"
+  },
+  "common": {
+    "applications": "应用领域"
+  },
+  "finish": {
+    "title": "表面处理工艺",
+    "subtitle": "专业表面处理确保产品在各类环境下耐久防腐，适应全球不同气候条件"
+  },
+  "geo": {
+    "default": {
+      "promotion": "工厂直供价格，全球发货",
+      "shipping": "海运、空运、快递三种方式可选"
+    }
+  },
+  "material": {
+    "title": "优质材料",
+    "subtitle": "采用高等级材料确保产品长效性能和安全合规，通过CE/CB认证"
+  },
+  "testimonials": {
+    "title": "客户成功案例",
+    "subtitle": "真实项目，真实效果。了解YOKE稳压器如何助力全球工业运营。"
   }
 }

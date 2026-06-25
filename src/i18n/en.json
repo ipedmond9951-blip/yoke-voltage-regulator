@@ -27,7 +27,8 @@
     "articles": "Articles",
     "faq": "FAQ",
     "about": "About Us",
-    "contact": "Contact"
+    "contact": "Contact",
+    "industry": "Applications"
   },
   "products": {
     "title": "Automatic Voltage Regulator Products",
@@ -117,7 +118,10 @@
     "title": "YOKE Support",
     "online": "Online",
     "openChat": "Open Chat",
-    "greeting": "Hello! YOKE is a professional AVR manufacturer. How can we help?"
+    "greeting": "Hello! YOKE is a professional AVR manufacturer. How can we help?",
+    "placeholder": "Ask about our voltage regulators...",
+    "send": "Send",
+    "typing": "YOKE AI is typing..."
   },
   "industry": {
     "title": "AVR & Voltage Regulator Guide",
@@ -539,5 +543,26 @@
       }
     ],
     "backToHome": "Back to home"
+  },
+  "common": {
+    "applications": "Applications"
+  },
+  "finish": {
+    "title": "Surface Finishes",
+    "subtitle": "Professional surface treatment for durability and corrosion resistance in all environments"
+  },
+  "geo": {
+    "default": {
+      "promotion": "Factory direct pricing with global shipping",
+      "shipping": "Sea freight, air freight and express delivery available"
+    }
+  },
+  "material": {
+    "title": "Premium Materials",
+    "subtitle": "High-grade materials ensuring long-lasting performance and safety compliance"
+  },
+  "testimonials": {
+    "title": "Customer Success Stories",
+    "subtitle": "Real projects, real results. See how YOKE AVR supports industrial operations worldwide."
   }
 }

@@ -27,7 +27,8 @@
     "articles": "Artikel",
     "faq": "FAQ",
     "about": "Über Uns",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "industry": "Anwendungen"
   },
   "products": {
     "title": "Automatische Spannungsregler Produkte",
@@ -117,7 +118,10 @@
     "title": "YOKE-Support",
     "online": "Online",
     "openChat": "Chat öffnen",
-    "greeting": "Hallo! YOKE ist ein professioneller AVR-Hersteller. Wie können wir Ihnen helfen?"
+    "greeting": "Hallo! YOKE ist ein professioneller AVR-Hersteller. Wie können wir Ihnen helfen?",
+    "placeholder": "Fragen Sie nach unseren Spannungsreglern...",
+    "send": "Senden",
+    "typing": "YOKE AI tippt..."
   },
   "industry": {
     "title": "AVR & Spannungsregler Leitfaden",
@@ -539,5 +543,26 @@
       }
     ],
     "backToHome": "Zurück zur Startseite"
+  },
+  "common": {
+    "applications": "Anwendungen"
+  },
+  "finish": {
+    "title": "Oberflächenveredelung",
+    "subtitle": "Professionelle Oberflächenbehandlung für Langlebigkeit und Korrosionsbeständigkeit in allen Umgebungen"
+  },
+  "geo": {
+    "default": {
+      "promotion": "Fabrikdirektpreise mit weltweitem Versand",
+      "shipping": "See-, Luft- und Expressversand verfügbar"
+    }
+  },
+  "material": {
+    "title": "Premium-Materialien",
+    "subtitle": "Hochwertige Materialien gewährleisten langanhaltende Leistung und Sicherheitskonformität"
+  },
+  "testimonials": {
+    "title": "Kundenerfolgsgeschichten",
+    "subtitle": "Echte Projekte, echte Ergebnisse. Sehen Sie, wie YOKE AVR industrielle Operationen weltweit unterstützt."
   }
 }

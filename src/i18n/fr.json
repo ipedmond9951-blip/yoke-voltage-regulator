@@ -27,7 +27,8 @@
     "articles": "Articles",
     "faq": "FAQ",
     "about": "À Propos",
-    "contact": "Contact"
+    "contact": "Contact",
+    "industry": "Applications"
   },
   "products": {
     "title": "Produits Régulateurs de Tension Automatique",
@@ -117,7 +118,10 @@
     "title": "Support YOKE",
     "online": "En ligne",
     "openChat": "Ouvrir le chat",
-    "greeting": "Bonjour ! YOKE est un fabricant professionnel d'AVR. Comment pouvons-nous vous aider ?"
+    "greeting": "Bonjour ! YOKE est un fabricant professionnel d'AVR. Comment pouvons-nous vous aider ?",
+    "placeholder": "Renseignez-vous sur nos régulateurs de tension...",
+    "send": "Envoyer",
+    "typing": "YOKE AI écrit..."
   },
   "industry": {
     "title": "Guide des Régulateurs de Tension et AVR",
@@ -539,5 +543,26 @@
       }
     ],
     "backToHome": "Retour à l'accueil"
+  },
+  "common": {
+    "applications": "Applications"
+  },
+  "finish": {
+    "title": "Finitions de surface",
+    "subtitle": "Traitement de surface professionnel pour durabilité et résistance à la corrosion dans tous les environnements"
+  },
+  "geo": {
+    "default": {
+      "promotion": "Prix d'usine directs avec livraison mondiale",
+      "shipping": "Expédition maritime, aérienne et express disponibles"
+    }
+  },
+  "material": {
+    "title": "Matériaux premium",
+    "subtitle": "Matériaux de haute qualité garantissant des performances durables et la conformité aux normes de sécurité"
+  },
+  "testimonials": {
+    "title": "Témoignages de réussite client",
+    "subtitle": "Projets réels, résultats réels. Découvrez comment les régulateurs YOKE AVR soutiennent les opérations industrielles dans le monde."
   }
 }
