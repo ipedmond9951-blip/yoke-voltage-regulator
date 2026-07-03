@@ -7,26 +7,26 @@
   "title": {
     "en": "Understanding AVR Warranty Terms: What is Actually Covered",
     "zh": "了解稳压器保修条款：实际覆盖内容",
-    "es": "Understanding AVR Warranty Terms: What is Actually Covered",
-    "fr": "Understanding AVR Warranty Terms: What is Actually Covered",
-    "ar": "Understanding AVR Warranty Terms: What is Actually Covered",
-    "pt": "Understanding AVR Warranty Terms: What is Actually Covered",
-    "ru": "Understanding AVR Warranty Terms: What is Actually Covered",
-    "ja": "Understanding AVR Warranty Terms: What is Actually Covered",
-    "de": "Understanding AVR Warranty Terms: What is Actually Covered",
-    "hi": "Understanding AVR Warranty Terms: What is Actually Covered"
+    "es": "Understanding Regulador de Voltaje Automático Garantía Terms: What is Actually Covered",
+    "fr": "Understanding Régulateur de Tension Automatique Warranty Terms: What is Actually Covered",
+    "ar": "فهم شروط ضمان منظم الجهد: ما هو المشمول فعلياً",
+    "pt": "Understanding Regulador de Tensão Automático Warranty Terms: What is Actually Covered",
+    "ru": "Понимание условий гарантии на АСН: что реально покрывается",
+    "ja": "AVR保証条件を理解する：実際にカバーされる内容",
+    "de": "Understanding Automatischer Spannungsregler Warranty Terms: What is Actually Covered",
+    "hi": "AVR वारंटी शर्तें समझना: वास्तव में क्या कवर किया गया है"
   },
   "description": {
     "en": "AVR warranties vary widely. This guide helps you understand what is typically covered, what void the warranty, and how to make a successful claim.",
     "zh": "稳压器保修范围差异很大。本指南帮助您了解通常覆盖的内容、什么会使保修失效，以及如何成功索赔。",
-    "es": "AVR warranties vary widely. This guide helps you understand what is typically covered, what void the warranty, and how to make a successful claim.",
-    "fr": "AVR warranties vary widely. This guide helps you understand what is typically covered, what void the warranty, and how to make a successful claim.",
-    "ar": "AVR warranties vary widely. This guide helps you understand what is typically covered, what void the warranty, and how to make a successful claim.",
-    "pt": "AVR warranties vary widely. This guide helps you understand what is typically covered, what void the warranty, and how to make a successful claim.",
-    "ru": "AVR warranties vary widely. This guide helps you understand what is typically covered, what void the warranty, and how to make a successful claim.",
-    "ja": "AVR warranties vary widely. This guide helps you understand what is typically covered, what void the warranty, and how to make a successful claim.",
-    "de": "AVR warranties vary widely. This guide helps you understand what is typically covered, what void the warranty, and how to make a successful claim.",
-    "hi": "AVR warranties vary widely. This guide helps you understand what is typically covered, what void the warranty, and how to make a successful claim."
+    "es": "Understanding Regulador de Voltaje Automático Garantía Terms: What is Actually Covered - Guía completa con análisis experto y orientación práctica",
+    "fr": "Understanding Régulateur de Tension Automatique Warranty Terms: What is Actually Covered - Guide complet avec analyse experte et conseils pratiques",
+    "ar": "Understanding منظم الجهد التلقائي الضمان Terms: What is Actually Covered - دليل شامل مع تحليل خبري وإرشادات عملية",
+    "pt": "Understanding Regulador de Tensão Automático Warranty Terms: What is Actually Covered - Guia completo com análise especializada e orientação prática",
+    "ru": "Understanding Автоматический стабилизатор напряжения Warranty Terms: What is Actually Covered — Полное руководство с экспертным анализом и практическими рекомендациями",
+    "ja": "Understanding 自動電圧調整器 Warranty Terms: What is Actually Coveredに関する包括ガイド - 専門家の分析と実践的アドバイス",
+    "de": "Understanding Automatischer Spannungsregler Warranty Terms: What is Actually Covered — Umfassender Leitfaden mit Fachanalyse und praktischer Orientierung",
+    "hi": "Understanding स्वचालित वोल्टेज रेगुलेटर Warranty Terms: What is Actually Covered - विशेषज्ञ विश्लेषण और व्यावहारिक मार्गदर्शन के साथ व्यापक गाइड"
   },
   "keywords": "AVR warranty, voltage regulator warranty terms, what AVR warranty covers, warranty void conditions, YOKE AVR warranty",
   "sections": [

@@ -7,14 +7,14 @@
   "title": {
     "en": "How AVR Protects Air Conditioners and extends Lifespan",
     "zh": "稳压器如何保护空调并延长使用寿命",
-    "es": "How AVR Protects Air Conditioners and extends Lifespan",
-    "fr": "How AVR Protects Air Conditioners and extends Lifespan",
-    "ar": "How AVR Protects Air Conditioners and extends Lifespan",
-    "pt": "How AVR Protects Air Conditioners and extends Lifespan",
-    "ru": "How AVR Protects Air Conditioners and extends Lifespan",
-    "ja": "How AVR Protects Air Conditioners and extends Lifespan",
-    "de": "How AVR Protects Air Conditioners and extends Lifespan",
-    "hi": "How AVR Protects Air Conditioners and extends Lifespan"
+    "es": "How Regulador de Voltaje Automático Protects Air Conditioners and extends Lifespan",
+    "fr": "How Régulateur de Tension Automatique Protects Air Conditioners and extends Lifespan",
+    "ar": "كيف منظم الجهد التلقائي Protects Air Conditioners and extends Lifespan",
+    "pt": "How Regulador de Tensão Automático Protects Air Conditioners and extends Lifespan",
+    "ru": "Как АСН защищает кондиционеры и продлевает срок их службы",
+    "ja": "AVRがエアコンを保護し寿命を延ばす仕組み",
+    "de": "How Automatischer Spannungsregler Protects Air Conditioners and extends Lifespan",
+    "hi": "AVR एयर कंडीशनर को कैसे सुरक्षित रखता है और जीवनकाल बढ़ाता है"
   },
   "description": {
     "en": "Air conditioners are highly sensitive to voltage fluctuations. Learn the specific risks AC units face and how AVR prevents compressor failure and costly...",

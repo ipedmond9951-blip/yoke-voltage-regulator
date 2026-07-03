@@ -7,26 +7,26 @@
   "title": {
     "en": "The Role of AVR in Renewable Energy Systems",
     "zh": "稳压器在可再生能源系统中的作用",
-    "es": "The Role of AVR in Renewable Energy Systems",
-    "fr": "The Role of AVR in Renewable Energy Systems",
-    "ar": "The Role of AVR in Renewable Energy Systems",
-    "pt": "The Role of AVR in Renewable Energy Systems",
-    "ru": "The Role of AVR in Renewable Energy Systems",
-    "ja": "The Role of AVR in Renewable Energy Systems",
-    "de": "The Role of AVR in Renewable Energy Systems",
-    "hi": "The Role of AVR in Renewable Energy Systems"
+    "es": "The Role of Regulador de Voltaje Automático in Energía Renovable Systems",
+    "fr": "The Role of Régulateur de Tension Automatique in Renewable Energy Systems",
+    "ar": "دور منظم الجهد في أنظمة الطاقة المتجددة",
+    "pt": "The Role of Regulador de Tensão Automático in Renewable Energy Systems",
+    "ru": "Роль АСН в системах возобновляемой энергии",
+    "ja": "再生可能エネルギーシステムにおけるAVRの役割",
+    "de": "The Role of Automatischer Spannungsregler in Renewable Energy Systems",
+    "hi": "नवीकरणीय ऊर्जा प्रणालियों में AVR की भूमिका"
   },
   "description": {
     "en": "From solar farms to wind turbines, renewable energy systems face power quality challenges. Discover how AVR ensures stable output in clean energy installations.",
     "zh": "从太阳能农场到风力发电机，可再生能源系统面临电力质量挑战。了解稳压器如何确保清洁能源装置的稳定输出。",
-    "es": "From solar farms to wind turbines, renewable energy systems face power quality challenges. Discover how AVR ensures stable output in clean energy installations.",
-    "fr": "From solar farms to wind turbines, renewable energy systems face power quality challenges. Discover how AVR ensures stable output in clean energy installations.",
-    "ar": "From solar farms to wind turbines, renewable energy systems face power quality challenges. Discover how AVR ensures stable output in clean energy installations.",
-    "pt": "From solar farms to wind turbines, renewable energy systems face power quality challenges. Discover how AVR ensures stable output in clean energy installations.",
-    "ru": "From solar farms to wind turbines, renewable energy systems face power quality challenges. Discover how AVR ensures stable output in clean energy installations.",
-    "ja": "From solar farms to wind turbines, renewable energy systems face power quality challenges. Discover how AVR ensures stable output in clean energy installations.",
-    "de": "From solar farms to wind turbines, renewable energy systems face power quality challenges. Discover how AVR ensures stable output in clean energy installations.",
-    "hi": "From solar farms to wind turbines, renewable energy systems face power quality challenges. Discover how AVR ensures stable output in clean energy installations."
+    "es": "The Role of Regulador de Voltaje Automático in Energía Renovable Systems - Guía completa con análisis experto y orientación práctica",
+    "fr": "The Role of Régulateur de Tension Automatique in Renewable Energy Systems - Guide complet avec analyse experte et conseils pratiques",
+    "ar": "The Role of منظم الجهد التلقائي in الطاقة المتجددة Systems - دليل شامل مع تحليل خبري وإرشادات عملية",
+    "pt": "The Role of Regulador de Tensão Automático in Renewable Energy Systems - Guia completo com análise especializada e orientação prática",
+    "ru": "The Role of Автоматический стабилизатор напряжения in Renewable Energy Systems — Полное руководство с экспертным анализом и практическими рекомендациями",
+    "ja": "The Role of 自動電圧調整器 in Renewable Energy Systemsに関する包括ガイド - 専門家の分析と実践的アドバイス",
+    "de": "The Role of Automatischer Spannungsregler in Renewable Energy Systems — Umfassender Leitfaden mit Fachanalyse und praktischer Orientierung",
+    "hi": "The Role of स्वचालित वोल्टेज रेगुलेटर in Renewable Energy Systems - विशेषज्ञ विश्लेषण और व्यावहारिक मार्गदर्शन के साथ व्यापक गाइड"
   },
   "keywords": "renewable energy AVR, solar farm voltage regulation, wind turbine power quality, clean energy voltage stabilization, green energy AVR",
   "sections": [

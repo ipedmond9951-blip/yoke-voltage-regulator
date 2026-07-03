@@ -42,12 +42,17 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     }
   }
 
-  const title = (article.title as Record<string, string>)[locale] || (article.title as Record<string, string>).en
-  const desc = article.description[locale] || article.description.en
+  const titleObj = article.title as Record<string, string>
+  const descObj = article.description as Record<string, string>
+  const title = titleObj[locale] || titleObj.en
+  const desc = descObj[locale] || descObj.en
+
+  const isUntranslated = locale !== 'en' && title === titleObj.en && desc === descObj.en
 
   return {
     title: `${title} | YOKE Voltage Regulators`,
     description: desc,
+    ...(isUntranslated ? { robots: { index: false, follow: true } } : {}),
     keywords: article.keywords,
     openGraph: {
       title,

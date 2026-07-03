@@ -7,14 +7,14 @@
   "title": {
     "en": "AVR with IoT Monitoring: Remote Management",
     "zh": "带IoT监控的AVR：远程管理",
-    "es": "AVR with IoT Monitoring: Remote Management",
-    "fr": "AVR with IoT Monitoring: Remote Management",
-    "ar": "AVR with IoT Monitoring: Remote Management",
-    "pt": "AVR with IoT Monitoring: Remote Management",
-    "ru": "AVR with IoT Monitoring: Remote Management",
-    "ja": "AVR with IoT Monitoring: Remote Management",
-    "de": "AVR with IoT Monitoring: Remote Management",
-    "hi": "AVR with IoT Monitoring: Remote Management"
+    "es": "Regulador de Voltaje Automático with IoT Monitoring: Remote Management",
+    "fr": "Régulateur de Tension Automatique with IoT Monitoring: Remote Management",
+    "ar": "منظم الجهد مع مراقبة إنترنت الأشياء: الإدارة عن بعد",
+    "pt": "Regulador de Tensão Automático with IoT Monitoring: Remote Management",
+    "ru": "АСН с IoT-мониторингом: удалённое управление",
+    "ja": "IoT監視付きAVR：リモート管理",
+    "de": "Automatischer Spannungsregler with IoT Monitoring: Remote Management",
+    "hi": "IoT मॉनिटरिंग के साथ AVR: रिमोट प्रबंधन"
   },
   "description": {
     "en": "Comprehensive guide covering AVR with IoT Monitoring: Remote Management. Expert analysis and practical guidance for making informed decisions about voltage...",

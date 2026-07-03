@@ -7,14 +7,14 @@
   "title": {
     "en": "AVR Grounding Requirements: Electrical Safety Standards",
     "zh": "AVR接地要求：电气安全标准",
-    "es": "AVR Grounding Requirements: Electrical Safety Standards",
-    "fr": "AVR Grounding Requirements: Electrical Safety Standards",
-    "ar": "AVR Grounding Requirements: Electrical Safety Standards",
-    "pt": "AVR Grounding Requirements: Electrical Safety Standards",
-    "ru": "AVR Grounding Requirements: Electrical Safety Standards",
-    "ja": "AVR Grounding Requirements: Electrical Safety Standards",
-    "de": "AVR Grounding Requirements: Electrical Safety Standards",
-    "hi": "AVR Grounding Requirements: Electrical Safety Standards"
+    "es": "Regulador de Voltaje Automático Grounding Requirements: Electrical Seguridad Normas",
+    "fr": "Régulateur de Tension Automatique Grounding Requirements: Electrical Sécurité Standards",
+    "ar": "متطلبات تأريض منظم الجهد: معايير السلامة الكهربائية",
+    "pt": "Regulador de Tensão Automático Grounding Requirements: Electrical Segurança Standards",
+    "ru": "Требования к заземлению АСН: стандарты электробезопасности",
+    "ja": "AVR接地要件：電気安全規格",
+    "de": "Automatischer Spannungsregler Grounding Requirements: Electrical Sicherheit Standards",
+    "hi": "AVR ग्राउंडिंग आवश्यकताएं: विद्युत सुरक्षा मानक"
   },
   "description": {
     "en": "Comprehensive guide covering AVR Grounding Requirements: Electrical Safety Standards. Expert analysis and practical guidance for making informed decisions...",

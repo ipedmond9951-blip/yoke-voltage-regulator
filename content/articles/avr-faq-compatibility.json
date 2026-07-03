@@ -7,14 +7,14 @@
   "title": {
     "en": "AVR Compatibility FAQ: Device Compatibility Questions",
     "zh": "AVR兼容性常见问题：设备兼容性问题",
-    "es": "AVR Compatibility FAQ: Device Compatibility Questions",
-    "fr": "AVR Compatibility FAQ: Device Compatibility Questions",
-    "ar": "AVR Compatibility FAQ: Device Compatibility Questions",
-    "pt": "AVR Compatibility FAQ: Device Compatibility Questions",
-    "ru": "AVR Compatibility FAQ: Device Compatibility Questions",
-    "ja": "AVR Compatibility FAQ: Device Compatibility Questions",
-    "de": "AVR Compatibility FAQ: Device Compatibility Questions",
-    "hi": "AVR Compatibility FAQ: Device Compatibility Questions"
+    "es": "Regulador de Voltaje Automático Compatibility FAQ: Device Compatibility Questions",
+    "fr": "Régulateur de Tension Automatique Compatibility FAQ: Device Compatibility Questions",
+    "ar": "الأسئلة الشائعة عن توافق منظم الجهد: أسئلة توافق الأجهزة",
+    "pt": "Regulador de Tensão Automático Compatibility FAQ: Device Compatibility Questions",
+    "ru": "ЧАВО по совместимости АСН: вопросы совместимости устройств",
+    "ja": "AVR互換性FAQ：機器互換性の質問",
+    "de": "Automatischer Spannungsregler Compatibility FAQ: Device Compatibility Questions",
+    "hi": "AVR संगतता FAQ: डिवाइस संगतता प्रश्न"
   },
   "description": {
     "en": "Comprehensive guide covering AVR Compatibility FAQ: Device Compatibility Questions. Expert analysis and practical guidance for making informed decisions...",

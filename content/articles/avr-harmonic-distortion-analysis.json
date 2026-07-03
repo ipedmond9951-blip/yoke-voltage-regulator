@@ -7,14 +7,14 @@
   "title": {
     "en": "AVR and Harmonic Distortion: Total Harmonic Distortion THD",
     "zh": "AVR和谐波失真：总谐波失真THD",
-    "es": "AVR and Harmonic Distortion: Total Harmonic Distortion THD",
-    "fr": "AVR and Harmonic Distortion: Total Harmonic Distortion THD",
-    "ar": "AVR and Harmonic Distortion: Total Harmonic Distortion THD",
-    "pt": "AVR and Harmonic Distortion: Total Harmonic Distortion THD",
-    "ru": "AVR and Harmonic Distortion: Total Harmonic Distortion THD",
-    "ja": "AVR and Harmonic Distortion: Total Harmonic Distortion THD",
-    "de": "AVR and Harmonic Distortion: Total Harmonic Distortion THD",
-    "hi": "AVR and Harmonic Distortion: Total Harmonic Distortion THD"
+    "es": "Regulador de Voltaje Automático and Harmonic Distortion: Total Harmonic Distortion THD",
+    "fr": "Régulateur de Tension Automatique and Harmonic Distortion: Total Harmonic Distortion THD",
+    "ar": "منظم الجهد والتشويه التوافقي: إجمالي التشويه التوافقي THD",
+    "pt": "Regulador de Tensão Automático and Harmonic Distortion: Total Harmonic Distortion THD",
+    "ru": "АСН и гармонические искажения: коэффициент THD",
+    "ja": "AVRと高調波歪み：総合高調波歪み率THD",
+    "de": "Automatischer Spannungsregler and Harmonic Distortion: Total Harmonic Distortion THD",
+    "hi": "AVR और हार्मोनिक विरूपण: कुल हार्मोनिक विरूपण THD"
   },
   "description": {
     "en": "Comprehensive guide covering AVR and Harmonic Distortion: Total Harmonic Distortion THD. Expert analysis and practical guidance for making informed...",

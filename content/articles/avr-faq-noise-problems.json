@@ -7,26 +7,26 @@
   "title": {
     "en": "AVR Noise Problems FAQ",
     "zh": "AVR噪音问题常见问题",
-    "es": "AVR Noise Problems FAQ",
-    "fr": "AVR Noise Problems FAQ",
-    "ar": "AVR Noise Problems FAQ",
-    "pt": "AVR Noise Problems FAQ",
-    "ru": "AVR Noise Problems FAQ",
-    "ja": "AVR Noise Problems FAQ",
-    "de": "AVR Noise Problems FAQ",
-    "hi": "AVR Noise Problems FAQ"
+    "es": "Regulador de Voltaje Automático Noise Problems FAQ",
+    "fr": "Régulateur de Tension Automatique Noise Problems FAQ",
+    "ar": "الأسئلة الشائعة عن مشاكل ضوضاء منظم الجهد",
+    "pt": "Regulador de Tensão Automático Noise Problems FAQ",
+    "ru": "ЧАВО по проблемам шума АСН",
+    "ja": "AVRノイズ問題FAQ",
+    "de": "Automatischer Spannungsregler Noise Problems FAQ",
+    "hi": "AVR शोर समस्या FAQ"
   },
   "description": {
     "en": "Comprehensive guide covering AVR Noise Problems FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
     "zh": "涵盖AVR噪音问题常见问题的综合指南。专家分析和实践指导，助您做出关于电压调节的明智决定。",
-    "es": "Comprehensive guide covering AVR Noise Problems FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "fr": "Comprehensive guide covering AVR Noise Problems FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ar": "Comprehensive guide covering AVR Noise Problems FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "pt": "Comprehensive guide covering AVR Noise Problems FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ru": "Comprehensive guide covering AVR Noise Problems FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ja": "Comprehensive guide covering AVR Noise Problems FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "de": "Comprehensive guide covering AVR Noise Problems FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "hi": "Comprehensive guide covering AVR Noise Problems FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation."
+    "es": "Guía completa que cubre Regulador de Voltaje Automático Noise Problems FAQ. Análisis experto y orientación práctica for making informed decisions sobre regulación de voltaje.",
+    "fr": "Guide complet couvrant Régulateur de Tension Automatique Noise Problems FAQ. Analyse experte et conseils pratiques for making informed decisions sur la régulation de tension.",
+    "ar": "دليل شامل يغطي منظم الجهد التلقائي Noise Problems FAQ. تحليل خبري وإرشادات عملية for making informed decisions حول تنظيم الجهد.",
+    "pt": "Guia completo cobrindo Regulador de Tensão Automático Noise Problems FAQ. Análise especializada e orientação prática for making informed decisions sobre regulação de tensão.",
+    "ru": "Полное руководство, охватывающее Автоматический стабилизатор напряжения Noise Problems FAQ. Экспертный анализ и практические рекомендации for making informed decisions о регулировании напряжения.",
+    "ja": "自動電圧調整器 Noise Problems FAQに関する包括ガイド。専門家の分析と実践的なアドバイス for making informed decisions 電圧調整について.",
+    "de": "Umfassender Leitfaden zu Automatischer Spannungsregler Noise Problems FAQ. Fachliche Analyse und praktische Orientierung for making informed decisions zur Spannungsregelung.",
+    "hi": "व्यापक गाइड जो कवर करती है: स्वचालित वोल्टेज रेगुलेटर Noise Problems FAQ. विशेषज्ञ विश्लेषण और व्यावहारिक मार्गदर्शन for making informed decisions वोल्टेज नियमन के बारे में."
   },
   "keywords": "AVR noise FAQ, buzzing voltage regulator questions, hum noise FAQ, AVR FAQ, voltage regulator",
   "sections": [

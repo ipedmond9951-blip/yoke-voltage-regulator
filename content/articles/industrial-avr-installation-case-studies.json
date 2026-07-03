@@ -7,14 +7,14 @@
   "title": {
     "en": "Industrial AVR Installation: Real-World Case Studies",
     "zh": "工业稳压器安装：真实案例研究",
-    "es": "Industrial AVR Installation: Real-World Case Studies",
-    "fr": "Industrial AVR Installation: Real-World Case Studies",
-    "ar": "Industrial AVR Installation: Real-World Case Studies",
-    "pt": "Industrial AVR Installation: Real-World Case Studies",
-    "ru": "Industrial AVR Installation: Real-World Case Studies",
-    "ja": "Industrial AVR Installation: Real-World Case Studies",
-    "de": "Industrial AVR Installation: Real-World Case Studies",
-    "hi": "Industrial AVR Installation: Real-World Case Studies"
+    "es": "Industrial Regulador de Voltaje Automático Instalación: Real-World Case Studies",
+    "fr": "Industriel Régulateur de Tension Automatique Installation: Real-World Case Studies",
+    "ar": "تركيب منظم الجهد الصناعي: دراسات حالة من الواقع",
+    "pt": "Industrial Regulador de Tensão Automático Instalação: Real-World Case Studies",
+    "ru": "Установка промышленного АСН: реальные примеры из практики",
+    "ja": "産業用AVR設置：実務ケーススタディ",
+    "de": "Industrie Automatischer Spannungsregler Installation: Real-World Case Studies",
+    "hi": "औद्योगिक AVR स्थापना: वास्तविक केस स्टडीज़"
   },
   "description": {
     "en": "See real examples of how factories and plants solved voltage problems with strategic AVR installation. Case studies from manufacturing, mining, and...",

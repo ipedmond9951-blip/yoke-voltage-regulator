@@ -7,26 +7,26 @@
   "title": {
     "en": "Understanding AVR Overload Capacity and Surge Tolerance",
     "zh": "了解稳压器过载能力和涌流耐受性",
-    "es": "Understanding AVR Overload Capacity and Surge Tolerance",
-    "fr": "Understanding AVR Overload Capacity and Surge Tolerance",
-    "ar": "Understanding AVR Overload Capacity and Surge Tolerance",
-    "pt": "Understanding AVR Overload Capacity and Surge Tolerance",
-    "ru": "Understanding AVR Overload Capacity and Surge Tolerance",
-    "ja": "Understanding AVR Overload Capacity and Surge Tolerance",
-    "de": "Understanding AVR Overload Capacity and Surge Tolerance",
-    "hi": "Understanding AVR Overload Capacity and Surge Tolerance"
+    "es": "Understanding Regulador de Voltaje Automático Overload Capacidad and Surge Tolerance",
+    "fr": "Understanding Régulateur de Tension Automatique Overload Capacity and Surge Tolerance",
+    "ar": "فهم سعة الحمل الزائد لمنظم الجهد وتحمل الارتفاعات",
+    "pt": "Understanding Regulador de Tensão Automático Overload Capacity and Surge Tolerance",
+    "ru": "Понимание перегрузочной способности АСН и устойчивости к перенапряжениям",
+    "ja": "AVRの過負荷容量とサージ耐性を理解する",
+    "de": "Understanding Automatischer Spannungsregler Overload Capacity and Surge Tolerance",
+    "hi": "AVR ओवरलोड क्षमता और सर्ज टॉलरेंस को समझना"
   },
   "description": {
     "en": "What happens when your AVR is overloaded? Learn the overload specifications, how they affect AVR lifespan, and how to size for starting currents.",
     "zh": "当您的稳压器过载时会发生什么？了解过载规格、它们如何影响稳压器寿命，以及如何为启动电流选择容量。",
-    "es": "What happens when your AVR is overloaded? Learn the overload specifications, how they affect AVR lifespan, and how to size for starting currents.",
-    "fr": "What happens when your AVR is overloaded? Learn the overload specifications, how they affect AVR lifespan, and how to size for starting currents.",
-    "ar": "What happens when your AVR is overloaded? Learn the overload specifications, how they affect AVR lifespan, and how to size for starting currents.",
-    "pt": "What happens when your AVR is overloaded? Learn the overload specifications, how they affect AVR lifespan, and how to size for starting currents.",
-    "ru": "What happens when your AVR is overloaded? Learn the overload specifications, how they affect AVR lifespan, and how to size for starting currents.",
-    "ja": "What happens when your AVR is overloaded? Learn the overload specifications, how they affect AVR lifespan, and how to size for starting currents.",
-    "de": "What happens when your AVR is overloaded? Learn the overload specifications, how they affect AVR lifespan, and how to size for starting currents.",
-    "hi": "What happens when your AVR is overloaded? Learn the overload specifications, how they affect AVR lifespan, and how to size for starting currents."
+    "es": "Understanding Regulador de Voltaje Automático Overload Capacidad and Surge Tolerance - Guía completa con análisis experto y orientación práctica",
+    "fr": "Understanding Régulateur de Tension Automatique Overload Capacity and Surge Tolerance - Guide complet avec analyse experte et conseils pratiques",
+    "ar": "Understanding منظم الجهد التلقائي Overload السعة and Surge Tolerance - دليل شامل مع تحليل خبري وإرشادات عملية",
+    "pt": "Understanding Regulador de Tensão Automático Overload Capacity and Surge Tolerance - Guia completo com análise especializada e orientação prática",
+    "ru": "Understanding Автоматический стабилизатор напряжения Overload Capacity and Surge Tolerance — Полное руководство с экспертным анализом и практическими рекомендациями",
+    "ja": "Understanding 自動電圧調整器 Overload Capacity and Surge Toleranceに関する包括ガイド - 専門家の分析と実践的アドバイス",
+    "de": "Understanding Automatischer Spannungsregler Overload Capacity and Surge Tolerance — Umfassender Leitfaden mit Fachanalyse und praktischer Orientierung",
+    "hi": "Understanding स्वचालित वोल्टेज रेगुलेटर Overload Capacity and Surge Tolerance - विशेषज्ञ विश्लेषण और व्यावहारिक मार्गदर्शन के साथ व्यापक गाइड"
   },
   "keywords": "AVR overload capacity, voltage regulator surge tolerance, overload protection AVR, starting current AVR, KVA overload specifications",
   "sections": [

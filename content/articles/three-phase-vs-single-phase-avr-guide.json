@@ -7,26 +7,26 @@
   "title": {
     "en": "Three-Phase vs Single-Phase AVR: How to Choose the Right One",
     "zh": "三相与单相稳压器：如何选择适合您的产品",
-    "es": "Three-Phase vs Single-Phase AVR: How to Choose the Right One",
-    "fr": "Three-Phase vs Single-Phase AVR: How to Choose the Right One",
-    "ar": "Three-Phase vs Single-Phase AVR: How to Choose the Right One",
-    "pt": "Three-Phase vs Single-Phase AVR: How to Choose the Right One",
-    "ru": "Three-Phase vs Single-Phase AVR: How to Choose the Right One",
-    "ja": "Three-Phase vs Single-Phase AVR: How to Choose the Right One",
-    "de": "Three-Phase vs Single-Phase AVR: How to Choose the Right One",
-    "hi": "Three-Phase vs Single-Phase AVR: How to Choose the Right One"
+    "es": "Three-Phase vs Single-Phase Regulador de Voltaje Automático: How to Choose the Right One",
+    "fr": "Three-Phase vs Single-Phase Régulateur de Tension Automatique: How to Choose the Right One",
+    "ar": "منظم الجهد ثلاثي الأطوار مقابل أحادي الطور: كيفية اختيار الأنسب",
+    "pt": "Three-Phase vs Single-Phase Regulador de Tensão Automático: How to Choose the Right One",
+    "ru": "Трёхфазный vs однофазный АСН: как выбрать правильный",
+    "ja": "三相vs単相AVR：適切な選び方",
+    "de": "Three-Phase vs Single-Phase Automatischer Spannungsregler: How to Choose the Right One",
+    "hi": "तीन फेज बनाम सिंगल फेज AVR: सही विकल्प कैसे चुनें"
   },
   "description": {
     "en": "Confused about three-phase vs single-phase AVR? This guide explains differences, applications, and how to choose the right voltage regulator for your needs.",
     "zh": "搞不清三相和单相稳压器的区别？本指南解释差异、应用场景以及如何为您的需求选择合适的稳压器。",
-    "es": "Confused about three-phase vs single-phase AVR? This guide explains differences, applications, and how to choose the right voltage regulator for your needs.",
-    "fr": "Confused about three-phase vs single-phase AVR? This guide explains differences, applications, and how to choose the right voltage regulator for your needs.",
-    "ar": "Confused about three-phase vs single-phase AVR? This guide explains differences, applications, and how to choose the right voltage regulator for your needs.",
-    "pt": "Confused about three-phase vs single-phase AVR? This guide explains differences, applications, and how to choose the right voltage regulator for your needs.",
-    "ru": "Confused about three-phase vs single-phase AVR? This guide explains differences, applications, and how to choose the right voltage regulator for your needs.",
-    "ja": "Confused about three-phase vs single-phase AVR? This guide explains differences, applications, and how to choose the right voltage regulator for your needs.",
-    "de": "Confused about three-phase vs single-phase AVR? This guide explains differences, applications, and how to choose the right voltage regulator for your needs.",
-    "hi": "Confused about three-phase vs single-phase AVR? This guide explains differences, applications, and how to choose the right voltage regulator for your needs."
+    "es": "Three-Phase vs Single-Phase Regulador de Voltaje Automático: How to Choose the Right One - Guía completa con análisis experto y orientación práctica",
+    "fr": "Three-Phase vs Single-Phase Régulateur de Tension Automatique: How to Choose the Right One - Guide complet avec analyse experte et conseils pratiques",
+    "ar": "Three-Phase vs Single-Phase منظم الجهد التلقائي: How to Choose the Right One - دليل شامل مع تحليل خبري وإرشادات عملية",
+    "pt": "Three-Phase vs Single-Phase Regulador de Tensão Automático: How to Choose the Right One - Guia completo com análise especializada e orientação prática",
+    "ru": "Three-Phase vs Single-Phase Автоматический стабилизатор напряжения: How to Choose the Right One — Полное руководство с экспертным анализом и практическими рекомендациями",
+    "ja": "Three-Phase vs Single-Phase 自動電圧調整器: How to Choose the Right Oneに関する包括ガイド - 専門家の分析と実践的アドバイス",
+    "de": "Three-Phase vs Single-Phase Automatischer Spannungsregler: How to Choose the Right One — Umfassender Leitfaden mit Fachanalyse und praktischer Orientierung",
+    "hi": "Three-Phase vs Single-Phase स्वचालित वोल्टेज रेगुलेटर: How to Choose the Right One - विशेषज्ञ विश्लेषण और व्यावहारिक मार्गदर्शन के साथ व्यापक गाइड"
   },
   "keywords": "three-phase AVR, single-phase AVR, voltage regulator selection, industrial AVR, commercial voltage regulator",
   "sections": [

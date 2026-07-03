@@ -7,26 +7,26 @@
   "title": {
     "en": "AVR for Solar Systems FAQ",
     "zh": "AVR太阳能系统常见问题",
-    "es": "AVR for Solar Systems FAQ",
-    "fr": "AVR for Solar Systems FAQ",
-    "ar": "AVR for Solar Systems FAQ",
-    "pt": "AVR for Solar Systems FAQ",
-    "ru": "AVR for Solar Systems FAQ",
-    "ja": "AVR for Solar Systems FAQ",
-    "de": "AVR for Solar Systems FAQ",
-    "hi": "AVR for Solar Systems FAQ"
+    "es": "Regulador de Voltaje Automático for Solar Systems FAQ",
+    "fr": "Régulateur de Tension Automatique for Solar Systems FAQ",
+    "ar": "الأسئلة الشائعة عن منظم الجهد للأنظمة الشمسية",
+    "pt": "Regulador de Tensão Automático for Solar Systems FAQ",
+    "ru": "ЧАСТЫЕ ВОПРОСЫ об АСН для солнечных систем",
+    "ja": "太陽光システム向けAVR FAQ",
+    "de": "Automatischer Spannungsregler for Solar Systems FAQ",
+    "hi": "सौर प्रणालियों के लिए AVR FAQ"
   },
   "description": {
     "en": "Comprehensive guide covering AVR for Solar Systems FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
     "zh": "涵盖AVR太阳能系统常见问题的综合指南。专家分析和实践指导，助您做出关于电压调节的明智决定。",
-    "es": "Comprehensive guide covering AVR for Solar Systems FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "fr": "Comprehensive guide covering AVR for Solar Systems FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ar": "Comprehensive guide covering AVR for Solar Systems FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "pt": "Comprehensive guide covering AVR for Solar Systems FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ru": "Comprehensive guide covering AVR for Solar Systems FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ja": "Comprehensive guide covering AVR for Solar Systems FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "de": "Comprehensive guide covering AVR for Solar Systems FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "hi": "Comprehensive guide covering AVR for Solar Systems FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation."
+    "es": "Guía completa que cubre Regulador de Voltaje Automático for Solar Systems FAQ. Análisis experto y orientación práctica for making informed decisions sobre regulación de voltaje.",
+    "fr": "Guide complet couvrant Régulateur de Tension Automatique for Solar Systems FAQ. Analyse experte et conseils pratiques for making informed decisions sur la régulation de tension.",
+    "ar": "دليل شامل يغطي منظم الجهد التلقائي for Solar Systems FAQ. تحليل خبري وإرشادات عملية for making informed decisions حول تنظيم الجهد.",
+    "pt": "Guia completo cobrindo Regulador de Tensão Automático for Solar Systems FAQ. Análise especializada e orientação prática for making informed decisions sobre regulação de tensão.",
+    "ru": "Полное руководство, охватывающее Автоматический стабилизатор напряжения for Solar Systems FAQ. Экспертный анализ и практические рекомендации for making informed decisions о регулировании напряжения.",
+    "ja": "自動電圧調整器 for Solar Systems FAQに関する包括ガイド。専門家の分析と実践的なアドバイス for making informed decisions 電圧調整について.",
+    "de": "Umfassender Leitfaden zu Automatischer Spannungsregler for Solar Systems FAQ. Fachliche Analyse und praktische Orientierung for making informed decisions zur Spannungsregelung.",
+    "hi": "व्यापक गाइड जो कवर करती है: स्वचालित वोल्टेज रेगुलेटर for Solar Systems FAQ. विशेषज्ञ विश्लेषण और व्यावहारिक मार्गदर्शन for making informed decisions वोल्टेज नियमन के बारे में."
   },
   "keywords": "AVR solar FAQ, voltage regulator solar questions, solar system compatibility FAQ, AVR FAQ, solar power protection",
   "sections": [

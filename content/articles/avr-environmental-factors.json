@@ -7,14 +7,14 @@
   "title": {
     "en": "AVR Environmental Factors: Altitude Humidity Temperature",
     "zh": "AVR环境因素：海拔、湿度、温度",
-    "es": "AVR Environmental Factors: Altitude Humidity Temperature",
-    "fr": "AVR Environmental Factors: Altitude Humidity Temperature",
-    "ar": "AVR Environmental Factors: Altitude Humidity Temperature",
-    "pt": "AVR Environmental Factors: Altitude Humidity Temperature",
-    "ru": "AVR Environmental Factors: Altitude Humidity Temperature",
-    "ja": "AVR Environmental Factors: Altitude Humidity Temperature",
-    "de": "AVR Environmental Factors: Altitude Humidity Temperature",
-    "hi": "AVR Environmental Factors: Altitude Humidity Temperature"
+    "es": "Regulador de Voltaje Automático Environmental Factors: Altitude Humidity Temperature",
+    "fr": "Régulateur de Tension Automatique Environmental Factors: Altitude Humidity Temperature",
+    "ar": "العوامل البيئية لمنظم الجهد: الارتفاع والرطوبة ودرجة الحرارة",
+    "pt": "Regulador de Tensão Automático Environmental Factors: Altitude Humidity Temperature",
+    "ru": "Экологические факторы АСН: высота, влажность, температура",
+    "ja": "AVR環境要因：標高・湿度・温度",
+    "de": "Automatischer Spannungsregler Environmental Factors: Altitude Humidity Temperature",
+    "hi": "AVR पर्यावरणीय कारक: ऊंचाई आर्द्रता तापमान"
   },
   "description": {
     "en": "Comprehensive guide covering AVR Environmental Factors: Altitude Humidity Temperature. Expert analysis and practical guidance for making informed decisions...",

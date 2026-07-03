@@ -7,26 +7,26 @@
   "title": {
     "en": "Digital vs Relay AVR: Which Technology is Better?",
     "zh": "数字式与继电器式稳压器：哪种技术更好？",
-    "es": "Digital vs Relay AVR: Which Technology is Better?",
-    "fr": "Digital vs Relay AVR: Which Technology is Better?",
-    "ar": "Digital vs Relay AVR: Which Technology is Better?",
-    "pt": "Digital vs Relay AVR: Which Technology is Better?",
-    "ru": "Digital vs Relay AVR: Which Technology is Better?",
-    "ja": "Digital vs Relay AVR: Which Technology is Better?",
-    "de": "Digital vs Relay AVR: Which Technology is Better?",
-    "hi": "Digital vs Relay AVR: Which Technology is Better?"
+    "es": "Digital vs Relay Regulador de Voltaje Automático: Which Technology is Better?",
+    "fr": "Digital vs Relay Régulateur de Tension Automatique: Which Technology is Better?",
+    "ar": "رقمي مقابل ريلاي AVR: أي تقنية أفضل؟",
+    "pt": "Digital vs Relay Regulador de Tensão Automático: Which Technology is Better?",
+    "ru": "Цифровой vs Релейный AVR: Какая технология лучше?",
+    "ja": "デジタルvsリレーAVR：どちらの技術が優れていますか？",
+    "de": "Digital vs Relay Automatischer Spannungsregler: Which Technology is Better?",
+    "hi": "डिजिटल vs रिले AVR：कौन सी तकनीक बेहतर है？"
   },
   "description": {
     "en": "Two main AVR technologies compete in the market. Understanding the differences between digital (servo) and relay-type AVR helps you make an informed purchase.",
     "zh": "两种主要的稳压器技术在市场上竞争。了解数字式（伺服）和继电器式稳压器之间的差异，帮助您做出明智的购买决定。",
-    "es": "Two main AVR technologies compete in the market. Understanding the differences between digital (servo) and relay-type AVR helps you make an informed purchase.",
-    "fr": "Two main AVR technologies compete in the market. Understanding the differences between digital (servo) and relay-type AVR helps you make an informed purchase.",
-    "ar": "Two main AVR technologies compete in the market. Understanding the differences between digital (servo) and relay-type AVR helps you make an informed purchase.",
-    "pt": "Two main AVR technologies compete in the market. Understanding the differences between digital (servo) and relay-type AVR helps you make an informed purchase.",
-    "ru": "Two main AVR technologies compete in the market. Understanding the differences between digital (servo) and relay-type AVR helps you make an informed purchase.",
-    "ja": "Two main AVR technologies compete in the market. Understanding the differences between digital (servo) and relay-type AVR helps you make an informed purchase.",
-    "de": "Two main AVR technologies compete in the market. Understanding the differences between digital (servo) and relay-type AVR helps you make an informed purchase.",
-    "hi": "Two main AVR technologies compete in the market. Understanding the differences between digital (servo) and relay-type AVR helps you make an informed purchase."
+    "es": "Digital vs Relay Regulador de Voltaje Automático: Which Technology is Better? - Guía completa con análisis experto y orientación práctica",
+    "fr": "Digital vs Relay Régulateur de Tension Automatique: Which Technology is Better? - Guide complet avec analyse experte et conseils pratiques",
+    "ar": "Digital vs Relay منظم الجهد التلقائي: Which Technology is Better? - دليل شامل مع تحليل خبري وإرشادات عملية",
+    "pt": "Digital vs Relay Regulador de Tensão Automático: Which Technology is Better? - Guia completo com análise especializada e orientação prática",
+    "ru": "Digital vs Relay Автоматический стабилизатор напряжения: Which Technology is Better? — Полное руководство с экспертным анализом и практическими рекомендациями",
+    "ja": "Digital vs Relay 自動電圧調整器: Which Technology is Better?に関する包括ガイド - 専門家の分析と実践的アドバイス",
+    "de": "Digital vs Relay Automatischer Spannungsregler: Which Technology is Better? — Umfassender Leitfaden mit Fachanalyse und praktischer Orientierung",
+    "hi": "Digital vs Relay स्वचालित वोल्टेज रेगुलेटर: Which Technology is Better? - विशेषज्ञ विश्लेषण और व्यावहारिक मार्गदर्शन के साथ व्यापक गाइड"
   },
   "keywords": "digital AVR vs relay AVR, servo voltage regulator, relay type AVR, AVR technology comparison, voltage regulator types",
   "sections": [

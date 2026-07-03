@@ -7,14 +7,14 @@
   "title": {
     "en": "AVR for Printing and Packaging Industry",
     "zh": "印刷和包装行业稳压器",
-    "es": "AVR for Printing and Packaging Industry",
-    "fr": "AVR for Printing and Packaging Industry",
-    "ar": "AVR for Printing and Packaging Industry",
-    "pt": "AVR for Printing and Packaging Industry",
-    "ru": "AVR for Printing and Packaging Industry",
-    "ja": "AVR for Printing and Packaging Industry",
-    "de": "AVR for Printing and Packaging Industry",
-    "hi": "AVR for Printing and Packaging Industry"
+    "es": "Regulador de Voltaje Automático for Printing and Packaging Industry",
+    "fr": "Régulateur de Tension Automatique for Printing and Packaging Industry",
+    "ar": "منظم الجهد التلقائي لصناعة الطباعة والتغليف",
+    "pt": "Regulador de Tensão Automático for Printing and Packaging Industry",
+    "ru": "Автоматический стабилизатор напряжения для индустрии печати и упаковки",
+    "ja": "印刷・包装業界向け自動電圧調整器",
+    "de": "Automatischer Spannungsregler for Printing and Packaging Industry",
+    "hi": "प्रिंटिंग और पैकेजिंग उद्योग के लिए स्वचालित वोल्टेज रेगुलेटर"
   },
   "description": {
     "en": "Printing presses and packaging machinery are highly sensitive to voltage quality. Learn why major printing facilities rely on AVR for consistent production...",

@@ -9,24 +9,24 @@
     "zh": "数据中心和IT设备稳压器：企业保护指南",
     "es": "AVR for Data Centers and IT Equipment: Enterprise Protection Guide",
     "fr": "AVR for Data Centers and IT Equipment: Enterprise Protection Guide",
-    "ar": "AVR for Data Centers and IT Equipment: Enterprise Protection Guide",
+    "ar": "منظم الجهد التلقائي لمراكز البيانات ومعدات تكنولوجيا المعلومات: حلول المؤسسات...",
     "pt": "AVR for Data Centers and IT Equipment: Enterprise Protection Guide",
-    "ru": "AVR for Data Centers and IT Equipment: Enterprise Protection Guide",
-    "ja": "AVR for Data Centers and IT Equipment: Enterprise Protection Guide",
+    "ru": "Автоматический стабилизатор напряжения для ЦОД и ИТ-оборудования: корпоративные решения...",
+    "ja": "データセンター・IT機器向け自動電圧調整器：エンタープライズソリューション...",
     "de": "AVR for Data Centers and IT Equipment: Enterprise Protection Guide",
-    "hi": "AVR for Data Centers and IT Equipment: Enterprise Protection Guide"
+    "hi": "डेटा सेंटर और IT उपकरणों के लिए स्वचालित वोल्टेज रेगुलेटर: एंटरप्राइज़ समाधान..."
   },
   "description": {
     "en": "Data centers cannot afford downtime. Learn why AVR is a critical first line of defense for servers, network equipment, and mission-critical IT infrastructure.",
     "zh": "数据中心不能停机。了解为什么稳压器是服务器、网络设备和关键IT基础设施的重要防线。",
-    "es": "Data centers cannot afford downtime. Learn why AVR is a critical first line of defense for servers, network equipment, and mission-critical IT infrastructure.",
-    "fr": "Data centers cannot afford downtime. Learn why AVR is a critical first line of defense for servers, network equipment, and mission-critical IT infrastructure.",
-    "ar": "Data centers cannot afford downtime. Learn why AVR is a critical first line of defense for servers, network equipment, and mission-critical IT infrastructure.",
-    "pt": "Data centers cannot afford downtime. Learn why AVR is a critical first line of defense for servers, network equipment, and mission-critical IT infrastructure.",
-    "ru": "Data centers cannot afford downtime. Learn why AVR is a critical first line of defense for servers, network equipment, and mission-critical IT infrastructure.",
-    "ja": "Data centers cannot afford downtime. Learn why AVR is a critical first line of defense for servers, network equipment, and mission-critical IT infrastructure.",
-    "de": "Data centers cannot afford downtime. Learn why AVR is a critical first line of defense for servers, network equipment, and mission-critical IT infrastructure.",
-    "hi": "Data centers cannot afford downtime. Learn why AVR is a critical first line of defense for servers, network equipment, and mission-critical IT infrastructure."
+    "es": "AVR for Data Centers and IT Equipment: Enterprise Protection Guide - Guía completa con análisis experto y orientación práctica",
+    "fr": "AVR for Data Centers and IT Equipment: Enterprise Protection Guide - Guide complet avec analyse experte et conseils pratiques",
+    "ar": "AVR for Data Centers and IT Equipment: Enterprise Protection Guide - دليل شامل مع تحليل خبري وإرشادات عملية",
+    "pt": "AVR for Data Centers and IT Equipment: Enterprise Protection Guide - Guia completo com análise especializada e orientação prática",
+    "ru": "AVR for Data Centers and IT Equipment: Enterprise Protection Guide — Полное руководство с экспертным анализом и практическими рекомендациями",
+    "ja": "AVR for Data Centers and IT Equipment: Enterprise Protection Guideに関する包括ガイド - 専門家の分析と実践的アドバイス",
+    "de": "AVR for Data Centers and IT Equipment: Enterprise Protection Guide — Umfassender Leitfaden mit Fachanalyse und praktischer Orientierung",
+    "hi": "AVR for Data Centers and IT Equipment: Enterprise Protection Guide - विशेषज्ञ विश्लेषण और व्यावहारिक मार्गदर्शन के साथ व्यापक गाइड"
   },
   "keywords": "data center AVR, IT equipment voltage protection, server room voltage stabilizer, network equipment protection, enterprise power protection",
   "sections": [

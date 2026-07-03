@@ -7,26 +7,26 @@
   "title": {
     "en": "AVR in Microgrid Applications",
     "zh": "微电网应用中的AVR",
-    "es": "AVR in Microgrid Applications",
-    "fr": "AVR in Microgrid Applications",
-    "ar": "AVR in Microgrid Applications",
-    "pt": "AVR in Microgrid Applications",
-    "ru": "AVR in Microgrid Applications",
-    "ja": "AVR in Microgrid Applications",
-    "de": "AVR in Microgrid Applications",
-    "hi": "AVR in Microgrid Applications"
+    "es": "Regulador de Voltaje Automático in Microgrid Aplicaciones",
+    "fr": "Régulateur de Tension Automatique in Microgrid Applications",
+    "ar": "منظم الجهد في تطبيقات الشبكة المصغرة",
+    "pt": "Regulador de Tensão Automático in Microgrid Aplicações",
+    "ru": "АСН в микросетевых приложениях",
+    "ja": "マイクログリッドにおけるAVR",
+    "de": "Automatischer Spannungsregler in Microgrid Anwendungen",
+    "hi": "माइक्रोग्रिड अनुप्रयोगों में AVR"
   },
   "description": {
     "en": "Comprehensive guide covering AVR in Microgrid Applications. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
     "zh": "涵盖微电网应用中的AVR的综合指南。专家分析和实践指导，助您做出关于电压调节的明智决定。",
-    "es": "Comprehensive guide covering AVR in Microgrid Applications. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "fr": "Comprehensive guide covering AVR in Microgrid Applications. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ar": "Comprehensive guide covering AVR in Microgrid Applications. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "pt": "Comprehensive guide covering AVR in Microgrid Applications. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ru": "Comprehensive guide covering AVR in Microgrid Applications. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ja": "Comprehensive guide covering AVR in Microgrid Applications. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "de": "Comprehensive guide covering AVR in Microgrid Applications. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "hi": "Comprehensive guide covering AVR in Microgrid Applications. Expert analysis and practical guidance for making informed decisions about voltage regulation."
+    "es": "Guía completa que cubre Regulador de Voltaje Automático in Microgrid Aplicaciones. Análisis experto y orientación práctica for making informed decisions sobre regulación de voltaje.",
+    "fr": "Guide complet couvrant Régulateur de Tension Automatique in Microgrid Applications. Analyse experte et conseils pratiques for making informed decisions sur la régulation de tension.",
+    "ar": "دليل شامل يغطي منظم الجهد التلقائي in Microgrid التطبيقات. تحليل خبري وإرشادات عملية for making informed decisions حول تنظيم الجهد.",
+    "pt": "Guia completo cobrindo Regulador de Tensão Automático in Microgrid Aplicações. Análise especializada e orientação prática for making informed decisions sobre regulação de tensão.",
+    "ru": "Полное руководство, охватывающее Автоматический стабилизатор напряжения in Microgrid Применение. Экспертный анализ и практические рекомендации for making informed decisions о регулировании напряжения.",
+    "ja": "自動電圧調整器 in Microgrid 応用に関する包括ガイド。専門家の分析と実践的なアドバイス for making informed decisions 電圧調整について.",
+    "de": "Umfassender Leitfaden zu Automatischer Spannungsregler in Microgrid Anwendungen. Fachliche Analyse und praktische Orientierung for making informed decisions zur Spannungsregelung.",
+    "hi": "व्यापक गाइड जो कवर करती है: स्वचालित वोल्टेज रेगुलेटर in Microgrid अनुप्रयोग. विशेषज्ञ विश्लेषण और व्यावहारिक मार्गदर्शन for making informed decisions वोल्टेज नियमन के बारे में."
   },
   "keywords": "Microgrid AVR, voltage regulator microgrid, distributed generation power quality, AVR guide, voltage regulator specifications",
   "sections": [

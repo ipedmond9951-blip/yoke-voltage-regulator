@@ -7,14 +7,14 @@
   "title": {
     "en": "AVR Overheating FAQ: Temperature Questions",
     "zh": "AVR过热常见问题：温度问题",
-    "es": "AVR Overheating FAQ: Temperature Questions",
-    "fr": "AVR Overheating FAQ: Temperature Questions",
-    "ar": "AVR Overheating FAQ: Temperature Questions",
-    "pt": "AVR Overheating FAQ: Temperature Questions",
-    "ru": "AVR Overheating FAQ: Temperature Questions",
-    "ja": "AVR Overheating FAQ: Temperature Questions",
-    "de": "AVR Overheating FAQ: Temperature Questions",
-    "hi": "AVR Overheating FAQ: Temperature Questions"
+    "es": "Regulador de Voltaje Automático Overheating FAQ: Temperature Questions",
+    "fr": "Régulateur de Tension Automatique Overheating FAQ: Temperature Questions",
+    "ar": "الأسئلة الشائعة عن ارتفاع حرارة منظم الجهد: أسئلة الحرارة",
+    "pt": "Regulador de Tensão Automático Overheating FAQ: Temperature Questions",
+    "ru": "ЧАВО по перегреву АСН: вопросы о температуре",
+    "ja": "AVR過熱FAQ：温度に関する質問",
+    "de": "Automatischer Spannungsregler Overheating FAQ: Temperature Questions",
+    "hi": "AVR अतिताप FAQ: तापमान प्रश्न"
   },
   "description": {
     "en": "Comprehensive guide covering AVR Overheating FAQ: Temperature Questions. Expert analysis and practical guidance for making informed decisions about voltage...",

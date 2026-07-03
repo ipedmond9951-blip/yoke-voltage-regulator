@@ -7,14 +7,14 @@
   "title": {
     "en": "AVR Production Loss Prevention Value",
     "zh": "AVR生产损失预防价值",
-    "es": "AVR Production Loss Prevention Value",
-    "fr": "AVR Production Loss Prevention Value",
-    "ar": "AVR Production Loss Prevention Value",
-    "pt": "AVR Production Loss Prevention Value",
-    "ru": "AVR Production Loss Prevention Value",
-    "ja": "AVR Production Loss Prevention Value",
-    "de": "AVR Production Loss Prevention Value",
-    "hi": "AVR Production Loss Prevention Value"
+    "es": "Regulador de Voltaje Automático Production Loss Prevention Value",
+    "fr": "Régulateur de Tension Automatique Production Loss Prevention Value",
+    "ar": "قيمة منع خسارة الإنتاج بمنظم الجهد",
+    "pt": "Regulador de Tensão Automático Production Loss Prevention Value",
+    "ru": "Ценность предотвращения потерь производства с АСН",
+    "ja": "AVR生産損失防止の価値",
+    "de": "Automatischer Spannungsregler Production Loss Prevention Value",
+    "hi": "AVR उत्पादन हानि रोकथाम मूल्य"
   },
   "description": {
     "en": "Comprehensive guide covering AVR Production Loss Prevention Value. Expert analysis and practical guidance for making informed decisions about voltage...",

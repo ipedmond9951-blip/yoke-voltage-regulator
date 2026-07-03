@@ -7,14 +7,14 @@
   "title": {
     "en": "AVR for Autonomous Vehicle Infrastructure",
     "zh": "自动驾驶基础设施AVR",
-    "es": "AVR for Autonomous Vehicle Infrastructure",
-    "fr": "AVR for Autonomous Vehicle Infrastructure",
-    "ar": "AVR for Autonomous Vehicle Infrastructure",
-    "pt": "AVR for Autonomous Vehicle Infrastructure",
-    "ru": "AVR for Autonomous Vehicle Infrastructure",
-    "ja": "AVR for Autonomous Vehicle Infrastructure",
-    "de": "AVR for Autonomous Vehicle Infrastructure",
-    "hi": "AVR for Autonomous Vehicle Infrastructure"
+    "es": "Regulador de Voltaje Automático for Autonomous Vehicle Infraestructura",
+    "fr": "Régulateur de Tension Automatique for Autonomous Vehicle Infrastructure",
+    "ar": "منظم الجهد التلقائي للبنية التحتية للمركبات ذاتية القيادة",
+    "pt": "Regulador de Tensão Automático for Autonomous Vehicle Infrastructure",
+    "ru": "Автоматический стабилизатор напряжения для инфраструктуры автономных транспортных средств",
+    "ja": "自動運転車インフラ向け自動電圧調整器",
+    "de": "Automatischer Spannungsregler for Autonomous Vehicle Infrastructure",
+    "hi": "स्वायत्त वाहन बुनियादी ढांचे के लिए स्वचालित वोल्टेज रेगुलेटर"
   },
   "description": {
     "en": "Comprehensive guide covering AVR for Autonomous Vehicle Infrastructure. Expert analysis and practical guidance for making informed decisions about voltage...",

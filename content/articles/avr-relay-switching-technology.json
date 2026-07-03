@@ -7,14 +7,14 @@
   "title": {
     "en": "Understanding Relay Switching Technology in AVR",
     "zh": "了解AVR中的继电器切换技术",
-    "es": "Understanding Relay Switching Technology in AVR",
-    "fr": "Understanding Relay Switching Technology in AVR",
-    "ar": "Understanding Relay Switching Technology in AVR",
-    "pt": "Understanding Relay Switching Technology in AVR",
-    "ru": "Understanding Relay Switching Technology in AVR",
-    "ja": "Understanding Relay Switching Technology in AVR",
-    "de": "Understanding Relay Switching Technology in AVR",
-    "hi": "Understanding Relay Switching Technology in AVR"
+    "es": "Understanding Relay Switching Technology in Regulador de Voltaje Automático",
+    "fr": "Understanding Relay Switching Technology in Régulateur de Tension Automatique",
+    "ar": "فهم تقنية التبديل بالمرحل في منظم الجهد",
+    "pt": "Understanding Relay Switching Technology in Regulador de Tensão Automático",
+    "ru": "Понимание релейной коммутации в АСН",
+    "ja": "AVRのリレー切替技術を理解する",
+    "de": "Understanding Relay Switching Technology in Automatischer Spannungsregler",
+    "hi": "AVR में रिले स्विचिंग तकनीक को समझना"
   },
   "description": {
     "en": "Comprehensive guide covering Understanding Relay Switching Technology in AVR. Expert analysis and practical guidance for making informed decisions about...",

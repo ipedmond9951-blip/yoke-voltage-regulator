@@ -7,14 +7,14 @@
   "title": {
     "en": "AVR Applications FAQ: Industry-Specific Questions",
     "zh": "AVR应用常见问题：行业特定问题",
-    "es": "AVR Applications FAQ: Industry-Specific Questions",
-    "fr": "AVR Applications FAQ: Industry-Specific Questions",
-    "ar": "AVR Applications FAQ: Industry-Specific Questions",
-    "pt": "AVR Applications FAQ: Industry-Specific Questions",
-    "ru": "AVR Applications FAQ: Industry-Specific Questions",
-    "ja": "AVR Applications FAQ: Industry-Specific Questions",
-    "de": "AVR Applications FAQ: Industry-Specific Questions",
-    "hi": "AVR Applications FAQ: Industry-Specific Questions"
+    "es": "Regulador de Voltaje Automático Aplicaciones FAQ: Industry-Specific Questions",
+    "fr": "Régulateur de Tension Automatique Applications FAQ: Industry-Specific Questions",
+    "ar": "منظم الجهد التلقائي تطبيقات الأسئلة الشائعة: أسئلة خاصة بالصناعة",
+    "pt": "Regulador de Tensão Automático Aplicações FAQ: Industry-Specific Questions",
+    "ru": "Автоматический стабилизатор напряжения: Применение Частые вопросы: Отраслевые вопросы",
+    "ja": "応用 よくある質問: 業界別の質問向け自動電圧調整器",
+    "de": "Automatischer Spannungsregler Anwendungen FAQ: Industry-Specific Questions",
+    "hi": "स्वचालित वोल्टेज रेगुलेटर: अनुप्रयोग अक्सर पूछे जाने वाले प्रश्न: उद्योग-विशिष्ट प्रश्न"
   },
   "description": {
     "en": "Comprehensive guide covering AVR Applications FAQ: Industry-Specific Questions. Expert analysis and practical guidance for making informed decisions about...",

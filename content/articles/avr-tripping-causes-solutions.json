@@ -7,26 +7,26 @@
   "title": {
     "en": "AVR Tripping: Causes and Solutions",
     "zh": "稳压器跳闸：原因和解决方案",
-    "es": "AVR Tripping: Causes and Solutions",
-    "fr": "AVR Tripping: Causes and Solutions",
-    "ar": "AVR Tripping: Causes and Solutions",
-    "pt": "AVR Tripping: Causes and Solutions",
-    "ru": "AVR Tripping: Causes and Solutions",
-    "ja": "AVR Tripping: Causes and Solutions",
-    "de": "AVR Tripping: Causes and Solutions",
-    "hi": "AVR Tripping: Causes and Solutions"
+    "es": "Regulador de Voltaje Automático Tripping: Causes and Solutions",
+    "fr": "Régulateur de Tension Automatique Tripping: Causes and Solutions",
+    "ar": "انقطاع منظم الجهد: الأسباب والحلول",
+    "pt": "Regulador de Tensão Automático Tripping: Causes and Solutions",
+    "ru": "Отключение АСН: причины и решения",
+    "ja": "AVRトリップ：原因と解決策",
+    "de": "Automatischer Spannungsregler Tripping: Causes and Solutions",
+    "hi": "AVR ट्रिपिंग: कारण और समाधान"
   },
   "description": {
     "en": "When your AVR keeps tripping, it is trying to tell you something. Learn the most common causes of AVR tripping and how to diagnose the underlying problem.",
     "zh": "当您的稳压器不断跳闸时，它正试图告诉您什么。了解稳压器跳闸的最常见原因以及如何诊断潜在问题。",
-    "es": "When your AVR keeps tripping, it is trying to tell you something. Learn the most common causes of AVR tripping and how to diagnose the underlying problem.",
-    "fr": "When your AVR keeps tripping, it is trying to tell you something. Learn the most common causes of AVR tripping and how to diagnose the underlying problem.",
-    "ar": "When your AVR keeps tripping, it is trying to tell you something. Learn the most common causes of AVR tripping and how to diagnose the underlying problem.",
-    "pt": "When your AVR keeps tripping, it is trying to tell you something. Learn the most common causes of AVR tripping and how to diagnose the underlying problem.",
-    "ru": "When your AVR keeps tripping, it is trying to tell you something. Learn the most common causes of AVR tripping and how to diagnose the underlying problem.",
-    "ja": "When your AVR keeps tripping, it is trying to tell you something. Learn the most common causes of AVR tripping and how to diagnose the underlying problem.",
-    "de": "When your AVR keeps tripping, it is trying to tell you something. Learn the most common causes of AVR tripping and how to diagnose the underlying problem.",
-    "hi": "When your AVR keeps tripping, it is trying to tell you something. Learn the most common causes of AVR tripping and how to diagnose the underlying problem."
+    "es": "Regulador de Voltaje Automático Tripping: Causes and Solutions - Guía completa con análisis experto y orientación práctica",
+    "fr": "Régulateur de Tension Automatique Tripping: Causes and Solutions - Guide complet avec analyse experte et conseils pratiques",
+    "ar": "منظم الجهد التلقائي Tripping: Causes and Solutions - دليل شامل مع تحليل خبري وإرشادات عملية",
+    "pt": "Regulador de Tensão Automático Tripping: Causes and Solutions - Guia completo com análise especializada e orientação prática",
+    "ru": "Автоматический стабилизатор напряжения Tripping: Causes and Solutions — Полное руководство с экспертным анализом и практическими рекомендациями",
+    "ja": "自動電圧調整器 Tripping: Causes and Solutionsに関する包括ガイド - 専門家の分析と実践的アドバイス",
+    "de": "Automatischer Spannungsregler Tripping: Causes and Solutions — Umfassender Leitfaden mit Fachanalyse und praktischer Orientierung",
+    "hi": "स्वचालित वोल्टेज रेगुलेटर Tripping: Causes and Solutions - विशेषज्ञ विश्लेषण और व्यावहारिक मार्गदर्शन के साथ व्यापक गाइड"
   },
   "keywords": "AVR tripping causes, voltage regulator keeps tripping, AVR overload protection, voltage stabilizer trip reason, AVR reset problems",
   "sections": [

@@ -7,14 +7,14 @@
   "title": {
     "en": "AVR for Medical Robotic Surgery Systems",
     "zh": "医疗机器人手术系统AVR",
-    "es": "AVR for Medical Robotic Surgery Systems",
-    "fr": "AVR for Medical Robotic Surgery Systems",
-    "ar": "AVR for Medical Robotic Surgery Systems",
-    "pt": "AVR for Medical Robotic Surgery Systems",
-    "ru": "AVR for Medical Robotic Surgery Systems",
-    "ja": "AVR for Medical Robotic Surgery Systems",
-    "de": "AVR for Medical Robotic Surgery Systems",
-    "hi": "AVR for Medical Robotic Surgery Systems"
+    "es": "Regulador de Voltaje Automático for Medical Robotic Surgery Systems",
+    "fr": "Régulateur de Tension Automatique for Medical Robotic Surgery Systems",
+    "ar": "منظم الجهد التلقائي لأنظمة الجراحة الروبوتية الطبية",
+    "pt": "Regulador de Tensão Automático for Medical Robotic Surgery Systems",
+    "ru": "Автоматический стабилизатор напряжения для систем медицинской роботизированной хирургии",
+    "ja": "医療用ロボット手術システム向け自動電圧調整器",
+    "de": "Automatischer Spannungsregler for Medical Robotic Surgery Systems",
+    "hi": "मेडिकल रोबोटिक सर्जरी सिस्टम के लिए स्वचालित वोल्टेज रेगुलेटर"
   },
   "description": {
     "en": "Comprehensive guide covering AVR for Medical Robotic Surgery Systems. Expert analysis and practical guidance for making informed decisions about voltage...",

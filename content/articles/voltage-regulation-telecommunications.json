@@ -7,14 +7,14 @@
   "title": {
     "en": "Voltage Regulation in Telecommunications Infrastructure",
     "zh": "电信基础设施中的电压调节",
-    "es": "Voltage Regulation in Telecommunications Infrastructure",
-    "fr": "Voltage Regulation in Telecommunications Infrastructure",
-    "ar": "Voltage Regulation in Telecommunications Infrastructure",
-    "pt": "Voltage Regulation in Telecommunications Infrastructure",
-    "ru": "Voltage Regulation in Telecommunications Infrastructure",
-    "ja": "Voltage Regulation in Telecommunications Infrastructure",
-    "de": "Voltage Regulation in Telecommunications Infrastructure",
-    "hi": "Voltage Regulation in Telecommunications Infrastructure"
+    "es": "Regulación de Voltaje in Telecomunicaciones Infraestructura",
+    "fr": "Voltage Regulation en Telecommunications Infrastructure",
+    "ar": "تنظيم الجهد in الاتصالات البنية التحتية",
+    "pt": "Voltage Regulation no Telecommunications Infrastructure",
+    "ru": "Стабилизация напряжения в телекоммуникационной инфраструктуре",
+    "ja": "通信インフラにおける電圧調整",
+    "de": "Spannungsregelung in der Telekommunikationsinfrastruktur",
+    "hi": "दूरसंचार बुनियादी ढांचे में वोल्टेज नियमन"
   },
   "description": {
     "en": "Telecom towers and base stations require uninterrupted power. Learn why voltage stabilizers are essential for telecommunications reliability in Africa and...",

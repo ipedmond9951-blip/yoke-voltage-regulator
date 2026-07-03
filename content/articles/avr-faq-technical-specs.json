@@ -7,26 +7,26 @@
   "title": {
     "en": "AVR Technical Specifications FAQ",
     "zh": "AVR技术规格常见问题",
-    "es": "AVR Technical Specifications FAQ",
-    "fr": "AVR Technical Specifications FAQ",
-    "ar": "AVR Technical Specifications FAQ",
-    "pt": "AVR Technical Specifications FAQ",
-    "ru": "AVR Technical Specifications FAQ",
-    "ja": "AVR Technical Specifications FAQ",
-    "de": "AVR Technical Specifications FAQ",
-    "hi": "AVR Technical Specifications FAQ"
+    "es": "Regulador de Voltaje Automático Técnico Especificacións FAQ",
+    "fr": "Régulateur de Tension Automatique Technique Specifications FAQ",
+    "ar": "منظم الجهد التلقائي فني المواصفاتs FAQ",
+    "pt": "Regulador de Tensão Automático Técnico Specifications FAQ",
+    "ru": "ЧАВО по техническим характеристикам АСН",
+    "ja": "AVR技術仕様FAQ",
+    "de": "Automatischer Spannungsregler Technisch Specifications FAQ",
+    "hi": "AVR तकनीकी विशिष्टताएं FAQ"
   },
   "description": {
     "en": "Comprehensive guide covering AVR Technical Specifications FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
     "zh": "涵盖AVR技术规格常见问题的综合指南。专家分析和实践指导，助您做出关于电压调节的明智决定。",
-    "es": "Comprehensive guide covering AVR Technical Specifications FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "fr": "Comprehensive guide covering AVR Technical Specifications FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ar": "Comprehensive guide covering AVR Technical Specifications FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "pt": "Comprehensive guide covering AVR Technical Specifications FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ru": "Comprehensive guide covering AVR Technical Specifications FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ja": "Comprehensive guide covering AVR Technical Specifications FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "de": "Comprehensive guide covering AVR Technical Specifications FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "hi": "Comprehensive guide covering AVR Technical Specifications FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation."
+    "es": "Guía completa que cubre Regulador de Voltaje Automático Técnico Especificacións FAQ. Análisis experto y orientación práctica for making informed decisions sobre regulación de voltaje.",
+    "fr": "Guide complet couvrant Régulateur de Tension Automatique Technique Specifications FAQ. Analyse experte et conseils pratiques for making informed decisions sur la régulation de tension.",
+    "ar": "دليل شامل يغطي منظم الجهد التلقائي فني المواصفاتs FAQ. تحليل خبري وإرشادات عملية for making informed decisions حول تنظيم الجهد.",
+    "pt": "Guia completo cobrindo Regulador de Tensão Automático Técnico Specifications FAQ. Análise especializada e orientação prática for making informed decisions sobre regulação de tensão.",
+    "ru": "Полное руководство, охватывающее Автоматический стабилизатор напряжения Технический Specifications FAQ. Экспертный анализ и практические рекомендации for making informed decisions о регулировании напряжения.",
+    "ja": "自動電圧調整器 技術 Specifications FAQに関する包括ガイド。専門家の分析と実践的なアドバイス for making informed decisions 電圧調整について.",
+    "de": "Umfassender Leitfaden zu Automatischer Spannungsregler Technisch Specifications FAQ. Fachliche Analyse und praktische Orientierung for making informed decisions zur Spannungsregelung.",
+    "hi": "व्यापक गाइड जो कवर करती है: स्वचालित वोल्टेज रेगुलेटर तकनीकी Specifications FAQ. विशेषज्ञ विश्लेषण और व्यावहारिक मार्गदर्शन for making informed decisions वोल्टेज नियमन के बारे में."
   },
   "keywords": "AVR technical FAQ, voltage regulator specs questions, specification FAQ, AVR FAQ, voltage regulator",
   "sections": [

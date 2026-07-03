@@ -7,14 +7,14 @@
   "title": {
     "en": "AVR Heat Dissipation: Thermal Management Design",
     "zh": "AVR散热：热管理设计",
-    "es": "AVR Heat Dissipation: Thermal Management Design",
-    "fr": "AVR Heat Dissipation: Thermal Management Design",
-    "ar": "AVR Heat Dissipation: Thermal Management Design",
-    "pt": "AVR Heat Dissipation: Thermal Management Design",
-    "ru": "AVR Heat Dissipation: Thermal Management Design",
-    "ja": "AVR Heat Dissipation: Thermal Management Design",
-    "de": "AVR Heat Dissipation: Thermal Management Design",
-    "hi": "AVR Heat Dissipation: Thermal Management Design"
+    "es": "Regulador de Voltaje Automático Heat Dissipation: Thermal Management Diseño",
+    "fr": "Régulateur de Tension Automatique Heat Dissipation: Thermal Management Design",
+    "ar": "تبديد حرارة منظم الجهد: تصميم الإدارة الحرارية",
+    "pt": "Regulador de Tensão Automático Heat Dissipation: Thermal Management Design",
+    "ru": "Рассеивание тепла АСН: конструкция теплоотвода",
+    "ja": "AVR放熱：熱管理設計",
+    "de": "Automatischer Spannungsregler Heat Dissipation: Thermal Management Design",
+    "hi": "AVR ऊष्मा अपघटन: थर्मल मैनेजमेंट डिज़ाइन"
   },
   "description": {
     "en": "Comprehensive guide covering AVR Heat Dissipation: Thermal Management Design. Expert analysis and practical guidance for making informed decisions about...",

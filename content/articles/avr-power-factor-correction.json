@@ -7,26 +7,26 @@
   "title": {
     "en": "AVR and Power Factor Correction",
     "zh": "AVR和功率因数校正",
-    "es": "AVR and Power Factor Correction",
-    "fr": "AVR and Power Factor Correction",
-    "ar": "AVR and Power Factor Correction",
-    "pt": "AVR and Power Factor Correction",
-    "ru": "AVR and Power Factor Correction",
-    "ja": "AVR and Power Factor Correction",
-    "de": "AVR and Power Factor Correction",
-    "hi": "AVR and Power Factor Correction"
+    "es": "Regulador de Voltaje Automático and Power Factor Correction",
+    "fr": "Régulateur de Tension Automatique and Power Factor Correction",
+    "ar": "منظم الجهد وتصحيح معامل القدرة",
+    "pt": "Regulador de Tensão Automático and Power Factor Correction",
+    "ru": "АСН и коррекция коэффициента мощности",
+    "ja": "AVRと力率改善",
+    "de": "Automatischer Spannungsregler and Power Factor Correction",
+    "hi": "AVR और पावर फैक्टर सुधार"
   },
   "description": {
     "en": "Comprehensive guide covering AVR and Power Factor Correction. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
     "zh": "涵盖AVR和功率因数校正的综合指南。专家分析和实践指导，助您做出关于电压调节的明智决定。",
-    "es": "Comprehensive guide covering AVR and Power Factor Correction. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "fr": "Comprehensive guide covering AVR and Power Factor Correction. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ar": "Comprehensive guide covering AVR and Power Factor Correction. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "pt": "Comprehensive guide covering AVR and Power Factor Correction. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ru": "Comprehensive guide covering AVR and Power Factor Correction. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ja": "Comprehensive guide covering AVR and Power Factor Correction. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "de": "Comprehensive guide covering AVR and Power Factor Correction. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "hi": "Comprehensive guide covering AVR and Power Factor Correction. Expert analysis and practical guidance for making informed decisions about voltage regulation."
+    "es": "Guía completa que cubre Regulador de Voltaje Automático and Power Factor Correction. Análisis experto y orientación práctica for making informed decisions sobre regulación de voltaje.",
+    "fr": "Guide complet couvrant Régulateur de Tension Automatique and Power Factor Correction. Analyse experte et conseils pratiques for making informed decisions sur la régulation de tension.",
+    "ar": "دليل شامل يغطي منظم الجهد التلقائي and Power Factor Correction. تحليل خبري وإرشادات عملية for making informed decisions حول تنظيم الجهد.",
+    "pt": "Guia completo cobrindo Regulador de Tensão Automático and Power Factor Correction. Análise especializada e orientação prática for making informed decisions sobre regulação de tensão.",
+    "ru": "Полное руководство, охватывающее Автоматический стабилизатор напряжения and Power Factor Correction. Экспертный анализ и практические рекомендации for making informed decisions о регулировании напряжения.",
+    "ja": "自動電圧調整器 and Power Factor Correctionに関する包括ガイド。専門家の分析と実践的なアドバイス for making informed decisions 電圧調整について.",
+    "de": "Umfassender Leitfaden zu Automatischer Spannungsregler and Power Factor Correction. Fachliche Analyse und praktische Orientierung for making informed decisions zur Spannungsregelung.",
+    "hi": "व्यापक गाइड जो कवर करती है: स्वचालित वोल्टेज रेगुलेटर and Power Factor Correction. विशेषज्ञ विश्लेषण और व्यावहारिक मार्गदर्शन for making informed decisions वोल्टेज नियमन के बारे में."
   },
   "keywords": "Power factor AVR, reactive power voltage regulator, PF correction AVR, AVR guide, voltage regulator specifications",
   "sections": [

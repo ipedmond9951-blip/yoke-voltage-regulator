@@ -7,14 +7,14 @@
   "title": {
     "en": "AVR for Quantum Computing Facilities",
     "zh": "量子计算设施AVR",
-    "es": "AVR for Quantum Computing Facilities",
-    "fr": "AVR for Quantum Computing Facilities",
-    "ar": "AVR for Quantum Computing Facilities",
-    "pt": "AVR for Quantum Computing Facilities",
-    "ru": "AVR for Quantum Computing Facilities",
-    "ja": "AVR for Quantum Computing Facilities",
-    "de": "AVR for Quantum Computing Facilities",
-    "hi": "AVR for Quantum Computing Facilities"
+    "es": "Regulador de Voltaje Automático for Quantum Computing Facilities",
+    "fr": "Régulateur de Tension Automatique for Quantum Computing Facilities",
+    "ar": "منظم الجهد التلقائي لمرافق الحوسبة الكمية",
+    "pt": "Regulador de Tensão Automático for Quantum Computing Facilities",
+    "ru": "Автоматический стабилизатор напряжения для центров квантовых вычислений",
+    "ja": "量子コンピューティング施設向け自動電圧調整器",
+    "de": "Automatischer Spannungsregler for Quantum Computing Facilities",
+    "hi": "क्वांटम कंप्यूटिंग सुविधाओं के लिए स्वचालित वोल्टेज रेगुलेटर"
   },
   "description": {
     "en": "Comprehensive guide covering AVR for Quantum Computing Facilities. Expert analysis and practical guidance for making informed decisions about voltage...",

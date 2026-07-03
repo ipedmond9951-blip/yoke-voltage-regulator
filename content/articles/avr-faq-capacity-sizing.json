@@ -7,26 +7,26 @@
   "title": {
     "en": "AVR Capacity Sizing FAQ",
     "zh": "AVR容量选型常见问题",
-    "es": "AVR Capacity Sizing FAQ",
-    "fr": "AVR Capacity Sizing FAQ",
-    "ar": "AVR Capacity Sizing FAQ",
-    "pt": "AVR Capacity Sizing FAQ",
-    "ru": "AVR Capacity Sizing FAQ",
-    "ja": "AVR Capacity Sizing FAQ",
-    "de": "AVR Capacity Sizing FAQ",
-    "hi": "AVR Capacity Sizing FAQ"
+    "es": "Regulador de Voltaje Automático Capacidad Dimensionamiento FAQ",
+    "fr": "Régulateur de Tension Automatique Capacity Sizing FAQ",
+    "ar": "منظم الجهد التلقائي السعة تحديد الحجم FAQ",
+    "pt": "Regulador de Tensão Automático Capacity Sizing FAQ",
+    "ru": "Автоматический стабилизатор напряжения: Частые вопросы о подборе мощности",
+    "ja": "容量計算よくある質問向け自動電圧調整器",
+    "de": "Automatischer Spannungsregler Capacity Sizing FAQ",
+    "hi": "स्वचालित वोल्टेज रेगुलेटर: क्षमता आकार FAQ"
   },
   "description": {
     "en": "Comprehensive guide covering AVR Capacity Sizing FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
     "zh": "涵盖AVR容量选型常见问题的综合指南。专家分析和实践指导，助您做出关于电压调节的明智决定。",
-    "es": "Comprehensive guide covering AVR Capacity Sizing FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "fr": "Comprehensive guide covering AVR Capacity Sizing FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ar": "Comprehensive guide covering AVR Capacity Sizing FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "pt": "Comprehensive guide covering AVR Capacity Sizing FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ru": "Comprehensive guide covering AVR Capacity Sizing FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ja": "Comprehensive guide covering AVR Capacity Sizing FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "de": "Comprehensive guide covering AVR Capacity Sizing FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "hi": "Comprehensive guide covering AVR Capacity Sizing FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation."
+    "es": "Guía completa que cubre Regulador de Voltaje Automático Capacidad Dimensionamiento FAQ. Análisis experto y orientación práctica for making informed decisions sobre regulación de voltaje.",
+    "fr": "Guide complet couvrant Régulateur de Tension Automatique Capacity Sizing FAQ. Analyse experte et conseils pratiques for making informed decisions sur la régulation de tension.",
+    "ar": "دليل شامل يغطي منظم الجهد التلقائي السعة تحديد الحجم FAQ. تحليل خبري وإرشادات عملية for making informed decisions حول تنظيم الجهد.",
+    "pt": "Guia completo cobrindo Regulador de Tensão Automático Capacity Sizing FAQ. Análise especializada e orientação prática for making informed decisions sobre regulação de tensão.",
+    "ru": "Полное руководство, охватывающее Автоматический стабилизатор напряжения Capacity Sizing FAQ. Экспертный анализ и практические рекомендации for making informed decisions о регулировании напряжения.",
+    "ja": "自動電圧調整器 Capacity Sizing FAQに関する包括ガイド。専門家の分析と実践的なアドバイス for making informed decisions 電圧調整について.",
+    "de": "Umfassender Leitfaden zu Automatischer Spannungsregler Capacity Sizing FAQ. Fachliche Analyse und praktische Orientierung for making informed decisions zur Spannungsregelung.",
+    "hi": "व्यापक गाइड जो कवर करती है: स्वचालित वोल्टेज रेगुलेटर Capacity Sizing FAQ. विशेषज्ञ विश्लेषण और व्यावहारिक मार्गदर्शन for making informed decisions वोल्टेज नियमन के बारे में."
   },
   "keywords": "AVR sizing FAQ, KVA capacity questions, how to choose right size FAQ, AVR FAQ, voltage regulator",
   "sections": [

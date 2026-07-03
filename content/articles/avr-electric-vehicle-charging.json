@@ -7,14 +7,14 @@
   "title": {
     "en": "AVR for Electric Vehicle Charging Stations",
     "zh": "电动汽车充电站AVR",
-    "es": "AVR for Electric Vehicle Charging Stations",
-    "fr": "AVR for Electric Vehicle Charging Stations",
-    "ar": "AVR for Electric Vehicle Charging Stations",
-    "pt": "AVR for Electric Vehicle Charging Stations",
-    "ru": "AVR for Electric Vehicle Charging Stations",
-    "ja": "AVR for Electric Vehicle Charging Stations",
-    "de": "AVR for Electric Vehicle Charging Stations",
-    "hi": "AVR for Electric Vehicle Charging Stations"
+    "es": "Regulador de Voltaje Automático for Electric Vehicle Charging Stations",
+    "fr": "Régulateur de Tension Automatique for Electric Vehicle Charging Stations",
+    "ar": "منظم الجهد التلقائي لمحطات شحن السيارات الكهربائية",
+    "pt": "Regulador de Tensão Automático for Electric Vehicle Charging Stations",
+    "ru": "Автоматический стабилизатор напряжения для станций зарядки электромобилей",
+    "ja": "電気自動車充電ステーション向け自動電圧調整器",
+    "de": "Automatischer Spannungsregler for Electric Vehicle Charging Stations",
+    "hi": "इलेक्ट्रिक वाहन चार्जिंग स्टेशनों के लिए स्वचालित वोल्टेज रेगुलेटर"
   },
   "description": {
     "en": "Comprehensive guide covering AVR for Electric Vehicle Charging Stations. Expert analysis and practical guidance for making informed decisions about voltage...",

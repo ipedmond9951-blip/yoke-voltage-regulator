@@ -7,14 +7,14 @@
   "title": {
     "en": "Fixing AVR Voltage Drift: Calibration Guide",
     "zh": "修复AVR电压漂移：校准指南",
-    "es": "Fixing AVR Voltage Drift: Calibration Guide",
-    "fr": "Fixing AVR Voltage Drift: Calibration Guide",
-    "ar": "Fixing AVR Voltage Drift: Calibration Guide",
-    "pt": "Fixing AVR Voltage Drift: Calibration Guide",
-    "ru": "Fixing AVR Voltage Drift: Calibration Guide",
-    "ja": "Fixing AVR Voltage Drift: Calibration Guide",
-    "de": "Fixing AVR Voltage Drift: Calibration Guide",
-    "hi": "Fixing AVR Voltage Drift: Calibration Guide"
+    "es": "Fixing Regulador de Voltaje Automático Voltage Drift: Calibración Guía",
+    "fr": "Fixing Régulateur de Tension Automatique Voltage Drift: Calibration Guide",
+    "ar": "إصلاح انحراف جهد منظم الجهد: دليل المعايرة",
+    "pt": "Fixing Regulador de Tensão Automático Voltage Drift: Calibration Guia",
+    "ru": "Устранение дрейфа напряжения АСН: руководство по калибровке",
+    "ja": "AVR電圧ドリフト修正：キャリブレーションガイド",
+    "de": "Fixing Automatischer Spannungsregler Voltage Drift: Calibration Leitfaden",
+    "hi": "AVR वोल्टेज ड्रिफ्ट ठीक करना: कैलिब्रेशन गाइड"
   },
   "description": {
     "en": "Comprehensive guide covering Fixing AVR Voltage Drift: Calibration Guide. Expert analysis and practical guidance for making informed decisions about voltage...",

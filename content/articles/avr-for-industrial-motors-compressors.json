@@ -7,26 +7,26 @@
   "title": {
     "en": "Protecting Industrial Motors and Compressors with AVR",
     "zh": "使用稳压器保护工业电机和压缩机",
-    "es": "Protecting Industrial Motors and Compressors with AVR",
-    "fr": "Protecting Industrial Motors and Compressors with AVR",
-    "ar": "Protecting Industrial Motors and Compressors with AVR",
-    "pt": "Protecting Industrial Motors and Compressors with AVR",
-    "ru": "Protecting Industrial Motors and Compressors with AVR",
-    "ja": "Protecting Industrial Motors and Compressors with AVR",
-    "de": "Protecting Industrial Motors and Compressors with AVR",
-    "hi": "Protecting Industrial Motors and Compressors with AVR"
+    "es": "Protecting Industrial Motors and Compressors with Regulador de Voltaje Automático",
+    "fr": "Protecting Industriel Motors and Compressors with Régulateur de Tension Automatique",
+    "ar": "حماية المحركات والضواغط الصناعية بمنظم الجهد",
+    "pt": "Protecting Industrial Motors and Compressors with Regulador de Tensão Automático",
+    "ru": "Защита промышленных двигателей и компрессоров с АСН",
+    "ja": "AVRによる産業用モーター・コンプレッサー保護",
+    "de": "Protecting Industrie Motors and Compressors with Automatischer Spannungsregler",
+    "hi": "AVR के साथ औद्योगिक मोटर और कंप्रेसर की सुरक्षा"
   },
   "description": {
     "en": "Motors and compressors are among the most vulnerable equipment to voltage fluctuations. Learn how AVR extends motor life and reduces maintenance costs.",
     "zh": "电机和压缩机是对电压波动最敏感的设备之一。了解稳压器如何延长电机寿命并降低维护成本。",
-    "es": "Motors and compressors are among the most vulnerable equipment to voltage fluctuations. Learn how AVR extends motor life and reduces maintenance costs.",
-    "fr": "Motors and compressors are among the most vulnerable equipment to voltage fluctuations. Learn how AVR extends motor life and reduces maintenance costs.",
-    "ar": "Motors and compressors are among the most vulnerable equipment to voltage fluctuations. Learn how AVR extends motor life and reduces maintenance costs.",
-    "pt": "Motors and compressors are among the most vulnerable equipment to voltage fluctuations. Learn how AVR extends motor life and reduces maintenance costs.",
-    "ru": "Motors and compressors are among the most vulnerable equipment to voltage fluctuations. Learn how AVR extends motor life and reduces maintenance costs.",
-    "ja": "Motors and compressors are among the most vulnerable equipment to voltage fluctuations. Learn how AVR extends motor life and reduces maintenance costs.",
-    "de": "Motors and compressors are among the most vulnerable equipment to voltage fluctuations. Learn how AVR extends motor life and reduces maintenance costs.",
-    "hi": "Motors and compressors are among the most vulnerable equipment to voltage fluctuations. Learn how AVR extends motor life and reduces maintenance costs."
+    "es": "Protecting Industrial Motors and Compressors with Regulador de Voltaje Automático - Guía completa con análisis experto y orientación práctica",
+    "fr": "Protecting Industriel Motors and Compressors with Régulateur de Tension Automatique - Guide complet avec analyse experte et conseils pratiques",
+    "ar": "Protecting صناعي Motors and Compressors with منظم الجهد التلقائي - دليل شامل مع تحليل خبري وإرشادات عملية",
+    "pt": "Protecting Industrial Motors and Compressors with Regulador de Tensão Automático - Guia completo com análise especializada e orientação prática",
+    "ru": "Protecting Промышленный Motors and Compressors with Автоматический стабилизатор напряжения — Полное руководство с экспертным анализом и практическими рекомендациями",
+    "ja": "Protecting 産業用 Motors and Compressors with 自動電圧調整器に関する包括ガイド - 専門家の分析と実践的アドバイス",
+    "de": "Protecting Industrie Motors and Compressors with Automatischer Spannungsregler — Umfassender Leitfaden mit Fachanalyse und praktischer Orientierung",
+    "hi": "Protecting औद्योगिक Motors and Compressors with स्वचालित वोल्टेज रेगुलेटर - विशेषज्ञ विश्लेषण और व्यावहारिक मार्गदर्शन के साथ व्यापक गाइड"
   },
   "keywords": "AVR motor protection, compressor voltage protection, industrial AVR, motor voltage stabilizer, electrical motor protection",
   "sections": [

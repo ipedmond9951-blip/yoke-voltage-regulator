@@ -7,14 +7,14 @@
   "title": {
     "en": "AVR Troubleshooting FAQ: Problem-Solving Questions",
     "zh": "AVR故障排除常见问题：解决问题",
-    "es": "AVR Troubleshooting FAQ: Problem-Solving Questions",
-    "fr": "AVR Troubleshooting FAQ: Problem-Solving Questions",
-    "ar": "AVR Troubleshooting FAQ: Problem-Solving Questions",
-    "pt": "AVR Troubleshooting FAQ: Problem-Solving Questions",
-    "ru": "AVR Troubleshooting FAQ: Problem-Solving Questions",
-    "ja": "AVR Troubleshooting FAQ: Problem-Solving Questions",
-    "de": "AVR Troubleshooting FAQ: Problem-Solving Questions",
-    "hi": "AVR Troubleshooting FAQ: Problem-Solving Questions"
+    "es": "Regulador de Voltaje Automático Solución de Problemas FAQ: Problem-Solving Questions",
+    "fr": "Régulateur de Tension Automatique Troubleshooting FAQ: Problem-Solving Questions",
+    "ar": "الأسئلة الشائعة عن استكشاف أخطاء منظم الجهد: أسئلة حل المشكلات",
+    "pt": "Regulador de Tensão Automático Troubleshooting FAQ: Problem-Solving Questions",
+    "ru": "ЧАВО по устранению неисправностей АСН: вопросы диагностики",
+    "ja": "AVRトラブルシューティングFAQ：問題解決の質問",
+    "de": "Automatischer Spannungsregler Fehlerbehebung FAQ: Problem-Solving Questions",
+    "hi": "AVR समस्या निवारण FAQ: समस्या-समाधान प्रश्न"
   },
   "description": {
     "en": "Comprehensive guide covering AVR Troubleshooting FAQ: Problem-Solving Questions. Expert analysis and practical guidance for making informed decisions about...",

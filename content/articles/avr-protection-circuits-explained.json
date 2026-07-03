@@ -7,14 +7,14 @@
   "title": {
     "en": "AVR Protection Circuits: Overload Short Circuit and Thermal",
     "zh": "AVR保护电路：过载、短路和热保护",
-    "es": "AVR Protection Circuits: Overload Short Circuit and Thermal",
-    "fr": "AVR Protection Circuits: Overload Short Circuit and Thermal",
-    "ar": "AVR Protection Circuits: Overload Short Circuit and Thermal",
-    "pt": "AVR Protection Circuits: Overload Short Circuit and Thermal",
-    "ru": "AVR Protection Circuits: Overload Short Circuit and Thermal",
-    "ja": "AVR Protection Circuits: Overload Short Circuit and Thermal",
-    "de": "AVR Protection Circuits: Overload Short Circuit and Thermal",
-    "hi": "AVR Protection Circuits: Overload Short Circuit and Thermal"
+    "es": "Regulador de Voltaje Automático Protección Circuitos: Overload Short Circuito and Thermal",
+    "fr": "Régulateur de Tension Automatique Protection Circuits: Overload Short Circuit and Thermal",
+    "ar": "دوائر حماية منظم الجهد: الحمل الزائد والدائرة القصيرة والحراري",
+    "pt": "Regulador de Tensão Automático Proteção Circuits: Overload Short Circuit and Thermal",
+    "ru": "Цепи защиты АСН: перегрузка, короткое замыкание и тепловой",
+    "ja": "AVR保護回路：過負荷・短絡・熱保護",
+    "de": "Automatischer Spannungsregler Schutz Circuits: Overload Short Circuit and Thermal",
+    "hi": "AVR सुरक्षा सर्किट: ओवरलोड शॉर्ट सर्किट और थर्मल"
   },
   "description": {
     "en": "Comprehensive guide covering AVR Protection Circuits: Overload Short Circuit and Thermal. Expert analysis and practical guidance for making informed...",

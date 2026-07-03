@@ -7,14 +7,14 @@
   "title": {
     "en": "Common AVR Myths Debunked: What You Really Need to Know",
     "zh": "常见稳压器神话揭秘：您真正需要了解的",
-    "es": "Common AVR Myths Debunked: What You Really Need to Know",
-    "fr": "Common AVR Myths Debunked: What You Really Need to Know",
-    "ar": "Common AVR Myths Debunked: What You Really Need to Know",
-    "pt": "Common AVR Myths Debunked: What You Really Need to Know",
-    "ru": "Common AVR Myths Debunked: What You Really Need to Know",
-    "ja": "Common AVR Myths Debunked: What You Really Need to Know",
-    "de": "Common AVR Myths Debunked: What You Really Need to Know",
-    "hi": "Common AVR Myths Debunked: What You Really Need to Know"
+    "es": "Common Regulador de Voltaje Automático Myths Debunked: What You Really Need to Know",
+    "fr": "Common Régulateur de Tension Automatique Myths Debunked: What You Really Need to Know",
+    "ar": "خرافات شائعة عن منظم الجهد: ما تحتاج حقاً لمعرفته",
+    "pt": "Common Regulador de Tensão Automático Myths Debunked: What You Really Need to Know",
+    "ru": "Развенчание мифов об AVR: что действительно нужно знать",
+    "ja": "AVRのよくある誤解を解消：本当に知るべきこと",
+    "de": "Common Automatischer Spannungsregler Myths Debunked: What You Really Need to Know",
+    "hi": "AVR के आम मिथकों का खंडन：आपको वास्तव में क्या जानने की जरूरत है"
   },
   "description": {
     "en": "Separating fact from fiction about voltage regulators. We debunk the most common myths about AVR cost, effectiveness, and necessity in modern electrical...",

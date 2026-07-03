@@ -7,26 +7,26 @@
   "title": {
     "en": "AVR Testing and Certification Standards Explained",
     "zh": "稳压器测试和认证标准说明",
-    "es": "AVR Testing and Certification Standards Explained",
-    "fr": "AVR Testing and Certification Standards Explained",
-    "ar": "AVR Testing and Certification Standards Explained",
-    "pt": "AVR Testing and Certification Standards Explained",
-    "ru": "AVR Testing and Certification Standards Explained",
-    "ja": "AVR Testing and Certification Standards Explained",
-    "de": "AVR Testing and Certification Standards Explained",
-    "hi": "AVR Testing and Certification Standards Explained"
+    "es": "Regulador de Voltaje Automático Pruebas and Certificación Normas Explained",
+    "fr": "Régulateur de Tension Automatique Testing and Certification Standards Explained",
+    "ar": "شرح معايير اختبار وشهادة منظم الجهد",
+    "pt": "Regulador de Tensão Automático Testing and Certification Standards Explained",
+    "ru": "Автоматический стабилизатор напряжения: Тестирование и Сертификация Stиards Explaвed",
+    "ja": "テスト ・ 認証 St・ards Explaでed向け自動電圧調整器",
+    "de": "Automatischer Spannungsregler Testing and Certification Standards Explained",
+    "hi": "स्वचालित वोल्टेज रेगुलेटर: परीक्षण और प्रमाणन Stऔरards Explaमेंed"
   },
   "description": {
     "en": "CE, CB, ISO9001 - what do these certifications actually mean for AVR quality? Learn which certifications matter and how to verify authenticity.",
     "zh": "CE、CB、ISO9001——这些认证对稳压器质量实际上意味着什么？了解哪些认证重要以及如何验证真实性。",
-    "es": "CE, CB, ISO9001 - what do these certifications actually mean for AVR quality? Learn which certifications matter and how to verify authenticity.",
-    "fr": "CE, CB, ISO9001 - what do these certifications actually mean for AVR quality? Learn which certifications matter and how to verify authenticity.",
-    "ar": "CE, CB, ISO9001 - what do these certifications actually mean for AVR quality? Learn which certifications matter and how to verify authenticity.",
-    "pt": "CE, CB, ISO9001 - what do these certifications actually mean for AVR quality? Learn which certifications matter and how to verify authenticity.",
-    "ru": "CE, CB, ISO9001 - what do these certifications actually mean for AVR quality? Learn which certifications matter and how to verify authenticity.",
-    "ja": "CE, CB, ISO9001 - what do these certifications actually mean for AVR quality? Learn which certifications matter and how to verify authenticity.",
-    "de": "CE, CB, ISO9001 - what do these certifications actually mean for AVR quality? Learn which certifications matter and how to verify authenticity.",
-    "hi": "CE, CB, ISO9001 - what do these certifications actually mean for AVR quality? Learn which certifications matter and how to verify authenticity."
+    "es": "Regulador de Voltaje Automático Pruebas and Certificación Normas Explained - Guía completa con análisis experto y orientación práctica",
+    "fr": "Régulateur de Tension Automatique Testing and Certification Standards Explained - Guide complet avec analyse experte et conseils pratiques",
+    "ar": "منظم الجهد التلقائي الاختبار and الشهادة المعايير Explained - دليل شامل مع تحليل خبري وإرشادات عملية",
+    "pt": "Regulador de Tensão Automático Testing and Certification Standards Explained - Guia completo com análise especializada e orientação prática",
+    "ru": "Автоматический стабилизатор напряжения Testing and Certification Standards Explained — Полное руководство с экспертным анализом и практическими рекомендациями",
+    "ja": "自動電圧調整器 Testing and Certification Standards Explainedに関する包括ガイド - 専門家の分析と実践的アドバイス",
+    "de": "Automatischer Spannungsregler Testing and Certification Standards Explained — Umfassender Leitfaden mit Fachanalyse und praktischer Orientierung",
+    "hi": "स्वचालित वोल्टेज रेगुलेटर Testing and Certification Standards Explained - विशेषज्ञ विश्लेषण और व्यावहारिक मार्गदर्शन के साथ व्यापक गाइड"
   },
   "keywords": "AVR certification, CE CB certification, voltage regulator standards, ISO9001 AVR, AVR quality certification",
   "sections": [

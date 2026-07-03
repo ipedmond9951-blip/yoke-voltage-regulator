@@ -7,14 +7,14 @@
   "title": {
     "en": "AVR for Generator Sets: Backup Power Integration",
     "zh": "发电机AVR：备用电源集成",
-    "es": "AVR for Generator Sets: Backup Power Integration",
-    "fr": "AVR for Generator Sets: Backup Power Integration",
-    "ar": "AVR for Generator Sets: Backup Power Integration",
-    "pt": "AVR for Generator Sets: Backup Power Integration",
-    "ru": "AVR for Generator Sets: Backup Power Integration",
-    "ja": "AVR for Generator Sets: Backup Power Integration",
-    "de": "AVR for Generator Sets: Backup Power Integration",
-    "hi": "AVR for Generator Sets: Backup Power Integration"
+    "es": "Regulador de Voltaje Automático for Generador Sets: Backup Power Integration",
+    "fr": "Régulateur de Tension Automatique for Générateur Sets: Backup Power Integration",
+    "ar": "منظم الجهد التلقائي لمجموعات المولدات: تكامل طاقة الاحتياطية",
+    "pt": "Regulador de Tensão Automático for Gerador Sets: Backup Power Integration",
+    "ru": "Автоматический стабилизатор напряжения для генераторных установок: интеграция резервного питания",
+    "ja": "発電機セット向け自動電圧調整器：バックアップ電力統合",
+    "de": "Automatischer Spannungsregler for Generator Sets: Backup Power Integration",
+    "hi": "जनरेटर सेट के लिए स्वचालित वोल्टेज रेगुलेटर: बैकअप पावर एकीकरण"
   },
   "description": {
     "en": "Comprehensive guide covering AVR for Generator Sets: Backup Power Integration. Expert analysis and practical guidance for making informed decisions about...",

@@ -7,26 +7,26 @@
   "title": {
     "en": "AVR with Generator FAQ",
     "zh": "AVR与发电机配套常见问题",
-    "es": "AVR with Generator FAQ",
-    "fr": "AVR with Generator FAQ",
-    "ar": "AVR with Generator FAQ",
-    "pt": "AVR with Generator FAQ",
-    "ru": "AVR with Generator FAQ",
-    "ja": "AVR with Generator FAQ",
-    "de": "AVR with Generator FAQ",
-    "hi": "AVR with Generator FAQ"
+    "es": "Regulador de Voltaje Automático with Generador FAQ",
+    "fr": "Régulateur de Tension Automatique with Générateur FAQ",
+    "ar": "منظم الجهد التلقائي with مولد FAQ",
+    "pt": "Regulador de Tensão Automático with Gerador FAQ",
+    "ru": "Автоматический стабилизатор напряжения with Генератор FAQ",
+    "ja": "AVR発電機FAQ",
+    "de": "Automatischer Spannungsregler with Generator FAQ",
+    "hi": "स्वचालित वोल्टेज रेगुलेटर with जनरेटर FAQ"
   },
   "description": {
     "en": "Comprehensive guide covering AVR with Generator FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
     "zh": "涵盖AVR与发电机配套常见问题的综合指南。专家分析和实践指导，助您做出关于电压调节的明智决定。",
-    "es": "Comprehensive guide covering AVR with Generator FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "fr": "Comprehensive guide covering AVR with Generator FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ar": "Comprehensive guide covering AVR with Generator FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "pt": "Comprehensive guide covering AVR with Generator FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ru": "Comprehensive guide covering AVR with Generator FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ja": "Comprehensive guide covering AVR with Generator FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "de": "Comprehensive guide covering AVR with Generator FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "hi": "Comprehensive guide covering AVR with Generator FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation."
+    "es": "Guía completa que cubre Regulador de Voltaje Automático with Generador FAQ. Análisis experto y orientación práctica for making informed decisions sobre regulación de voltaje.",
+    "fr": "Guide complet couvrant Régulateur de Tension Automatique with Générateur FAQ. Analyse experte et conseils pratiques for making informed decisions sur la régulation de tension.",
+    "ar": "دليل شامل يغطي منظم الجهد التلقائي with مولد FAQ. تحليل خبري وإرشادات عملية for making informed decisions حول تنظيم الجهد.",
+    "pt": "Guia completo cobrindo Regulador de Tensão Automático with Gerador FAQ. Análise especializada e orientação prática for making informed decisions sobre regulação de tensão.",
+    "ru": "Полное руководство, охватывающее Автоматический стабилизатор напряжения with Генератор FAQ. Экспертный анализ и практические рекомендации for making informed decisions о регулировании напряжения.",
+    "ja": "自動電圧調整器 with 発電機 FAQに関する包括ガイド。専門家の分析と実践的なアドバイス for making informed decisions 電圧調整について.",
+    "de": "Umfassender Leitfaden zu Automatischer Spannungsregler with Generator FAQ. Fachliche Analyse und praktische Orientierung for making informed decisions zur Spannungsregelung.",
+    "hi": "व्यापक गाइड जो कवर करती है: स्वचालित वोल्टेज रेगुलेटर with जनरेटर FAQ. विशेषज्ञ विश्लेषण और व्यावहारिक मार्गदर्शन for making informed decisions वोल्टेज नियमन के बारे में."
   },
   "keywords": "AVR generator FAQ, voltage regulator generator questions, generator compatibility FAQ, AVR FAQ, voltage regulator",
   "sections": [

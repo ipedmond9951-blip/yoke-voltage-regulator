@@ -7,26 +7,26 @@
   "title": {
     "en": "AVR for Energy Storage Systems",
     "zh": "储能系统AVR",
-    "es": "AVR for Energy Storage Systems",
-    "fr": "AVR for Energy Storage Systems",
-    "ar": "AVR for Energy Storage Systems",
-    "pt": "AVR for Energy Storage Systems",
-    "ru": "AVR for Energy Storage Systems",
-    "ja": "AVR for Energy Storage Systems",
-    "de": "AVR for Energy Storage Systems",
-    "hi": "AVR for Energy Storage Systems"
+    "es": "Regulador de Voltaje Automático for Energy Storage Systems",
+    "fr": "Régulateur de Tension Automatique for Energy Storage Systems",
+    "ar": "منظم الجهد التلقائي لأنظمة تخزين الطاقة",
+    "pt": "Regulador de Tensão Automático for Energy Storage Systems",
+    "ru": "Автоматический стабилизатор напряжения для систем накопления энергии",
+    "ja": "エネルギー貯蔵システム向け自動電圧調整器",
+    "de": "Automatischer Spannungsregler for Energy Storage Systems",
+    "hi": "ऊर्जा भंडारण प्रणालियों के लिए स्वचालित वोल्टेज रेगुलेटर"
   },
   "description": {
     "en": "Comprehensive guide covering AVR for Energy Storage Systems. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
     "zh": "涵盖储能系统AVR的综合指南。专家分析和实践指导，助您做出关于电压调节的明智决定。",
-    "es": "Comprehensive guide covering AVR for Energy Storage Systems. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "fr": "Comprehensive guide covering AVR for Energy Storage Systems. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ar": "Comprehensive guide covering AVR for Energy Storage Systems. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "pt": "Comprehensive guide covering AVR for Energy Storage Systems. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ru": "Comprehensive guide covering AVR for Energy Storage Systems. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ja": "Comprehensive guide covering AVR for Energy Storage Systems. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "de": "Comprehensive guide covering AVR for Energy Storage Systems. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "hi": "Comprehensive guide covering AVR for Energy Storage Systems. Expert analysis and practical guidance for making informed decisions about voltage regulation."
+    "es": "Guía completa que cubre Regulador de Voltaje Automático for Energy Storage Systems. Análisis experto y orientación práctica for making informed decisions sobre regulación de voltaje.",
+    "fr": "Guide complet couvrant Régulateur de Tension Automatique for Energy Storage Systems. Analyse experte et conseils pratiques for making informed decisions sur la régulation de tension.",
+    "ar": "دليل شامل يغطي منظم الجهد التلقائي for Energy Storage Systems. تحليل خبري وإرشادات عملية for making informed decisions حول تنظيم الجهد.",
+    "pt": "Guia completo cobrindo Regulador de Tensão Automático for Energy Storage Systems. Análise especializada e orientação prática for making informed decisions sobre regulação de tensão.",
+    "ru": "Полное руководство, охватывающее Автоматический стабилизатор напряжения for Energy Storage Systems. Экспертный анализ и практические рекомендации for making informed decisions о регулировании напряжения.",
+    "ja": "自動電圧調整器 for Energy Storage Systemsに関する包括ガイド。専門家の分析と実践的なアドバイス for making informed decisions 電圧調整について.",
+    "de": "Umfassender Leitfaden zu Automatischer Spannungsregler for Energy Storage Systems. Fachliche Analyse und praktische Orientierung for making informed decisions zur Spannungsregelung.",
+    "hi": "व्यापक गाइड जो कवर करती है: स्वचालित वोल्टेज रेगुलेटर for Energy Storage Systems. विशेषज्ञ विश्लेषण और व्यावहारिक मार्गदर्शन for making informed decisions वोल्टेज नियमन के बारे में."
   },
   "keywords": "Energy storage AVR, battery system voltage protection, storage power quality, AVR guide, voltage regulator specifications",
   "sections": [

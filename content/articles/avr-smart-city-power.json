@@ -7,14 +7,14 @@
   "title": {
     "en": "AVR for Smart City Power Infrastructure",
     "zh": "智慧城市电力基础设施AVR",
-    "es": "AVR for Smart City Power Infrastructure",
-    "fr": "AVR for Smart City Power Infrastructure",
-    "ar": "AVR for Smart City Power Infrastructure",
-    "pt": "AVR for Smart City Power Infrastructure",
-    "ru": "AVR for Smart City Power Infrastructure",
-    "ja": "AVR for Smart City Power Infrastructure",
-    "de": "AVR for Smart City Power Infrastructure",
-    "hi": "AVR for Smart City Power Infrastructure"
+    "es": "Regulador de Voltaje Automático for Smart City Power Infraestructura",
+    "fr": "Régulateur de Tension Automatique for Smart City Power Infrastructure",
+    "ar": "منظم الجهد التلقائي للبنية التحتية للطاقة في المدينة الذكية",
+    "pt": "Regulador de Tensão Automático for Smart City Power Infrastructure",
+    "ru": "Автоматический стабилизатор напряжения для энергетической инфраструктуры умного города",
+    "ja": "スマートシティ電力インフラ向け自動電圧調整器",
+    "de": "Automatischer Spannungsregler for Smart City Power Infrastructure",
+    "hi": "स्मार्ट सिटी पावर बुनियादी ढांचे के लिए स्वचालित वोल्टेज रेगुलेटर"
   },
   "description": {
     "en": "Comprehensive guide covering AVR for Smart City Power Infrastructure. Expert analysis and practical guidance for making informed decisions about voltage...",

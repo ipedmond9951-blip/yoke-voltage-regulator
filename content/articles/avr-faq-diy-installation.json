@@ -7,26 +7,26 @@
   "title": {
     "en": "AVR DIY Installation FAQ",
     "zh": "AVR DIY安装常见问题",
-    "es": "AVR DIY Installation FAQ",
-    "fr": "AVR DIY Installation FAQ",
-    "ar": "AVR DIY Installation FAQ",
-    "pt": "AVR DIY Installation FAQ",
-    "ru": "AVR DIY Installation FAQ",
-    "ja": "AVR DIY Installation FAQ",
-    "de": "AVR DIY Installation FAQ",
-    "hi": "AVR DIY Installation FAQ"
+    "es": "Regulador de Voltaje Automático DIY Instalación FAQ",
+    "fr": "Régulateur de Tension Automatique DIY Installation FAQ",
+    "ar": "منظم الجهد التلقائي DIY التركيب FAQ",
+    "pt": "Regulador de Tensão Automático DIY Instalação FAQ",
+    "ru": "Автоматический стабилизатор напряжения DIY Установка FAQ",
+    "ja": "DIY 設置 よくある質問向け自動電圧調整器",
+    "de": "Automatischer Spannungsregler DIY Installation FAQ",
+    "hi": "स्वचालित वोल्टेज रेगुलेटर DIY स्थापना FAQ"
   },
   "description": {
     "en": "Comprehensive guide covering AVR DIY Installation FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
     "zh": "涵盖AVR DIY安装常见问题的综合指南。专家分析和实践指导，助您做出关于电压调节的明智决定。",
-    "es": "Comprehensive guide covering AVR DIY Installation FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "fr": "Comprehensive guide covering AVR DIY Installation FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ar": "Comprehensive guide covering AVR DIY Installation FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "pt": "Comprehensive guide covering AVR DIY Installation FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ru": "Comprehensive guide covering AVR DIY Installation FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ja": "Comprehensive guide covering AVR DIY Installation FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "de": "Comprehensive guide covering AVR DIY Installation FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "hi": "Comprehensive guide covering AVR DIY Installation FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation."
+    "es": "Guía completa que cubre Regulador de Voltaje Automático DIY Instalación FAQ. Análisis experto y orientación práctica for making informed decisions sobre regulación de voltaje.",
+    "fr": "Guide complet couvrant Régulateur de Tension Automatique DIY Installation FAQ. Analyse experte et conseils pratiques for making informed decisions sur la régulation de tension.",
+    "ar": "دليل شامل يغطي منظم الجهد التلقائي DIY التركيب FAQ. تحليل خبري وإرشادات عملية for making informed decisions حول تنظيم الجهد.",
+    "pt": "Guia completo cobrindo Regulador de Tensão Automático DIY Instalação FAQ. Análise especializada e orientação prática for making informed decisions sobre regulação de tensão.",
+    "ru": "Полное руководство, охватывающее Автоматический стабилизатор напряжения DIY Установка FAQ. Экспертный анализ и практические рекомендации for making informed decisions о регулировании напряжения.",
+    "ja": "自動電圧調整器 DIY 設置 FAQに関する包括ガイド。専門家の分析と実践的なアドバイス for making informed decisions 電圧調整について.",
+    "de": "Umfassender Leitfaden zu Automatischer Spannungsregler DIY Installation FAQ. Fachliche Analyse und praktische Orientierung for making informed decisions zur Spannungsregelung.",
+    "hi": "व्यापक गाइड जो कवर करती है: स्वचालित वोल्टेज रेगुलेटर DIY स्थापना FAQ. विशेषज्ञ विश्लेषण और व्यावहारिक मार्गदर्शन for making informed decisions वोल्टेज नियमन के बारे में."
   },
   "keywords": "AVR DIY FAQ, self-install voltage regulator questions, DIY installation FAQ, AVR FAQ, voltage regulator",
   "sections": [

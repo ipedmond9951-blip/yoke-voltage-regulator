@@ -7,14 +7,14 @@
   "title": {
     "en": "AVR Voltage Sensing: How Input Voltage is Measured",
     "zh": "AVR电压传感：如何测量输入电压",
-    "es": "AVR Voltage Sensing: How Input Voltage is Measured",
-    "fr": "AVR Voltage Sensing: How Input Voltage is Measured",
-    "ar": "AVR Voltage Sensing: How Input Voltage is Measured",
-    "pt": "AVR Voltage Sensing: How Input Voltage is Measured",
-    "ru": "AVR Voltage Sensing: How Input Voltage is Measured",
-    "ja": "AVR Voltage Sensing: How Input Voltage is Measured",
-    "de": "AVR Voltage Sensing: How Input Voltage is Measured",
-    "hi": "AVR Voltage Sensing: How Input Voltage is Measured"
+    "es": "Regulador de Voltaje Automático Voltage Sensing: How Input Voltage is Measured",
+    "fr": "Régulateur de Tension Automatique Voltage Sensing: How Input Voltage is Measured",
+    "ar": "استشعار الجهد في منظم الجهد: كيف يتم قياس جهد الدخل",
+    "pt": "Regulador de Tensão Automático Voltage Sensing: How Input Voltage is Measured",
+    "ru": "Измерение напряжения в АСН: как измеряется входное напряжение",
+    "ja": "AVR電圧検知：入力電圧の測定方法",
+    "de": "Automatischer Spannungsregler Voltage Sensing: How Input Voltage is Measured",
+    "hi": "AVR वोल्टेज सेंसिंग: इनपुट वोल्टेज कैसे मापा जाता है"
   },
   "description": {
     "en": "Comprehensive guide covering AVR Voltage Sensing: How Input Voltage is Measured. Expert analysis and practical guidance for making informed decisions about...",

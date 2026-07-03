@@ -7,26 +7,26 @@
   "title": {
     "en": "AVR for Edge Computing Facilities",
     "zh": "边缘计算设施AVR",
-    "es": "AVR for Edge Computing Facilities",
-    "fr": "AVR for Edge Computing Facilities",
-    "ar": "AVR for Edge Computing Facilities",
-    "pt": "AVR for Edge Computing Facilities",
-    "ru": "AVR for Edge Computing Facilities",
-    "ja": "AVR for Edge Computing Facilities",
-    "de": "AVR for Edge Computing Facilities",
-    "hi": "AVR for Edge Computing Facilities"
+    "es": "Regulador de Voltaje Automático for Edge Computing Facilities",
+    "fr": "Régulateur de Tension Automatique for Edge Computing Facilities",
+    "ar": "منظم الجهد التلقائي لمرافق الحوسبة الطرفية",
+    "pt": "Regulador de Tensão Automático for Edge Computing Facilities",
+    "ru": "Автоматический стабилизатор напряжения для периферийных вычислительных центров",
+    "ja": "エッジコンピューティング施設向け自動電圧調整器",
+    "de": "Automatischer Spannungsregler for Edge Computing Facilities",
+    "hi": "एज कंप्यूटिंग सुविधाओं के लिए स्वचालित वोल्टेज रेगुलेटर"
   },
   "description": {
     "en": "Comprehensive guide covering AVR for Edge Computing Facilities. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
     "zh": "涵盖边缘计算设施AVR的综合指南。专家分析和实践指导，助您做出关于电压调节的明智决定。",
-    "es": "Comprehensive guide covering AVR for Edge Computing Facilities. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "fr": "Comprehensive guide covering AVR for Edge Computing Facilities. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ar": "Comprehensive guide covering AVR for Edge Computing Facilities. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "pt": "Comprehensive guide covering AVR for Edge Computing Facilities. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ru": "Comprehensive guide covering AVR for Edge Computing Facilities. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ja": "Comprehensive guide covering AVR for Edge Computing Facilities. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "de": "Comprehensive guide covering AVR for Edge Computing Facilities. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "hi": "Comprehensive guide covering AVR for Edge Computing Facilities. Expert analysis and practical guidance for making informed decisions about voltage regulation."
+    "es": "Guía completa que cubre Regulador de Voltaje Automático for Edge Computing Facilities. Análisis experto y orientación práctica for making informed decisions sobre regulación de voltaje.",
+    "fr": "Guide complet couvrant Régulateur de Tension Automatique for Edge Computing Facilities. Analyse experte et conseils pratiques for making informed decisions sur la régulation de tension.",
+    "ar": "دليل شامل يغطي منظم الجهد التلقائي for Edge Computing Facilities. تحليل خبري وإرشادات عملية for making informed decisions حول تنظيم الجهد.",
+    "pt": "Guia completo cobrindo Regulador de Tensão Automático for Edge Computing Facilities. Análise especializada e orientação prática for making informed decisions sobre regulação de tensão.",
+    "ru": "Полное руководство, охватывающее Автоматический стабилизатор напряжения for Edge Computing Facilities. Экспертный анализ и практические рекомендации for making informed decisions о регулировании напряжения.",
+    "ja": "自動電圧調整器 for Edge Computing Facilitiesに関する包括ガイド。専門家の分析と実践的なアドバイス for making informed decisions 電圧調整について.",
+    "de": "Umfassender Leitfaden zu Automatischer Spannungsregler for Edge Computing Facilities. Fachliche Analyse und praktische Orientierung for making informed decisions zur Spannungsregelung.",
+    "hi": "व्यापक गाइड जो कवर करती है: स्वचालित वोल्टेज रेगुलेटर for Edge Computing Facilities. विशेषज्ञ विश्लेषण और व्यावहारिक मार्गदर्शन for making informed decisions वोल्टेज नियमन के बारे में."
   },
   "keywords": "Edge computing AVR, edge data center voltage regulator, edge power protection, AVR guide, voltage regulator specifications",
   "sections": [

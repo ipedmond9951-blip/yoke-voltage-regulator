@@ -7,14 +7,14 @@
   "title": {
     "en": "AVR for Cold Storage and Refrigeration Facilities",
     "zh": "冷库和制冷设施稳压器",
-    "es": "AVR for Cold Storage and Refrigeration Facilities",
-    "fr": "AVR for Cold Storage and Refrigeration Facilities",
-    "ar": "AVR for Cold Storage and Refrigeration Facilities",
-    "pt": "AVR for Cold Storage and Refrigeration Facilities",
-    "ru": "AVR for Cold Storage and Refrigeration Facilities",
-    "ja": "AVR for Cold Storage and Refrigeration Facilities",
-    "de": "AVR for Cold Storage and Refrigeration Facilities",
-    "hi": "AVR for Cold Storage and Refrigeration Facilities"
+    "es": "Regulador de Voltaje Automático for Cold Storage and Refrigeration Facilities",
+    "fr": "Régulateur de Tension Automatique for Cold Storage and Refrigeration Facilities",
+    "ar": "منظم الجهد التلقائي لمرافق التخزين البارد والتبريد",
+    "pt": "Regulador de Tensão Automático for Cold Storage and Refrigeration Facilities",
+    "ru": "Автоматический стабилизатор напряжения для холодильных складов и холодильных установок",
+    "ja": "冷蔵倉庫・冷凍施設向け自動電圧調整器",
+    "de": "Automatischer Spannungsregler for Cold Storage and Refrigeration Facilities",
+    "hi": "कोल्ड स्टोरेज और रेफ्रिजरेशन सुविधाओं के लिए स्वचालित वोल्टेज रेगुलेटर"
   },
   "description": {
     "en": "Cold storage facilities cannot afford temperature control failures. Learn why voltage stability is critical for refrigeration compressors and monitoring...",

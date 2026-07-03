@@ -7,14 +7,14 @@
   "title": {
     "en": "AVR Troubleshooting: Step-by-Step Diagnosis",
     "zh": "AVR故障排除：逐步诊断",
-    "es": "AVR Troubleshooting: Step-by-Step Diagnosis",
-    "fr": "AVR Troubleshooting: Step-by-Step Diagnosis",
-    "ar": "AVR Troubleshooting: Step-by-Step Diagnosis",
-    "pt": "AVR Troubleshooting: Step-by-Step Diagnosis",
-    "ru": "AVR Troubleshooting: Step-by-Step Diagnosis",
-    "ja": "AVR Troubleshooting: Step-by-Step Diagnosis",
-    "de": "AVR Troubleshooting: Step-by-Step Diagnosis",
-    "hi": "AVR Troubleshooting: Step-by-Step Diagnosis"
+    "es": "Regulador de Voltaje Automático Solución de Problemas: Step-by-Step Diagnosis",
+    "fr": "Régulateur de Tension Automatique Troubleshooting: Step-by-Step Diagnosis",
+    "ar": "استكشاف أخطاء منظم الجهد: تشخيص خطوة بخطوة",
+    "pt": "Regulador de Tensão Automático Troubleshooting: Step-by-Step Diagnosis",
+    "ru": "Диагностика АСН: пошаговое устранение неисправностей",
+    "ja": "AVRトラブルシューティング：ステップバイステップ診断",
+    "de": "Automatischer Spannungsregler Fehlerbehebung: Step-by-Step Diagnosis",
+    "hi": "AVR समस्या निवारण: चरण-दर-चरण निदान"
   },
   "description": {
     "en": "Comprehensive guide covering AVR Troubleshooting: Step-by-Step Diagnosis. Expert analysis and practical guidance for making informed decisions about voltage...",

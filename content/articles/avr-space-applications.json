@@ -7,14 +7,14 @@
   "title": {
     "en": "AVR for Space and Satellite Applications",
     "zh": "太空和卫星应用AVR",
-    "es": "AVR for Space and Satellite Applications",
-    "fr": "AVR for Space and Satellite Applications",
-    "ar": "AVR for Space and Satellite Applications",
-    "pt": "AVR for Space and Satellite Applications",
-    "ru": "AVR for Space and Satellite Applications",
-    "ja": "AVR for Space and Satellite Applications",
-    "de": "AVR for Space and Satellite Applications",
-    "hi": "AVR for Space and Satellite Applications"
+    "es": "Regulador de Voltaje Automático for Space and Satellite Aplicaciones",
+    "fr": "Régulateur de Tension Automatique for Space and Satellite Applications",
+    "ar": "منظم الجهد التلقائي لتطبيقات الفضاء والأقمار الصناعية",
+    "pt": "Regulador de Tensão Automático for Space and Satellite Aplicações",
+    "ru": "Автоматический стабилизатор напряжения для космических и спутниковых приложений",
+    "ja": "宇宙・衛星用途向け自動電圧調整器",
+    "de": "Automatischer Spannungsregler for Space and Satellite Anwendungen",
+    "hi": "अंतरिक्ष और उपग्रह अनुप्रयोगों के लिए स्वचालित वोल्टेज रेगुलेटर"
   },
   "description": {
     "en": "Comprehensive guide covering AVR for Space and Satellite Applications. Expert analysis and practical guidance for making informed decisions about voltage...",

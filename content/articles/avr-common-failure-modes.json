@@ -7,14 +7,14 @@
   "title": {
     "en": "AVR Common Failure Modes and Prevention",
     "zh": "AVR常见故障模式及预防",
-    "es": "AVR Common Failure Modes and Prevention",
-    "fr": "AVR Common Failure Modes and Prevention",
-    "ar": "AVR Common Failure Modes and Prevention",
-    "pt": "AVR Common Failure Modes and Prevention",
-    "ru": "AVR Common Failure Modes and Prevention",
-    "ja": "AVR Common Failure Modes and Prevention",
-    "de": "AVR Common Failure Modes and Prevention",
-    "hi": "AVR Common Failure Modes and Prevention"
+    "es": "Regulador de Voltaje Automático Common Failure Modes and Prevention",
+    "fr": "Régulateur de Tension Automatique Common Failure Modes and Prevention",
+    "ar": "أعطال منظم الجهد الشائعة وطرق الوقاية",
+    "pt": "Regulador de Tensão Automático Common Failure Modes and Prevention",
+    "ru": "Типичные неисправности АСН и их предотвращение",
+    "ja": "AVRのよくある故障モードと予防",
+    "de": "Automatischer Spannungsregler Common Failure Modes and Prevention",
+    "hi": "AVR सामान्य विफलता मोड और रोकथाम"
   },
   "description": {
     "en": "Comprehensive guide covering AVR Common Failure Modes and Prevention. Expert analysis and practical guidance for making informed decisions about voltage...",

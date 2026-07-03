@@ -7,26 +7,26 @@
   "title": {
     "en": "AVR Energy Efficiency FAQ",
     "zh": "AVR能源效率常见问题",
-    "es": "AVR Energy Efficiency FAQ",
-    "fr": "AVR Energy Efficiency FAQ",
-    "ar": "AVR Energy Efficiency FAQ",
-    "pt": "AVR Energy Efficiency FAQ",
-    "ru": "AVR Energy Efficiency FAQ",
-    "ja": "AVR Energy Efficiency FAQ",
-    "de": "AVR Energy Efficiency FAQ",
-    "hi": "AVR Energy Efficiency FAQ"
+    "es": "Regulador de Voltaje Automático Eficiencia Energética FAQ",
+    "fr": "Régulateur de Tension Automatique: Energy Efficiency FAQ",
+    "ar": "منظم الجهد التلقائي كفاءة الطاقة FAQ",
+    "pt": "Regulador de Tensão Automático Eficiência Energética FAQ",
+    "ru": "Автоматический стабилизатор напряжения Энергоэффективность FAQ",
+    "ja": "自動電圧調整器 省エネ FAQ",
+    "de": "Automatischer Spannungsregler Energieeffizienz FAQ",
+    "hi": "स्वचालित वोल्टेज रेगुलेटर ऊर्जा दक्षता FAQ"
   },
   "description": {
     "en": "Comprehensive guide covering AVR Energy Efficiency FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
     "zh": "涵盖AVR能源效率常见问题的综合指南。专家分析和实践指导，助您做出关于电压调节的明智决定。",
-    "es": "Comprehensive guide covering AVR Energy Efficiency FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "fr": "Comprehensive guide covering AVR Energy Efficiency FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ar": "Comprehensive guide covering AVR Energy Efficiency FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "pt": "Comprehensive guide covering AVR Energy Efficiency FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ru": "Comprehensive guide covering AVR Energy Efficiency FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ja": "Comprehensive guide covering AVR Energy Efficiency FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "de": "Comprehensive guide covering AVR Energy Efficiency FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "hi": "Comprehensive guide covering AVR Energy Efficiency FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation."
+    "es": "Guía completa que cubre Regulador de Voltaje Automático Eficiencia Energética FAQ. Análisis experto y orientación práctica for making informed decisions sobre regulación de voltaje.",
+    "fr": "Guide complet couvrant Régulateur de Tension Automatique Efficacité Énergétique FAQ. Analyse experte et conseils pratiques for making informed decisions sur la régulation de tension.",
+    "ar": "دليل شامل يغطي منظم الجهد التلقائي كفاءة الطاقة FAQ. تحليل خبري وإرشادات عملية for making informed decisions حول تنظيم الجهد.",
+    "pt": "Guia completo cobrindo Regulador de Tensão Automático Eficiência Energética FAQ. Análise especializada e orientação prática for making informed decisions sobre regulação de tensão.",
+    "ru": "Полное руководство, охватывающее Автоматический стабилизатор напряжения Энергоэффективность FAQ. Экспертный анализ и практические рекомендации for making informed decisions о регулировании напряжения.",
+    "ja": "自動電圧調整器 省エネ FAQに関する包括ガイド。専門家の分析と実践的なアドバイス for making informed decisions 電圧調整について.",
+    "de": "Umfassender Leitfaden zu Automatischer Spannungsregler Energieeffizienz FAQ. Fachliche Analyse und praktische Orientierung for making informed decisions zur Spannungsregelung.",
+    "hi": "व्यापक गाइड जो कवर करती है: स्वचालित वोल्टेज रेगुलेटर ऊर्जा दक्षता FAQ. विशेषज्ञ विश्लेषण और व्यावहारिक मार्गदर्शन for making informed decisions वोल्टेज नियमन के बारे में."
   },
   "keywords": "AVR energy FAQ, voltage regulator efficiency questions, power saving FAQ, AVR FAQ, voltage regulator",
   "sections": [

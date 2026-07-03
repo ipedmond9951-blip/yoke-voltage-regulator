@@ -7,14 +7,14 @@
   "title": {
     "en": "AVR Safety FAQ: Electrical Safety Questions",
     "zh": "AVR安全常见问题：电气安全问题",
-    "es": "AVR Safety FAQ: Electrical Safety Questions",
-    "fr": "AVR Safety FAQ: Electrical Safety Questions",
-    "ar": "AVR Safety FAQ: Electrical Safety Questions",
-    "pt": "AVR Safety FAQ: Electrical Safety Questions",
-    "ru": "AVR Safety FAQ: Electrical Safety Questions",
-    "ja": "AVR Safety FAQ: Electrical Safety Questions",
-    "de": "AVR Safety FAQ: Electrical Safety Questions",
-    "hi": "AVR Safety FAQ: Electrical Safety Questions"
+    "es": "Regulador de Voltaje Automático Seguridad FAQ: Electrical Seguridad Questions",
+    "fr": "Régulateur de Tension Automatique Sécurité FAQ: Electrical Sécurité Questions",
+    "ar": "الأسئلة الشائعة عن سلامة منظم الجهد: أسئلة السلامة الكهربائية",
+    "pt": "Regulador de Tensão Automático Segurança FAQ: Electrical Segurança Questions",
+    "ru": "ЧАВО по безопасности АСН: вопросы электробезопасности",
+    "ja": "AVR安全FAQ：電気安全の質問",
+    "de": "Automatischer Spannungsregler Sicherheit FAQ: Electrical Sicherheit Questions",
+    "hi": "AVR सुरक्षा FAQ: विद्युत सुरक्षा प्रश्न"
   },
   "description": {
     "en": "Comprehensive guide covering AVR Safety FAQ: Electrical Safety Questions. Expert analysis and practical guidance for making informed decisions about voltage...",

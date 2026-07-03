@@ -7,14 +7,14 @@
   "title": {
     "en": "Servo Motor Regulation Technology in AVR",
     "zh": "AVR中的伺服电机调节技术",
-    "es": "Servo Motor Regulation Technology in AVR",
-    "fr": "Servo Motor Regulation Technology in AVR",
-    "ar": "Servo Motor Regulation Technology in AVR",
-    "pt": "Servo Motor Regulation Technology in AVR",
-    "ru": "Servo Motor Regulation Technology in AVR",
-    "ja": "Servo Motor Regulation Technology in AVR",
-    "de": "Servo Motor Regulation Technology in AVR",
-    "hi": "Servo Motor Regulation Technology in AVR"
+    "es": "Motor Servo Regulation Technology in Regulador de Voltaje Automático",
+    "fr": "Servo Motor Regulation Technology in Régulateur de Tension Automatique",
+    "ar": "تقنية تنظيم محرك السيرفو في منظم الجهد",
+    "pt": "Servo Motor Regulation Technology in Regulador de Tensão Automático",
+    "ru": "Технология серворегулирования в АСН",
+    "ja": "AVRのサーボモーター調整技術",
+    "de": "Servo Motor Regulation Technology in Automatischer Spannungsregler",
+    "hi": "AVR में सर्वो मोटर नियमन तकनीक"
   },
   "description": {
     "en": "Comprehensive guide covering Servo Motor Regulation Technology in AVR. Expert analysis and practical guidance for making informed decisions about voltage...",

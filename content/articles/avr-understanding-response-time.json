@@ -7,26 +7,26 @@
   "title": {
     "en": "Understanding AVR Response Time: Why Speed Matters",
     "zh": "了解稳压器响应时间：为什么速度很重要",
-    "es": "Understanding AVR Response Time: Why Speed Matters",
-    "fr": "Understanding AVR Response Time: Why Speed Matters",
-    "ar": "Understanding AVR Response Time: Why Speed Matters",
-    "pt": "Understanding AVR Response Time: Why Speed Matters",
-    "ru": "Understanding AVR Response Time: Why Speed Matters",
-    "ja": "Understanding AVR Response Time: Why Speed Matters",
-    "de": "Understanding AVR Response Time: Why Speed Matters",
-    "hi": "Understanding AVR Response Time: Why Speed Matters"
+    "es": "Understanding Regulador de Voltaje Automático Response Time: Why Speed Matters",
+    "fr": "Understanding Régulateur de Tension Automatique Response Time: Why Speed Matters",
+    "ar": "فهم وقت استجابة منظم الجهد: لماذا السرعة مهمة",
+    "pt": "Understanding Regulador de Tensão Automático Response Time: Why Speed Matters",
+    "ru": "Понимание времени реакции АСН: почему скорость важна",
+    "ja": "AVR応答時間を理解する：なぜスピードが重要か",
+    "de": "Understanding Automatischer Spannungsregler Response Time: Why Speed Matters",
+    "hi": "AVR प्रतिक्रिया समय को समझना: गति क्यों मायने रखती है"
   },
   "description": {
     "en": "Response time is a critical AVR specification. Learn how fast voltage correction prevents damage, and what response times are needed for different applications.",
     "zh": "响应时间是稳压器的重要规格。了解快速电压校正如何防止损坏，以及不同应用需要什么响应时间。",
-    "es": "Response time is a critical AVR specification. Learn how fast voltage correction prevents damage, and what response times are needed for different applications.",
-    "fr": "Response time is a critical AVR specification. Learn how fast voltage correction prevents damage, and what response times are needed for different applications.",
-    "ar": "Response time is a critical AVR specification. Learn how fast voltage correction prevents damage, and what response times are needed for different applications.",
-    "pt": "Response time is a critical AVR specification. Learn how fast voltage correction prevents damage, and what response times are needed for different applications.",
-    "ru": "Response time is a critical AVR specification. Learn how fast voltage correction prevents damage, and what response times are needed for different applications.",
-    "ja": "Response time is a critical AVR specification. Learn how fast voltage correction prevents damage, and what response times are needed for different applications.",
-    "de": "Response time is a critical AVR specification. Learn how fast voltage correction prevents damage, and what response times are needed for different applications.",
-    "hi": "Response time is a critical AVR specification. Learn how fast voltage correction prevents damage, and what response times are needed for different applications."
+    "es": "Understanding Regulador de Voltaje Automático Response Time: Why Speed Matters - Guía completa con análisis experto y orientación práctica",
+    "fr": "Understanding Régulateur de Tension Automatique Response Time: Why Speed Matters - Guide complet avec analyse experte et conseils pratiques",
+    "ar": "Understanding منظم الجهد التلقائي Response Time: Why Speed Matters - دليل شامل مع تحليل خبري وإرشادات عملية",
+    "pt": "Understanding Regulador de Tensão Automático Response Time: Why Speed Matters - Guia completo com análise especializada e orientação prática",
+    "ru": "Understanding Автоматический стабилизатор напряжения Response Time: Why Speed Matters — Полное руководство с экспертным анализом и практическими рекомендациями",
+    "ja": "Understanding 自動電圧調整器 Response Time: Why Speed Mattersに関する包括ガイド - 専門家の分析と実践的アドバイス",
+    "de": "Understanding Automatischer Spannungsregler Response Time: Why Speed Matters — Umfassender Leitfaden mit Fachanalyse und praktischer Orientierung",
+    "hi": "Understanding स्वचालित वोल्टेज रेगुलेटर Response Time: Why Speed Matters - विशेषज्ञ विश्लेषण और व्यावहारिक मार्गदर्शन के साथ व्यापक गाइड"
   },
   "keywords": "AVR response time, voltage regulation speed, servo motor AVR response, voltage correction speed, fast voltage regulator",
   "sections": [

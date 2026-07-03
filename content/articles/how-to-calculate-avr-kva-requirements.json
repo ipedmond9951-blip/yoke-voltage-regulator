@@ -7,26 +7,26 @@
   "title": {
     "en": "How to Calculate AVR KVA Requirements: Complete Sizing Guide",
     "zh": "如何计算AVR KVA需求：完整容量选择指南",
-    "es": "How to Calculate AVR KVA Requirements: Complete Sizing Guide",
-    "fr": "How to Calculate AVR KVA Requirements: Complete Sizing Guide",
-    "ar": "How to Calculate AVR KVA Requirements: Complete Sizing Guide",
-    "pt": "How to Calculate AVR KVA Requirements: Complete Sizing Guide",
-    "ru": "How to Calculate AVR KVA Requirements: Complete Sizing Guide",
-    "ja": "How to Calculate AVR KVA Requirements: Complete Sizing Guide",
-    "de": "How to Calculate AVR KVA Requirements: Complete Sizing Guide",
-    "hi": "How to Calculate AVR KVA Requirements: Complete Sizing Guide"
+    "es": "How to Calculate Regulador de Voltaje Automático KVA Requirements: Complete Dimensionamiento Guía",
+    "fr": "How to Calculate Régulateur de Tension Automatique KVA Requirements: Complete Sizing Guide",
+    "ar": "كيفية حساب متطلبات كيلو فولت أمبير لمنظم الجهد: دليل تحديد الحجم الشامل",
+    "pt": "How to Calculate Regulador de Tensão Automático KVA Requirements: Complete Sizing Guia",
+    "ru": "Как рассчитать требования кВА для АСН: полное руководство по выбору мощности",
+    "ja": "AVRのkVA要件計算：包括的容量選定ガイド",
+    "de": "How to Calculate Automatischer Spannungsregler KVA Requirements: Complete Sizing Leitfaden",
+    "hi": "AVR kVA आवश्यकताएं कैसे गणना करें: संपूर्ण साइजिंग गाइड"
   },
   "description": {
     "en": "Undersized AVR means no protection. Oversized means wasted money. Learn the exact formula to calculate the right KVA rating for your equipment.",
     "zh": "容量不够的稳压器等于没有保护。容量过大意味着浪费金钱。学习精确公式来计算设备的正确KVA额定值。",
-    "es": "Undersized AVR means no protection. Oversized means wasted money. Learn the exact formula to calculate the right KVA rating for your equipment.",
-    "fr": "Undersized AVR means no protection. Oversized means wasted money. Learn the exact formula to calculate the right KVA rating for your equipment.",
-    "ar": "Undersized AVR means no protection. Oversized means wasted money. Learn the exact formula to calculate the right KVA rating for your equipment.",
-    "pt": "Undersized AVR means no protection. Oversized means wasted money. Learn the exact formula to calculate the right KVA rating for your equipment.",
-    "ru": "Undersized AVR means no protection. Oversized means wasted money. Learn the exact formula to calculate the right KVA rating for your equipment.",
-    "ja": "Undersized AVR means no protection. Oversized means wasted money. Learn the exact formula to calculate the right KVA rating for your equipment.",
-    "de": "Undersized AVR means no protection. Oversized means wasted money. Learn the exact formula to calculate the right KVA rating for your equipment.",
-    "hi": "Undersized AVR means no protection. Oversized means wasted money. Learn the exact formula to calculate the right KVA rating for your equipment."
+    "es": "How to Calculate Regulador de Voltaje Automático KVA Requirements: Complete Dimensionamiento Guía - Guía completa con análisis experto y orientación práctica",
+    "fr": "How to Calculate Régulateur de Tension Automatique KVA Requirements: Complete Sizing Guide - Guide complet avec analyse experte et conseils pratiques",
+    "ar": "How to Calculate منظم الجهد التلقائي KVA Requirements: Complete تحديد الحجم دليل - دليل شامل مع تحليل خبري وإرشادات عملية",
+    "pt": "How to Calculate Regulador de Tensão Automático KVA Requirements: Complete Sizing Guia - Guia completo com análise especializada e orientação prática",
+    "ru": "How to Calculate Автоматический стабилизатор напряжения KVA Requirements: Complete Sizing Руководство — Полное руководство с экспертным анализом и практическими рекомендациями",
+    "ja": "How to Calculate 自動電圧調整器 KVA Requirements: Complete Sizing ガイドに関する包括ガイド - 専門家の分析と実践的アドバイス",
+    "de": "How to Calculate Automatischer Spannungsregler KVA Requirements: Complete Sizing Leitfaden — Umfassender Leitfaden mit Fachanalyse und praktischer Orientierung",
+    "hi": "How to Calculate स्वचालित वोल्टेज रेगुलेटर KVA Requirements: Complete Sizing गाइड - विशेषज्ञ विश्लेषण और व्यावहारिक मार्गदर्शन के साथ व्यापक गाइड"
   },
   "keywords": "AVR KVA calculation, voltage regulator sizing, KVA formula, choosing right AVR capacity, AVR load calculation",
   "sections": [

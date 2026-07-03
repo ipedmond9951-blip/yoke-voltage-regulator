@@ -7,14 +7,14 @@
   "title": {
     "en": "AVR and Frequency Regulation: Does AVR Control Hz",
     "zh": "AVR和频率调节：AVR能控制Hz吗",
-    "es": "AVR and Frequency Regulation: Does AVR Control Hz",
-    "fr": "AVR and Frequency Regulation: Does AVR Control Hz",
-    "ar": "AVR and Frequency Regulation: Does AVR Control Hz",
-    "pt": "AVR and Frequency Regulation: Does AVR Control Hz",
-    "ru": "AVR and Frequency Regulation: Does AVR Control Hz",
-    "ja": "AVR and Frequency Regulation: Does AVR Control Hz",
-    "de": "AVR and Frequency Regulation: Does AVR Control Hz",
-    "hi": "AVR and Frequency Regulation: Does AVR Control Hz"
+    "es": "Regulador de Voltaje Automático and Frequency Regulation: Does Regulador de Voltaje Automático Control Hz",
+    "fr": "Régulateur de Tension Automatique and Frequency Regulation: Does Régulateur de Tension Automatique Control Hz",
+    "ar": "منظم الجهد وتنظيم التردد: هل يتحكم منظم الجهد بالهرتز",
+    "pt": "Regulador de Tensão Automático and Frequency Regulation: Does Regulador de Tensão Automático Control Hz",
+    "ru": "АСН и регулирование частоты: управляет ли АСН частотой Гц",
+    "ja": "AVRと周波数調整：AVRはHzを制御するか",
+    "de": "Automatischer Spannungsregler and Frequency Regulation: Does Automatischer Spannungsregler Control Hz",
+    "hi": "AVR और आवृत्ति नियमन: क्या AVR Hz नियंत्रित करता है"
   },
   "description": {
     "en": "Comprehensive guide covering AVR and Frequency Regulation: Does AVR Control Hz. Expert analysis and practical guidance for making informed decisions about...",

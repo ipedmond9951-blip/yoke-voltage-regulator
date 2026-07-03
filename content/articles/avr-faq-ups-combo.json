@@ -7,26 +7,26 @@
   "title": {
     "en": "AVR and UPS Combination FAQ",
     "zh": "AVR和UPS组合常见问题",
-    "es": "AVR and UPS Combination FAQ",
-    "fr": "AVR and UPS Combination FAQ",
-    "ar": "AVR and UPS Combination FAQ",
-    "pt": "AVR and UPS Combination FAQ",
-    "ru": "AVR and UPS Combination FAQ",
-    "ja": "AVR and UPS Combination FAQ",
-    "de": "AVR and UPS Combination FAQ",
-    "hi": "AVR and UPS Combination FAQ"
+    "es": "Regulador de Voltaje Automático and UPS Combination FAQ",
+    "fr": "Régulateur de Tension Automatique and UPS Combination FAQ",
+    "ar": "الأسئلة الشائعة عن الجمع بين منظم الجهد ومصدر الطاقة الاحتياطي",
+    "pt": "Regulador de Tensão Automático and UPS Combination FAQ",
+    "ru": "Автоматический стабилизатор напряжения: и UPS Combвation Частые вопросы",
+    "ja": "・ UPS Combでation よくある質問向け自動電圧調整器",
+    "de": "Automatischer Spannungsregler and USV Combination FAQ",
+    "hi": "स्वचालित वोल्टेज रेगुलेटर: और UPS Combमेंation अक्सर पूछे जाने वाले प्रश्न"
   },
   "description": {
     "en": "Comprehensive guide covering AVR and UPS Combination FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
     "zh": "涵盖AVR和UPS组合常见问题的综合指南。专家分析和实践指导，助您做出关于电压调节的明智决定。",
-    "es": "Comprehensive guide covering AVR and UPS Combination FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "fr": "Comprehensive guide covering AVR and UPS Combination FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ar": "Comprehensive guide covering AVR and UPS Combination FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "pt": "Comprehensive guide covering AVR and UPS Combination FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ru": "Comprehensive guide covering AVR and UPS Combination FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ja": "Comprehensive guide covering AVR and UPS Combination FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "de": "Comprehensive guide covering AVR and UPS Combination FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "hi": "Comprehensive guide covering AVR and UPS Combination FAQ. Expert analysis and practical guidance for making informed decisions about voltage regulation."
+    "es": "Guía completa que cubre Regulador de Voltaje Automático and UPS Combination FAQ. Análisis experto y orientación práctica for making informed decisions sobre regulación de voltaje.",
+    "fr": "Guide complet couvrant Régulateur de Tension Automatique and UPS Combination FAQ. Analyse experte et conseils pratiques for making informed decisions sur la régulation de tension.",
+    "ar": "دليل شامل يغطي منظم الجهد التلقائي and UPS Combination FAQ. تحليل خبري وإرشادات عملية for making informed decisions حول تنظيم الجهد.",
+    "pt": "Guia completo cobrindo Regulador de Tensão Automático and UPS Combination FAQ. Análise especializada e orientação prática for making informed decisions sobre regulação de tensão.",
+    "ru": "Полное руководство, охватывающее Автоматический стабилизатор напряжения and ИБП Combination FAQ. Экспертный анализ и практические рекомендации for making informed decisions о регулировании напряжения.",
+    "ja": "自動電圧調整器 and UPS Combination FAQに関する包括ガイド。専門家の分析と実践的なアドバイス for making informed decisions 電圧調整について.",
+    "de": "Umfassender Leitfaden zu Automatischer Spannungsregler and USV Combination FAQ. Fachliche Analyse und praktische Orientierung for making informed decisions zur Spannungsregelung.",
+    "hi": "व्यापक गाइड जो कवर करती है: स्वचालित वोल्टेज रेगुलेटर and UPS Combination FAQ. विशेषज्ञ विश्लेषण और व्यावहारिक मार्गदर्शन for making informed decisions वोल्टेज नियमन के बारे में."
   },
   "keywords": "AVR UPS FAQ, voltage regulator UPS questions, combined power protection FAQ, AVR FAQ, voltage regulator",
   "sections": [

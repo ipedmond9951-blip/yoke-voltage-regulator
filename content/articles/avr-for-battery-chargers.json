@@ -7,26 +7,26 @@
   "title": {
     "en": "AVR for Battery Charging Systems",
     "zh": "电池充电系统AVR",
-    "es": "AVR for Battery Charging Systems",
-    "fr": "AVR for Battery Charging Systems",
-    "ar": "AVR for Battery Charging Systems",
-    "pt": "AVR for Battery Charging Systems",
-    "ru": "AVR for Battery Charging Systems",
-    "ja": "AVR for Battery Charging Systems",
-    "de": "AVR for Battery Charging Systems",
-    "hi": "AVR for Battery Charging Systems"
+    "es": "Regulador de Voltaje Automático for Battery Charging Systems",
+    "fr": "Régulateur de Tension Automatique for Battery Charging Systems",
+    "ar": "منظم الجهد التلقائي لأنظمة شحن البطاريات",
+    "pt": "Regulador de Tensão Automático for Battery Charging Systems",
+    "ru": "Автоматический стабилизатор напряжения для систем зарядки батарей",
+    "ja": "バッテリー充電システム向け自動電圧調整器",
+    "de": "Automatischer Spannungsregler for Battery Charging Systems",
+    "hi": "बैटरी चार्जिंग सिस्टम के लिए स्वचालित वोल्टेज रेगुलेटर"
   },
   "description": {
     "en": "Comprehensive guide covering AVR for Battery Charging Systems. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
     "zh": "涵盖电池充电系统AVR的综合指南。专家分析和实践指导，助您做出关于电压调节的明智决定。",
-    "es": "Comprehensive guide covering AVR for Battery Charging Systems. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "fr": "Comprehensive guide covering AVR for Battery Charging Systems. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ar": "Comprehensive guide covering AVR for Battery Charging Systems. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "pt": "Comprehensive guide covering AVR for Battery Charging Systems. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ru": "Comprehensive guide covering AVR for Battery Charging Systems. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "ja": "Comprehensive guide covering AVR for Battery Charging Systems. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "de": "Comprehensive guide covering AVR for Battery Charging Systems. Expert analysis and practical guidance for making informed decisions about voltage regulation.",
-    "hi": "Comprehensive guide covering AVR for Battery Charging Systems. Expert analysis and practical guidance for making informed decisions about voltage regulation."
+    "es": "Guía completa que cubre Regulador de Voltaje Automático for Battery Charging Systems. Análisis experto y orientación práctica for making informed decisions sobre regulación de voltaje.",
+    "fr": "Guide complet couvrant Régulateur de Tension Automatique for Battery Charging Systems. Analyse experte et conseils pratiques for making informed decisions sur la régulation de tension.",
+    "ar": "دليل شامل يغطي منظم الجهد التلقائي for Battery Charging Systems. تحليل خبري وإرشادات عملية for making informed decisions حول تنظيم الجهد.",
+    "pt": "Guia completo cobrindo Regulador de Tensão Automático for Battery Charging Systems. Análise especializada e orientação prática for making informed decisions sobre regulação de tensão.",
+    "ru": "Полное руководство, охватывающее Автоматический стабилизатор напряжения for Battery Charging Systems. Экспертный анализ и практические рекомендации for making informed decisions о регулировании напряжения.",
+    "ja": "自動電圧調整器 for Battery Charging Systemsに関する包括ガイド。専門家の分析と実践的なアドバイス for making informed decisions 電圧調整について.",
+    "de": "Umfassender Leitfaden zu Automatischer Spannungsregler for Battery Charging Systems. Fachliche Analyse und praktische Orientierung for making informed decisions zur Spannungsregelung.",
+    "hi": "व्यापक गाइड जो कवर करती है: स्वचालित वोल्टेज रेगुलेटर for Battery Charging Systems. विशेषज्ञ विश्लेषण और व्यावहारिक मार्गदर्शन for making informed decisions वोल्टेज नियमन के बारे में."
   },
   "keywords": "Battery charger AVR, EV charging voltage protection, battery charging power quality, AVR guide, voltage regulator application",
   "sections": [
