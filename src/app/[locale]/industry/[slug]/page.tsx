@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import { redirect } from 'next/navigation'
 import Link from 'next/link'
 import Image from 'next/image'
-import { getAllArticles, getAllSlugs, getArticleBySlug, getArticlesByAuthorSlug } from '@/lib/articles'
+import { getAllArticles, getAllSlugs, getArticleBySlug, getArticlesByAuthorSlug, isArticleThinContent } from '@/lib/articles'
 import { getAuthor } from '@/lib/authors'
 import { type Locale, t, locales } from '@/i18n'
 import type { ArticleSection } from '@/lib/articles'
@@ -47,26 +47,24 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const title = titleObj[locale] || titleObj.en
   const desc = descObj[locale] || descObj.en
 
-  const isUntranslated = locale !== 'en' && title === titleObj.en && desc === descObj.en
+  const isThin = isArticleThinContent(article, locale)
 
   return {
     title: `${title} | YOKE Voltage Regulators`,
     description: desc,
-    ...(isUntranslated ? { robots: { index: false, follow: true } } : {}),
     keywords: article.keywords,
     openGraph: {
       title,
       description: desc,
       url: `${SITE_URL}/${locale}/industry/${slug}`,
       type: 'article',
-      // Full 10-language locale mapping (was: missing field → fell back to layout's en_US for 8/10 langs).
       locale: ({ en: 'en_US', zh: 'zh_CN', es: 'es_ES', ar: 'ar_SA', fr: 'fr_FR', pt: 'pt_PT', ru: 'ru_RU', ja: 'ja_JP', de: 'de_DE', hi: 'hi_IN' } as Record<string, string>)[locale] || 'en_US',
       publishedTime: article.date,
       authors: ['YOKE Electric'],
       images: [{ url: `${SITE_URL}${article.image}`, width: 1200, height: 630, alt: title }],
     },
     alternates: {
-      canonical: `${SITE_URL}/${locale}/industry/${slug}`,
+      canonical: isThin ? `${SITE_URL}/en/industry/${slug}` : `${SITE_URL}/${locale}/industry/${slug}`,
       languages: Object.fromEntries([
         ['x-default', `${SITE_URL}/en/industry/${slug}`],
         ...locales.map(l => [l, `${SITE_URL}/${l}/industry/${slug}`])

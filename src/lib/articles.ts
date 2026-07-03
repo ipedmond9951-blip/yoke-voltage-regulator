@@ -59,6 +59,20 @@ export function getAllSlugs(): string[] {
     .map(f => decodeURIComponent(f.replace('.json', '')))
 }
 
+export function isArticleThinContent(article: Article, locale: string): boolean {
+  if (locale === 'en') return false
+  let enTotal = 0
+  let locTotal = 0
+  for (const s of article.sections) {
+    const enBody = s.body?.en || ''
+    const locBody = s.body?.[locale] || ''
+    enTotal += enBody.length
+    locTotal += locBody.length
+  }
+  if (enTotal === 0) return false
+  return (locTotal / enTotal) < 0.5
+}
+
 export function getArticlesByAuthorSlug(authorSlug: string, excludeSlug?: string, limit: number = 4): Article[] {
   const all = getAllArticles()
   return all

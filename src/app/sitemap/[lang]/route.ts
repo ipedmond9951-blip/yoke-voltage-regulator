@@ -66,13 +66,6 @@ ${altLinks}${imageSection}
   const articleSlugs = getAllSlugs()
   for (const slug of articleSlugs) {
     const article = getArticleBySlug(slug) as any
-    if (locale !== 'en' && article) {
-      const titleObj = article.title as Record<string, string>
-      const descObj = article.description as Record<string, string>
-      if (titleObj && descObj && titleObj[locale] === titleObj.en && descObj[locale] === descObj.en) {
-        continue
-      }
-    }
     const url = `${baseUrl}/${locale}/industry/${slug}`
     const langMap: Record<string, string> = {}
     for (const l of locales) {
